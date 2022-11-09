@@ -1,3 +1,16 @@
+.nav-overlay{
+  position: absolute;
+  background-color: transparent;
+  width: 100vw;
+  height: 100vh;
+  transform: translateX(-100%);
+  transition: transform 700ms;
+}
+@media screen and (min-width:600px){
+  .nav-overlay{
+    display: none;
+  }
+}
 .onlyshow {
   display: none;
   position: fixed;
@@ -17,6 +30,7 @@
 
 .slide {
   transform: translateX(0);
+  /* background-color: teal; */
 }
 
 .icon {
