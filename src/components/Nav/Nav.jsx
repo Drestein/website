@@ -146,8 +146,7 @@ function Nav() {
     }
   };
   window.addEventListener("scroll", changeNavbarColor);
-  // const navHeight = document.querySelector('.icon')
-  // console.log(navHeight)
+
   return (
     <Navbar className="navbar" style={navstyle}>
       <SLogo src={saveethalogo} />
@@ -165,7 +164,7 @@ function Nav() {
           <NavItem>About</NavItem>
         </Link>
       </NavHead>
-      <Mobilenav openMenu={openMenu} />
+      <Mobilenav openMenu={openMenu} setOpenMenu={setOpenMenu}/>
       <div className="icon" onClick={() => setOpenMenu(!openMenu)}>
         {openMenu ? <CgClose /> : <HiOutlineMenuAlt1 />}
       </div>
