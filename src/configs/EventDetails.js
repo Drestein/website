@@ -14,9 +14,8 @@ export const EventDetails = [
         members: "2",
         rules:
           "A fun event spanning over two rounds. Maximum participation 2 person per team. In the case of cheating, using of phone or using of any unnecessary gadgets will make the team disqualify. Shortlisted participants of Round-1 will appear for Round-2 for which above rules are applicable",
-        round1title: "{ code with <fun>; }",
-        round1:
-          "It’s a contest testing your abilities to work as a team. The competition not only examines your skills as to how well you coordinate with your partner but also how analytical you are in an isolated and tensed situation",
+        round1title: "One Shot",
+        round1: "Round One is one shot round in that the coder is not allowed to compile the program again and again.They are supposed to run exactly at once",
         round2title: "Blind Coding",
         round2:
           "It is a fresh and offbeat concept - where the participants need to write and compile their program with the monitor screens switched off. Each team has to write the code for given problem, with MONITOR OFF.Each team will be allowed one free “Screen time” (where the monitor screen can be turned on for 60 seconds), after which they will be penalized with 3 points for each extra screen time. Each team can avail a maximum of 5 screen times.  At a time only 5 teams will be allowed to avail the facility of Screen Time, the slots for which will be allotted on a first come first serve basis",
@@ -272,7 +271,7 @@ export const EventDetails = [
         logo: "/EventsAssets/cse1.png",
         staff: [
           {
-            name: "Dr. Sujatha",
+            name: "Dr.E. Sujatha",
             desig: "Professor",
             phone: 9789950535,
             email: "sujathae@saveetha.ac.in",
@@ -441,7 +440,7 @@ export const EventDetails = [
       {
         name: "Dare to Compete",
         desc: "Ideathon",
-        date: "19 Nov 2022(AN)",
+        date: "19 Nov 2022(FN)",
         type: "Team",
         venue: "TBA",
         time: "TBA",
