@@ -465,7 +465,7 @@ export const EventDetails = [
       },
     ],
   },
-  {
+ {
     id: "cse",
     title: "Computer Science & Engineering",
     eventslist: [
@@ -495,7 +495,7 @@ export const EventDetails = [
         logo: "/EventsAssets/cse1.png",
         staff: [
           {
-            name: "Dr.E. Sujatha",
+            name: "Dr. Sujatha",
             desig: "Professor",
             phone: 9789950535,
             email: "sujathae@saveetha.ac.in",
@@ -724,42 +724,49 @@ export const EventDetails = [
     ],
     workshopslist: [
       {
-        name: "Field Demonstration Of Drone Sprayer",
+        name: "LAPTOP SERVICING",
         logo: "/EventsAssets/agriw1.png",
         tag: "WORKSHOP",
         color: "0, 70, 90",
-
+        company:"Connect Infosystems",
         day1: {
           date: "16/11/2022-FN",
-          time: "12pm-3pm",
+          time: "10am-1pm",
           mode: "OFFLINE",
           venue: "TBA",
-          resource: [],
+          resource: [
+            {
+              name: "Selvakumar.R.M",
+              desig: "Founder & Chairman",
+              phone: 9962738480,
+              email: "connectchennai99@gmail.com",
+            },
+          ],
           staff: [
             {
-              name: "MR.TAJUDDIN",
+              name: "Dr.Nagappan G",
               desig: "Professor and Head",
-              phone: 9677883599,
-              email: "hod.agri@saveetha.ac.in",
+              phone: 9840662250,
+              email: "nagappan.cse@saveetha.ac.in",
             },
             {
-              name: "MR.GANAPATHI",
+              name: "Dr.R.Kaladevi",
               desig: "Assistant Professor (SG)",
-              phone: 9787982231,
-              email: "ganapathid@saveetha.ac.in",
+              phone: 9710074931,
+              email: "kaladevir@saveetha.ac.in",
             },
           ],
           student: [
             {
-              name: "DHANALAKSHMI ",
+              name: "Kishore N",
               year: "IV",
-              phone: 9360677202,
+              phone: 9894801443,
               email: "ruthudhana25@gmail.com",
             },
             {
-              name: "SANJAY",
+              name: "Thirupathy",
               year: "III",
-              phone: 9940631302,
+              phone: 9344065593,
               email: "ssanjay1303@gmail.com",
             },
           ],
@@ -768,7 +775,8 @@ export const EventDetails = [
     ],
   },
 
-  {
+
+{
     id: "agri",
     title: "Agricultural Engineering",
     eventslist: [
@@ -782,7 +790,7 @@ export const EventDetails = [
         rules: "",
 
         round1:
-          "Should identify the parts of the tractor within the given time limit. The time limit is about 1 min Participants should find out atleast 15 parts of the tractor for moving on to the next round",
+          "Should identify the parts of the tractor within the given time limit. The time limit is about 1 min. Participants should find out atleast 15 parts of the tractor for moving on to the next round",
 
         round2:
           "The participants are requested to explain about the functions of the parts found out by them. Participants should explain the functions within the given time limit. The time limit is about 20seconds.The highest explained team(or)individual will be given 1st prize and following by the runner ups",
@@ -802,19 +810,19 @@ export const EventDetails = [
         student: [
           {
             name: "DHILIPAN",
-            year: "IV ",
+            year: "IV",
             phone: 8925138473,
-            email: "dhilipanshelly@gmail.com",
+            email: "ddhilipanshelly@gmail.com",
           },
           {
             name: "DHANASRI",
-            year: "IV ",
+            year: "IV",
             phone: 9677750890,
             email: "dhanasrijayavel@gmail.com",
           },
           {
             name: "NISHA",
-            year: " III",
+            year: "III",
             phone: 9597494520,
             email: "nishanisgopi2224@gmail.com",
           },
@@ -823,7 +831,7 @@ export const EventDetails = [
       {
         name: "DEVILS ADVOCATE",
         date: "19 Nov 2022(AN)",
-        type: "Team",
+        type: "2",
         venue: "TBA",
         time: "TBA",
         members: "1-2",
@@ -831,7 +839,7 @@ export const EventDetails = [
         round1:
           "Participants can perform as a team with maximum of 2 members.Topic will be selected onspot.1min will be provided to the participants to discuss and one of them should speak on the topic.Participants will have a time limit of 3 mins to provide positives and Negatives of the topic.The teams leading the 1st round will be promoted to 2nd round",
         round2:
-          "Participants will have a time limit of 2mins .Marks will be deducted for repetition of points .The team leading the points table will be declared as winners (NOTE: Number of rounds will depend on the number of entries)",
+          "Participants will have a time limit of 2mins .Marks will be deducted for repetition of points .The team leading the points table will be declared as winners. (NOTE: Number of rounds will depend on the number of entries)",
 
         tag: "EVENT",
         color: "0, 1, 38",
@@ -839,9 +847,9 @@ export const EventDetails = [
         staff: [
           {
             name: "MR.GANAPATHI",
-            desig: "Assistant Professor",
-            phone: 9444803672,
-            email: "gopirajan@saveetha.ac.in",
+            desig: "Assistant Professor (SG)",
+            phone: 9787982231,
+            email: "ganapathid@saveetha.ac.in",
           },
         ],
         student: [
@@ -875,8 +883,8 @@ export const EventDetails = [
         logo: "/EventsAssets/agri3.png",
         staff: [
           {
-            name: "Mrs.BAKKIYALAKSHMI",
-            desig: " Associate Professor",
+            name: "DR.P.BAKKIYALAKSHMI",
+            desig: "Associate Professor",
             phone: 9566670561,
             email: "bakkiyalakshmip@saveetha.ac.in",
           },
@@ -892,7 +900,7 @@ export const EventDetails = [
             name: "SHRIYA",
             year: "II",
             phone: 9342933171,
-            email: "Shriya.koneti@gmail.com",
+            email: "shriya.koneti@gmail.com",
           },
         ],
       },
@@ -906,30 +914,24 @@ export const EventDetails = [
         time: "TBA",
         members: "1-3",
         rules: "",
-        round1title: "  Connections_ *-Guess The Dialogue*",
+        round1title: "Connections (Guess The Dialogue)",
         round1:
           "Description: scene that are acted by Tamil actors in their movies  related to agriculture .Rules *-*If the team raise the placard with 1 rule then they need to answer with that clue alone Totally 5 clues will be given .Time limit is 3 minutes",
-        round2title: "Quiz Blaze",
+        round2title: "Mono Act (Dumb charades)",
         round2:
           "Description *-* TNAU , Exams , head quaters.Rules .Overall 15 questions will be provided.time limit for each question is 10 seconds.Only 1 attempt is given to answer the question",
-        round3title: "Mono Act_(Dumb charades)",
+        round3title: "Rapid Fire(Quiz blaze)",
         round3:
-          "Description *-* food preparation*-* Each team will be given 2 Chances , team member needs to answer when one of the team is performing One who is acting should not open the mouth, if they do the team will be disqualified .Time limit to perform is 3 minutes",
+          "Description *-* food preparation*-*. Each team will be given 2 Chances , team member needs to answer when one of the team is performing One who is acting should not open the mouth, if they do the team will be disqualified .Time limit to perform is 3 minutes",
         tag: "EVENT",
         color: "0, 1, 38",
 
         logo: "/EventsAssets/agri4.png",
         staff: [
           {
-            name: "Er.R.NANDHINI",
-            desig: "Assistant Professor (OG) r",
+            name: "Dr.R.NANDHINI",
+            desig: "Assistant Professor (OG)",
             phone: 8610157110,
-            email: "nandhinir@saveetha.ac.in",
-          },
-          {
-            name: "Dr.V.Umarani",
-            desig: "Assistant Professor",
-            phone: 8610352527,
             email: "nandhinir@saveetha.ac.in",
           },
         ],
@@ -990,6 +992,12 @@ export const EventDetails = [
               email: "ruthudhana25@gmail.com",
             },
             {
+              name: "JAYANTH ",
+              year: "IV",
+              phone: 9025637616,
+              email: "jayanthmanniyan@gmail.com",
+            },
+            {
               name: "SANJAY",
               year: "III",
               phone: 9940631302,
@@ -999,20 +1007,29 @@ export const EventDetails = [
         },
       },
       {
-        name: "Soil Less Farming",
+        name: "Chemical free Solution",
         logo: "/EventsAssets/agriw1.png",
         tag: "WORKSHOP",
         color: "0, 70, 90",
+        company: "Agricultural Engineering Department, CIT Nagar",
 
         day1: {
-          date: "16/11/2022-FN",
+          date: "15/11/2022-FN",
           time: "12.00-3.00pm",
           mode: "OFFLINE",
           venue: "TBA",
-          resource: [],
+          topic: "The major advantage of soilless cultivation is the uncoupling plant growth from problems associated with soil, such as soil borne pests and diseases, non-arable soil, soil salinity, poor soil quality.A soilless mix provides a cleaner medium and gives you more control.So, the demonstration program of soil-less culture is done at Saveetha Engineering College.",
+          resource: [
+            {
+              name: "Dr.S.Murugesan",
+              desig: "Former Senior Officer NDDB/NWDB Government of India, President, Indian Organic farms Association (IOFA), Director, SANGAMAAS",
+              phone: 9444781692,
+              email: "",
+            },
+          ],
           staff: [
             {
-              name: "Mrs.Bakkiyalakshmi",
+              name: "Dr.P.Bakkiyalakshmi",
               desig: "Assistant Professor",
               phone: 9566670561,
               email: "bakkiyalakshmip@saveetha.ac.in",
@@ -2351,7 +2368,7 @@ export const EventDetails = [
         members: "1",
         rules: "",
         round1:
-          "30 seconds per QUESTION .Correct answer will be rewarded with two points.10 Questions per round",
+          "30 seconds per QUESTION.Correct answer will be rewarded with two points.10 Questions per round",
         round2:
           "20 seconds per QUESTION .Correct answer will be rewarded with two points .10 Questions per round.SELECTION PROCESS: Winners will be based on MAXIMUM POINTS",
         logo: "/EventsAssets/eie1.png",
@@ -2365,10 +2382,16 @@ export const EventDetails = [
         ],
         student: [
           {
-            name: "Vasunthira Devi .A.C",
+            name: "Pravinraj S",
             year: "III",
-            phone: 8248406149,
-            email: "vasunthira2001@gmail.com",
+            phone: 8838700373,
+            email: "emailrajprawin@gmail.com",
+          },
+          {
+            name: "Divya R",
+            year: "III",
+            phone: 7598123461,
+            email: "divyaravikumarpkt@gmail.com",
           },
         ],
       },
@@ -2386,29 +2409,35 @@ export const EventDetails = [
         round2:
           " Maximum 2 members in a team.10 minutes per round. 10 Questions per round .Every correct answer carries 2 points .Selection is based on maximum points",
         round3:
-          "Maximum 2 members in a team .5 minutes per round.10 Questions per round.Every correct answer carries 2 points Selection is based on maximum points",
+          "Maximum 2 members in a team .5 minutes per round.10 Questions per round.Every correct answer carries 2 points Selection is based on maximum points.Selection is based on maximum points",
         tag: "EVENT",
         color: "0, 1, 38",
         logo: "/EventsAssets/eie2.png",
         staff: [
           {
-            name: "Dr.A.Manonmani",
+            name: "Dr.M.Arivalagan",
             desig: "Assistant Professor(SG)",
-            phone: 9543223030,
-            email: "manonmani@saveetha.ac.in",
+            phone: 9789159590,
+            email: "arivalagan@saveetha.ac.in",
           },
         ],
         student: [
           {
-            name: "Sai Ganesh V",
+            name: "Soundhar L",
             year: "III",
-            phone: 9840156916,
-            email: "vsaiganesh2002@gmail.com",
+            phone: 6385796518,
+            email: "sdr27lsus@gmail.com",
+          },
+          {
+            name: "Sambath V",
+            year: "III",
+            phone: 6374554695,
+            email: "sambathv2003@gmail.com",
           },
         ],
       },
       {
-        name: " Tech puzzle",
+        name: "Tech puzzle",
         date: "19 Nov 2022(FN)",
         type: "Team",
         venue: "TBA",
@@ -2426,18 +2455,24 @@ export const EventDetails = [
         logo: "/EventsAssets/eie3.png",
         staff: [
           {
-            name: "Dr.M.Arivalagam",
+            name: "Dr.A.Manonmani",
             desig: "Assistant Professor(SG)",
-            phone: 9789159590,
-            email: " arivalagan@saveetha.ac.in",
+            phone: 954322303030,
+            email: "manonmani@saveetha.ac.in",
           },
         ],
         student: [
           {
-            name: "Divya.R",
+            name: "Gunal R",
             year: "IV",
-            phone: 6379722190,
-            email: "divyarv246@gmail.com",
+            phone: 9445574573,
+            email: "gunalrm9497@gmail.com",
+          },
+          {
+            name: "Yeshwanth V",
+            year: "IV",
+            phone: 9342019960,
+            email: "yeshwanth2748481@gmail.com",
           },
         ],
       },
@@ -2450,9 +2485,9 @@ export const EventDetails = [
         members: "1-3",
         rules: "",
         round1:
-          ".Maximum 2 members in a team .30minutes per round .Debugging per round .Design contains maximum 20points.selection based on maximum points",
+          "Maximum 2 members in a team .30minutes per round .1Debugging per round .Design contains maximum 20points.selection based on maximum points",
         round2:
-          ".Maximum 2 members in a team .20 minutes per round.1Debugging per round.Design contains maximum 20points.selection based on maximum points",
+          "Maximum 2 members in a team .20 minutes per round.1Debugging per round.Design contains maximum 20points.selection based on maximum points",
         round3:
           "Maximum 2 members in a team.15 minutes per round.1Debugging per round.Design contains maximum 20points .selection based on maximum points",
         tag: "EVENT",
@@ -2469,14 +2504,64 @@ export const EventDetails = [
 
         student: [
           {
-            name: "Nihal Mohammad",
+            name: "Fhayaz Ahmed K",
             year: "IV",
-            phone: 9566633720,
-            email: "nihalmohamed25@gmail.com",
+            phone: 9080307166,
+            email: "fhayasahmed18@gmail.com",
+          },
+          {
+            name: "Jansi R",
+            year: "IV",
+            phone: 8667888158,
+            email: "jansi3773@gmail.com",
           },
         ],
       },
     ],
+    workshopslist: [
+      {
+        name: "Website development for instrumentation engineering",
+        logo: "/EventsAssets/eiew1.png",
+        tag: "WORKSHOP",
+        color: "0, 70, 90",
+
+        day1: {
+          date: "16/11/2022",
+          time: "TBA",
+          resource: [
+            {
+              name: "Praveen kumar R",
+              desig: "",
+              phone: 9176327964,
+              email: "praveen.ragunathan18@gmail.com",
+            },
+          ],
+          staff: [
+            {
+              name: " Dr.  P. Yuvaraj",
+              desig: "Assistant Professor",
+              phone: 9865324440,
+              email: "yuvarajp@saveetha.ac.in",
+            },
+          ],
+          student: [
+            {
+              name: "Amritha C",
+              year: "IV",
+              phone: 9360700732,
+              email: "amritha0206@gmail.com",
+            },
+            {
+              name: "Santhosh Prabu M",
+              year: "III",
+              phone: 8098993121,
+              email: "mohansanthosh3121@gmail.com",
+            },
+          ],
+        },
+      },
+    ],
+
   },
   {
     id: "mech",
@@ -3693,7 +3778,7 @@ export const EventDetails = [
       },
     ],
   },
-  {
+{
     id: "eee",
     title: "Electrical and Electronics Engineering",
     eventslist: [
@@ -3878,13 +3963,13 @@ export const EventDetails = [
         rules: "",
         round1title: "Tracing:",
         round1:
-          "In this round, the circuit diagram was given to participants with the required components.They need to trace the diagram to build the circuit within the given time.In each team maximum of two participants is mandatory.Depending on the circuit design the points will be awarded.Maximum 10 points for this round.This round will be conducted for 20 minutes.Based on their performance moves on to the next round",
+          "In this round, the circuit diagram was given to each team with the required components. The participants need to trace the diagram and assemble the components on the breadboard within the given time.Depending on the circuit design the points will be awarded.Maximum 10 points for this round.This round will be conducted for 15 minutes.Based on their performance moves on to the next round",
         round2title: "Rectifier",
         round2:
-          "In this round, the fault circuit is provided for each participant to find the solution and draw the correct circuit diagram within the stipulated time.For each team, paper is provided to draw the final circuit.In each team maximum of two participants is mandatory.Depending on the fault attend in a circuit the points will be awarded.Maximum 20 points for this round.This round will be conducted for 20 minutes.Based on their performance moves on to the next round",
+          "In this round, the fault circuit is provided for each participant to find the solution and draw the correct circuit diagram within the stipulated time.For each team, paper is provided to draw the final circuit.Depending on the fault attend in a circuit the points will be awarded.The points will be added based on the fault corrections and the maximum is 20 points.Time limit: 20 minutes",
         round3title: "Tateru",
         round3:
-          "In this round, the complex circuit diagram will be given, the team should analyze the diagram and assemble it on the breadboard.Finally, the connection is checked by the coordinators, and the power supply is given to the circuit to check the final output.If the output is correct full points will be given to the team.In each team maximum of two participants is mandatory.Depending on the circuit design the points will be awarded.For the final output the total marks will be awarded.Maximum 30 points for this round.This round will be conducted for 30 minutes.Based on their performance moves on to the next round",
+          "In this round, a complex circuit diagram will be given to the team. Each team should assemble it on a breadboard. Later, the connections are checked by the coordinators, and the power supply is given to the circuit to verify the final output. If the output is correct, full points would be awarded to the team.Depending on the circuit design the points will be awarded.If the output is correct, full points would be awarded to the team. If not, the points will be reduced.Time limit: 30 minutes.Note: Total points will be calculated for the result.",
         tag: "EVENT",
         color: "0, 1, 38",
         logo: "/EventsAssets/eee4.png",
@@ -3938,15 +4023,15 @@ export const EventDetails = [
     ],
     workshopslist: [
       {
-        name: "E-Vehicle ",
+        name: "MATLAB Modeling of Electric Vehicles",
         logo: "/EventsAssets/eeew1.png",
         tag: "WORKSHOP",
         color: "0, 70, 90",
 
         day1: {
-          date: "07/11/2022-FN",
+          date: "14/11/2022-FN",
           time: "TBA",
-          company: "Skill lync",
+          company: "",
           topic:
             "Basics and intermediate level in excel which is used in Chemical Engineering field.  Basic level: Eg. Fitting, Plotting, and Solving Intermediate level: Eg. Piping Design and Unit operation",
           resource: [
@@ -4047,22 +4132,16 @@ export const EventDetails = [
           ],
           student: [
             {
-              name: "P.K.Pradeep",
+              name: "K.T. Swathi",
               year: "IV",
-              phone: 9361643512,
+              phone: 9150306325,
               email: "Krishnapradeep2019@gmail.com",
             },
             {
-              name: "J.Dinesh",
+              name: "B.Subashini",
               year: "IV",
-              phone: 7092147704,
+              phone: 9361643512,
               email: "Dinesharini2001@gmail.com",
-            },
-            {
-              name: "Dravid Akash",
-              year: "IV",
-              phone: 9445502533,
-              email: "Dravidakash2k1@gmail.com",
             },
           ],
         },
@@ -4077,8 +4156,6 @@ export const EventDetails = [
           date: "09/11/2022",
           time: "TBA",
           company: "TBA",
-          topic:
-            "Basics and intermediate level in excel which is used in Chemical Engineering field.  Basic level: Eg. Fitting, Plotting, and Solving Intermediate level: Eg. Piping Design and Unit operation",
           resource: [
             {
               name: "Mr.V.Prabhu",
