@@ -241,6 +241,8 @@ useEffect(()=>{
                   <h4>Company Name : {eventObject.company}</h4>
                 ) : null}
                 <h1 className="title">Day 1:</h1>
+                                <p className="desc">Date: {eventObject.day1.date}</p>
+
                 {eventObject.day1.topic &&
                 <div>
 
@@ -355,6 +357,8 @@ useEffect(()=>{
                   <h4>Company Name : {eventObject.company}</h4>
                 ) : null}
                 <h1 className="title">Day 2:</h1>
+                                <p className="desc">Date: {eventObject.day2.date}</p>
+
                 {eventObject.day2.topic &&
                 <div>
 
