@@ -47,6 +47,12 @@ export const EventDetails = [
             email: "kousi2917091@gmail.com",
           },
           {
+            name: "Divya Bharathi K",
+            year: "III",
+            phone: 8838819253,
+            email: "shanthinisaro26@gmail.com",
+          },
+          {
             name: "Shanthini S",
             year: "III",
             phone: 9025278040,
@@ -63,10 +69,10 @@ export const EventDetails = [
       {
         name: "Game Of Codes",
         date: "18 Nov 2022(FN)",
-        type: "Team",
+        type: "Solo",
         venue: "Blockchain Lab",
         time: "Forenoon",
-        members: "1-2",
+        members: "1",
         rules: "",
         round1title: "Winter is Coming",
         round1:
@@ -271,28 +277,16 @@ export const EventDetails = [
           ],
           student: [
             {
-              name: "Tafseer Ali I",
+              name: "Aadhithya Raj V",
               year: "III",
-              phone: 8608209543,
+              phone: 6374492710,
               email: "harinig025@gmail.com",
             },
             {
-              name: "Prem Anand",
+              name: "Harini NG",
               year: "III",
-              phone: 9994424024,
-              email: "aadhithya3210@gmail.com",
-            },
-            {
-              name: "Harini G",
-              year: "III",
-              phone: "harinig025@gmail.com",
+              phone: "6382246669",
               email: "",
-            },
-            {
-              name: "Sugavarathan",
-              year: "III",
-              phone: 7010268757,
-              email: "aadhithya3210@gmail.com",
             },
           ],
         },
@@ -2948,7 +2942,7 @@ export const EventDetails = [
       {
         name: "Dezania",
         tagline: "MCQ",
-        date: "18 Nov 2022(AN)",
+        date: "19 Nov 2022(FN)",
         type: "Team",
         venue: "TBA",
         time: "TBA",
@@ -2980,7 +2974,7 @@ export const EventDetails = [
           {
             name: "Gunaseelan N",
             year: "IV",
-            phone: 8939213987,
+            phone: 9361174322,
             email: "way2lovelyguna@gmail.com",
           },
 
@@ -3051,7 +3045,7 @@ export const EventDetails = [
       },
       {
         name: "Water Rocketry",
-        date: "19 Nov 2022(FN)",
+        date: "18 Nov 2022(AN)",
         type: "Team",
         venue: "TBA",
         time: "TBA",
@@ -3074,7 +3068,7 @@ export const EventDetails = [
           {
             name: "Chozhan K",
             year: "IV",
-            phone: 9789822119,
+            phone: 9360612891,
             email: "chozhankrishnan@gmail.com",
           },
           {
@@ -3100,7 +3094,7 @@ export const EventDetails = [
       },
       {
         name: "Cad Modelling And Stimulation",
-        date: "18 Nov 2022(10.30-1.00)",
+        date: "18 Nov 2022(FN)",
         type: "Team",
         venue: "TBA",
         time: "TBA",
@@ -3123,9 +3117,9 @@ export const EventDetails = [
         ],
         student: [
           {
-            name: "Vijayragavan A.S",
+            name: "Hari Krishnan",
             year: "IV",
-            phone: 6379347756,
+            phone: 9710125704,
             email: "vickysasikumar7@gmail.com",
           },
           {
@@ -3247,9 +3241,9 @@ export const EventDetails = [
               email: "Praveenjayasimman007@gmail.com",
             },
             {
-              name: "ShreeRam S",
+              name: "P Abbhinav",
               year: "III",
-              phone: 9940658571,
+              phone: 9553033001,
               email: "Sshreeram.enl@gmail.com",
             },
             {
@@ -3299,9 +3293,9 @@ export const EventDetails = [
               email: "subbansowndhar@gmail.com",
             },
             {
-              name: "R.Giridharan",
+              name: "Aadhiseshan N",
               year: "IV",
-              phone: 9360338120,
+              phone: 9361027137,
               email: "giridharan20026@gmail.com",
             },
             {
