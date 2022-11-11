@@ -12,8 +12,8 @@ function DepartMentCard({ img, title, des, color, bgtext, mbtm, id }) {
     position: relative;
     width: 300px;
     height: 400px;
-    // background: #00001d;
-    background: #061018;
+    background: #00001d;
+    // background: #061018;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(11.5px);
     -webkit-backdrop-filter: blur(11.5px);
