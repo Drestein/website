@@ -10,11 +10,11 @@ import { db } from "../../configs/Firebase.config";
 const Counter = ({ ...rest }) => {
   const [viewPortEntered, setViewPortEntered] = useState(false);
   const [users, setUsers] = useState(300);
-  const {RegUsers} = useContext(UserContext)
+  const { RegUsers } = useContext(UserContext);
   useEffect(() => {
-     setUsers(300+RegUsers.length)
+    setUsers(300 + RegUsers.length);
   }, [RegUsers]);
-  
+
   // const docRef = collection(db, "RegisteredPeople");
 
   // const colref = collection(db, "RegisteredPeople");

@@ -19,13 +19,11 @@ import { useEffect } from "react";
 import { useState } from "react";
 import { Card } from "@mui/material";
 const Footer = () => {
-
   const [views, setViews] = useState(localStorage.getItem("value"));
 
   useEffect(() => {
-    setViews(parseInt(views))
+    setViews(parseInt(views));
   }, []);
-
 
   const LogoHead = styled.div`
     display: flex;
@@ -86,26 +84,28 @@ const Footer = () => {
             13<sup>th</sup> National level inter collegiate technical and
             management fest
           </div>
-          <p style={{
-            margin:'10px 0'
-          }}>Site Views</p>
-          <Card
-          
-            sx={
-              {
-
-                border:'1px solid white',
-                display:'flex',
-                justifyContent:'center',
-                alignItems:'center',
-                gap:'10px'
-              }
-            }
+          <p
+            style={{
+              margin: "10px 0",
+            }}
           >
-         <h1>{1700+views}</h1>
-            <VisibilityIcon sx={{
-              fontSize:'40px'
-            }} /> 
+            Site Views
+          </p>
+          <Card
+            sx={{
+              border: "1px solid white",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              gap: "10px",
+            }}
+          >
+            <h1>{1700 + views}</h1>
+            <VisibilityIcon
+              sx={{
+                fontSize: "40px",
+              }}
+            />
           </Card>
         </div>
         <div className="block">
@@ -162,9 +162,7 @@ const Footer = () => {
                 <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
               }
             >
-            
-            Bharath S
-              
+              Shanu S
             </Chip>
           </a>
           <Chip
@@ -174,7 +172,7 @@ const Footer = () => {
               <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
             }
           >
-         Shanu S
+            Bharath S
           </Chip>
           <Chip
             size="md"
@@ -257,17 +255,15 @@ const Footer = () => {
           <div class="mapouter">
             <div class="gmap_canvas">
               <iframe
-              style={{
-                borderRadius:'10px'
-              }}
+                style={{
+                  borderRadius: "10px",
+                }}
                 class="gmap_iframe"
                 width="100%"
-              frameBorder='0'
-
+                frameBorder="0"
                 scrolling="no"
-               marginHeight='0'
-               marginWidth='0'
-
+                marginHeight="0"
+                marginWidth="0"
                 src="https://maps.google.com/maps?width=250&amp;height=250&amp;hl=en&amp;q=Saveetha engineering college&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
               ></iframe>
             </div>

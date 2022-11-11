@@ -20,13 +20,12 @@ function AdminMain() {
     navigate("/Admin/scanusers");
   }, []);
   return (
-<UserProvider>
-
-    <Admin>
-      <ResponsiveAppBar />
-      <Outlet />
-    </Admin>
-</UserProvider>
+    <UserProvider>
+      <Admin>
+        <ResponsiveAppBar />
+        <Outlet />
+      </Admin>
+    </UserProvider>
   );
 }
 

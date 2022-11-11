@@ -16,8 +16,8 @@ import { getAuth } from "firebase/auth";
 import { useNavigate } from "react-router";
 import { Link } from "react-router-dom";
 import { uuidv4 } from "@firebase/util";
-import logo from '../../../assets/dresteinLogo.svg'
-const pages = ["scanusers", "users",];
+import logo from "../../../assets/dresteinLogo.svg";
+const pages = ["scanusers", "users"];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
 const ResponsiveAppBar = () => {
@@ -55,12 +55,13 @@ const ResponsiveAppBar = () => {
     <AppBar position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-
-
-
-          <img  width='5%' style={{
-            padding:'10px'
-          }} src={logo}/>
+          <img
+            width="5%"
+            style={{
+              padding: "10px",
+            }}
+            src={logo}
+          />
 
           <Typography
             variant="h6"

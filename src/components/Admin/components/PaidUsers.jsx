@@ -56,8 +56,7 @@ function PaidUsers() {
     });
   }, []);
   if (load) {
-    return <Loading/>
-    ;
+    return <Loading />;
   }
 
   if (paidUsers.length == 0) {

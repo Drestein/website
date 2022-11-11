@@ -60,7 +60,7 @@ export default function SignIn() {
       );
       if (userCredential.user) {
         //  setuser(userCredential.user)
-  
+
         setLoggedIn(userCredential.user);
         navigate("/Admin");
         toast.success("successfully logged in");

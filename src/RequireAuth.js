@@ -4,7 +4,7 @@ import Loading from "./Loading";
 const PrivateRoute = () => {
   const { loggedIn, checkingStatus } = useAuthStatus();
   if (checkingStatus) {
-    return <Loading/>
+    return <Loading />;
   }
   return loggedIn ? <Outlet /> : <Navigate to="/Admin/login" />;
 };

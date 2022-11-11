@@ -34,40 +34,38 @@ const UserCard = styled.div`
 `;
 
 function SingleUserPage() {
-  const { RegUsers ,DataLoad} = useContext(UserContext);
+  const { RegUsers, DataLoad } = useContext(UserContext);
   const params = useParams();
   const userid = params.userid;
   const [Registeredpeople, setRegistredPeople] = useState([]);
   const [load, setLoad] = useState(true);
   //    http://localhost:3000/user/qlkwnfdklwqfn
 
-  function fetch(){
-    return new Promise((resolve,reject)=>{
-      const user = RegUsers.filter(data=>{
-        if(data.id ===userid){
-          return data
+  function fetch() {
+    return new Promise((resolve, reject) => {
+      const user = RegUsers.filter((data) => {
+        if (data.id === userid) {
+          return data;
         }
-      })
-  
-      if(user.length===0){
-          reject('User not found ')
-      }else{
-        resolve(user)
+      });
+
+      if (user.length === 0) {
+        reject("User not found ");
+      } else {
+        resolve(user);
       }
-      setRegistredPeople(user)
-    }).catch(e=>{
-      if(!DataLoad){
-        toast.error(e)
+      setRegistredPeople(user);
+    }).catch((e) => {
+      if (!DataLoad) {
+        toast.error(e);
       }
-    })
+    });
   }
   useEffect(() => {
-    
-async function innerfetch(){
-  const  response  =  await fetch() 
-
-}
-innerfetch()
+    async function innerfetch() {
+      const response = await fetch();
+    }
+    innerfetch();
 
     // try {
     //   setLoad(true);
@@ -86,11 +84,9 @@ innerfetch()
     //   toast.error("your not exist");
     //   console.log(e);
     // }
-   
   }, [RegUsers]);
 
   if (DataLoad) {
-
     return <Loading />;
   }
 

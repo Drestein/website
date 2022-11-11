@@ -17,7 +17,6 @@ function CustomFooterTotalComponent(props) {
   const [message, setMessage] = React.useState("");
   const apiRef = useGridApiContext();
 
-
   const handleRowClick = (params) => {
     setMessage(params.row.id);
   };

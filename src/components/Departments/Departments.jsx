@@ -53,11 +53,10 @@ function Departments() {
       </motion.h1>
       <DepartmentContainer>
         {comobj.map((data, i) => {
-
           if (data.title === "Paper Presentation") {
             return (
               <a href="PaperPresentation.pdf" key={i} target="_blank">
-                <SpacialEventsCard  {...data} />
+                <SpacialEventsCard {...data} />
               </a>
             );
           }

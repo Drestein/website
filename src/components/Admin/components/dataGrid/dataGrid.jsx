@@ -54,7 +54,6 @@ const StyledBox = styled(Box)(({ theme }) => ({
   },
 }));
 
-
 function CustomToolbar() {
   return (
     <GridToolbarContainer>
@@ -67,19 +66,15 @@ export default function ConditionalValidationGrid() {
   const [total, setTotal] = React.useState(0);
   const [paidUsers, setPaidusers] = useState([]);
   const [load, setload] = useState(false);
-  const {RegUsers,DataLoad}  = useContext(UserContext)
+  const { RegUsers, DataLoad } = useContext(UserContext);
 
   useEffect(() => {
-   setload(true)
-   setPaidusers(RegUsers)
-   setload(false)
-  },[RegUsers]);
-
- 
-
+    setload(true);
+    setPaidusers(RegUsers);
+    setload(false);
+  }, [RegUsers]);
 
   const users = paidUsers.map((data) => {
-
     return {
       id: data.id,
       id: data.id,
@@ -149,7 +144,7 @@ export default function ConditionalValidationGrid() {
     //     console.log(data.EventsRegistered['CSE'][0])
     //  }
 
-      collectedcash += data.AmountPaid;
+    collectedcash += data.AmountPaid;
 
     // if(data.cashPaidForPaper){
     //   collectedcash +=data.AmountPaid;

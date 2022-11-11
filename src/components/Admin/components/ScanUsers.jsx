@@ -50,16 +50,15 @@ function AdminPannel() {
   const [checked, setChecked] = useState(false);
   const currentpaid = useRef(false);
   const [open, setOpen] = useState(false);
-  
-  const [load, setload] = useState(false);
-  const [RegsFullUser,setRegFullUser] = useState([])
-  const {RegUsers,DataLoad} = useContext(UserContext)
-  const [userState,setuserstate] = useState('')
-  const [id,setid] = useState('')
-  useEffect(()=>{
-  setRegFullUser(RegUsers)
-  },[RegUsers])
 
+  const [load, setload] = useState(false);
+  const [RegsFullUser, setRegFullUser] = useState([]);
+  const { RegUsers, DataLoad } = useContext(UserContext);
+  const [userState, setuserstate] = useState("");
+  const [id, setid] = useState("");
+  useEffect(() => {
+    setRegFullUser(RegUsers);
+  }, [RegUsers]);
 
   const qrRef = useRef(null);
 
@@ -81,7 +80,7 @@ function AdminPannel() {
   //     const a = RegsFullUser.filter(data=>{
   //       console.log(data.id===res)
   //      if(data.id === res){ return data }
-  //   }) 
+  //   })
   //   setRegistredPeople(a)
   //   resolve(a)
   //   }).catch(e=>{
@@ -89,8 +88,7 @@ function AdminPannel() {
   //   })
   // }
 
-  const handleChange = async(e) => {
-
+  const handleChange = async (e) => {
     try {
       const docRef = doc(db, "RegisteredPeople", `${e.target.value}`);
       onSnapshot(docRef, (snapshot) => {
@@ -98,19 +96,16 @@ function AdminPannel() {
         setData(e.target.value);
       });
     } catch (e) {
-        toast.error('User not found ')
+      toast.error("User not found ");
     }
   };
-// const fetchSingleUser=(res)=>{
-//   const a = RegsFullUser.filter(data=>{
-//     console.log(data.id===res)
-//    if(data.id === res){ return data }
-// }) 
-// setRegistredPeople(a)
-// }
-
-
-
+  // const fetchSingleUser=(res)=>{
+  //   const a = RegsFullUser.filter(data=>{
+  //     console.log(data.id===res)
+  //    if(data.id === res){ return data }
+  // })
+  // setRegistredPeople(a)
+  // }
 
   return (
     <AdminPanelHead>
@@ -150,20 +145,17 @@ function AdminPannel() {
         </p>
 
         <QrReader
-          onResult={async(result, error) => {
-
+          onResult={async (result, error) => {
             if (!!result) {
               const res = result?.text.substr(25);
               setuserstate(res);
-                const docRef = doc(db, "RegisteredPeople", `${res}`);
-                onSnapshot(docRef, (snapshot) => {
-                  setRegistredPeople([snapshot.data()]);
-                  setData(res);
-                });
+              const docRef = doc(db, "RegisteredPeople", `${res}`);
+              onSnapshot(docRef, (snapshot) => {
+                setRegistredPeople([snapshot.data()]);
+                setData(res);
+              });
 
-
-                console.log(RegsFullUser)
-
+              console.log(RegsFullUser);
             }
 
             if (!!error) {

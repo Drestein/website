@@ -161,7 +161,7 @@ export default function UpdateForm({
   ];
 
   const handleUpdateForm = async () => {
-    setload(true)
+    setload(true);
     console.log(Event, Project, Paper, eventName);
     let Amountpaid = 0;
     let totalAmount = 0;

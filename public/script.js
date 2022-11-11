@@ -1,11 +1,4 @@
-
-function websiteVisits(res){
-    localStorage.setItem('value',res.value)
-   return res.value
-  }
-
-
-
-
-
-
+function websiteVisits(res) {
+  localStorage.setItem("value", res.value);
+  return res.value;
+}

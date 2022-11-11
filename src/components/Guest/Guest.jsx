@@ -70,7 +70,7 @@ const GuestContainer = styled.div`
 `;
 
 const Test = styled.div`
-  padding: 4rem;
+  padding: 3.5rem 1rem;
   background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(11.5px);
   -webkit-backdrop-filter: blur(11.5px);
@@ -79,7 +79,7 @@ const Test = styled.div`
   align-items: center;
   justify-content: center;
   color: black;
-  font-size: 5vw;
+  font-size: 4vw;
   text-align: center;
 
   width: 80%;
@@ -139,9 +139,7 @@ function Guest() {
   return (
     <GuestHead>
       <Test style={{ display: "flex", flexDirection: "row" }}>
-        <div>Prizes worth upto Lakhs</div>
-
-        <div style={{ fontSize: "10rem" }}>5+</div>
+        <div>Prizes worth upto 5+ Lakhs</div>
       </Test>
       <GuestTitle
         as={motion.div}
@@ -172,7 +170,7 @@ function Guest() {
                 whileInView="onscreen"
                 varients={text}
                 style={{
-                  padding:'5px'
+                  padding: "5px",
                 }}
               >
                 {data.name}
@@ -184,21 +182,20 @@ function Guest() {
                   alignItems: "center",
                   justifyContent: "center",
                   gap: "1rem",
-                  margin:'1rem'
-                  
+                  margin: "1rem",
                 }}
               >
                 <img
                   src="OtherAssets/tcs.webp"
                   style={{ borderRadius: "1rem" }}
                   alt="tcs_logo"
-
                 />
 
-                <div style={{ textAlign: "left" ,maxWidth:'450px'}}>
-                  Regional Head - Academic Interface Programme
-                  at Tata Consultancy Services | Career Coach<br/>
-                   Chennai, Tamil Nadu, India
+                <div style={{ textAlign: "left", maxWidth: "450px" }}>
+                  Regional Head - Academic Interface Programme at Tata
+                  Consultancy Services | Career Coach
+                  <br />
+                  Chennai, Tamil Nadu, India
                 </div>
               </div>
               <GuestDesp

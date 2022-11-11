@@ -35,7 +35,7 @@ const Events = () => {
 
   return (
     <>
-    <motion.div
+      <motion.div
         className="scrollprogress"
         style={{ scaleX: scrollYProgress }}
       />
