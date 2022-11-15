@@ -11,38 +11,9 @@ const Counter = ({ ...rest }) => {
   const [viewPortEntered, setViewPortEntered] = useState(false);
 
   const [views, setViews] = useState(localStorage.getItem("value"));
-
-
-
-  // const { RegUsers } = useContext(UserContext);
   useEffect(() => {
     setViews(parseInt(views));
   }, []);
-
-  // const docRef = collection(db, "RegisteredPeople");
-
-  // const colref = collection(db, "RegisteredPeople");
-  // // const q = query(colref, where("cashPaid", "==", false));
-
-  // const promice = new Promise((resolve, reject) => {
-  //   onSnapshot(colref, (snapshot) => {
-  //     let books = [];
-
-  //     snapshot.docs.forEach((doc) => {
-  //       books.push({ ...doc.data(), id: doc.id });
-  //     });
-  //     // console.log(books)
-
-  //     // setUsers(pre=>pre+books.length);
-  //     resolve(books);
-  //   });
-  // });
-  // const functionfetch = async () => {
-  //   const response = await promice;
-
-  //   console.log(response.length);
-  //   setUsers(300 + response.length);
-  // };
 
   return (
     <div className="counter">
@@ -92,7 +63,7 @@ const Counter = ({ ...rest }) => {
           </span>
         </div>
         <div className="counter-column">
-          <strong data-number="35+">
+          <strong data-number="34+">
             <CountUp {...rest} start={viewPortEntered ? null : 0} end={35}>
               {({ countUpRef }) => {
                 return (
