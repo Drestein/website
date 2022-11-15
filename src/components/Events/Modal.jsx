@@ -184,16 +184,16 @@ const Modal = ({ open, setOpenModal }) => {
                 </ol>
               </div>
             ) : null}
-            {eventObject.judge ? (
-              <div className="judging">
-                <h3>Judging Criteria:</h3>
-                <ol>
-                  {splitjudge.map((each) => {
-                    return <li>{each}</li>;
-                  })}
-                </ol>
-              </div>
-            ) : null}
+            {eventObject.note ? (
+                  <div className="rules">
+                    {eventObject.tag === "OFFER" ? <h3>OFFER:</h3> : <h3>NOTE:</h3>}
+                    <ol>
+                      {splitnote.map((each) => {
+                        return <li>{each}</li>;
+                      })}
+                    </ol>
+                  </div>
+                ) : null}
             {eventObject.staff ? (
               <div className="faculty">
                 <h3>Faculty Co-ordinators:</h3>

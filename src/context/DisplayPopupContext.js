@@ -25,7 +25,6 @@ export const DisplayPopupProvider = ({ children }) => {
     round3title: "error",
     round4: "error",
     round4title: "error",
-    judge: "error",
     prize: "error",
     staff: [],
     student: [],
