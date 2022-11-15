@@ -17,7 +17,7 @@ const Lander = () => {
           <div className="face"></div>
         </div>
       </div>
-      <h3 classNameName="lander-text">Drestein</h3>
+      <h3 className="lander-text">Drestein</h3>
       <div className="longfazers">
         <span></span>
         <span></span>
