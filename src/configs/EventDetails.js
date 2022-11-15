@@ -6,10 +6,10 @@ export const EventDetails = [
       {
         name: "Switcheroo",
         tagline: "Switcheroo is a coding challenge with a twist",
-        date: "19 Nov 2022(AN)",
+        date: "19 Nov 2022(FN)",
         type: "Only 2",
         venue: "Blockchain Lab",
-        time: "AfterNoon",
+        time: "FORENOON",
         round1title: "NEE  PAATHI  NAAN  PAATHI",
         round1: "Participants will be provided 1 hour time to solve the set of programs.One Participant from the team will start the coding ,after certain interval  The second participant from the same team will be swapped to complete the program.Swapping may Happen any number of times before the end of the round 1",
         round2title: "MAATHI YOSI",
