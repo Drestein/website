@@ -7,21 +7,14 @@ export const EventDetails = [
         name: "Switcheroo",
         tagline: "Switcheroo is a coding challenge with a twist",
         date: "19 Nov 2022(AN)",
-        type: "Team 2",
+        type: "Only 2",
         venue: "Blockchain Lab",
         time: "AfterNoon",
-
-        members: "2",
-        rules:
-          "A fun event spanning over two rounds. Maximum participation 2 person per team. In the case of cheating, using of phone or using of any unnecessary gadgets will make the team disqualify. Shortlisted participants of Round-1 will appear for Round-2 for which above rules are applicable",
-        round1title: "Switch upon",
-        round1:
-          "Each team will be given few minutes.One from the team must code for half of the given time then switch the other one for the remaining time and complete the  problem.The team which completes the problem in the short span is shortlisted to the next round",
-        round2title: "Grasp it",
-        round2:
-          "Question will be displayed to one of the team member for few seconds.He/She should explain the problem with other member .With the understanding of the problem statement they have to code the solution.Note: Question will be displayed only once for 2 minute.The team which understands the problem correctly and complete on time will be selected as the winners",
-        judge:
-          "All the problems have same points allotted to them. Participant whose code gets executed will be given higher preference. Second preference will be given to the code with least number of errors. The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained. Any team found to be indulging in any form of malpractice will be immediately disqualified",
+        round1title: "NEE  PAATHI  NAAN  PAATHI",
+        round1: "Participants will be provided 1 hour time to solve the set of programs.One Participant from the team will start the coding ,after certain interval  The second participant from the same team will be swapped to complete the program.Swapping may Happen any number of times before the end of the round 1",
+        round2title: "MAATHI YOSI",
+        round2: "Shortlisted teams will be promoted to Next Round.The question will be displayed to only one of the participant the one who reads the question, should analyse and explain the scenario to his/her team mate. The another participant should solve the code.The team members may discuss with themselves that who will explain the question and who will be doing the program",
+        note: "There Will be any  kind of hindrances to divert  the concentration of the participants. Participants should be able to tackle the hindrances and complete the code in an efficient way",
         tag: "EVENT",
         color: "0, 1, 38",
         logo: "/EventsAssets/it1.webp",
@@ -764,7 +757,7 @@ export const EventDetails = [
           date: "16/11/2022-FN",
           time: "10am-1pm",
           mode: "OFFLINE",
-          venue: "TBA",
+          venue: "CSE GF Seminar Hall LH 02",
           resource: [
             {
               name: "Selvakumar.R.M",
@@ -870,7 +863,7 @@ export const EventDetails = [
           date: "16/11/2022-FN",
           time: "10am-1pm",
           mode: "OFFLINE",
-          venue: "TBA",
+          venue: "CSE GF Seminar Hall LH 02",
           resource: [
             {
               name: "MR.Selvakumar.R.M",
