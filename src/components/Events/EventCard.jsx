@@ -39,6 +39,8 @@ const EventCard = ({
   note,
   morng,
   afternoon,
+  compet,
+  material,
 }) => {
   const { setEventObject } = useContext(DisplayPopupContext);
 
@@ -80,6 +82,8 @@ const EventCard = ({
       note,
       morng,
       afternoon,
+      compet,
+      material,
     });
   };
 

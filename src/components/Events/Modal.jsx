@@ -11,13 +11,15 @@ import { HashLink as Link } from "react-router-hash-link";
 const Modal = ({ open, setOpenModal }) => {
   const { eventObject } = useContext(DisplayPopupContext);
   const splitrules = eventObject?.rules?.split(".");
-  const splitjudge = eventObject?.judge?.split(".");
   const splitround1 = eventObject?.round1?.split(".");
   const splitround2 = eventObject?.round2?.split(".");
   const splitround3 = eventObject?.round3?.split(".");
   const splitround4 = eventObject?.round4?.split(".");
   const splitnote = eventObject?.note?.split(".");
+  const splitmaterial = eventObject?.material?.split(".");
+  const splitcompet = eventObject?.compet?.split(".");
   const splitmorng = eventObject?.morng?.split(".");
+  const splitprize = eventObject?.prize?.split(".");
   const splitafternoon = eventObject?.afternoon?.split(".");
   const splitround1level2 = eventObject?.round1level2?.split(".");
   const splitround2level2 = eventObject?.round2level2?.split(".");
@@ -97,6 +99,26 @@ const Modal = ({ open, setOpenModal }) => {
                 <h3>Rules and Regulations:</h3>
                 <ol>
                   {splitrules.map((each) => {
+                    return <li>{each}</li>;
+                  })}
+                </ol>
+              </div>
+            ) : null}
+            {eventObject.material? (
+              <div className="rules">
+                <h3>Materials:</h3>
+                <ol>
+                  {splitmaterial.map((each) => {
+                    return <li>{each}</li>;
+                  })}
+                </ol>
+              </div>
+            ) : null}
+            {eventObject.compet ? (
+              <div className="rules">
+                <h3>Competition Rules:</h3>
+                <ol>
+                  {splitcompet.map((each) => {
                     return <li>{each}</li>;
                   })}
                 </ol>
@@ -194,6 +216,16 @@ const Modal = ({ open, setOpenModal }) => {
                     </ol>
                   </div>
                 ) : null}
+                {eventObject.prize ? (
+              <div className="rules">
+                <h3>Scroing and Awards:</h3>
+                <ol>
+                  {splitprize.map((each) => {
+                    return <li>{each}</li>;
+                  })}
+                </ol>
+              </div>
+            ) : null}
             {eventObject.staff ? (
               <div className="faculty">
                 <h3>Faculty Co-ordinators:</h3>

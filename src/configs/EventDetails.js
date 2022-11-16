@@ -3150,16 +3150,18 @@ export const EventDetails = [
       {
         name: "Water Rocketry",
         date: "18 Nov 2022(AN)",
-        type: "Team",
+        type: "1-2 per Team",
         venue: "TBA",
         time: "AFTERNOON",
+        desc: "Competitors build water rockets designed to fly the greatest distance",
         members: "2",
-        round1: "Round 1 will be based on distance coverage",
-        round2: "Round 2 will be based on distance coverage",
-        round3: "Round 3 will be based on distance coverage",
+        rules: "Rockets must be built by the participating students using only the above listed materials.Only one two-liter bottle may be filled with water and pressurized. The pressurized bottle itself must not be modified structurally. Additions to the bottle (such as fins, nose cone, etc.) may beattached using ONLY tape.Paint or decorations on the plastic of the pressurized bottles are prohibited. Only tape, paper and plastic may be in direct contact with the pressurized bottle. Tape covering the bottle and other parts of the rocket may be painted or otherwise decorated.The mouth of the pressurized bottle must fit over a half-inch schedule 40 PVC pipe.Additional two-liter bottles may be cut and added to the pressurized bottle using only tape.Fins must not interfere with the mouth of the pressurized bottle so that it can fit on the launcher.Testing indicates that leaving a two-inch gap from the bottom of the fins to the plastic ring at thebottom of the mouth is enough distance to prevent interference",
         tag: "EVENT",
+        compet: "The competitors add the desired amount of water to their rockets prior to being pressurized to competition pressure (20-80 psi). Competition pressure is: _____ psi.Competitors select the desired launch angle.Each rocket is officially launched and judged only once.Rockets considered unsafe to launch by the judges will be disqualified.The distance from the launcher to the closest part (possibly detached) of the fully-at-rest rocket is measured by the judges",
+        materials: "two-liter plastic soda bottles.Tape, any kind; NO GLUE of any kind.paper or plastic sheet material such as cardboard, Styrofoam, thin plastic sheet, etc.twine, string, thread or ribbon (for parachute lines)",
         color: "0, 1, 38",
         logo: "/EventsAssets/mech3.webp",
+        prize: "Awards for the longest distances.Ties are broken by the following criteria, in order: construction quality, rocket weight (lighter is favored), and style",
         staff: [
           {
             name: "V.Velmurugan",

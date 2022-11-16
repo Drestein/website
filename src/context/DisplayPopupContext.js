@@ -39,6 +39,10 @@ export const DisplayPopupProvider = ({ children }) => {
     note: "",
     morng: "",
     afternoon: "",
+    compet: "",
+    material: "",
+    prize: "",
+
 
   });
   return (
