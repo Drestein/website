@@ -34,16 +34,10 @@ export const EventDetails = [
             email: "kanishkqrk@gmail.com",
           },
           {
-            name: "Kousalya R",
-            year: "IV",
-            phone: 9150728766,
-            email: "kousi2917091@gmail.com",
-          },
-          {
-            name: "Divya Bharathi K",
+            name: "Swathi A",
             year: "III",
-            phone: 8838819253,
-            email: "shanthinisaro26@gmail.com",
+            phone: 8248096438,
+            email: "swathi7203@gmail.com",
           },
           {
             name: "Shanthini S",
@@ -51,12 +45,12 @@ export const EventDetails = [
             phone: 9025278040,
             email: "shanthinisaro26@gmail.com",
           },
-          {
-            name: "Swathi A",
-            year: "III",
-            phone: 8248096438,
-            email: "swathi7203@gmail.com",
-          },
+          // {
+          //   name: "Divya Bharathi K",
+          //   year: "III",
+          //   phone: 8838819253,
+          //   email: "shanthinisaro26@gmail.com",
+          // },
         ],
       },
       {
@@ -2294,10 +2288,10 @@ export const EventDetails = [
       {
         name: "CADD Modeling",
         desc: "Cipher Hunt is a cybersecurity competition that is all about finding weaknesses and exploiting loopholes in various computer programs. It aims to engage participants in the creative exploration of real-world computer security by distilling the significant disciplines of professional cybersecurity into short, objectively measurable exercises.An ethical hacking contest in which contestants will have to find pieces of information, called ‘flags’, hidden in each of the challenges. So, assemble your team, prepare to decrypt hidden messages, exploit vulnerabilities, and do whatever it takes to Hunt!",
-        date: "18 Nov 2022(FN)",
+        date: "18 Nov 2022(AN)",
         type: "Solo",
         venue: "Survey LAB, GF,Rectangular block",
-        time: "FORENOON",
+        time: "AFTERNOON",
         members: "2",
         rules: "",
         round1:
