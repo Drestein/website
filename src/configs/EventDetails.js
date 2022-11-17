@@ -553,11 +553,11 @@ export const EventDetails = [
         tagline: "UI design",
         date: "18 Nov 2022(AN)",
         type: "1-2",
-        venue: "Bot Lab",
+        venue: "CSE 3rd Floor LH 01",
         time: "Afternoon",
         members: "1-2",
         rules: "",
-
+        note: "Must Bring your own Laptop",
         round1title: "Quiz",
         round1:
           "A team shall consist of one or two persons (Max).The participants shall not be allowed to use mobile. The participants need to attend a quiz consisting of 20 questions in 10 mins. Questions will be from general computers and UI.After completing the quiz, participants need to design a website UI",
