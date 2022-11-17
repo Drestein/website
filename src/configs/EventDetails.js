@@ -111,10 +111,10 @@ export const EventDetails = [
       {
         name: "Cipher Hunt",
         desc: "Cipher Hunt is a cybersecurity competition that is all about finding weaknesses and exploiting loopholes in various computer programs. It aims to engage participants in the creative exploration of real-world computer security by distilling the significant disciplines of professional cybersecurity into short, objectively measurable exercises.An ethical hacking contest in which contestants will have to find pieces of information, called ‘flags’, hidden in each of the challenges. So, assemble your team, prepare to decrypt hidden messages, exploit vulnerabilities, and do whatever it takes to Hunt!",
-        date: "18 Nov 2022(FN)",
+        date: "18 Nov 2022(AN)",
         type: "Team",
         venue: "Blockchain Lab",
-        time: "Forenoon",
+        time: "Afternoon",
         members: "2",
         rules:
           "Players can compete individually or in teams of up to 2 members. Teams should work independently; sharing answers or collaborating with another team constitutes cheating. Brute-forcing the flags is not allowed.Any kind of violation of these rules will mean immediate disqualification of the team. The decision of the event managers will be deemed",
