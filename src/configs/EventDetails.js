@@ -3104,7 +3104,7 @@ export const EventDetails = [
         venue: "Manufacturing Tech LAB",
         time: "FTERNOON",
         members: "1-2",
-        rules: "",
+        rules: "Registration Fee - 150rs. If the lathe machine is found damaged during the event , the participant will need to pay for it.If any participant is found not abiding by the rules, then the participant will be eliminated.The decision made by the judges and the organising committe is final.Wearing Shoes is Mandatory.Participant should have their college ID card and should produce at the time of registration, Participant without college ID will not be allowed", 
         round1: "MCQ based on Manufacturing technology(30mins)",
 
         round2: " Facing and Step turning in Lathe Machine(30mins)",
