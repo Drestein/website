@@ -203,13 +203,13 @@ const Form = () => {
         () => {
           // Handle successful uploads on complete
           // For instance, get the download URL: https://firebasestorage.googleapis.com/...
-          getDownloadURL(uploadTask.snapshot.ref).then((downloadURL) => {
+          getDownloadURL(uploadTask.snapshot.ref).then(async(downloadURL) => {
             resolve(downloadURL);
             formdata.IdCard = downloadURL;
 
             const cityRef = doc(db, "RegisteredPeople", `${formdata.id}`);
 
-            setDoc(cityRef, formdata)
+           await setDoc(cityRef, formdata)
               .then(async () => {
 
                 const sendqr = await fetch(
@@ -218,6 +218,8 @@ const Form = () => {
                 const QrUrl = sendqr.url;
                 // console.log(QrUrl);
                 if (window.Email) {
+
+                  console.log(window.Email)
                   const style = {
                     border: "1px sold black",
                   };
@@ -225,7 +227,7 @@ const Form = () => {
                     SecureToken: process.env.REACT_APP_EMAILCODE_ID,
                     To: formdata.email,
 
-                    From: "secdrestein2022@gmail.com",
+                    From: "dresteinsaveetha2022@gmail.com",
 
                     Subject:
                       "Congrats! Your registration for Drestein is complete 🎉",
