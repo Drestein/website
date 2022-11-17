@@ -146,7 +146,27 @@ function Departments() {
 }}>Participant should prepare posters to descibe about the project.</li>
 
 
+
+
 </ul>
+<Typography
+              id="modal-modal-title"
+              variant="h6"
+              sx={{}}
+              component="h3"
+            >
+              <strong>FACULTY COORDINATOR</strong>
+            </Typography>
+
+            <ul>
+              <li
+                style={{
+                  padding: "5px 0",
+                }}
+              >
+                Dr. Gopal Ramasubramaniyan (9444167442)
+              </li>
+            </ul>
 
  </Typography>
  <a
