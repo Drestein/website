@@ -20,7 +20,8 @@ import { useContext } from "react";
 import { UserContext } from "../contexts/AdminContext";
 import UserInfoCard from "./UserInfoCard";
 import Loading from "../../../Loading";
-
+import supabase from "../../../client";
+import { async } from "@firebase/util";
 const AdminPanelHead = styled.div`
   display: flex;
   justify-content: space-between;
@@ -106,8 +107,9 @@ function AdminPannel() {
   };
 
   const fetchSingleUser = (res) => {
+console.log(RegUsers)
     const a = RegUsers.filter((data) => {
-      if (data.id === res) {
+      if (data.userRef === res) {
         return data;
       }
     });
@@ -115,8 +117,14 @@ function AdminPannel() {
     setRegistredPeople(a);
   };
 
+
+
+
+
   return (
     <AdminPanelHead>
+
+
       <UsersList>
         <h1
           style={{

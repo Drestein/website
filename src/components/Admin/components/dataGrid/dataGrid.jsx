@@ -76,8 +76,8 @@ export default function ConditionalValidationGrid() {
 
   const users = paidUsers.map((data) => {
     return {
-      id: data.id,
-      id: data.id,
+      id: data.userRef,
+      id: data.userRef,
       name: data.fname,
       email: data.email,
       phno: data.phno,

@@ -13,6 +13,7 @@ import { Stack } from "@mui/system";
 import Loading from "../../../Loading";
 import { useContext } from "react";
 import { UserContext } from "../contexts/AdminContext";
+import supabase from "../../../client";
 const SingleUserMain = styled.div`
   height: 100vh;
   width: 100vw;
@@ -34,40 +35,39 @@ const UserCard = styled.div`
 `;
 
 function SingleUserPage() {
-  const { RegUsers, DataLoad} = useContext(UserContext);
+  // const { RegUsers, DataLoad} = useContext(UserContext);
+
   const params = useParams();
   const userid = params.userid;
   const [Registeredpeople, setRegistredPeople] = useState([]);
   const [load, setLoad] = useState(true);
   //    http://localhost:3000/user/qlkwnfdklwqfn
 
-  function fetch() {
-    return new Promise((resolve, reject) => {
-      const user = RegUsers.filter((data) => {
-        if (data.id === userid) {
-          return data;
-        }
-      });
 
-      if (user.length === 0) {
-        reject("User not found ");
-      } else {
-        resolve(user);
-      }
-      setRegistredPeople(user);
-    }).catch((e) => {
-      if (!DataLoad) {
-        toast.error(e);
-      }
-    });
-  }
 
   useEffect(() => {
 
     async function innerfetch() {
-      const response = await fetch();
+
+      const {data,error} = await  supabase
+      .from('RegisteredPeople')
+      .select()
+      .eq('userRef',userid)
+      .single()
+      if(error){
+        toast.error(error)
+        console.log(error)
+        setLoad(false)
+
+      }
+      if(data){
+        console.log(data)
+        setRegistredPeople([data])
+        setLoad(false)
+
+      }
     }
-    innerfetch();
+
 
     // try {
     //   setLoad(true);
@@ -86,9 +86,10 @@ function SingleUserPage() {
     //   toast.error("your not exist");
     //   console.log(e);
     // }
-  }, [RegUsers]);
+    innerfetch()
+  }, []);
 
-  if (DataLoad) {
+  if (load) {
     return <Loading />;
   }
 

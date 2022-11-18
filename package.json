@@ -12,6 +12,7 @@
     "@mui/x-data-grid": "^5.17.9",
     "@mui/x-data-grid-generator": "^5.17.9",
     "@rumess/react-flip-countdown": "^1.2.6",
+    "@supabase/supabase-js": "^2.1.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",

@@ -12,6 +12,7 @@ import {
 import { toast } from "react-toastify";
 import { CollectionsOutlined } from "@mui/icons-material";
 import { useRef } from "react";
+import supabase from "../../../client";
 export const UserContext = createContext();
 
 export const UserProvider = (props) => {
@@ -30,28 +31,44 @@ export const UserProvider = (props) => {
   }, [auth, auth?.currentUser]);
 
 
-  const FetchUsers = () => {
-    const colref = collection(db, "RegisteredPeople");
-    console.log("backend fetch  running ... ");
-    onSnapshot(colref, (snapshot) => {
-      let users = [];
+  // const FetchUsers = () => {
+  //   const colref = collection(db, "RegisteredPeople");
+  //   console.log("backend fetch  running ... ");
+  //   onSnapshot(colref, (snapshot) => {
+  //     let users = [];
 
-      snapshot.docs.forEach((doc) => {
-        users.push({ ...doc.data(), id: doc.id });
-      });
-      setRegUsers(users);
-      setDataLoad(false);
-    });
-  };
+  //     snapshot.docs.forEach((doc) => {
+  //       users.push({ ...doc.data(), id: doc.id });
+  //     });
+  //     setRegUsers(users);
+  //     setDataLoad(false);
+  //   });
+  // };
 
   useEffect(() => {
     if (dataFetchedRef.current) return;
     dataFetchedRef.current = true;
 
-if(loggedIn){
+    const fetchUsers = async()=>{
+      const {data,error} = await supabase
+      .from('RegisteredPeople')
+      .select()
+  
+      if(error){
+         toast.error(error)
+          setRegUsers(null)
+          console.log(error)
+  
+      }
+      if(data){
+        setRegUsers(data)
+        setDataLoad(false);
+          console.log(data)
+  
+      }
 
-  FetchUsers();
-}
+  }
+  fetchUsers()
 
   }, []);
   

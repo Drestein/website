@@ -14,6 +14,7 @@ import { isEmpty } from "@firebase/util";
 import { Card } from "@mui/material";
 import { width } from "@mui/system";
 import UpdateForm from "./UpdateForm";
+import supabase from "../../../client";
 const UserCard = styled.div`
   width: 100%;
   color: #000000;
@@ -71,16 +72,22 @@ function UserInfoCard({ data, Scanpage }) {
     } else {
       amount = AmountPaid - 150;
     }
-
-    await updateDoc(docRef, {
-      cashPaid: e.target.checked,
+    const {data,error}  = await supabase
+    .from('RegisteredPeople')
+    .update( {
+      cashPaidForProject: e.target.checked,
       AmountPaid: amount,
-    }).then(() => {
-      setload(false);
-      toast.success("profile updated");
+    })
+    .eq('userRef',id)
+    // await updateDoc(docRef, {
+    //   cashPaid: e.target.checked,
+    //   AmountPaid: amount,
+    // }).then(() => {
+    //   setload(false);
+    //   toast.success("profile updated");
 
-      // console.log("this is loaf",load.current)
-    });
+    //   // console.log("this is loaf",load.current)
+    // });
     // console.log(e.target.checked)
   };
   // useEffect(() => {
@@ -98,16 +105,21 @@ function UserInfoCard({ data, Scanpage }) {
     } else {
       amount = AmountPaid - 250;
     }
-
-    await updateDoc(docRef, {
+ 
+    const {data,error}  = await supabase
+    .from('RegisteredPeople')
+    .update( {
       cashPaidForProject: e.target.checked,
       AmountPaid: amount,
-    }).then(() => {
-      setload(false);
-      toast.success("profile updated");
+    })
+    .eq('userRef',id)
 
-      // console.log("this is loaf",load.current)
-    });
+    // await updateDoc(docRef,).then(() => {
+    //   setload(false);
+    //   toast.success("profile updated");
+
+    //   // console.log("this is loaf",load.current)
+    // });
     // console.log(e.target.checked)
   };
 
@@ -124,15 +136,23 @@ function UserInfoCard({ data, Scanpage }) {
       amount = AmountPaid - 200;
     }
 
-    await updateDoc(docRef, {
+    const {data,error}  = await supabase
+    .from('RegisteredPeople')
+    .update( {
       cashPaidForPaper: e.target.checked,
       AmountPaid: amount,
-    }).then(() => {
-      setload(false);
-      toast.success("profile updated");
+    })
+    .eq('userRef',id)
+    
+    // await updateDoc(docRef, {
+    //   cashPaidForPaper: e.target.checked,
+    //   AmountPaid: amount,
+    // }).then(() => {
+    //   setload(false);
+    //   toast.success("profile updated");
 
-      // console.log("this is loaf",load.current)
-    });
+    //   // console.log("this is loaf",load.current)
+    // });
     // console.log(e.target.checked)
   };
 
