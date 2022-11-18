@@ -26,7 +26,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => setLoading(false), 1500);
   }, []);
-  console.log(window.Email)
+  // console.log(window.Email)
   return (
     <>
       {loading ? (

@@ -20,7 +20,9 @@ import { doc, updateDoc } from "firebase/firestore";
 import { db } from "../../../configs/Firebase.config";
 import { toast } from "react-toastify";
 import Loading from "../../../Loading";
-
+import supabase from "../../../client";
+import { useContext } from "react";
+import { UserContext } from "../contexts/AdminContext";
 const style = {
   position: "absolute",
   top: "50%",
@@ -49,7 +51,9 @@ export default function UpdateForm({
   cashPaid,
   cashPaidForPaper,
   cashPaidForProject,
+  fetchUsers
 }) {
+  const {setRegUsers,setchange,setDataLoad,} = useContext(UserContext)
   const [open, setOpen] = React.useState(false);
   const [load, setload] = useState(false);
   const handleOpen = () => setOpen(true);
@@ -201,7 +205,9 @@ export default function UpdateForm({
     }
 
     console.log(Amountpaid);
-    await updateDoc(docRef, {
+    const {data,error}  = await supabase
+    .from('RegisteredPeople')
+    .update( {
       CashToBePaid: totalAmount,
       DepartEvent: Event,
       ProjectPresentation: Project,
@@ -211,12 +217,42 @@ export default function UpdateForm({
       cashPaid: DepPaid,
       cashPaidForPaper: paperPaid,
       cashPaidForProject: ProjectPaid,
-    }).then(() => {
-      setload(false);
-      toast.success("profile updated");
+    })
+    .eq('userRef',id)
+    // .then(()=>setload(false))
+    // setload(false)
+    if(error){
+     console.log(error)
+     toast.error("can't updated")
+     return 
+    }
 
-      // console.log("this is loaf",load.current)
-    });
+    if(data){
+      console.log(data)
+      setRegUsers(data)
+      setchange(pre=>!pre)
+      // setload(false)
+    }
+
+toast.success('profile updated')
+    // await updateDoc(docRef, {
+    //   CashToBePaid: totalAmount,
+    //   DepartEvent: Event,
+    //   ProjectPresentation: Project,
+    //   PaperPresentation: Paper,
+    //   EventsRegistered: eventName,
+    //   AmountPaid: Amountpaid,
+    //   cashPaid: DepPaid,
+    //   cashPaidForPaper: paperPaid,
+    //   cashPaidForProject: ProjectPaid,
+    // }).then(() => {
+    //   setload(false);
+    //   toast.success("profile updated");
+
+    //   // console.log("this is loaf",load.current)
+    // });
+    fetchUsers()
+    setload(false)
   };
   return (
     <div>

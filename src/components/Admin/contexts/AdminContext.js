@@ -22,7 +22,7 @@ export const UserProvider = (props) => {
   const [DataLoad, setDataLoad] = useState(true);
   const [vicitedProple, setVisitedPeople] = useState(0);
   const dataFetchedRef = useRef(false);
-
+const [change,setchange] = useState(false)
 
   useEffect(() => {
     onAuthStateChanged(auth, (user) => {
@@ -63,20 +63,30 @@ export const UserProvider = (props) => {
       if(data){
         setRegUsers(data)
         setDataLoad(false);
-          console.log(data)
+          // console.log(data)
   
       }
+
 
   }
   fetchUsers()
 
-  }, []);
+  }, [change]);
   
 
+  // useEffect(()=>{
+  //   const channel = supabase
+  //   .channel('RegisterdPeople')
+  //   .on('postgres_changes', { event: '*', schema: 'public' }, (payload) => console.log(payload))
+  //   .subscribe()
+  
+  // },[])
   return (
     <UserContext.Provider
       value={{
         setLoggedIn,
+        setRegUsers,
+        setchange,
         RegUsers,
         loggedIn,
         DataLoad,

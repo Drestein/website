@@ -35,7 +35,7 @@ const UserCard = styled.div`
 `;
 
 function SingleUserPage() {
-  // const { RegUsers, DataLoad} = useContext(UserContext);
+  const { RegUsers, DataLoad} = useContext(UserContext);
 
   const params = useParams();
   const userid = params.userid;
@@ -46,27 +46,37 @@ function SingleUserPage() {
 
 
   useEffect(() => {
+    // console.log('ij')
+    // async function innerfetch() {
 
-    async function innerfetch() {
+    //   const {data,error} = await  supabase
+    //   .from('RegisteredPeople')
+    //   .select()
+    //   .eq('userRef',userid)
+    //   .single()
+    //   if(error){
+    //     toast.error(error)
+    //     console.log(error)
+    //     setLoad(false)
 
-      const {data,error} = await  supabase
-      .from('RegisteredPeople')
-      .select()
-      .eq('userRef',userid)
-      .single()
-      if(error){
-        toast.error(error)
-        console.log(error)
-        setLoad(false)
+    //   }
+    //   if(data){
+    //     console.log(data)
+    //     setRegistredPeople([data])
+    //     setLoad(false)
 
-      }
-      if(data){
-        console.log(data)
-        setRegistredPeople([data])
-        setLoad(false)
-
-      }
+    //   }
+    // }
+if(RegUsers.length>0){
+  const a = RegUsers.filter(data=>{
+    if(data.userRef===userid){
+      return data
     }
+  })
+  setRegistredPeople(a)
+  setLoad(false)
+}
+
 
 
     // try {
@@ -86,8 +96,8 @@ function SingleUserPage() {
     //   toast.error("your not exist");
     //   console.log(e);
     // }
-    innerfetch()
-  }, []);
+    // innerfetch()
+  }, [RegUsers]);
 
   if (load) {
     return <Loading />;

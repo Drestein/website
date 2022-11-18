@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useContext, useEffect } from "react";
 import styled from "styled-components";
 import Loading from "../../../Loading";
 import { Button, Switch } from "@mui/material";
@@ -15,6 +15,7 @@ import { Card } from "@mui/material";
 import { width } from "@mui/system";
 import UpdateForm from "./UpdateForm";
 import supabase from "../../../client";
+import { UserContext } from "../contexts/AdminContext";
 const UserCard = styled.div`
   width: 100%;
   color: #000000;
@@ -33,8 +34,9 @@ const UserCard = styled.div`
   /* background: #f8f8f8; */
 `;
 
-function UserInfoCard({ data, Scanpage }) {
+function UserInfoCard({ user, setRegistredPeople,RegistredPeople }) {
   const [load, setload] = useState(false);
+  const {setRegUsers,setchange,setDataLoad,} = useContext(UserContext)
 
   const {
     lname,
@@ -56,11 +58,52 @@ function UserInfoCard({ data, Scanpage }) {
     DepartEvent,
     email,
     phno,
+    userRef,
     IdCard,
-  } = data;
+  } = user;
 
+  const fetchUsers = async()=>{
+    const {data,error} = await supabase
+    .from('RegisteredPeople')
+    .select()
+
+    if(error){
+       toast.error(error)
+        setRegUsers(null)
+        console.log(error)
+
+    }
+    if(data){
+      setRegUsers(data)
+        console.log(data)
+
+    }
+
+}
   // console.log(AmountPaid);
 
+  // useEffect(()=>{
+  //   const fetchuser  = async()=>{
+  //     const {data,error} = await supabase
+  //     .from('RegisteredPeople')
+  //     .select()
+  //     .eq('userRef', userRef) // Correct
+  //     .on('UPDATE',(payload)=>{
+  //       console.log(payload)
+  //       setRegistredPeople({...RegistredPeople,...payload.new})
+  //     })
+  //     if(error){
+  //       console.log(error)
+  //       toast.error(error)
+  //     }
+  //     if(data){
+  //       console.log(data)
+  //     }
+  //   } 
+  //   fetchuser()
+  
+  // },[RegistredPeople])
+  
   const handleChange = async (e, id, AmountPaid) => {
     setload(true);
     // setChecked(pre=>!pre)
@@ -74,11 +117,25 @@ function UserInfoCard({ data, Scanpage }) {
     }
     const {data,error}  = await supabase
     .from('RegisteredPeople')
-    .update( {
-      cashPaidForProject: e.target.checked,
-      AmountPaid: amount,
-    })
+    .update({
+        cashPaid: e.target.checked,
+        AmountPaid: amount,
+      })
     .eq('userRef',id)
+    if(error){
+      console.log(error)
+      toast.error("can't updated")
+      return 
+     }
+ 
+     if(data){
+       console.log(data)
+       setRegUsers(data)
+       setchange(pre=>!pre)
+       // setload(false)
+     }
+ 
+   fetchUsers()
     // await updateDoc(docRef, {
     //   cashPaid: e.target.checked,
     //   AmountPaid: amount,
@@ -89,6 +146,7 @@ function UserInfoCard({ data, Scanpage }) {
     //   // console.log("this is loaf",load.current)
     // });
     // console.log(e.target.checked)
+    setload(false)
   };
   // useEffect(() => {
     // console.log("this happend ", cashPaid);
@@ -114,6 +172,21 @@ function UserInfoCard({ data, Scanpage }) {
     })
     .eq('userRef',id)
 
+    if(error){
+      console.log(error)
+      toast.error("can't updated")
+      return 
+     }
+ 
+     if(data){
+       console.log(data)
+       setRegUsers(data)
+       setchange(pre=>!pre)
+       // setload(false)
+     }
+ 
+   fetchUsers()
+
     // await updateDoc(docRef,).then(() => {
     //   setload(false);
     //   toast.success("profile updated");
@@ -121,13 +194,14 @@ function UserInfoCard({ data, Scanpage }) {
     //   // console.log("this is loaf",load.current)
     // });
     // console.log(e.target.checked)
+    setload(false)
   };
 
   const handleChangeforPaper = async (e, id, AmountPaid) => {
     setload(true);
     // setChecked(pre=>!pre)
     const docRef = doc(db, "RegisteredPeople", `${id}`);
-    console.log(e.target.checked);
+
     let amount = 0;
 
     if (e.target.checked) {
@@ -143,7 +217,22 @@ function UserInfoCard({ data, Scanpage }) {
       AmountPaid: amount,
     })
     .eq('userRef',id)
-    
+    // .then(()=>setload(false))
+    // setload(false)
+    if(error){
+     console.log(error)
+     toast.error("can't updated")
+     return 
+    }
+
+    if(data){
+      console.log(data)
+      setRegUsers(data)
+      setchange(pre=>!pre)
+      // setload(false)
+    }
+
+  fetchUsers()
     // await updateDoc(docRef, {
     //   cashPaidForPaper: e.target.checked,
     //   AmountPaid: amount,
@@ -154,6 +243,7 @@ function UserInfoCard({ data, Scanpage }) {
     //   // console.log("this is loaf",load.current)
     // });
     // console.log(e.target.checked)
+    setload(false)
   };
 
   const deptnames = [
@@ -284,11 +374,12 @@ function UserInfoCard({ data, Scanpage }) {
               PaperPresentation={PaperPresentation}
               ProjectPresentation={ProjectPresentation}
               CashToBePaid={CashToBePaid}
-              id={id}
+              id={userRef}
               AmountPaid={AmountPaid}
               cashPaid={cashPaid}
               cashPaidForPaper={cashPaidForPaper}
               cashPaidForProject={cashPaidForProject}
+              fetchUsers={fetchUsers}
             />
           </div>
         </Stack>
@@ -334,7 +425,7 @@ function UserInfoCard({ data, Scanpage }) {
           <div>
             <Switch
               checked={cashPaid}
-              onChange={(e) => handleChange(e, id, AmountPaid)}
+              onChange={(e) => handleChange(e, userRef, AmountPaid)}
               inputProps={{ "aria-label": "controlled" }}
             />
           </div>
@@ -364,7 +455,7 @@ function UserInfoCard({ data, Scanpage }) {
             <div>
               <Switch
                 checked={cashPaidForPaper}
-                onChange={(e) => handleChangeforPaper(e, id, AmountPaid)}
+                onChange={(e) => handleChangeforPaper(e, userRef, AmountPaid)}
                 inputProps={{ "aria-label": "controlled" }}
               />
             </div>
@@ -390,7 +481,7 @@ function UserInfoCard({ data, Scanpage }) {
             <div>
               <Switch
                 checked={cashPaidForProject}
-                onChange={(e) => handleChangeforProject(e, id, AmountPaid)}
+                onChange={(e) => handleChangeforProject(e, userRef, AmountPaid)}
                 inputProps={{ "aria-label": "controlled" }}
               />
             </div>

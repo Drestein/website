@@ -107,7 +107,7 @@ function AdminPannel() {
   };
 
   const fetchSingleUser = (res) => {
-console.log(RegUsers)
+// console.log(RegUsers)
     const a = RegUsers.filter((data) => {
       if (data.userRef === res) {
         return data;
@@ -135,8 +135,8 @@ console.log(RegUsers)
         </h1>
         {RegistredPeople[0] !== undefined && RegistredPeople.length > 0 && (
           <div>
-            {RegistredPeople.map((data) => {
-              return <UserInfoCard data={data} Scanpage />;
+            {RegistredPeople.map((user) => {
+              return <UserInfoCard user={user} setRegistredPeople={setRegistredPeople} RegistredPeople={RegistredPeople} />;
             })}
           </div>
         )}
