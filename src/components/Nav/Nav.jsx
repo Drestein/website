@@ -154,6 +154,9 @@ function Nav() {
         <Link style={{ textDecoration: "inherit" }} to="/form#">
           <NavItem>Register</NavItem>
         </Link>
+        <Link style={{ textDecoration: "inherit" }} to="/#About">
+          <NavItem>About us</NavItem>
+        </Link>
       </NavHead>
       <Mobilenav openMenu={openMenu} setOpenMenu={setOpenMenu} />
       <div className="icon" onClick={() => setOpenMenu(!openMenu)}>
@@ -165,7 +168,7 @@ function Nav() {
             <DLogo src={dresteinLogo} alt="DresteinLogo" />
             <EventLogo>
               <DresteinLetter color="red">DRESTEIN</DresteinLetter>
-              <Year>2 0 2 2</Year>
+              <Year>2 0 2 3</Year>
             </EventLogo>
           </LogoHead>
         </Link>

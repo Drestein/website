@@ -164,7 +164,7 @@ function About() {
             variants={text}
             style={{ marginBottom: "5rem" }}
           >
-            Five Research Centres recognised by Anna University
+            Seven Research Centres recognised by Anna University
           </Descard>
         </AboutDescript>
       </AboutContainer>

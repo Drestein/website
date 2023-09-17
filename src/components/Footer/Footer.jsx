@@ -77,11 +77,11 @@ const Footer = () => {
             <DLogo src={dresteinLogo} alt="DresteinLogo" />
             <EventLogo>
               <DresteinLetter color="red">DRESTEIN</DresteinLetter>
-              <Year>2 0 2 2</Year>
+              <Year>2 0 2 3</Year>
             </EventLogo>
           </LogoHead>
           <div className="desc">
-            13<sup>th</sup> National level inter collegiate technical and
+            14<sup>th</sup> National level inter collegiate technical and
             management fest
           </div>
           <p
@@ -162,7 +162,7 @@ const Footer = () => {
                 <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
               }
             >
-          Bharath S
+          SUGAN
             </Chip>
           </a>
           <Chip
@@ -172,7 +172,7 @@ const Footer = () => {
               <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
             }
             >
-            Shanu S
+            VISHWARAJ
           </Chip>
           <Chip
             size="md"
@@ -181,7 +181,7 @@ const Footer = () => {
               <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
             }
           >
-            Gokul Nath A
+            MONOJ
           </Chip>
           <Chip
             size="md"
@@ -190,7 +190,7 @@ const Footer = () => {
               <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
             }
           >
-            Sugan
+            AKASH
           </Chip>
         </div>
         <div className="block">

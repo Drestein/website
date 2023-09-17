@@ -202,7 +202,7 @@ function Main() {
           </DresteinText>
 
           <NationText className="nation ">
-            13<sup>th</sup> National level inter collegiate technical and
+            14<sup>th</sup> National level inter collegiate technical and
             management fest
           </NationText>
         </HeaderMainText>
@@ -221,12 +221,12 @@ function Main() {
             endAtZero
             endAt={"2022-11-09 01:26:58"}
           /> */}
-          <div className="MainHeaderDate">November 18th & 19th</div>
+          <div className="MainHeaderDate">November 02th & 03th</div>
         </Timer>
       </HeaderBg>
       <Link to="/form">
         <RegisterNow className="button">
-          <HoverSpan className="span_btn">register now</HoverSpan>
+          <HoverSpan className="span_btn">registertion coming soon..</HoverSpan>
         </RegisterNow>
       </Link>
     </MainHeader>

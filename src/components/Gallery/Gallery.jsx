@@ -48,7 +48,7 @@ const Gallery = () => {
         whileInView="onscreen"
         variants={text}
       >
-        <div className="GalleryHeadTxt">Memories</div>
+        <div className="GalleryHeadTxt">Memories 2021</div>
       </Head>
       <Swiper
         autoplay={{

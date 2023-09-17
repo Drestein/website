@@ -3,11 +3,11 @@ import "./styles/countdown.scss";
 
 const CountDown = () => {
   const end = new Date();
-  end.setFullYear(2022);
-  end.setMonth(10);
-  end.setDate(18);
-  end.setHours(8);
-  end.setMinutes(0);
+  end.setFullYear(2023);
+  end.setMonth(11);
+  end.setDate(2);
+  end.setHours(2);
+  end.setMinutes(60);
 
   const [daysDiff, setdaysDiff] = useState(0);
   const [hoursDiff, sethoursDiff] = useState(0);

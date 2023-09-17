@@ -504,7 +504,7 @@ const Form = () => {
                   alignItems: "center",
                 }}
               >
-                Registeration closed! Thank you for participating.
+                Registeration coming soon...
               </div>
             ) : null}
             {0 ? (

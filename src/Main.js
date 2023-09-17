@@ -96,12 +96,13 @@ const Main = () => {
       <div id="Gallery">
         <Gallery />
       </div>
+      
       <div id="SECLife">
         <About />
       </div>
-      <div id="Guest">
+      {/* <div id="Guest">
         <Guest />
-      </div>
+      </div> */}
 
       <div id="About">
         <Footer />
