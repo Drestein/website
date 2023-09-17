@@ -221,12 +221,12 @@ function Main() {
             endAtZero
             endAt={"2022-11-09 01:26:58"}
           /> */}
-          <div className="MainHeaderDate">November 02th & 03th</div>
+          <div className="MainHeaderDate">November 02nd & 03rd</div>
         </Timer>
       </HeaderBg>
       <Link to="/form">
         <RegisterNow className="button">
-          <HoverSpan className="span_btn">registertion coming soon..</HoverSpan>
+          <HoverSpan className="span_btn">registrtion coming soon..</HoverSpan>
         </RegisterNow>
       </Link>
     </MainHeader>
