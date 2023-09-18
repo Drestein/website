@@ -504,7 +504,7 @@ const Form = () => {
                   alignItems: "center",
                 }}
               >
-                Regstration coming soon...
+                Registration coming soon...
               </div>
             ) : null}
             {0 ? (

@@ -56,7 +56,7 @@ function App() {
                       width: "100%",
                     }}
                   >
-                    <h1>Registion coming soon...</h1>
+                    <h1>Registration coming soon...</h1>
                    
                   </div>
                 }

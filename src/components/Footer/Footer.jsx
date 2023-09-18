@@ -100,7 +100,7 @@ const Footer = () => {
               gap: "10px",
             }}
           >
-            <h1>{1700 + views}</h1>
+            <h1>{1700000000 + views}</h1>
             <VisibilityIcon
               sx={{
                 fontSize: "40px",
@@ -110,7 +110,7 @@ const Footer = () => {
         </div>
         <div className="block">
           <h4 className="heading">CO-ORDINATORS</h4>
-
+          <a href="https://www.linkedin.com/in/dr-suresh-kumar-krishnamoorthy-600053112/"  target="_blank" class="links">
           <Chip
             size="lg"
             style={{ backgroundColor: "transparent", margin: "20px 0 " }}
@@ -129,6 +129,7 @@ const Footer = () => {
           >
             Dr. K. Suresh Kumar
           </Chip>
+          </a>
           <Chip
             size="lg"
             style={{ backgroundColor: "transparent" }}
@@ -162,7 +163,7 @@ const Footer = () => {
               <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
             }
             >
-            sugan
+            SUGAVARATHAN L
           </Chip>
           </a>
           <a href="https://www.linkedin.com/in/itz-akash/"  target="_blank"class="links"> 
@@ -173,7 +174,7 @@ const Footer = () => {
               <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
             }
             >
-            AKASH 
+            AKASH A
           </Chip>
           </a>
           <a href="https://www.linkedin.com/in/vishwa-raja-a59825210/"  target="_blank" class="links">
@@ -184,7 +185,7 @@ const Footer = () => {
               <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
             }
             >
-            vishwaraja
+            VISHWARAJA 
           </Chip>
           </a>
           <a href="https://www.linkedin.com/in/manoj-mv-a9950728a/"  target="_blank" class="links">
@@ -195,7 +196,7 @@ const Footer = () => {
               <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
             }
             >
-            manoj
+            MANOJ MK
           </Chip>
           </a>
           <a href="https://www.linkedin.com/in/dinesh-kumaraa-k-091180292"  target="_blank" class="links">
@@ -206,7 +207,7 @@ const Footer = () => {
               <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
             }
             >
-            dinesh
+            DINESH KUMARAA K
           </Chip>
           </a>
         </div>
@@ -215,7 +216,7 @@ const Footer = () => {
           <a href="#" className="links">
             Home
           </a>
-          <a href="#Departments" className="links">
+          <a href="/Departments#" className="links">
             Departments
           </a>
           <Link to="/form" className="links">

@@ -65,7 +65,7 @@
   border-bottom-left-radius: 2rem;
   border-top-left-radius: 2rem;
   background-color: rgba(255, 255, 255, 0.685);
-  color: rgba(0, 0, 0, 0.677);
+  color: rgba(255, 238, 238, 0.856);
 }
 
 @media (max-width: 600px) {

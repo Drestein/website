@@ -20,45 +20,52 @@ const Mobilenav = ({ openMenu, setOpenMenu }) => {
           <Link
             style={{ textDecoration: "inherit" }}
             onClick={() => setOpenMenu(!openMenu)}
-            to="/#Departments"
+            to="/Departments#"
           >
             <li>DEPARTMENTS</li>
           </Link>
-          <Link
+          {/* <Link
             style={{ textDecoration: "inherit" }}
             onClick={() => setOpenMenu(!openMenu)}
-            to="/#SpecialEvents"
+            to="SpecialEvents#"
           >
             <li>SPECIAL EVENTS</li>
-          </Link>
+          </Link> */}
           <Link
             style={{ textDecoration: "inherit" }}
             onClick={() => setOpenMenu(!openMenu)}
             to="/#Gallery"
           >
-            <li>MEMORIES</li>
+            <li>MEMORIES 2021</li>
           </Link>
           <Link
             style={{ textDecoration: "inherit" }}
             onClick={() => setOpenMenu(!openMenu)}
-            to="/#SECLife"
+            to="/#Gallery2022"
+          >
+            <li>MEMORIES 2022</li>
+          </Link>
+          <Link
+            style={{ textDecoration: "inherit" }}
+            onClick={() => setOpenMenu(!openMenu)}
+            to="/ab#"
           >
             <li>ABOUT SEC</li>
           </Link>
-          <Link
+          {/* <Link
             style={{ textDecoration: "inherit" }}
             onClick={() => setOpenMenu(!openMenu)}
             to="/#Guest"
           >
             <li>CHIEF GUEST</li>
-          </Link>
-          <Link
+          </Link> */}
+          {/* <Link
             style={{ textDecoration: "inherit" }}
             onClick={() => setOpenMenu(!openMenu)}
-            to="/#About"
+            to="/#Ab"
           >
-            <li>ABOUT</li>
-          </Link>
+            <li>AB</li>
+          </Link> */}
           <Link
             style={{ textDecoration: "inherit" }}
             onClick={() => setOpenMenu(!openMenu)}
