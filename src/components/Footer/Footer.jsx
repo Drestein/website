@@ -154,18 +154,18 @@ const Footer = () => {
           >
             WEBSITE CO-ORDINATORS
           </h4>
-          <a>
-            <Chip
-              size="md"
-              style={{ backgroundColor: "transparent" }}
-              startDecorator={
-                <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
-              }
+          <a href="https://www.linkedin.com/in/sugavarathan-l-400a46256/"  target="_blank">
+          <Chip
+            size="md"
+            style={{ backgroundColor: "transparent" }}
+            startDecorator={
+              <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
+            }
             >
-          SUGAN
-            </Chip>
+            sugan
+          </Chip>
           </a>
-          {/* <a href="https://www.linkedin.com/in/itz-akash/"  target="_blank">
+          <a href="https://www.linkedin.com/in/itz-akash/"  target="_blank">
           <Chip
             size="md"
             style={{ backgroundColor: "transparent" }}
@@ -175,26 +175,40 @@ const Footer = () => {
             >
             AKASH 
           </Chip>
-          </a> */}
-         
+          </a>
+          <a href="https://www.linkedin.com/in/vishwa-raja-a59825210/"  target="_blank">
           <Chip
             size="md"
             style={{ backgroundColor: "transparent" }}
             startDecorator={
               <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
             }
-          >
-            MONOJ
+            >
+            vishwaraja
           </Chip>
+          </a>
+          <a href="https://www.linkedin.com/in/manoj-mv-a9950728a/"  target="_blank">
           <Chip
             size="md"
             style={{ backgroundColor: "transparent" }}
             startDecorator={
               <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
             }
-          >
-          VISHWARAJ
+            >
+            manoj
           </Chip>
+          </a>
+          <a href="https://www.linkedin.com/in/dinesh-kumaraa-k-091180292"  target="_blank">
+          <Chip
+            size="md"
+            style={{ backgroundColor: "transparent" }}
+            startDecorator={
+              <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
+            }
+            >
+            dinesh
+          </Chip>
+          </a>
         </div>
         <div className="block">
           <h4 className="heading">USEFUL LINKS</h4>
