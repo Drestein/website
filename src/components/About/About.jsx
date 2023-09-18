@@ -133,12 +133,12 @@ function About() {
               ideals for the total personality development of the individual.
             </Descard>
           </div>
-
+{/* 
           {/* <List as={motion.li} variants={text}>
               Saveetha Engineering College (SEC) was established in 2001, by the
               Founder Chairman Dr. N. M. Veeraiyan, a committed and dedicated
               Medical Professional.
-            </List> */}
+            </List> */} 
 
           <Descard as={motion.li} variants={text}>
             Ranked 96 by NIRF- National Institute Ranking Framework for the

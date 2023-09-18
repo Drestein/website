@@ -1,5 +1,13 @@
 export const departobj = [
   {
+    id: "#aids",
+    title: "Artificial Intelligence",
+    img: "/DepartmentAssets/ai.webp",
+    des: "test",
+    color: "#ff58c2",
+    bgtext: "Artif",
+  },
+  {
     id: "#it",
     title: `Information Technology`,
     img: "/DepartmentAssets/it.webp",
@@ -32,14 +40,7 @@ export const departobj = [
     bgtext: "Elect",
     mbtm: "-30px",
   },
-  {
-    id: "#aids",
-    title: "Artificial Intelligence",
-    img: "/DepartmentAssets/ai.webp",
-    des: "test",
-    color: "#ff58c2",
-    bgtext: "Artif",
-  },
+
   {
     id: "#chem",
     title: "Chemical Engineering",

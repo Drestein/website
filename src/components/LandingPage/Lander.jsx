@@ -6,24 +6,18 @@ const Lander = () => {
   return (
     <div className="lander">
       <div className="body">
-        <span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-        </span>
-        <div className="base">
-          <span></span>
-          <div className="face"></div>
-        </div>
+      <div id="loader-wrapper">
+  <div class="loader">
+    <div class="circle one"></div>
+    <div class="circle two"></div>
+    <div class="circle three"></div>
+  </div>
+  <div class="loader-section section-left"></div>
+  <div class="loader-section section-right"></div>
+</div>
       </div>
       <h3 className="lander-text">Drestein</h3>
-      <div className="longfazers">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
+      
     </div>
   );
 };

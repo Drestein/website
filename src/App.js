@@ -37,7 +37,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Main />} />
               <Route path="form" element={<Form />} />
-              <Route path="events" element={<Events />} />
+              {/* <Route path="events" element={<Events />} /> */}
               <Route path="Admin/login" element={<UserProvider><SignIn /></UserProvider> } />
               <Route
                 path="*"
@@ -46,13 +46,13 @@ function App() {
                     style={{
                       display: "flex",
                       justifyContent: "center",
-                      flexDirection: "column",
+                      flexDirection: "center",
                       alignItems: "center",
                       width: "100%",
                     }}
                   >
-                    <h1>404</h1>
-                    <p>page not Found</p>
+                    <h1>Registion coming soon...</h1>
+                   
                   </div>
                 }
               />
@@ -75,7 +75,7 @@ function App() {
             </Routes>
             <ToastContainer
               position="bottom-left"
-              theme="dark"
+              theme="white"
             ></ToastContainer>
           </DisplayPopupProvider>
         </div>
