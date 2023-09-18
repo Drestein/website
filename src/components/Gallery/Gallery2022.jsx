@@ -72,34 +72,34 @@ const Gallery2022 = () => {
         }}
       >
         <SwiperSlide className=".swiper-slide">
-          <img alt="gallery_img" src="/GalleryAssets/1.webp" />
+          <img alt="gallery_img" src="/GalleryAssets/11.webp" />
         </SwiperSlide>
         <SwiperSlide className=".swiper-slide">
-          <img alt="gallery_img" src="/GalleryAssets/2.webp" />
+          <img alt="gallery_img" src="/GalleryAssets/12.webp" />
         </SwiperSlide>
         <SwiperSlide className=".swiper-slide">
-          <img alt="gallery_img" src="/GalleryAssets/3.webp" />
+          <img alt="gallery_img" src="/GalleryAssets/13.webp" />
         </SwiperSlide>
         <SwiperSlide className=".swiper-slide">
-          <img alt="gallery_img" src="/GalleryAssets/4.webp" />
+          <img alt="gallery_img" src="/GalleryAssets/14.webp" />
         </SwiperSlide>
         <SwiperSlide className=".swiper-slide">
-          <img alt="gallery_img" src="/GalleryAssets/5.webp" />
+          <img alt="gallery_img" src="/GalleryAssets/15.webp" />
         </SwiperSlide>
         <SwiperSlide className=".swiper-slide">
-          <img alt="gallery_img" src="/GalleryAssets/6.webp" />
+          <img alt="gallery_img" src="/GalleryAssets/16.webp" />
         </SwiperSlide>
         <SwiperSlide className=".swiper-slide">
-          <img alt="gallery_img" src="/GalleryAssets/7.webp" />
+          <img alt="gallery_img" src="/GalleryAssets/17.webp" />
         </SwiperSlide>
         <SwiperSlide className=".swiper-slide">
-          <img alt="gallery_img" src="/GalleryAssets/8.webp" />
+          <img alt="gallery_img" src="/GalleryAssets/18.webp" />
         </SwiperSlide>
         <SwiperSlide className=".swiper-slide">
-          <img alt="gallery_img" src="/GalleryAssets/9.webp" />
+          <img alt="gallery_img" src="/GalleryAssets/19.webp" />
         </SwiperSlide>
         <SwiperSlide className=".swiper-slide">
-          <img alt="gallery_img" src="/GalleryAssets/10.webp" />
+          <img alt="gallery_img" src="/GalleryAssets/20.webp" />
         </SwiperSlide>
       </Swiper>
     </GallerHeader>
