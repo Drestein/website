@@ -100,7 +100,7 @@ const Footer = () => {
               gap: "10px",
             }}
           >
-            <h1>{1700000000 + views}</h1>
+            <h1>{views}</h1>
             <VisibilityIcon
               sx={{
                 fontSize: "40px",
@@ -185,7 +185,7 @@ const Footer = () => {
               <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
             }
             >
-            VISHWARAJA 
+            VISHWARAJA R
           </Chip>
           </a>
           <a href="https://www.linkedin.com/in/manoj-mv-a9950728a/"  target="_blank" class="links">
@@ -196,7 +196,7 @@ const Footer = () => {
               <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
             }
             >
-            MANOJ MK
+            MANOJ M V
           </Chip>
           </a>
           <a href="https://www.linkedin.com/in/dinesh-kumaraa-k-091180292"  target="_blank" class="links">

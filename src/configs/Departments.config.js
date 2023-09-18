@@ -1,20 +1,21 @@
 export const departobj = [
   {
-    id: "#aids",
-    title: "Artificial Intelligence",
-    img: "/DepartmentAssets/ai.webp",
-    des: "test",
-    color: "#ff58c2",
-    bgtext: "Artif",
-  },
-  {
     id: "#agri",
     title: "Agricultural Engineering",
     img: "/DepartmentAssets/agri.webp",
     des: "test",
-    color: "#37c0ff",
+    color: "#67ff45",
     bgtext: "Agri",
   },
+  {
+    id: "#aids",
+    title: "Artificial Intelligence",
+    img: "/DepartmentAssets/ai.webp",
+    des: "test",
+    color: "#37c0ff",
+    bgtext: "Artif",
+  },
+
   {
     id: "#bme",
     title: "Bio\tMedical Engineering",
