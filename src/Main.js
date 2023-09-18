@@ -4,7 +4,7 @@ import { loadFull } from "tsparticles";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { Particle } from "./configs/partical.config";
 import styled from "styled-components";
-import Departments from "./components/Departments/Departments";
+// import Departments from "./components/Departments/Departments";
 import Gallery from "./components/Gallery/Gallery";
 import Gallery2022 from "./components/Gallery/Gallery2022";
 import Nav from "./components/Nav/Nav";
@@ -69,9 +69,9 @@ const Main = () => {
           <Counter />
         </div>
 
-      <DepartmentDiv id="Departments">
+      {/* <DepartmentDiv id="Departments">
         <Departments />
-      </DepartmentDiv>
+      </DepartmentDiv> */}
       <div
         style={{
           display: "flex",
@@ -102,9 +102,9 @@ const Main = () => {
       </div>
       
       
-      <div id="SECLife">
+      {/* <div id="SECLife">
         <About />
-      </div>
+      </div> */}
       {/* <div id="Guest">
         <Guest />
       </div> */}

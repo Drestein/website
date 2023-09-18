@@ -165,6 +165,7 @@ const Footer = () => {
           SUGAN
             </Chip>
           </a>
+          {/* <a href="https://www.linkedin.com/in/itz-akash/"  target="_blank">
           <Chip
             size="md"
             style={{ backgroundColor: "transparent" }}
@@ -172,8 +173,10 @@ const Footer = () => {
               <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
             }
             >
-            VISHWARAJ
+            AKASH 
           </Chip>
+          </a> */}
+         
           <Chip
             size="md"
             style={{ backgroundColor: "transparent" }}
@@ -190,7 +193,7 @@ const Footer = () => {
               <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
             }
           >
-            AKASH
+          VISHWARAJ
           </Chip>
         </div>
         <div className="block">

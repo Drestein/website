@@ -145,7 +145,7 @@ function Nav() {
         <Link style={{ textDecoration: "inherit" }} to="/#">
           <NavItem>Home</NavItem>
         </Link>
-        <Link style={{ textDecoration: "inherit" }} to="/#Departments">
+        <Link style={{ textDecoration: "inherit" }} to="/Departments#">
           <NavItem>Departments</NavItem>
         </Link>
         <Link style={{ textDecoration: "inherit" }} to="/Events#">
@@ -154,9 +154,10 @@ function Nav() {
         <Link style={{ textDecoration: "inherit" }} to="/form#">
           <NavItem>Register</NavItem>
         </Link>
-        <Link style={{ textDecoration: "inherit" }} to="/#About">
+        <Link style={{ textDecoration: "inherit" }} to="/Ab#">
           <NavItem>About us</NavItem>
         </Link>
+        
       </NavHead>
       <Mobilenav openMenu={openMenu} setOpenMenu={setOpenMenu} />
       <div className="icon" onClick={() => setOpenMenu(!openMenu)}>

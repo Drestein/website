@@ -9,6 +9,10 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 
+import Nav from "../Nav/Nav";
+import Footer from "../Footer/Footer";
+
+
 import RegisterBtn from "../register-button/RegisterBtn";
 import { Card } from "@mui/material";
 import { width } from "@mui/system";
@@ -36,6 +40,7 @@ function Departments() {
 
   return (
     <>
+    <Nav />
       <motion.h1
         initial={{ y: 100, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
@@ -179,6 +184,9 @@ function Departments() {
             </a>
         </Box>
       </Modal>
+      <div id="About">
+        <Footer />
+      </div>
     </>
   );
 }
