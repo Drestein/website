@@ -8,39 +8,22 @@ export const departobj = [
     bgtext: "Artif",
   },
   {
-    id: "#it",
-    title: `Information Technology`,
-    img: "/DepartmentAssets/it.webp",
+    id: "#agri",
+    title: "Agricultural Engineering",
+    img: "/DepartmentAssets/agri.webp",
     des: "test",
     color: "#37c0ff",
-    bgtext: "Tech",
+    bgtext: "Agri",
   },
   {
-    id: "#mech",
-    title: "Mechanical Engineering",
-    img: "/DepartmentAssets/mech.webp",
+    id: "#bme",
+    title: "Bio\tMedical Engineering",
+    img: "/DepartmentAssets/bme.webp",
     des: "test",
-    color: "#67ff45",
-    bgtext: "Mech",
+    color: "#ff58c2",
+    bgtext: "BioMed",
   },
-  {
-    id: "#civil",
-    title: "Civil Engineering ",
-    img: "/DepartmentAssets/civil.webp",
-    des: "test",
-    color: "#ff3b41",
-    bgtext: "Civil",
-  },
-  {
-    id: "#eee",
-    title: "Electrical\t& Electronics\tEngineering  ",
-    img: "/DepartmentAssets/eee.webp",
-    des: "test",
-    color: "#ff6d41",
-    bgtext: "Elect",
-    mbtm: "-30px",
-  },
-
+ 
   {
     id: "#chem",
     title: "Chemical Engineering",
@@ -49,13 +32,14 @@ export const departobj = [
     color: "#ff6d41",
     bgtext: "Chem",
   },
+
   {
-    id: "#agri",
-    title: "Agricultural Engineering",
-    img: "/DepartmentAssets/agri.webp",
+    id: "#civil",
+    title: "Civil Engineering ",
+    img: "/DepartmentAssets/civil.webp",
     des: "test",
-    color: "#37c0ff",
-    bgtext: "Agri",
+    color: "#ff3b41",
+    bgtext: "Civil",
   },
   {
     id: "#cse",
@@ -75,6 +59,18 @@ export const departobj = [
     bgtext: "Elect",
     mbtm: "-30px",
   },
+  
+  {
+    id: "#eee",
+    title: "Electrical\t& Electronics\tEngineering  ",
+    img: "/DepartmentAssets/eee.webp",
+    des: "test",
+    color: "#ff6d41",
+    bgtext: "Elect",
+    mbtm: "-30px",
+  },
+
+  
   {
     id: "#eie",
     title: "Electronics\t& Instrumentation\tEngineering",
@@ -85,13 +81,14 @@ export const departobj = [
     mbtm: "-30px",
   },
   {
-    id: "#bme",
-    title: "Bio\tMedical Engineering",
-    img: "/DepartmentAssets/bme.webp",
+    id: "#it",
+    title: `Information Technology`,
+    img: "/DepartmentAssets/it.webp",
     des: "test",
-    color: "#ff58c2",
-    bgtext: "BioMed",
+    color: "#37c0ff",
+    bgtext: "Tech",
   },
+
   {
     id: "#med",
     title: "Medical Electronics",
@@ -107,6 +104,14 @@ export const departobj = [
     des: "test",
     color: "#67ff45",
     bgtext: "Busin",
+  },
+  {
+    id: "#mech",
+    title: "Mechanical Engineering",
+    img: "/DepartmentAssets/mech.webp",
+    des: "test",
+    color: "#67ff45",
+    bgtext: "Mech",
   },
 ];
 

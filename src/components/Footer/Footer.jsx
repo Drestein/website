@@ -154,7 +154,7 @@ const Footer = () => {
           >
             WEBSITE CO-ORDINATORS
           </h4>
-          <a href="https://www.linkedin.com/in/sugavarathan-l-400a46256/"  target="_blank">
+          <a href="https://www.linkedin.com/in/sugavarathan-l-400a46256/"  target="_blank" class="links">
           <Chip
             size="md"
             style={{ backgroundColor: "transparent" }}
@@ -165,7 +165,7 @@ const Footer = () => {
             sugan
           </Chip>
           </a>
-          <a href="https://www.linkedin.com/in/itz-akash/"  target="_blank">
+          <a href="https://www.linkedin.com/in/itz-akash/"  target="_blank"class="links"> 
           <Chip
             size="md"
             style={{ backgroundColor: "transparent" }}
@@ -176,7 +176,7 @@ const Footer = () => {
             AKASH 
           </Chip>
           </a>
-          <a href="https://www.linkedin.com/in/vishwa-raja-a59825210/"  target="_blank">
+          <a href="https://www.linkedin.com/in/vishwa-raja-a59825210/"  target="_blank" class="links">
           <Chip
             size="md"
             style={{ backgroundColor: "transparent" }}
@@ -187,7 +187,7 @@ const Footer = () => {
             vishwaraja
           </Chip>
           </a>
-          <a href="https://www.linkedin.com/in/manoj-mv-a9950728a/"  target="_blank">
+          <a href="https://www.linkedin.com/in/manoj-mv-a9950728a/"  target="_blank" class="links">
           <Chip
             size="md"
             style={{ backgroundColor: "transparent" }}
@@ -198,7 +198,7 @@ const Footer = () => {
             manoj
           </Chip>
           </a>
-          <a href="https://www.linkedin.com/in/dinesh-kumaraa-k-091180292"  target="_blank">
+          <a href="https://www.linkedin.com/in/dinesh-kumaraa-k-091180292"  target="_blank" class="links">
           <Chip
             size="md"
             style={{ backgroundColor: "transparent" }}
