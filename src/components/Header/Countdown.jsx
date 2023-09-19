@@ -4,8 +4,8 @@ import "./styles/countdown.scss";
 const CountDown = () => {
   const end = new Date();
   end.setFullYear(2023);
-  end.setMonth(11);
-  end.setDate(2);
+  end.setMonth(10);
+  end.setDate(5);
   end.setHours(2);
   end.setMinutes(60);
 
