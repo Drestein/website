@@ -202,8 +202,8 @@ function Main() {
           </DresteinText>
 
           <NationText className="nation ">
-            14<sup>th</sup> National level inter collegiate technical and
-            management fest
+            14<sup>th</sup> National Level Inter Collegiate Technical and
+            Management Fest
           </NationText>
         </HeaderMainText>
         <Timer className="timer">
