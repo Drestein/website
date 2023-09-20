@@ -92,7 +92,7 @@ body {
   background-image: url("../src/assets/earth.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 50%;
+  background-size: contain;
   position: absolute;
   /* margin-top: -60vh; */
   min-width: 100%;
