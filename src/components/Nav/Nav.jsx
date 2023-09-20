@@ -32,7 +32,7 @@ const Navbar = styled.nav`
 `;
 
 const SLogo = styled.img`
-  width: 35%;
+  width: 38%;
   height: auto;
   @media screen and (max-width: 600px) {
     width: 90%;

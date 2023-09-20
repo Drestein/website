@@ -31,19 +31,19 @@ const Mobilenav = ({ openMenu, setOpenMenu }) => {
           >
             <li>SPECIAL EVENTS</li>
           </Link> */}
-          <Link
+          {/* <Link
             style={{ textDecoration: "inherit" }}
             onClick={() => setOpenMenu(!openMenu)}
             to="/#Gallery"
           >
             <li>MEMORIES 2021</li>
-          </Link>
+          </Link> */}
           <Link
             style={{ textDecoration: "inherit" }}
             onClick={() => setOpenMenu(!openMenu)}
             to="/#Gallery2022"
           >
-            <li>MEMORIES 2022</li>
+            <li>MEMORIES </li>
           </Link>
           <Link
             style={{ textDecoration: "inherit" }}
