@@ -9,7 +9,24 @@
  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 0.5rem;
 }
-
+.counter-fun{
+  margin-top: 1vh;
+  align-items: center;
+  justify-content: center;
+  @media only screen and (max-width: 600px) {
+    font-size: 10vw;
+    width: 13vw;
+  }
+  font-size: 5vw;
+  width: 7vw;
+ 
+  background: transparent;
+  box-shadow: 0 4px 30px rgba(210, 237, 3, 0.752);
+  backdrop-filter: blur(11.5px);
+  -webkit-backdrop-filter: blur(11.5px);
+  border: 1px solid rgb(213, 190, 20);
+  border-radius: 1rem;
+}
 .counter-column {
   font-family: "Monterrat";
   flex-grow: 1;

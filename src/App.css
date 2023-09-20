@@ -89,10 +89,10 @@ body {
 }
 
 .img {
-  /*background-image: url("../src/assets/design_-_48420\ \(1080p\).mp4");*/
+  background-image: url("../src/assets/earth.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 50%;
   position: absolute;
   /* margin-top: -60vh; */
   min-width: 100%;

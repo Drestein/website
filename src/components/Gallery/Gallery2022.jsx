@@ -48,7 +48,7 @@ const Gallery2022 = () => {
         whileInView="onscreen"
         variants={text}
       >
-        <div className="GalleryHeadTxt">Memories 2022</div>
+        <div className="GalleryHeadTxt">Memories </div>
       </Head>
       <Swiper
         autoplay={{
@@ -71,6 +71,36 @@ const Gallery2022 = () => {
           slideShadows: true,
         }}
       >
+         <SwiperSlide className=".swiper-slide">
+          <img alt="gallery_img" src="/GalleryAssets/1.webp" />
+        </SwiperSlide>
+        <SwiperSlide className=".swiper-slide">
+          <img alt="gallery_img" src="/GalleryAssets/2.webp" />
+        </SwiperSlide>
+        <SwiperSlide className=".swiper-slide">
+          <img alt="gallery_img" src="/GalleryAssets/3.webp" />
+        </SwiperSlide>
+        <SwiperSlide className=".swiper-slide">
+          <img alt="gallery_img" src="/GalleryAssets/4.webp" />
+        </SwiperSlide>
+        <SwiperSlide className=".swiper-slide">
+          <img alt="gallery_img" src="/GalleryAssets/5.webp" />
+        </SwiperSlide>
+        <SwiperSlide className=".swiper-slide">
+          <img alt="gallery_img" src="/GalleryAssets/6.webp" />
+        </SwiperSlide>
+        <SwiperSlide className=".swiper-slide">
+          <img alt="gallery_img" src="/GalleryAssets/7.webp" />
+        </SwiperSlide>
+        <SwiperSlide className=".swiper-slide">
+          <img alt="gallery_img" src="/GalleryAssets/8.webp" />
+        </SwiperSlide>
+        <SwiperSlide className=".swiper-slide">
+          <img alt="gallery_img" src="/GalleryAssets/9.webp" />
+        </SwiperSlide>
+        <SwiperSlide className=".swiper-slide">
+          <img alt="gallery_img" src="/GalleryAssets/10.webp" />
+        </SwiperSlide>
         <SwiperSlide className=".swiper-slide">
           <img alt="gallery_img" src="/GalleryAssets/11.webp" />
         </SwiperSlide>

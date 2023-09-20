@@ -5,7 +5,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { Particle } from "./configs/partical.config";
 import styled from "styled-components";
 // import Departments from "./components/Departments/Departments";
-import Gallery from "./components/Gallery/Gallery";
+// import Gallery from "./components/Gallery/Gallery";
 import Gallery2022 from "./components/Gallery/Gallery2022";
 import Nav from "./components/Nav/Nav";
 import Header from "./components/Header/Header";
@@ -94,9 +94,9 @@ const Main = () => {
           alt="banner"
         />
       </div>
-      <div id="Gallery">
+      {/* <div id="Gallery">
         <Gallery />
-      </div>
+      </div> */}
       <div id="Gallery2022">
         <Gallery2022 />
       </div>

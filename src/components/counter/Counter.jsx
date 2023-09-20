@@ -40,9 +40,11 @@ const Counter = ({ ...rest }) => {
             Total <br /> Events{" "}
           </span>
         </div>
+        
         <div className="counter-column">
+        <div className="counter-fun">
           <strong data-number="5">
-            <CountUp {...rest} start={viewPortEntered ? null : 0} end={5}>
+            <CountUp {...rest} start={viewPortEntered ? null : 0} end={7}>
               {({ countUpRef }) => {
                 return (
                   <VisibilitySensor
@@ -58,6 +60,7 @@ const Counter = ({ ...rest }) => {
               }}
             </CountUp>
           </strong>
+          </div>
           <span>
             Lakhs+ <br /> Prizes{" "}
           </span>
