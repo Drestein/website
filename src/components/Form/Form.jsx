@@ -507,7 +507,7 @@ const Form = () => {
                 Registration coming soon...
               </div>
             ) : null}
-            {0 ? (
+            {0 ? ( // wha to change 1 for registion
               <form
                 onSubmit={handlesubmit}
                 style={{ marginInline: "auto" }}

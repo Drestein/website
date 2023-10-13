@@ -7,13 +7,24 @@ export const departobj = [
     color: "#67ff45",
     bgtext: "Agri",
   },
+ 
   {
     id: "#aids",
-    title: "Artificial Intelligence",
+    title: "Artificial\tIntelligence\t& Data\tScience",
+    img: "/DepartmentAssets/ece.webp",
+    des: "test",
+    color: "#ff3b41",
+    bgtext: "data",
+  
+  },
+
+  {
+    id: "#aiml",
+    title: "Artificial\tIntelligence\t& Machine\tLearning",
     img: "/DepartmentAssets/ai.webp",
     des: "test",
     color: "#37c0ff",
-    bgtext: "Artif",
+    bgtext: "Machine",
   },
 
   {
@@ -50,13 +61,21 @@ export const departobj = [
     color: "#67ff45",
     bgtext: "Compu",
   },
+  {
+    id: "#csiot",
+    title: "Cyber\tSecurity\t& Internet\tOf\tThings",
+    img: "/DepartmentAssets/ai.webp",
+    des: "test",
+    color: "#CDCD00",
+    bgtext: "network",
+  },
 
   {
     id: "#ece",
     title: "Electronics\t& Communication\tEngineering",
     img: "/DepartmentAssets/ece.webp",
     des: "test",
-    color: "#37c0ff",
+    color: "#ff58c2",
     bgtext: "Elect",
     mbtm: "-30px",
   },
@@ -95,7 +114,7 @@ export const departobj = [
     title: "Medical Electronics",
     img: "/DepartmentAssets/med.webp",
     des: "test",
-    color: "#ff6d41",
+    color: "#ff3b41",
     bgtext: "Medi",
   },
   {
@@ -103,7 +122,7 @@ export const departobj = [
     title: "Master\tof\tBusiness Administration",
     img: "/DepartmentAssets/mba.webp",
     des: "test",
-    color: "#67ff45",
+    color: "#CDCD00",
     bgtext: "Busin",
   },
   {
@@ -133,5 +152,13 @@ export const comobj = [
     des: "test",
     color: "#ff3b41",
     bgtext: "Proj",
+  },
+  {
+    id: "#proster",
+    title: "Proster Presentation",
+    img: "/DepartmentAssets/proj.webp",
+    des: "test",
+    color: "#ff58c2",
+    bgtext: "Pros",
   },
 ];
