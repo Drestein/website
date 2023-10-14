@@ -27,7 +27,7 @@
     "react-qr-reader": "^3.0.0-beta-1",
     "react-router-dom": "^6.4.2",
     "react-router-hash-link": "^2.4.3",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "react-toastify": "^9.0.8",
     "react-tsparticles": "^2.3.3",
     "react-visibility-sensor": "^5.1.1",
