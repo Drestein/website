@@ -1200,7 +1200,670 @@ export const EventDetails = [
   },
   {
     id: "aids",
-    title: "Artificial Intelligence",
+    title: "Artificial Intelligence and Data Science",
+    eventslist: [
+      {
+        name: "Design Battle ",
+        // tagline: "Code Treasure Hunt",
+        date: "02 Nov 2023(AN)",
+        type: "TEAM",
+        venue: "AI&DS department",
+        time: "1.00pm-4.00pm",
+        members: "2-4",
+        note:
+          " Lab facilities are provided and equipped with Fusion 360 software. If you are familiar with other software, please bring your own laptop with the required software installed",
+        round1title:"Text-Based Design Challenge ",        
+          round1:
+          " Participants will be provided with a text-based description of a 3D model. Participants must comprehend the description and create the 3D model using required software  Time constraints will be specified, and participants must complete their designs within the given time limit. Creativity and precision in design will be evaluated",
+        round2title:"Precision Measurement and Innovative Approach ",
+        round2:
+          " Participants will receive specific measurements for a 3D model.  Precision in the design according to the provided measurements is crucial.  Participants must choose appropriate methods and tools within required software to achieve accurate results.  Time constraints will be enforced for this round",
+        round3title:" Image Replication Challenge ",
+        round3:
+          "Participants will be given an image based on a random number and participant pairing. Participants must replicate the 3D model depicted in the given image using Autodesk Fusion 360. Accuracy in replicating the image, as well as creative problem-solving in overcoming design challenges, will be evaluated. Participants must utilize efficient methods and tools within software to complete the replication task. Time constraints will be applied, and participants must finish their replication within the specified time limit",
+
+        tag: "EVENT",
+        color: "0, 1, 38",
+        logo: "/EventsAssets/ai1.webp",
+        staff: [
+          {
+            name: "Ms.Thilagavathy S ",
+            desig: "Assistant Professor ",
+            phone: 9894736509 ,
+            email: "thilagavathys@saveetha.ac.in ",
+          },
+          {
+            name: "Mrs. Jesila Mol J ",
+            desig: "Assistant Professor",
+            phone: 9994182867 ,
+            email: "jesilamolj@saveetha.ac.in ",
+          },
+        ],
+        student: [
+          {
+            name: "Ashwin A O  ",
+            year: "IV ",
+            phone: 9159425427 ,
+            email: "aoashwin29.aa@gmail.com ",
+          },
+
+          {
+            name: "Venkatesh E",
+            year: "III",
+            phone: 6369797142 ,
+            email:"Ven281003@gmail.com ",
+          },
+          {
+            name: "Swathika G ",
+            year: "III",
+            phone: 9363271257  ,
+            email:"gswathika43@gmail.com ",
+          },
+          {
+            name: "JEEVAGOWTHAM ",
+            year: "II",
+            phone: 8015730316  ,
+            email:"itszva1436@gmail.com   ",
+          },
+        ],
+      },
+
+      {
+        name: "PROMPT YOUR WAY THRU ",
+        date: "03 Nov 2023(FN)",
+        type: "3-4",
+        venue: "AI&DS department",
+        time: "9.00am-12.00pm",
+        members: "1-2",
+        // rules:
+      
+        //   "3-4 participants in each group.No electronic devices are allowed to be used.Clues will be given on spot",
+      round1title:"IMAGE PROMPTING ",      
+        round1:
+          "From a pool of images each participant will be given one image . From the AI website given to them , they must prompt in the website to get a precise image. Maximum prompt limit is 10.They must upload their prompt image in a provided website to check for similarities and are ranked in order. 50% of the participants are qualified to the next round ",
+        round2title:"OPEN BOOK CHALLENGE",
+          round2:
+          " Participants will be given a dataset and they must create a Machine Learning Model to fit the dataset and train it.Participants can refer to any website except AI Based Chatbots like Bard, Chatgpt etc They have to complete it in the given time limit",
+        round3title:"PRESENTATION",       
+          round3:
+          "Participants have to understand and create visualizations for the dataset provided and must present their understanding about the data",
+        tag: "EVENT",
+        color: "0, 1, 38",
+        logo: "/EventsAssets/ai2.webp",
+        staff: [
+          {
+            name: "Mr. Dhinesh Kumar K S ",
+            desig: "Assistant Professor",
+            phone: 9176338438 ,
+            email: "dhineshkumarks@saveetha.ac.in ",
+          },
+          {
+            name: "Mr.Ramachandran V ",
+            desig: "Assistant Professor",
+            phone: 99940736,
+            email: "ramchandranv@saveetha.ac.in ",
+          },
+        ],
+        student: [
+          {
+            name: "Jayashree Rao  ",
+            year: "IV",
+            phone: 9962926229 ,
+            email: "jayashreerao1510@gmail.com ",
+          },
+          {
+            name: "Lokesh Krishnaa ",
+            year: "IV ",
+            phone: 9962595534 ,
+            email: "lokeshkrishnaa2003@gmail.com ",
+          },
+          {
+            name: "Sherwin Roger ",
+            year: "IV",
+            phone: 9789820475 ,
+            email: "sherwinroger02@gmail.com ",
+          },
+          {
+            name: "Someasvar R ",
+            year: "III",
+            phone: 9786053400 ,
+            email: "deepakbakiya455@gmail.com ",
+          },
+        ],
+      },
+
+      {
+        name: "Mind Swap",
+        date: "02 Nov 2023(AN)",
+        type: "Max 2",
+        venue: "AI&DS department",
+        time: "1.00pm - 4:00pm",
+        members: "2",
+        rules:
+          "ANY PROGRAMMING LANGUAGE IS ALLOWED .HACKER RANK ACCOUNT IS COMPULSORY TEAM SIZE = 2 ",
+       round1title:"Coding Relay ",
+          round1:
+          " Get ready for a thrilling role swap between your team members every 4 minutes.One teammate codes while the other tackles problems on paper, making sure both sides of your brain get a workout",
+        round2title:"Understanding and Coding ",
+          round2:
+          "-It's a test of communication and coding skills. You'll have a brief period to grasp the problem individually, and then you'll need to explain it to your partner in just 2 minutes.Afterward, you'll switch roles, with each teammate coding a solution based on their partner's explanation, but you'll only see sample input/output. The clock will be ticking!",
+       round3title:"Syntax Mastery ",
+          round3:
+          "Prepare to enter the world of a new programming language. You'll be given a limited time to learn the basics. Then, face five challenging questions where your score is based on the number of test cases your code successfully passes.And remember, your highest score for each challenge counts",
+
+        tag: "EVENT",
+        color: "0, 1, 38",
+        logo: "/EventsAssets/ai3.webp",
+        staff: [
+          {
+            name: "Mrs. Surya S ",
+            desig: "Assistant Professor",
+            phone: 8144718424 ,
+            email: "suryas@saveetha.ac.in ",
+          },
+          {
+            name: "Mrs. Selvanayaki S ",
+            desig: "Assistant Professor (SG )",
+            phone: 9840024511 ,
+            email: "selvanayakis@saveetha.ac.in ",
+          },
+        ],
+        student: [
+          {
+            name: "S.Sanjay ",
+            year: "III",
+            phone: 6382271940 ,
+            email: "sanjayshankar91@gmail.com ",
+          },
+          {
+            name: "SV RohithKumar ",
+            year: "III",
+            phone: 8300102075 ,
+            email: "svrohitds.ai@gmail.com ",
+          },
+          {
+            name: "Leann Joby Mathew ",
+            year: "II",
+            phone: 9176904015 ,
+            email: "leannjoby@gmail.com ",
+          },
+          {
+            name: "Sarveshvaran.P ",
+            year: "III",
+            phone: 7358479962 ,
+            email: "krishsarveshvaran18@gmail.com ",
+          },
+        ],
+      },
+      {
+        name: "Pick Your Filter",
+        date: "02 Nov 2023(FN)",
+        type: "Max 3",
+        venue: "AI&DS department",
+        time: "10am-12pm",
+        members: "2-4",
+        // rules:
+        //   "Programming Language (Hypertext Markup Language (HTML), CSS(no sass) , Java Script, etc. Maximum 3 members per group.Bringing your own personal computer/laptop is mandatory.Students have to design a web page on any one of the specified topics and present it to the judges.Use of USB drive is strictly prohibited.Using pre-made templates is strictly prohibited. Extra Modules and plugins like Angular, react etc are prohibited .Browsing history, downloads and recycle bin should not be cleared from the start to end of the event to ensure no malpractice is done",
+      round1title:"Learning Filters ",
+        round1:
+          "programming Language : python  participants will be explained about .how to load an image. how to save an image .changing image colors. implementing filters and the effects of the filter on the image. the round will span for about 30 minutes of explanation and 15 minutes for one on one doubt clearing ",
+      round2title:"Challenge Round ",
+        round2:
+          "Each Team will be provided with a colab link will are the required source coding, and 10 picture.Teams have to change parameters to make sure the image is as unrecognizable as possible, laying two different methods is allowed .However, extreme points such as very clear or blurred to the point where only a blank screen is present shall not be accepted .All teams will be given a maximum of 30 minutes to filter all pictures. Once the pictures are filtered, they should upload the images to the respective drive folder assigned  . Once all pictures are filtered, the pictures are passed to other teams .The teams have to guess the images, a pen and paper will be given to the participants to make their guesses  If a team has guess all 10 pictures, another 10 pictures from any other team shall be given . Score : 1 point for every image correctly guessed , -1 point for every wrong image guessed .Maximum time allotted to guess the images:  20 mins ",
+        tag: "EVENT",
+        color: "0, 1, 38",
+
+        logo: "/EventsAssets/ai4.webp",
+        staff: [
+          {
+            name: "Ms.S.Shanmuga Priya ",
+            desig: "Assistant Professor",
+            phone: 9094623070 ,
+            email: "shanmugapriyas@saveetha.ac.in ",
+          },
+          {
+            name: "Ms.Ranjani A ",
+            desig: "Assistant Professor",
+            phone: 9600878427 ,
+            email: "ranjania@saveetha.ac.in ",
+          },
+        ],
+        student: [
+          {
+            name: " Safa S ",
+            year: "IV",
+            phone: 755012566,
+            email: "safasiraj006@gmail.com ",
+          },
+          {
+            name: "Kaushika A ",
+            year: "III",
+            phone: 9940674299 ,
+            email: "kaushika.anandh@gmail.com ",
+          },
+          {
+            name: "Ashwin Raaj S ",
+            year: "III",
+            phone: 7904748817 ,
+            email: "ashwinraajs2003@gmail.com ",
+          },
+          {
+            name: "Jayakrishnan ",
+            year: "II",
+            phone: 6383445779 ,
+            email: "ibljai004@gmail.com ",
+          },
+        
+        ],
+      },
+      {
+        name: "MARVEL QUEST",
+        date: "03 Nov 2023(FN)",
+        type: "2 member",
+        venue: "AI&DS department",
+        time: "9am-12pm",
+        members: "2",
+        rules:
+          "Teams consist of 3 members, laptop mandatory, self-formed or assigned . Skills: Marvel movie knowledge, math problem-solving, Python programming. Rounds include varied challenges: math, programming, and movie-related questions. Fair play and no plagiarism enforced; cheating leads to disqualification. Scoring: Scores will be calculated based on accuracy, creativity, and problem-solving skills. Points will be deducted for excessive hint usage, promoting fair competition ",
+        round1:
+          "Marvel-themed math problems to solve, code the solutions in Python. Participants will analyze Marvel movie scenes, characters, or plots.  Identification challenges from Marvel audio, images, or videos.  Focus: Basic math, Python programming, and movie knowledge. Hints: Participants can request hints for each question. Excessive usage of hints will result in score deductions",
+        round2:
+          "Complex Marvel-themed math problems, code solutions in Python. Participants will analyze Marvel movie scenes, characters, or plots.   Identification challenges from Marvel audio, images, or videos. Focus: Intermediate math, Python programming, and movie knowledge. Hints: Participants can request hints for each question. Excessive usage of hints will result in score deductions",
+        round3title:"Marvel Movie Trivia and Creative Problem-Solving ",
+          round3:
+          "Advanced Marvel-themed math problems, code solutions in Python.  Identification challenges from Marvel audio, images, or videos. Focus: Expert math, expert Python programming, and movie identification. Hints: Participants can request hints for each question. Excessive usage of hints will result in score deductions",
+        tag: "EVENT",
+        color: "0, 1, 38",
+        logo: "/EventsAssets/ai5.webp",
+        staff: [
+          {
+            name: "Mr.K.Nagendran ",
+            desig: "Assistant Professor ",
+            phone: 9443663956 ,
+            email: "nagendrank@saveetha.ac.in ",
+          },
+          {
+            name: "Ms.Divya S ",
+            desig: "Assistant Professor",
+            phone: 6382673887 ,
+            email: "sdivyaa@saveetha.ac.in ",
+          },
+          {
+            name: " Ms.Jaashika.K.M ",
+            desig: "Assistant Professor",
+            phone: 9003914260  ,
+            email: "jaashikakm@saveetha.ac.in ",
+          },
+        ],
+        student: [
+          {
+            name: " Surya R ",
+            year: "IV",
+            phone: 9344857514 ,
+            email: "ramasamysurya17@gmail.com ",
+          },
+          {
+            name: "Prethiveerajan P ",
+            year: "III",
+            phone: 6369687443 ,
+            email: "prethiveerajan40@gmail.com ",
+          },
+          {
+            name: "S.Jegathish",
+            year: "III",
+            phone: 7397293789 ,
+            email: "jegathish162004@gmail.com ",
+          },
+          {
+            name: "Delli Priya Loganathan ",
+            year: "II",
+            phone: 7845921709 ,
+            email: "priyaloganathan753@gmail.com ",
+          },
+        ],
+      },
+    ],
+    workshopslist: [
+      {
+        name: "Stock Market Investing: From Beginner to Pro ",
+        logo: "/EventsAssets/aiw1.webp",
+        tag: "WORKSHOP",
+        color: "0, 70, 90",
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSelczRKs8BpNXoFTGMMwqUpuAqHabroYLMm-QcYfsBiipP39A/viewform",
+        day1: {
+          date: "26.11.2023",
+          time: "9.00-3.00pm",
+          mode: "OFFLINE",
+          venue: "AI&DS department",
+          topic:
+            "Introduction to the stock market. What is the stock market?.How does the stock market work? . Different types of stocks .How to read stock quotes . Fundamental analysis . What is fundamental analysis?.How to analyze a company's financial statements . How to identify undervalued stocks. Investing strategies . Different investment strategies, such as value investing, growth investing, and dividend investing .How to choose the right investment strategy for you  .How to build a diversified portfolio ",
+          resource: [
+            {
+              name: "Mr. Srivatsan Ranganathan ",
+              desig: "practising Chartered Accountant ",
+              phone: 9176639320,
+              email: "sibirabi@gmail.com ",
+            },
+          ],
+          staff: [
+            {
+              name: "Dr.Hemavathy P ",
+              desig: "Assistant Professor",
+              phone: 956606222 ,
+              email: "hemavathyp@saveetha.ac.in ",
+            },
+          ],
+          student: [
+            {
+              name: "AAKAASH V P  ",
+              year: "IV",
+              phone: 9629519090 ,
+              email: "aakaashvp0@gmail.com ",
+            },
+            {
+              name: "Meenakshi. M ",
+              year: "III",
+              phone: 9791092131 ,
+              email: "meenakshiapril25@gmail.com ",
+            },
+            {
+              name: "Baggu Dhivya Shri ",
+              year: "III",
+              phone: 9790985669 ,
+              email: "484dhivya.b@gmail.com  ",
+            },
+            {
+              name: " Kaushika A ",
+              year: "III",
+              phone: 9940674299 ,
+              email: "kaushika.anandh@gmail.com ",
+            },
+          ],
+        },
+        day2: {
+          date: "27.11.2023",
+          time: "9.00-3.00pm",
+          mode: "OFFLINE",
+          venue: "AI&DS department",
+          topic:
+            "Technical analysis .What is technical analysis? .How to use charts and technical indicators to analyze stocks . Risk management .What is risk management? .How to identify and manage risk in your investments .How to develop a risk management plan. Trading What is trading? .   Different types of trading orders .How to execute trades .How to develop a trading plan ",
+          resource: [
+            {
+              name: "Mr. Srivatsan Ranganathan ",
+              desig: "practising Chartered Accountant ",
+              phone: 9176639320,
+              email: "sibirabi@gmail.com ",
+            },
+          ],
+          staff: [
+            {
+              name: "Dr.Hemavathy P ",
+              desig: "Assistant Professor",
+              phone: 956606222 ,
+              email: "hemavathyp@saveetha.ac.in ",
+            },
+          ],
+          student: [
+            {
+              name: "AAKAASH V P  ",
+              year: "IV",
+              phone: 9629519090 ,
+              email: "aakaashvp0@gmail.com ",
+            },
+            {
+              name: "Meenakshi. M ",
+              year: "III",
+              phone: 9791092131 ,
+              email: "meenakshiapril25@gmail.com ",
+            },
+            {
+              name: "Baggu Dhivya Shri ",
+              year: "III",
+              phone: 9790985669 ,
+              email: "484dhivya.b@gmail.com  ",
+            },
+            {
+              name: " Kaushika A ",
+              year: "III",
+              phone: 9940674299 ,
+              email: "kaushika.anandh@gmail.com ",
+            },
+          ],
+        },
+      },
+      {
+        name: "GAME CRAFT : An Introduction to Game Development",
+        logo: "/EventsAssets/aiw2.webp",
+        tag: "WORKSHOP",
+        color: "0, 70, 90",
+        company:"Monolith Research and Training Labs",
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSdvQNXVEr5jPksC-x-uk3Cs7sOuB0uTgwYr1qGsn9Brh-UCFw/viewform",
+        day1: {
+          date: "30.11.2023 ",
+          time: "9.00-3.00",
+          mode: "OFFLINE",
+          venue: "AI&DS department",
+          topic: "Introduction to Unreal Engine .Overview of Unreal Engine and Game Development . Installing Unreal Engine and Setting Up the Development Environment . Navigating the Unreal Engine Editor . Creating Your First Level. Basic Blueprint Scripting for Game Logic .Game Design Principles in Unreal Engine .Advanced Blueprint Scripting . Character and Animation Setup . Particle Effects and Audio Integration . Introduction to Materials and Shaders ",
+          resource: [
+            {
+              name: "Mr.Ranjeet Kumar  ",
+              desig: "Senior Faculty AVGC ",
+              phone: 9944442697 ,
+              email: "rdhandapani@monolith6.academy ",
+            },
+          ],
+          staff: [
+            {
+              name: "Dr.Gowri Ganesh N S ",
+              desig: "Assistant Professor",
+              phone: 9894602326 ,
+              email: "gowriganeshns@saveetha.ac.in ",
+            },
+          ],
+          student: [
+            {
+              name: "Divya Meenakshi  ",
+              year: "IV",
+              phone: 9384638183 ,
+              email: "divyakavya24@gmail.com  ",
+            },
+            {
+              name: "V.NAVYA ",
+              year: "III",
+              phone: 8248737694 ,
+              email: "navyavenkat03@gmail.com ",
+            },
+            {
+              name: "Nithishkumar. P ",
+              year: "III",
+              phone: 9884793751 ,
+              email: "2003nithishkumar@gmail.com ",
+            },
+            {
+              name: "V.DHARSHAN ",
+              year: "III",
+              phone: 9360258225  ,
+              email: "dharshanvenkat99@gmail.com ",
+            },
+          ],
+        },
+        day2: {
+          date: "31.11.2023 ",
+          time: "9.00-3.00pm",
+          mode: "OFFLINE",
+          venue: "AI&DS department",
+          topic: "Building Your Game World . Optimizing and Testing Your Game . Packaging and Deployment . Monetization and Publishing Strategies  ",
+          resource: [
+            {
+              name: "Mr.Ranjeet Kumar  ",
+              desig: "Senior Faculty AVGC ",
+              phone: 9944442697 ,
+              email: "rdhandapani@monolith6.academy ",
+            },
+          ],
+          staff: [
+            {
+              name: "Dr.Gowri Ganesh N S ",
+              desig: "Assistant Professor",
+              phone: 9894602326 ,
+              email: "gowriganeshns@saveetha.ac.in ",
+            },
+          ],
+          student: [
+            {
+              name: "Divya Meenakshi  ",
+              year: "IV",
+              phone: 9384638183 ,
+              email: "divyakavya24@gmail.com  ",
+            },
+            {
+              name: "V.NAVYA ",
+              year: "III",
+              phone: 8248737694 ,
+              email: "navyavenkat03@gmail.com ",
+            },
+            {
+              name: "Nithishkumar. P ",
+              year: "III",
+              phone: 9884793751 ,
+              email: "2003nithishkumar@gmail.com ",
+            },
+            {
+              name: "V.DHARSHAN ",
+              year: "III",
+              phone: 9360258225  ,
+              email: "dharshanvenkat99@gmail.com ",
+            },
+          ],
+        },
+      },
+      {
+        name: "Reality Remix: VR & AR Essentials",
+        logo: "/EventsAssets/aiw3.webp",
+        tag: "WORKSHOP",
+        color: "0, 70, 90",
+        company:"Monolith Research and Training Labs",
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSe4vrqp0lMhP4C7fE2NtrH8WRhZGUpWk1tX-Z2NGa5AdJ3MNQ/viewform",
+        day1: {
+          date: "27.11.2023",
+          time: "9.00am-3.00pm",
+          mode: "OFFLINE",
+          venue: "AI&DS department",
+          topic:
+            "Understanding the Difference Between AR and VR .Dive into Augmented Reality (AR). What is AR? .Real-World Applications of AR .Hands-on Experience with AR App.Exploring Virtual Reality .Introduction  What is VR? . Real-World Applications of VR .Hands-on Experience with VR Devices .Comparing AR a,nd VR  ",
+          resource: [
+            {
+              name: "Mr. MuthuKrishna C M ",
+              desig: "Senior Faculty SVGC  ",
+              phone: 8124177477 ,
+              email: "mkrishna@monolith.academy  ",
+            },
+          ],
+          staff: [
+            {
+              name: "Dr.Kumaravel R ",
+              desig: "Professor ",
+              phone: 9943177965 ,
+              email: "kumaravelur@saveetha.ac.in ",
+            },
+          ],
+          student: [
+            {
+              name: "Dinesh Kumar. S ",
+              year: "IV",
+              phone: 9176218130 ,
+              email: "k021617@gmail.com ",
+            },
+            {
+              name: "Lakshmi Priya. P ",
+              year: "III",
+              phone: 9840792096 ,
+              email: "plakshmipriya82@gmail.com ",
+            },
+            {
+              name: "Evangelin.S ",
+              year: "III",
+              phone: 9791102890 ,
+              email: "evangelinshelton@gmail.com  ",
+            },
+            {
+              name: "Nathin R  ",
+              year: "II",
+              phone: 9600292350  ,
+              email: "rnathin10@gmail.com ",
+            },
+          ],
+        },
+        day2: {
+          date: "28.11.2022",
+          time: "9.00-3.00pm",
+          mode: "OFFLINE",
+          venue: "AI&DS department",
+          topic:
+            "Creating Your Own AR and VR App . Overview of AR and VR Development Tools.Step-by-Step Guide to Building a Simple AR/VR App .Participants work on creating their own AR or app. Future Trends and Opportunities in AR and VR  ",
+            resource: [
+              {
+                name: "Mr. MuthuKrishna C M ",
+                desig: "Senior Faculty SVGC  ",
+                phone: 8124177477 ,
+                email: "mkrishna@monolith.academy  ",
+              },
+            ],
+            staff: [
+              {
+                name: "Dr.Kumaravel R ",
+                desig: "Professor ",
+                phone: 9943177965 ,
+                email: "kumaravelur@saveetha.ac.in ",
+              },
+            ],
+            student: [
+              {
+                name: "Dinesh Kumar. S ",
+                year: "IV",
+                phone: 9176218130 ,
+                email: "k021617@gmail.com ",
+              },
+              {
+                name: "Lakshmi Priya. P ",
+                year: "III",
+                phone: 9840792096 ,
+                email: "plakshmipriya82@gmail.com ",
+              },
+              {
+                name: "Evangelin.S ",
+                year: "III",
+                phone: 9791102890 ,
+                email: "evangelinshelton@gmail.com  ",
+              },
+              {
+                name: "Nathin R  ",
+                year: "II",
+                phone: 9600292350  ,
+                email: "rnathin10@gmail.com ",
+              },
+            ],
+          student: [
+            {
+              name: "Fawziya A  ",
+              year: "III",
+              phone: 9790619169,
+              email: "fawziya267@gmail.com  ",
+            },
+            {
+              name: "Paarkavya B  ",
+              year: "II",
+              phone: 8122429102,
+              email: "paarkavy.bv@gmail.com ",
+            },
+          ],
+        },
+      },
+    ],
+  },
+  {
+    id: "aiml",
+    title: "Artificial Intelligence and Machine Learning",
     eventslist: [
       {
         name: "Code and Debug",
@@ -1651,7 +2314,7 @@ export const EventDetails = [
         logo: "/EventsAssets/aiw3.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
-
+      
         link: "https://docs.google.com/forms/d/e/1FAIpQLSe4vrqp0lMhP4C7fE2NtrH8WRhZGUpWk1tX-Z2NGa5AdJ3MNQ/viewform",
         day1: {
           date: "14.11.2022",
@@ -4071,66 +4734,67 @@ export const EventDetails = [
     title: "Electronics and Communication Engineering",
     eventslist: [
       {
-        name: "ElectroBlitz ",
-        date: "18 Nov 2022(FN)",
+        name: "Circuit Cruiser",
+        date: "02 Nov 2023(FN)",
         type: "Team",
-        venue: "ECE GF SH 1 & ECE GF SH 2",
-        time: "Forenoon",
+        venue: "",
+        time: "9.00 am - 1,00pm",
         members: "2",
         color: "0, 1, 38",
         rules: "",
-        round1title: " Mind Sweeper-The Tech Quiz ",
+        round1title: "Circuit Tracing",
         round1:
-          "Two members of the team have to attend the quiz separately, The marks of both will be the Team’s Mark. The technical-based questions will be displayed on the projector screen. Each question carries 1 mark, we have a bonus question that carries  2 marks in between every 5 questions. The team which scores more points will be qualified for the next leve  Note:  No mobile phones are allowed inside the hall ",
-        round2title: "Debugging",
+          "Each team will be provided with a complex circuit. Participants can choose their circuit design from 10 available options. Participants must accurately trace the path of the current through the selected circuit.Only one attempt is allowed per circuit. Time limits may be imposed for each circuit tracing challenge ",
+        round2title: "Component Challenge",
         round2:
-          "  The teams for Round 2 will be decided based on the Team’ Score in the Round 1. In this round the team members can be Played as a team.   The event tests the ability of participants to find errors in circuits and correct them so that the required function is achieved.  Participants are required to list out the errors in the circuits given to them and the necessary corrections. If they ask you to find the output, Find it out with the circuit given. The questions will be descriptive in nature and the participants will be required to list out the errors they have corrected, including circuit diagrams if required Note:  No mobile phones are allowed. No discussions are allowed ",
-        round3title: "Spectrum Analysis  ",
+          " A team can choose a circuit they prefer to build from the given options. The circuits will be of any subject related to ECE. Two teams may also combine for this round. Participants will be provided with components specific to their chosen circuit.If participants wish to build the circuit with their own creativity, they may do so,  but marks may be reduced if the provided solution is not effective. If the provided solution is deemed effective by judges, bonus points may be awarded. Time limits will be there and the circuit must meet the specified requirements to qualify as a successful design",
+        round3title: " J5M",
         round3:
-          "At the time of events a circuit will be shown to each team.  Circuits ideas and components will be provided. The team that shows the spectrum analysis (output) first will be considered as the winner. (On a first-come, first-served basis.)  On the basis of time management and relevant explanation, participants will be selected.  The winners will be declared on the basis of the shortest time period of completion of the task. Note:  No mobile phones are allowed during the participation of the event.No discussion or sharing of answers among the participants . If any malpractices are noticed, then the term will be disqualified from all the events.The participants should be aware of the concepts of integrated circuits, for example 555 timer",
+          "Each team will be provided with an on-the-spot topic related to Electronics and Communication Engineering (ECE). Participants have 5 minutes to prepare and 5 mins for their Presentation. Use of mobile during preparation is allowed and referring notes during presentation is not allowed.Teams will be evaluated based on the content of their presentations,communication skills,response to Queries and attention towards the crowd",
         tag: "EVENT",
         logo: "EventsAssets/ece1.webp",
         staff: [
           {
-            name: "Ms. G Keerthiga ",
-            desig: "Assistant Professor",
-            phone: 8825783729,
-            email: "keerthigag@saveetha.ac.in ",
+            name: "Dr.M.Vanitha ",
+            desig: " Professor",
+            phone: 7871784886,
+            email: "vanitha@saveetha.ac.in ",
           },
           {
-            name: "Dr.S Kumaran ",
+            name: "Mr.M.Praveen ",
             desig: "Assistant Professor (SG) ",
-            phone: 9994958058,
-            email: "kumarans@saveetha.ac.in  ",
+            phone: 8807592640,
+            email: "praveen@saveetha.ac.in ",
           },
         ],
         student: [
           {
-            name: "Kaviya.R  ",
-            year: "III ",
-            phone: 8825964471,
-            email: "kaviya.ece.sec@gmail.com ",
+            name: "VISHAL.S",
+            year: "II ",
+            phone: 9677513751,
+            email: "Vishalsvr2004@gmail.com",
           },
           {
             name: "Vamsinath. R ",
-            year: "III ",
-            phone: 6382503075,
-            email: "vamsinath3688@gmail.com  ",
+            year: "II ",
+            phone: 8825518285,
+            email: "vijay.krishna.0604@gmail.com ",
           },
           {
-            name: "Arunachalam ",
-            year: " IV ",
-            phone: 9445300407,
-            email: "ajuprasath12@gmail.com ",
+            name: "Kandasubbu Raja.P",
+            year:  "II",
+            phone: 9790809425,
+            email: "santhoshpkraja2004@gmail.com",
           },
-        ],
+        ],/// logo
+
       },
 
       {
-        name: "Cryosat",
-        date: "19 Nov 2022(FN)",
+        name: "FUNTRONICS",/// un fined
+        date: "02 Nov 2022(AN)",
         type: "Team",
-        venue: "ECE GF SH 1 & ECE GF SH 2",
+        venue: "",
         time: "FORENOON",
         members: "1-2",
         rules: "",

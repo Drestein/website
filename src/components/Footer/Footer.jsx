@@ -110,7 +110,7 @@ const Footer = () => {
         </div>
         <div className="block">
           <h4 className="heading">CO-ORDINATORS</h4>
-          <a href="https://www.linkedin.com/in/dr-suresh-kumar-krishnamoorthy-600053112/"  target="_blank" class="links">
+          <a href="https://www.saveetha.ac.in/index.php/2-uncategorised/489-dr-k-suresh-kumar-m-tech-ph-d"  target="_blank" class="links">
           <Chip
             size="lg"
             style={{ backgroundColor: "transparent", margin: "20px 0 " }}
@@ -130,6 +130,7 @@ const Footer = () => {
             Dr. K. Suresh Kumar
           </Chip>
           </a>
+          <a href="https://www.saveetha.ac.in/index.php/2-uncategorised/489-dr-k-suresh-kumar-m-tech-ph-d"  target="_blank" class="links">
           <Chip
             size="lg"
             style={{ backgroundColor: "transparent" }}
@@ -148,7 +149,7 @@ const Footer = () => {
           >
             Dr. N. Raja Rajeshwari
           </Chip>
-
+          </a>
           <h4
             className="heading"
             style={{ marginTop: "2rem", marginBottom: "1rem" }}
@@ -174,7 +175,7 @@ const Footer = () => {
               <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
             }
             >
-            AKASH A
+             VISHWARAJA R
           </Chip>
           </a>
           <a href="https://www.linkedin.com/in/vishwa-raja-a59825210/"  target="_blank" class="links">
@@ -185,10 +186,10 @@ const Footer = () => {
               <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
             }
             >
-            VISHWARAJA R
+            AKASH A
           </Chip>
           </a>
-          <a href="https://www.linkedin.com/in/manoj-mv-a9950728a/"  target="_blank" class="links">
+          <a href="https://www.linkedin.com/in/inesh-n-389517273/"  target="_blank" class="links">
           <Chip
             size="md"
             style={{ backgroundColor: "transparent" }}
@@ -196,18 +197,7 @@ const Footer = () => {
               <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
             }
             >
-            MANOJ M V
-          </Chip>
-          </a>
-          <a href="https://www.linkedin.com/in/dinesh-kumaraa-k-091180292"  target="_blank" class="links">
-          <Chip
-            size="md"
-            style={{ backgroundColor: "transparent" }}
-            startDecorator={
-              <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
-            }
-            >
-            DINESH KUMARAA K
+            Inesh N
           </Chip>
           </a>
         </div>
