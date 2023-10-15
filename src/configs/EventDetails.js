@@ -1402,15 +1402,16 @@ export const EventDetails = [
         venue: "AI&DS department",
         time: "10am-12pm",
         members: "2-4",
-        // rules:
-        //   "Programming Language (Hypertext Markup Language (HTML), CSS(no sass) , Java Script, etc. Maximum 3 members per group.Bringing your own personal computer/laptop is mandatory.Students have to design a web page on any one of the specified topics and present it to the judges.Use of USB drive is strictly prohibited.Using pre-made templates is strictly prohibited. Extra Modules and plugins like Angular, react etc are prohibited .Browsing history, downloads and recycle bin should not be cleared from the start to end of the event to ensure no malpractice is done",
+        rules:
+          "programming Language: python ",
       round1title:"Learning Filters ",
         round1:
-          "programming Language : python  participants will be explained about .how to load an image. how to save an image .changing image colors. implementing filters and the effects of the filter on the image. the round will span for about 30 minutes of explanation and 15 minutes for one on one doubt clearing ",
+          " Participants will be explained about basic image processing operations to warp an image",
       round2title:"Challenge Round ",
         round2:
-          "Each Team will be provided with a colab link will are the required source coding, and 10 picture.Teams have to change parameters to make sure the image is as unrecognizable as possible, laying two different methods is allowed .However, extreme points such as very clear or blurred to the point where only a blank screen is present shall not be accepted .All teams will be given a maximum of 30 minutes to filter all pictures. Once the pictures are filtered, they should upload the images to the respective drive folder assigned  . Once all pictures are filtered, the pictures are passed to other teams .The teams have to guess the images, a pen and paper will be given to the participants to make their guesses  If a team has guess all 10 pictures, another 10 pictures from any other team shall be given . Score : 1 point for every image correctly guessed , -1 point for every wrong image guessed .Maximum time allotted to guess the images:  20 mins ",
-        tag: "EVENT",
+          "Each Team will be provided with a colab link with a basic source code, and 10 pictures. Teams have to warp the image with the coding to make sure the image is as unrecognizable as possibl Once all pictures are modified, they are passed to other teams.The teams have to guess the images. If a team has guessed all 10 pictures, another 10 pictures from any other team shall be given",
+      note:"General requirement : laptop Mandatory, bring charger along if needed",
+          tag: "EVENT",
         color: "0, 1, 38",
 
         logo: "/EventsAssets/ai4.webp",
@@ -1525,11 +1526,11 @@ export const EventDetails = [
     ],
     workshopslist: [
       {
-        name: "Stock Market Investing: From Beginner to Pro ",
+        name: "Stock Market - A Money Mint",
         logo: "/EventsAssets/aiw1.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
-        link: "https://docs.google.com/forms/d/e/1FAIpQLSelczRKs8BpNXoFTGMMwqUpuAqHabroYLMm-QcYfsBiipP39A/viewform",
+        link: "https://forms.gle/FNNHeXz1HLr4o1z86",
         day1: {
           date: "26.11.2023",
           time: "9.00-3.00pm",
@@ -1637,7 +1638,7 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
         company:"Monolith Research and Training Labs",
-        link: "https://docs.google.com/forms/d/e/1FAIpQLSdvQNXVEr5jPksC-x-uk3Cs7sOuB0uTgwYr1qGsn9Brh-UCFw/viewform",
+        link: " https://forms.gle/w9nABVoeNWt6bQz68",
         day1: {
           date: "30.11.2023 ",
           time: "9.00-3.00",
@@ -1743,7 +1744,7 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
         company:"Monolith Research and Training Labs",
-        link: "https://docs.google.com/forms/d/e/1FAIpQLSe4vrqp0lMhP4C7fE2NtrH8WRhZGUpWk1tX-Z2NGa5AdJ3MNQ/viewform",
+        link: " https://forms.gle/w9nABVoeNWt6bQz68",
         day1: {
           date: "27.11.2023",
           time: "9.00am-3.00pm",
@@ -1866,281 +1867,314 @@ export const EventDetails = [
     title: "Artificial Intelligence and Machine Learning",
     eventslist: [
       {
-        name: "Code and Debug",
+        name: "Shark Tank",
         tagline: "Code Treasure Hunt",
-        date: "18 Nov 2022(FN)",
-        type: "solo",
+        date: "02 Nov 2023(AN)",
+        type: "3-5",
         venue: "AI&DS department",
         time: "9:30 - 12:30 pm",
-        members: "2",
-        rules:
-          "The event is all about testing the programming knowledge of the participants. The participants are not restricted to any programming language. They can  choose the language of their choice. Programs are checked against a set of test cases. A program is accepted if it passes all tests. Contestants should not bring or use any reference manuals, electronic     gadgets, program listings, any machine-readable information (software or    data on any kind of storage), computing devices (handhelds, portable PCs,    notebooks, calculators), mobile phones, or any other communication devices. Winner is selected based on the score and the total time taken",
+        members: "3min-5max",
+
         round1:
-          " This round will have 10 questions to debug.Each challenge has a predetermined score. A participant’s score depends on the number of test cases a participant’s code submission successfully passes.The participants are selected for the next round only if they have debugged at least 7 questions",
+          " Idea Exploration-Teams develops their unique business ideas within assigned domains, and brings out the concepts as an abstract around 200 words within 45 minutes ",
 
         round2:
-          "This round will have 5 questions. Each challenge has a predetermined score.A participant’s score depends on the number of test cases a participant’s code submission successfully passes.If a participant submits more than one solution per challenge, then the participant’s score will reflect the highest score achieved. In a game challenge, the participant's score will reflect the last code submission",
+          "Idea Development-Selected teams present detailed business plans in 9 minutes, including market analysis and budget-focused tasks. Judges assess strategic planning and adaptability",
 
         round3:
-          "New programming language (GO) basic syntax of the language will be provided for a given period of time for preparation.This round will have 5 questions. Each challenge has a predetermined score.A participant’s score depends on the number of test cases a participant’s code submission successfully passes. If a participant submits more than one solution per challenge, then the participant’s score will reflect the highest score achieved. In a game challenge, the participant's score will reflect the last code submission",
+          "Investor Pitch- Teams compete to win over potential investors. They showcase their ventures and negotiation skills, simulating real investment challenges",
 
         tag: "EVENT",
         color: "0, 1, 38",
         logo: "/EventsAssets/ai1.webp",
         staff: [
           {
-            name: "Dr.Aswini Jayaraman",
+            name: "Mr Saravanan T ",
             desig: "Professor",
-            phone: 9380977888,
-            email: "aswinij@saveetha.ac.in",
+            phone: 9840443648,
+            email: "saravanant@saveetha.ac.in ",
           },
           {
-            name: "Mr.Joel John",
+            name: "Mrs Karthika Priya  Dharshini G ",
             desig: "Assistant Professor",
-            phone: 7395910878,
-            email: "joeljohn@saveetha.ac.in",
+            phone: 9566015255 ,
+            email: "karthikapriyadharshini@saveetha.ac.in ",
           },
         ],
         student: [
           {
-            name: "R Arunraj",
+            name: "Srijith R  ",
             year: "III",
-            phone: 7200742352,
-            email: "arunkrishna2002@gmail.com",
+            phone: 9123534194 ,
+            email: "srijithmbbs007@gmail.com ",
           },
 
           {
-            name: "Sai Darshan",
+            name: "BhuvaneshwarV ",
+            year: "III",
+            phone: 9080420539 ,
+            email: "Bhuvivbhuvi2004@gmail.com ",
+          },
+          {
+            name: "Samyuktha  S ",
             year: "II",
-            phone: 8610750357,
+            phone: 8838907737  ,
+            email: "samyukthasreenivasam2307@ gmail.com",
+          },
+          {
+            name: "Mahesh Raj  Purohit ",
+            year: "II",
+            phone: 8248021856  ,
+            email: "maheshpurohit31287@gmail.com ",
           },
         ],
       },
 
       {
-        name: "Shark Tank",
-        date: "18 Nov 2022(AN)",
-        type: "3-4",
+        name: "Escape Room",
+        date: "03 Nov 2023(FN)",
+        type: "solo",
         venue: "AI&DS department",
         time: "1:00 - 4:00pm",
-        members: "1-2",
+        members: "1",
         rules:
-          "3-4 participants in each group.No electronic devices are allowed to be used.Clues will be given on spot",
+          "Team Size: 1 (Solo event) .Requisite: Laptop is Mandatory .Pre-requisite: Python, or Java, or C",
         round1:
-          "Themes (Eg: automation (robotics), data analytics ) will be set and participants have to figure out based on clues given Groups must bring a business idea/startup plan that solves an existing problem in that domain Teams with the best ideas get promoted to round 2",
+          "Debug to Escape - The First Round is debugging the non-virtual code provided to them physically on the spot within the time limit and get clues to unlock the next Level",
         round2:
-          "  Selected teams from round 1 are provided with an imaginary funding amount.Teams are required to make a budget plan with the given funds Teams with best budget plans are shortlisted to round 3",
+          " Solve to Evolve - Second Round Coding round, People need to solve the coding questions provided so that they'll get the access to next location. This is also a time-limited one",
         round3:
-          "They are proposed to questions regarding their plans where the teams have to come up with apt ideas to solve them .Top 3 teams are assessed by judges based on how they can handle further situations after idea building and budgeting",
+          "Be the Immortal - The final round is to escape the room by having the clues of the first and second rounds",
         tag: "EVENT",
         color: "0, 1, 38",
         logo: "/EventsAssets/ai2.webp",
         staff: [
           {
-            name: "Ms. Surya S",
+            name: "Mr Koli Himanth Rao ",
             desig: "Assistant Professor",
-            phone: 8144718424,
-            email: "suryas@saveetha.ac.in",
+            phone: 9966253100 ,
+            email: "kollihimantharao@saveetha.ac.in ",
           },
           {
-            name: "Ms.Nadar Akila P Mohan",
+            name: "Ms Magitha  Nirmala Tennyson ",
             desig: "Assistant Professor",
-            phone: 9629957121,
-            email: "akilamohan@saveetha.ac.in",
+            phone: 7358377693 ,
+            email: "Magithanirmala tennyson @saveetha.ac.in ",
           },
         ],
         student: [
           {
-            name: "S.Safa",
+            name: "GV Pavan Kumar ",
             year: "III",
-            phone: 7550125669,
-            email: "safasiraj006@gmail.com",
+            phone: 9346016760 ,
+            email: "11022003.gv@gmail.com ",
           },
           {
-            name: "Kaushika.A",
-            year: "II",
-            phone: 9940674299,
-            email: "kaushika.anandh@gmail.com",
+            name: "K Sanath kumar  Reddy ",
+            year: "III",
+            phone: 9030854365 ,
+            email: "sanathkoduru@gmail.com ",
           },
           {
-            name: "Ashwin A O",
+            name: "Uddandi Koti  Sai Sankar ",
             year: "II",
-            phone: 9159425427,
-            email: "kaushika.anandh@gmail.com",
+            phone: 9014066694 ,
+            email: "koti.saisankar0505@gmail.com ",
           },
           {
-            name: "Harini B",
+            name: "Pooja A ",
             year: "II",
-            phone: 7397324490,
-            email: "kaushika.anandh@gmail.com",
+            phone: 8754423081 ,
+            email: "poojaanbu0@gmail.com ",
           },
         ],
       },
 
       {
-        name: "Memesrus",
-        date: "19 Nov 2022(AN)",
-        type: "Max 2",
+        name: " Unsplash",
+        date: "02 Nov 2023(AN)",
+        type: "solo",
         venue: "AI&DS department",
         time: "12:300pm - 3:30pm",
-        members: "2",
+        members: "1",
         rules:
-          "No sensitive content. No restrictions on image resolution.No videos/audio are allowed.The meme should be in English",
+          "Team Size: 1 (Solo event) .Requisite: Laptop is Mandatory.Pre-requisite: Software like Autodesk, Blender, etc",
         round1:
-          " Participants can participate either solo or in a team of 2. Open topic (technical). The meme should be in a single image",
+          " Design Dynamo -  Participants designing 3D models receive a 2D reference, to generate a new 3D model",
         round2:
-          "A team of 2 is mandatory.Solo participants will be made into a team randomly.The topic will be given on the spot.The participants are only asked to create a meme with the templates/images provided. The meme should be in a single image, however, participants can choose multiple photos provided to make a creative submission",
+          "Elegance Epoch - Participants must enhance their 3D models with effects and animations to boost their visual appeal",
         round3:
-          "The topic will be given on the spot.No restrictions on the choice of photos/templates to be used.The meme can be with 1-3 slides.The number of slides doesn't affect the evaluation",
+          "Picture-Perfect - Participants must design a 3D model environment to enhance its visual appeal and create a cohesive composition",
 
         tag: "EVENT",
         color: "0, 1, 38",
         logo: "/EventsAssets/ai3.webp",
         staff: [
           {
-            name: "Mr.Sridhar S",
+            name: "Dr.Malathi K ",
             desig: "Asst Professor",
-            phone: 9962282076,
-            email: "sridhar@saveetha. ac.in",
+            phone: 9444749975,
+            email: "malathi.k@saveetha.ac.in ",
           },
           {
-            name: "Mr. J.Anish Kumar",
-            desig: "Assistant Professor (SG )",
-            phone: 9842336137,
-            email: "anishkumar@saveetha.ac.in",
+            name: "Mrs.Silambarasi  C ",
+            desig: "Assistant Professor",
+            phone: 9790644896  ,
+            email: "silambarasic@saveetha.ac.in ",
           },
         ],
         student: [
           {
-            name: "S . Vigneshwar",
+            name: "Sai Darshan G  ",
             year: "III",
-            phone: 9498048702,
-            email: "vishwakvishwak24@gmail.com",
+            phone: 8610750357  ,
+            email: "darshansai89@gmail.com ",
           },
           {
-            name: "Veera malai S",
+            name: "Swetha K M ",
             year: "III",
-            phone: 6374067528,
-            email: "veeraveer002@gmail.com",
+            phone: 7338993846  ,
+            email: "Swethamohanraj63@gmail.com ",
           },
           {
-            name: "Pradeesh S",
+            name: "Rama E K Lekshmi ",
             year: "II",
-            phone: 8220032343,
-            email: "pradeesh.3333@gmail.com",
+            phone: 6382762451  ,
+            email: "uthayaakshaya@gmail.com ",
           },
           {
-            name: "Srijith R",
+            name: "Iyyanar S  ",
             year: "II",
-            phone: 9123534194,
-            email: "srijithmbbs007@gmail.com",
+            phone: 9025090837  ,
+            email: "Iyyanarsuresh1729@gmai l.com ",
           },
         ],
       },
       {
-        name: "Web Con",
-        date: "19 Nov 2022(FN)",
+        name: "Code Fusion",
+        date: "02 Nov 2023(FN)",
         type: "Max 3",
         venue: "AI&DS department",
         time: "9am-12pm",
         members: "1-3",
         rules:
-          "Programming Language (Hypertext Markup Language (HTML), CSS(no sass) , Java Script, etc. Maximum 3 members per group.Bringing your own personal computer/laptop is mandatory.Students have to design a web page on any one of the specified topics and present it to the judges.Use of USB drive is strictly prohibited.Using pre-made templates is strictly prohibited. Extra Modules and plugins like Angular, react etc are prohibited .Browsing history, downloads and recycle bin should not be cleared from the start to end of the event to ensure no malpractice is done",
+          "Team Size: 1 (Solo event). Requisite: Laptop is Mandatory.Pre-requisite: Python, or Java, or C ",
 
         round1:
-          "Technical Quiz. Each team will be asked 20 questions and get 3 mins to answer each",
+          "Code in the dark – It’s dark, participants have to write the code without visual feedback",
 
         round2:
-          "Landing Page. A concept will be given on the spot and the participants are asked to create an impressive home page for a company. Maximum 2 hours will be provided to complete this round",
-        tag: "EVENT",
+          "Notepad Coding - This round involves writing code in a plain text format without the aid of code editors",
+        round3:
+        "Unleash Your Inner Code Warrior - No Rules, Just Glory!",
+          tag: "EVENT",
         color: "0, 1, 38",
 
         logo: "/EventsAssets/ai4.webp",
         staff: [
           {
-            name: "Ms. Varalakshmi J",
+            name: "Mrs.Poongulale  ",
             desig: "Assistant Professor",
-            phone: 9487133016,
-            email: "varalakshmij@saveetha.ac.in",
+            phone: 9442787826 ,
+            email: "poongulalie@saveetha.ac.in ",
           },
           {
-            name: "Ms. C.Silambarasi",
+            name: "Dr.Saravanan N",
             desig: "Assistant Professor",
-            phone: 9790644896,
-            email: "silambarasic@saveetha.ac.in",
+            phone: 8056823397 ,
+            email: "nsaravanan@saveetha. ac.in ",
           },
         ],
         student: [
           {
-            name: "   Aakash V P",
+            name: "Pradeesh S  ",
             year: "III",
-            phone: 9629519090,
-            email: "aakaashvp0@gmail.com",
+            phone: 8220032343 ,
+            email: "pradeesh.3333@gmail.com ",
           },
           {
-            name: " Varsha Ajith",
+            name: "Pranave B  ",
+            year: "III",
+            phone: 9500748525 ,
+            email: "Pranave.ai@gmail.com ",
+          },
+          {
+            name: "Aldrin Lijo J E",
             year: "II",
-            phone: 8072002791,
-            email: "varshaajith1110@gmail.com",
+            phone: 7338930198  ,
+            email: "aldrinlijo04@gmail.com",
+          },
+          {
+            name: "Yamunaasri T S",
+            year: "II",
+            phone: 9884497722 ,
+            email: "yamunaasri31@gmail.com ",
           },
         ],
       },
       {
-        name: "Data Hunt",
-        date: "18 Nov 2022(AN)",
-        type: "2 member",
+        name: "Memes Mania",
+        date: "03 Nov 2023(FN)",
+        type: "solo",
         venue: "AI&DS department",
         time: "1pm-4pm",
         members: "2",
         rules:
-          "A team of 2 members can participate in this event.Programming Language required: Python with data science and machine learning .Mobile phones are strictly not allowed",
+          "Team Size: 1 (Solo event) ",
         round1:
-          "-Multiple Choice Questions (Paper-Pen Mode).Time limit of 30 minutes.Questions will be asked based on the basics of Python in data science and machine learning along with graphical analysis.Top scorers will be selected for the next round",
+          "Meme It Up - Cook up your funniest meme as a solo artist or duo",
         round2:
-          "Multiple Choice Questions (Live Quiz).Two groups will participate against each other.Questions will be asked based on data science, machine learning, and graphical analysis along with choices.The team with higher points will be selected for the next round",
+          "The Meme Battle -Face off against meme rivals with assigned concepts",
         round3:
-          "-Two problem statement questions will be given with a time limit of 1hr.The participants can run the programs in the compiler and note down their analysis in the provided paper.Evaluation criteria: The team that takes less time to complete the given problem statements will be selected as the winner",
-        tag: "EVENT",
+          "Touchdown with Tech - Create a tech-savvy meme using a provided template",
+        note:"Requisite: Laptop, Phone, or any other device is required",
+          tag: "EVENT",
         color: "0, 1, 38",
         logo: "/EventsAssets/ai5.webp",
         staff: [
           {
-            name: "Mr. Dhinesh Kumar K S",
-            desig: "Asst Professor",
-            phone: 9176338438,
-            email: "dhineshkumarks@saveetha.ac.in",
+            name: "Dr.Selvakumar.R  ",
+            desig: "Associate  Professor",
+            phone: 9080702009 ,
+            email: "selvakumarr@saveetha.ac.in ",
           },
           {
-            name: "Ms. Shanmugha Priya    ",
+            name: "Mr.Dhinesh Babu. G.L  ",
             desig: "Assistant Professor (SG )",
-            phone: 9094623070,
-            email: "shanmugapriyas@saveetha.ac.in",
+            phone: 9994265716 ,
+            email: "dineshbabugl@saveetha.ac.in ",
+          },
+          {
+            name: " Mr.Najeem Dheen A ",
+            desig: "Assistant Professor (SG )",
+            phone: 9994265716 ,
+            email: "najeemdheena@saveetha.ac.in ",
           },
         ],
         student: [
           {
-            name: " S. Sanjna Priya",
+            name: "Syed Abdul Wasih H ",
             year: "III",
-            phone: 8667567097,
-            email: "ssanjnapriya@gmail.com",
+            phone: 6383058584 ,
+            email: "Abdul.wasih03@gmail.com ",
           },
           {
-            name: "Priyadarshini R",
+            name: "Harshavardhini  M",
             year: "III",
-            phone: 8870904374,
-            email: "darshu1667@gmail.com",
+            phone: 8189829969 ,
+            email: "Harshavardhini332004@gmail. com ",
           },
           {
-            name: "J. Archana priya",
+            name: "Manoj Karthik R  ",
             year: "II",
-            phone: 7550288045,
-            email: "achu.priya2003@gmail.com",
+            phone: 6379711530 ,
+            email: "manojrathinavelu31@gmail.com ",
           },
           {
-            name: "Rithiga Sri.B",
+            name: "Gopika R  ",
             year: "II",
-            phone: 7305328312,
-            email: "rithigasri383@gmail.com",
+            phone: 8825910481,
+            email:"Gopikahoe10@gmail.com ",
           },
         ],
       },
@@ -4656,7 +4690,7 @@ export const EventDetails = [
       },
     ],
   },
-   {
+  {
     id: "ece",
     title: "Electronics and Communication Engineering",
     eventslist: [
@@ -4665,21 +4699,6 @@ export const EventDetails = [
         date: "02 Nov 2023(FN)",
         type: "Team",
         venue: "",
-<<<<<<< HEAD
-        time: "Forenoon",
-        members: "2",
-        color: "0, 1, 38",
-        rules: " A team can have a maximum of 2 members ",
-        round1title: "Circuit Tracing",
-        round1:
-          "Each team will be provided with a complex circuit. Participants can choose their circuit design from 10 available options. Participants must accurately trace the path of the current through the selected circuit. Only one attempt is allowed per circuit. Time limits may be imposed for each circuit tracing challenge. ",
-        round2title: "Component Challenge",
-        round2:
-          "  A team can choose a circuit they prefer to build from the given options. The circuits will be of any subject related to ECE. Two teams may also combine for this round. Participants will be provided with components specific to their chosen circuit. If participants wish to build the circuit with their own creativity, they may do so, but marks may be reduced if the provided solution is not effective. If the provided solution is deemed effective by judges, bonus points may be awarded. Time limits will be there and the circuit must meet the specified requirements to qualify as a successful design. ",
-        round3title: "J5M",
-        round3:
-          "Each team will be provided with an on-the-spot topic related to Electronics and Communication Engineering (ECE). Participants have 5 minutes to prepare and 5 mins for their Presentation. Use of mobile during preparation is allowed and referring notes during presentation is not allowed. Teams will be evaluated based on the content of their presentations, communication skills,response to Queries and attention towards the crowd ",
-=======
         time: "9.00 am - 1,00pm",
         members: "2",
         color: "0, 1, 38",
@@ -4693,55 +4712,24 @@ export const EventDetails = [
         round3title: " J5M",
         round3:
           "Each team will be provided with an on-the-spot topic related to Electronics and Communication Engineering (ECE). Participants have 5 minutes to prepare and 5 mins for their Presentation. Use of mobile during preparation is allowed and referring notes during presentation is not allowed.Teams will be evaluated based on the content of their presentations,communication skills,response to Queries and attention towards the crowd",
->>>>>>> 742961642fdbabd83330086fa97e2542ac963884
         tag: "EVENT",
         logo: "EventsAssets/ece1.webp",
         staff: [
           {
-<<<<<<< HEAD
-            name: "Dr.M.Vanitha",
-            desig: "Professor",
-=======
             name: "Dr.M.Vanitha ",
             desig: " Professor",
->>>>>>> 742961642fdbabd83330086fa97e2542ac963884
             phone: 7871784886,
             email: "vanitha@saveetha.ac.in ",
           },
           {
-<<<<<<< HEAD
-            name: "Mr.M.Praveen",
-            desig: "Assistant Professor (SG) ",
-            phone: 8807592640,
-            email: "praveen@saveetha.ac.in  ",
-=======
             name: "Mr.M.Praveen ",
             desig: "Assistant Professor (SG) ",
             phone: 8807592640,
             email: "praveen@saveetha.ac.in ",
->>>>>>> 742961642fdbabd83330086fa97e2542ac963884
           },
         ],
         student: [
           {
-<<<<<<< HEAD
-            name: "VISHAL.S ",
-            year: "II ",
-            phone: 9677513751,
-            email: "Vishalsvr2004@gmail.com ",
-          },
-          {
-            name: "Vijaykrishna.M",
-            year: "II ",
-            phone: 8825518285,
-            email: "vijay.krishna.0604@gmail.com  ",
-          },
-          {
-            name: "Kandasubbu Raja.P ",
-            year: " II ",
-            phone: 9790809425,
-            email: "santhoshpkraja2004@gmail.com ",
-=======
             name: "VISHAL.S",
             year: "II ",
             phone: 9677513751,
@@ -4758,1075 +4746,659 @@ export const EventDetails = [
             year:  "II",
             phone: 9790809425,
             email: "santhoshpkraja2004@gmail.com",
->>>>>>> 742961642fdbabd83330086fa97e2542ac963884
           },
         ],/// logo
 
       },
 
       {
-<<<<<<< HEAD
-        name: "FUNTRONICS",
-        date: "02 Nov 2023(AN)",
-        type: "Team",
-        venue: " ",
-        time: "AFTERNOON",
-        members: "2",
-=======
         name: "FUNTRONICS",/// un fined
         date: "02 Nov 2022(AN)",
         type: "Team",
         venue: "",
         time: "FORENOON",
         members: "1-2",
->>>>>>> 742961642fdbabd83330086fa97e2542ac963884
         rules: "",
         color: "0, 1, 38",
+        round1title: "RESISTHON ",
         round1:
-          "A slide will be projected which consists of 30 pictures. Two teams will have to observe the slide for 30 seconds, then the teams will list out the components present in the slide one by one. Repetition of components/components not in list may result in disqualification.",
+          "It is an individual game. The value of the resistor will be given. Participants need to identify the respective colour code for the given resistor.Those who are giving more correct answers, they will be shortlisted for the next round",
         round2:
-          "One person from the team will listen to an audio file once, then  the person will give instructions to the next person on the same team. The next person will do the instructions and draw the instructed object or circuit. The team which performs well will qualify for the next round. ",
+          "Participants will be given a set of questions on the basis of technical requirements on time, which state some application/ components/ some technical terms related to basic electronics.On the basis of time consumption and explanation,those who identify a more correct answer will be qualified for the next round",
+        round2title: "Who am I ? ",
+        round3title: "FIND ME IF YOU CAN ? ",
         round3:
-          "There will be 12 blocks presented for everyone. 6 blocks contain questions and 6 blocks contain answers. One person from the team will guide the other and the other will follow the instruction and match the blocks correctly for the timing of “60 Seconds”. Based on the time calculation and correct matched answers, the winners will be announced.",
+          "The image of external/ internal modules supported by various development boards (Arduino,Raspberry Pi,ESP) will be displayed.participants need to identify the name of the module. Points will be awarded according to the weightage of the questions.winners will be selected based on scoring more points",
         tag: "EVENT",
         logo: "EventsAssets/ece2.webp",
         staff: [
           {
-            name: "Ms.G.Keerthiga  ",
-            desig: "Assistant Professor(SG) ",
-            phone: 8825783729,
-            email: "keerthigag@saveetha.ac.in  ",
+            name: "Dr.A.Saranya  ",
+            desig: "Assistant Professor ",
+            phone: 9789023346,
+            email: "saranyaa@saveetha.ac.in  ",
           },
           {
-            name: "Ms.K.Sakthi ",
+            name: "Ms.M.Sowmiya Manoj ",
             desig: "Assistant Professor(SG)  ",
-            phone: 9962386422,
-            email: "sakthi@saveetha.ac.in ",
+            phone: 7358747803,
+            email: "sowmiyamanojm@saveeth a.ac.in  ",
           },
         ],
         student: [
           {
-            name: "Jothilakshmi.S  ",
+            name: "SHALINI.S  ",
             year: "III",
-            phone: 9043873773,
-            email: "jothisiva6789@gmail.com  ",
+            phone: 9384685441,
+            email: "shalini.ece.sec@gmail.com   ",
           },
           {
-            name: "Lavanya.C ",
-            year: "III",
-            phone: 9363100825,
-            email: "lavanyaviji9876@gmail.com",
-          },
-          {
-            name: "Sriram.G  ",
-            year: "III",
-            phone: 7010621643,
-            email: "sriramganesan1308@gmail.com  ",
-          },
-          {
-            name: "Karthi Raja. S ",
+            name: "Sabarisrinivas ",
             year: "IV",
-            phone: 8111008454,
-            email: "karthiraja072@gmail.com ",
+            phone: 9944612176,
+            email: "sabarisrinivasa.ece.sec@gmail.com ",
+          },
+          {
+            name: "J. Jessica  ",
+            year: "III",
+            phone: 9962238253,
+            email: "jessijayakumar26@gmail.com  ",
           },
         ],
       },
       {
-        name: "Rover Rally (Bot event)",
-        date: "02 Nov 2023",
+        name: "Circuit Buzz",
+        date: "19 Nov 2022(AN)",
         type: "Team",
         tag: "EVENT",
-        venue: " ",
-        time: "9:00 am to 3:00 pm",
-        members: "5",
-        rules:
-          " A team should consists of five members in a team.",
-        color: "0, 1, 38",
-        round1:
-          " Participants have to explain about their project and the unique features of the robot. They have to explain the budget too. They have to present their project with the PPT. ",
-        round2:
-          "A straight black line will be drawn and whoever completed it in less time gets more  marks. If their robots just crossed the straight line , it is enough to be qualified for the next round. The team which completes it in more time will get less marks. ",
-        round3:
-          " This round consists of different directions of black line and the robot has to cross the end line to win the competition. Winners will be decided based on time taken and distance travelled. ",
-        logo: "EventsAssets/ece3.webp",
-        staff: [
-          {
-            name: "Dr.S.Kumaran  ",
-            desig: " Associate Professor",
-            phone: 9994958058,
-            email: "kumarans@saveetha.ac.in  ",
-          },
-          {
-            name: "Dr.P.Vinayagam ",
-            desig: "Assistant Professor(SG)",
-            phone: 9942534757,
-            email: "vinayagamp@saveetha.ac.in  ",
-          },
-        ],
-        student: [
-          {
-            name: "Logachandru R  ",
-            year: " III",
-            phone: 9385855863,
-            email: "entirety2104@gmail.com ",
-          },
-          {
-            name: "Nanda Kishore R",
-            year: "II",
-            phone: 9344248604,
-            email: "r.nandakishore24@gmail.com ",
-          },
-        ],
-      },
-      {
-        name: "MEGAHERTZ",
-        date: "03 Nov 2023(FN)",
-        color: "0, 1, 38",
-        type: "Team",
-        venue: " ",
-        time: "FORENOON",
+        venue: "ECE GF SH 1 & ECE GF SH 2",
+        time: "AFTERNOON",
         members: "2",
         rules:
-          "",
-        round1title: "  Electro-hunt ",
-        round1:
-          "Randomly jumbled words of components are given. Team members should find the  component with the help of clues. Clues will be about the working and purpose of the component. Names will not be directly  given. Teams should find out more components in a specific time period. ",
-        round2title: "ConneXions ",
-        round2:
-          "Teams shall be provided with circuit diagrams and will be allowed to analyze and memorize the diagram for 2 minutes. Participants should find out simple errors in the diagram. Participants should connect the correct circuit within 3 minutes. Teams that find out the error will be given a bonus one minute. ",
-        round3title: "Wires and Ladders ",
-        round3:
-          " Teams shall play and solve simple tasks through a board game. Two teams shall compete against each other in a given period of time. Set of tasks like listing vital components in devices, decoding a message are given. Each team will be asked to complete all the tasks within a short period of time.",
-        tag: "EVENT",
-
-        logo: "EventsAssets/ece4.webp",
-        staff: [
-          {
-            name: "Mr.R.Kannan  ",
-            desig: "Assistant Professor(OG) ",
-            phone: 9840181019,
-            email: "kannanr@saveetha.ac.in ",
-          },
-          {
-            name: "Dr.Mausam Chouksey ",
-            desig: "Assistant Professor",
-            phone: 9973041451,
-            email: "mausamchouksey@saveetha.ac.in ",
-          },
-        ],
-        student: [
-          {
-            name: "RAMYHA.E ",
-            year: "III",
-            phone: 9360259915,
-            email: "ramyhaelamaran@gmail.com  ",
-          },
-          {
-            name: " LOHITHA LAKSHMI.M  ",
-            year: "III",
-            phone: 7604889080,
-            email: "lohithalakshmi0301@gmail.com ",
-          },
-          {
-            name: " SRIDHAR.R  ",
-            year: "III",
-            phone: 9791095167,
-            email: "sridharramalingam1806@gmail.com ",
-          },
-          {
-            name: " THILAGESHWARAN.J ",
-            year: "III",
-            phone: 7904044632,
-            email: "roganthilak@gmail.com ",
-          },
-        ],
-      },
-      {
-        name: "Silicon Smackdown",
-        date: "03 Nov 2023",
+          " A team should consists of two members in a team.No mobile phones are allowed during the participation of the event.No discussion or sharing of answers among the teams.If any malpractices are noticed then the team will be disqualified",
         color: "0, 1, 38",
-        type: "Team",
-        venue: " ",
-        time: "9:00 am to 1:00 pm",
-        members: "3",
-        rules: " A team must contain three members",
+        round1title: "KNOWLEDGE BLOW ",
         round1:
-          "Each has to dictate one technical term related to VLSI one after one. The team which repeats the same terms or fails to dictate on time will be directly eliminated. Six teams will be selected to round two . ",
+          " Time for the event is 2 mins. Each team can have 2 members. The participants try to write the maximum number of components, technical terms(such as ground, connecting wire etc) related to electronics circuits etc. The team which has least count of technical terms will not be forward to the next round",
         round2:
-          " Group of pictures representing a technical term in VLSI will be displayed in the display one by one until a team finds the answer and can answer it. Three teams will be selected to the third round.",
+          " A circuit diagram will be displayed for 2 minutes. Next 3 minutes will be given to reproduce ( implement) the circuit diagram using breadboard and component, which will be provided.Depending on the circuit's fulfillness ( correct component placed in correct position) terms will be forwarded to the next round",
+        round2title: "TECH CHARADES",
+        round3title: "TECH CHARADES 2.0 ",
         round3:
-          " Group of pictures containing the images related to VLSI as well the names of the pictures will be given to each team. Each team has to match them within the given time. Based on the results teams will be awarded.",
-        tag: "EVENT",
-
-        logo: "EventsAssets/ece4.webp",
-        staff: [
-          {
-            name: "Mr.K.Arunkumar ",
-            desig: "Assistant Professor ",
-            phone: 9600981800,
-            email: "arunkumar@saveetha.ac.in ",
-          },
-          {
-            name: "Dr.K.Nirmala Devi",
-            desig: "Assistant Professor",
-            phone: 9677781647,
-            email: "nirmaladevik@saveetha.ac.in ",
-          },
-        ],
-        student: [
-          {
-            name: "Rohini G ",
-            year: "III",
-            phone: 6381984382,
-            email: "rohiniganesh2003@gmail.com ",
-          },
-          {
-            name: " Thrisha G ",
-            year: "III",
-            phone: 9884165732,
-            email: "gopathri143@gmail.com",
-          },
-        ],
-      },
-      {
-        name: "Survival Box [Box Cricket]",
-        date: "02 Nov 2023",
-        type: "Team",
-        tag: "EVENT",
-        venue: " ",
-        time: "9:00 am to 3:00 pm",
-        rules:
-          "1)Number of Players 6. 2) 4 overs per match. 3)Underarm match. 4)One pitch one hand. 5)Boundary-Only 4s is allowed and 6s will be out. 6)Umpire call final. 7)College Id card is mandatory. 8)Pre registration must for all participants ",
-        color: "0, 1, 38",
+          "Each team has to pick  their  questions from the question pool bowl. Selected circuits will be displayed for each team for 2 minutes . Next 3 minutes will be given to reproduce ( implement) the circuit diagram using breadboard and component, which will be provided.Depending on the circuit's fulfillness ( correct component placed in correct position) terms will be forwarded to the next round",
         logo: "EventsAssets/ece3.webp",
         staff: [
           {
-            name: "Dr.J.Jeffin Gracewell  ",
-            desig: "Assistant Professor(SG)",
-            phone: 8903280025,
-            email: "jeffingracewellj@saveetha.ac.in  ",
+            name: "Dr.S. kanagamalliga  ",
+            desig: " Associate Professor",
+            phone: 770862408,
+            email: "kanagamalligas@saveetha.ac.in  ",
           },
           {
-            name: "Dr.S.Navaneethan ",
-            desig: "Assistant Professor(OG)",
-            phone: 8939755682,
-            email: "navaneethans@saveetha.ac.in  ",
+            name: "Ms.V Subashree  ",
+            desig: " Associate Professor",
+            phone: 9994365720,
+            email: "subashreev@saveet ha.ac.in  ",
           },
         ],
         student: [
           {
-            name: "Lokesh.S  ",
-            year: " II",
-            phone: 6381504934,
-            email: "lokemsd07@gmail.com",
+            name: "ROSHINI S ",
+            year: " III",
+            phone: 9092522219,
+            email: "roshinisece@gmail.com ",
           },
           {
-            name: "Harshad k",
+            name: "Varshini S ",
+            year: "II",
+            phone: 8248955042,
+            email: "varshini.sureshbabu02@g mail.com  ",
+          },
+          {
+            name: "P THANGAVEL ",
             year: "IV",
-            phone: 9962056038,
-            email: "Harshadkarthikeyan30@gmail.com ",
+            phone: 9940660332,
+            email: "thangavelhfc@gmail.com  ",
+          },
+        ],
+      },
+      {
+        name: "Obstacle Mania ",
+        date: "18 Nov 2022(FN&AN)",
+        color: "0, 1, 38",
+        type: "Team",
+        venue: "ECE GF SH 1 & ECE GF SH 2",
+        time: "9-3:00pm",
+        members: "1-3",
+        rules:
+          "A team should consist of two to three members in a team. No mobile phones are allowed during the participation of the event. No discussion or sharing of answers among the teams. If any malpractices are noticed then the team will be disqualified. Make sure the battery can sustain till the final round",
+        round1title: "  SPELL OUT ",
+        round1:
+          "Participants should EXPLAIN about the robots which are carried by them. Certain questions will be asked to the participants related to the TOPIC.The team which has the least count of technical terms will be not qualified to the next round ",
+        round2title: "CREATIVITY ",
+        round2:
+          "Participants ROBOTS should be UNIQUE than the others.   They can add up some extra features (for ex lights) in their robots.   Robots Build Quality, Compatibility will also be considered. A set of 4-6 teams will be qualified to the next level",
+        round3title: "HURDLES ",
+        round3:
+          "The 3rd round will be a hardcore off-road track with various hindrance and obstacles to tackle (Ramp, Gravel, uneven paths). The robot which avoids the hindrances and work efficiently will be announced as WINNER",
+        tag: "EVENT",
+
+        logo: "EventsAssets/ece4.webp",
+        staff: [
+          {
+            name: "Ms.K Padma Priya  ",
+            desig: "Assistant Professor (SG) ",
+            phone: 7811939196,
+            email: "nandhinir@saveetha.ac.in ",
+          },
+          {
+            name: "Dr.K Mahendran ",
+            desig: "Assistant Professor (SG)",
+            phone: 9698999699,
+            email: "nandhinir@saveetha.ac.in ",
+          },
+          {
+            name: "Dr.S Navaneethan  ",
+            desig: "Assistant Professor (OG)",
+            phone: 8939755682,
+            email: "nandhinir@saveetha.ac.in ",
+          },
+        ],
+        student: [
+          {
+            name: "S.Hariharan  ",
+            year: "III",
+            phone: 6382597804,
+            email: "hariharan2003jan@gmail.com  ",
+          },
+          {
+            name: "Suria Prasanth M  ",
+            year: "III",
+            phone: 9361539039,
+            email: "suriaprasanth24@gmail.com  ",
+          },
+          {
+            name: "Pradeep  ",
+            year: "IV",
+            phone: 6374598918,
+            email: "spradeeps2002@gmail.com  ",
           },
         ],
       },
     ],
     workshopslist: [
       {
-        name: "Create your own Flappy Bird Game using Python ",
+        name: "PCB Design And Fabrication",
         logo: "/EventsAssets/ecew1.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
-        venue: " ",
-        company: "IT EXPERT TRAINING",
-        resource: [
-          {
-            name: "Mr.Muhamed Ilyas",
-            desig: "CEO,  IT Expect Training  ",
-            phone: 9884648010,
-            email: "ilyas@tripleminfotech.com",
-          },
-        ],
-        staff: [
-          {
-            name: "Dr.M.Vanitha  ",
-            desig: "Associate Professor  ",
-            phone: 7871784886,
-            email: "vanitha@saveetha.ac.in",
-          },
-          {
-            name: "Mr.C.Srinivasan",
-            desig: "Associate Professor  ",
-            phone: 9894726688,
-            email: "srinivasanc@saveetha.ac.in",
-          },
-        ],
-        student: [
-          {
-            name: "Evangeline Priya",
-            year: "IV ",
-            phone: 9789974799,
-            email: "evangelinepriyaa.ece.sec@gmail.com",
-          },
-          {
-            name: "Lekha M",
-            year: "IV  ",
-            phone: 7339665541,
-            email: "giftagoldwise@gmail.com ",
-          },
-        ],
+        venue: "Digital Lab ECE 1st Floor",
 
-        link: " ",
+        link: "http://shorturl.at/deVZ3",
         day1: {
-          date: "25/10/23",
-          time: "9-3:00pm",
-          mode: "HYBRID",
-          venue: " ",
-          topic: "Python basics. Pygame basics",
-        },
-        day2: {
-          date: "26/10/23",
-          time: "9-3:00pm",
-          mode: "HYBRID",
-          venue: " ",
-          topic: "Developing Flappy bird game environment. Writing logics for the game",
-        },
-      },
-      {
-        name: "Create an Artificial intelligent Chatbot using python and chatGPT ",
-        logo: "/EventsAssets/ecew1.webp",
-        tag: "WORKSHOP",
-        color: "0, 70, 90",
-        venue: " ",
-        company: "IT EXPERT TRAINING",
-        resource: [
-          {
-            name: "Mr.Muhamed Ilyas",
-            desig: "CEO,  IT Expect Training  ",
-            phone: 9884648010,
-            email: "ilyas@tripleminfotech.com",
-          },
-        ],
-        staff: [
-          {
-            name: "Dr.M.Vanitha  ",
-            desig: "Associate Professor  ",
-            phone: 7871784886,
-            email: "vanitha@saveetha.ac.in",
-          },
-          {
-            name: "Mr.K.ArunKumar",
-            desig: "Associate Professor  ",
-            phone: 9600981800,
-            email: "arunkumar@saveetha.ac.in",
-          },
-        ],
-        student: [
-          {
-            name: "S.Vishal ",
-            year: "II ",
-            phone: 9677513751,
-            email: "vishalsvr2004@gmail.com",
-          },
-          {
-            name: "B. Shamyuktha",
-            year: "II",
-            phone: 9943238266,
-            email: "shamyuuktha@gmail.com",
-          },
-        ],
-
-        link: " ",
-        day1: {
-          date: "25/10/23",
-          time: "9-3:00pm",
-          mode: "HYBRID",
-          venue: " ",
-          topic: "Python core concepts. ChatGPT API usage",
-        },
-        day2: {
-          date: "26/10/23",
-          time: "9-3:00pm",
-          mode: "HYBRID",
-          venue: " ",
-          topic: "Creating a Chatbot. Interfacing Chatbot with chatGPT",
-        },
-      },
-      {
-        name: "Create an Artificial intelligent Chatbot using python and chatGPT ",
-        logo: "/EventsAssets/ecew1.webp",
-        tag: "WORKSHOP",
-        color: "0, 70, 90",
-        venue: " ",
-        company: "IT EXPERT TRAINING",
-        resource: [
-          {
-            name: "Mr.Muhamed Ilyas",
-            desig: "CEO,  IT Expect Training  ",
-            phone: 9884648010,
-            email: "ilyas@tripleminfotech.com",
-          },
-        ],
-        staff: [
-          {
-            name: "Dr.M.Vanitha  ",
-            desig: "Associate Professor  ",
-            phone: 7871784886,
-            email: "vanitha@saveetha.ac.in",
-          },
-          {
-            name: "Mr.K.ArunKumar",
-            desig: "Associate Professor  ",
-            phone: 9600981800,
-            email: "arunkumar@saveetha.ac.in",
-          },
-        ],
-        student: [
-          {
-            name: "S.Vishal ",
-            year: "II ",
-            phone: 9677513751,
-            email: "vishalsvr2004@gmail.com",
-          },
-          {
-            name: "B. Shamyuktha",
-            year: "II",
-            phone: 9943238266,
-            email: "shamyuuktha@gmail.com",
-          },
-        ],
-
-        link: " ",
-        day1: {
-          date: "25/10/23",
-          time: "9-3:00pm",
-          mode: "HYBRID",
-          venue: " ",
-          topic: "Python core concepts. ChatGPT API usage",
-        },
-        day2: {
-          date: "26/10/23",
-          time: "9-3:00pm",
-          mode: "HYBRID",
-          venue: " ",
-          topic: "Creating a Chatbot. Interfacing Chatbot with chatGPT",
-        },
-      },
-      {
-        name: "Mastering the Art of Web Hacking ",
-        logo: "/EventsAssets/ecew1.webp",
-        tag: "WORKSHOP",
-        color: "0, 70, 90",
-        venue: " ",
-        company: "Cyber Haels Infotech Pvt. Ltd.",
-        resource: [
-          {
-            name: "Mr.Abinesh",
-            desig: "Cyber Security instructor  ",
-            phone: 8428528758,
-            email: "ibrahimrockzz340@gmail.com",
-          },
-        ],
-        staff: [
-          {
-            name: "Dr.M.Vanitha  ",
-            desig: "Associate Professor  ",
-            phone: 7871784886,
-            email: "vanitha@saveetha.ac.in",
-          },
-          {
-            name: "Ms.A. Hema Malini",
-            desig: "Associate Professor  ",
-            phone: 9952648240,
-            email: "hemamalini@saveetha.ac.in",
-          },
-        ],
-        student: [
-          {
-            name: "M.Vijay Krishna ",
-            year: "II ",
-            phone: 8825518285,
-            email: "vijay.krishna.0604@gmail.com",
-          },
-          {
-            name: "R.Akshaya",
-            year: "II",
-            phone: 7358817223,
-            email: "rakshaya2434@gmail.com",
-          },
-        ],
-
-        link: " ",
-        day1: {
-          date: "30/10/23",
-          mode: "HYBRID",
-          venue: " ",
-          topics: "Introduction to Web Hacking Workshop. What is Web Application Security? Why is it Important?. Web Application Architecture & it's working principle. Web Application Enumeration Techniques. Cross Site Scripting Attacks (XSS). SQL Injection Attacks. Authentication Bypass Attacks",
-        },
-        day2: {
-          date: "31/10/23",
-          mode: "HYBRID",
-          venue: " ",
-          topics: "Broken Access Controls. Burp Suite Essentials. Cross Site Request Forgery (CSRF). XML External Entity Injection. OS Command Injections. Server Side Request Forgery (SSRF). Path Traversal Vulnerability. Security Misconfigurations. Certificates in Cybersecurity. Careers in Cybersecurity",
-        },
-      }, 
-      {
-        name: "Hands On Workshop on PCB design and Prototyping",
-        logo: "/EventsAssets/ecew1.webp",
-        tag: "WORKSHOP",
-        color: "0, 70, 90",
-        venue: " ",
-        company: "Saveetha ECE Department",
-        resource: [
-          {
-            name: "Workshop Coordinators",
-            desig: "Faculty ",
-            phone: 8903280025,
-            email: "jeffingracewellj@saveetha.ac.in",
-          },
-        ],
-        staff: [
-          {
-            name: "Dr. Jeffin Gracewell  ",
-            desig: "Associate Professor  ",
-            phone: 9444496078,
-            email: "chitra.ece@sathyabama.ac.in",
-          },
-          {
-            name: "Dr. Jennie Barathj",
-            desig: "Associate Professor  ",
-            phone: 9791390383,
-            email: "jenniebharathir@saveetha.ac.in",
-          },
-        ],
-        student: [
-          {
-            name: "Harsha.K ",
-            year: "III ",
-            phone: 8667817406,
-            email: "harshakubendar@gmail.com",
-          },
-          {
-            name: "Kousalya. P",
-            year: "III",
-            phone: 9940440009,
-            email: "kousalyaprabu2@gmail.com",
-          },
-          {
-            name: "Gopika S",
-            year: "III",
-            phone: 8015921719,
-            email: "gopikasendilkumar@gmail.com",
-          },
-        ],
-
-        link: " ",
-        day1: {
-          date: "30/10/23",
+          date: "14/11/22",
           time: "9-3:00pm",
           mode: "OFFLINE",
-          venue: " ",
-          topic: "Session 1: Overview on PCB Design and Prototyping - Presentation. Session 2: PCB circuit simulation using Orcad ",
+          venue: "Digital LAB ECE 1st Floor",
+
+          topic: "HANDS ON EXPERIENCE IN PCB DESIGN AND FABRICATION",
+          resource: [
+            {
+              name: "Dr.Jeffin Gracewell",
+              desig: "Associate professor, ECE  ",
+
+              email: "jeffingracewelllj@saveetha.c.in",
+            },
+          ],
+          staff: [
+            {
+              name: "Dr.Jeffin Gracewell ",
+              desig: "Associate Professor  ",
+
+              email: "jeffingracewelllj@saveetha.c.in",
+            },
+            {
+              name: "Dr.R Jennie Bharathi",
+              desig: "Associate Professor  ",
+              phone: 9791390383,
+              email: "jenniebharathir@saveetha.ac.in",
+            },
+          ],
+          student: [
+            {
+              name: "Surya S ",
+              year: "III ",
+              phone: 7305711758,
+              email: "suryasagadevan17@gmail.com",
+            },
+            {
+              name: "Lekha M",
+              year: "III  ",
+              phone: 9345569421,
+              email: "lekhalekha1321@gmail.com ",
+            },
+          ],
         },
         day2: {
-          date: "31/10/23",
+          date: "15/11/22",
           time: "9-3:00pm",
-          mode: "OFFLINE",
-          venue: " ",
-          topic: "Session 3: Manual Prototyping of the PCB Design - Hands-on. Session 4: Soldering and testing the circuit in Lab environment.",
+          mode: "offline",
+          venue: "Digital LAB ECE 1st Floor",
+          topic: "HANDS ON EXPERIENCE IN PCB DESIGN AND FABRICATION",
+          resource: [
+            {
+              name: "Dr.Jeffin Gracewell",
+              desig: "Associate professor, ECE  ",
+
+              email: "jeffingracewelllj@saveetha.c.in",
+            },
+          ],
+          staff: [
+            {
+              name: "Dr.Jeffin Gracewell ",
+              desig: "Associate Professor  ",
+
+              email: "jeffingracewelllj@saveetha.c.in",
+            },
+            {
+              name: "Dr.R Jennie Bharathi",
+              desig: "Associate Professor  ",
+              phone: 9791390383,
+              email: "jenniebharathir@saveetha.ac.in",
+            },
+          ],
+          student: [
+            {
+              name: "Surya S ",
+              year: "III ",
+              phone: 7305711758,
+              email: "suryasagadevan17@gmail.com",
+            },
+            {
+              name: "Lekha M",
+              year: "III  ",
+              phone: 9345569421,
+              email: "lekhalekha1321@gmail.com ",
+            },
+          ],
         },
         day3: {
-          date: "01/11/23",
-          time: "9-3:00pm",
-          mode: "OFFLINE",
-          venue: " ",
+          date: "16/11/22",
+          time: "9:00-3:00pm",
+          mode: "offline",
+          venue: "Digital LAB ECE 1st Floor",
+
+          topic: "HANDS ON EXPERIENCE IN PCB DESIGN AND FABRICATION",
+          resource: [
+            {
+              name: "Dr.Jeffin Gracewell",
+              desig: "Associate professor, ECE  ",
+
+              email: "jeffingracewelllj@saveetha.c.in",
+            },
+          ],
+          staff: [
+            {
+              name: "Dr.Jeffin Gracewell ",
+              desig: "Associate Professor  ",
+
+              email: "jeffingracewelllj@saveetha.c.in",
+            },
+            {
+              name: "Dr.R Jennie Bharathi",
+              desig: "Associate Professor  ",
+              phone: 9791390383,
+              email: "jenniebharathir@saveetha.ac.in",
+            },
+          ],
+          student: [
+            {
+              name: "Surya S ",
+              year: "III ",
+              phone: 7305711758,
+              email: "suryasagadevan17@gmail.com",
+            },
+            {
+              name: "Lekha M",
+              year: "III  ",
+              phone: 9345569421,
+              email: "lekhalekha1321@gmail.com ",
+            },
+          ],
         },
       },
       {
-        name: "Non-Stationary Signal Processing with ML and Data Analytics ",
-        logo: "/EventsAssets/ecew1.webp",
+        name: "Build a strong career in Cybersecurity",
+        logo: "/EventsAssets/ecew2.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
-        venue: " ",
-        company: "Sathyabama university",
-        resource: [
-          {
-            name: "Dr.P.Chitra",
-            desig: "Professor  ",
-            phone: 9444496078,
-            email: "chitra.ece@sathyabama.ac.in",
-          },
-          {
-            name: "Dr.R.Khrisnaprasanna",
-            desig: "Assistant Professor  ",
-            phone: 9444496078,
-          },
-        ],
-        staff: [
-          {
-            name: "Dr.T.Jaya ",
-            desig: "Professor  ",
-            phone: 9488882262,
-            email: "jayat@saveetha.ac.in",
-          },
-          {
-            name: "Dr.K.Chanthirasekaran",
-            desig: "Associate Professor  ",
-          },
-        ],
-        student: [
-          {
-            name: "S.Vishal  ",
-            year: "II ",
-            phone: 9677513751,
-            email: "vishalsvr2004@gmail.com",
-          },
-          {
-            name: "Dhanu Dharvin",
-            year: "II",
-            phone: 9952816664,
-            email: "dhanubalagesan@gmail.com",
-          },
-        ],
+        mode: "TBA",
+        venue: "TBA",
+        company: "IT EXPERT TRAINING",
 
-        link: " ",
+        link: "https://forms.gle/CHPjnL96gkyRQcKG6",
         day1: {
-          date: "30/10/23",
-          mode: "OFFLINE",
-          venue: " ",
-          topics: "Session 1: Fundamentals of Non stationary signals and Non stationary signal processing techniques. Session  2: Generation and processing of signals using Matlab.",
-        },
-        day2: {
-          date: "31/10/23",
-          mode: "OFFLINE",
-          venue: " ",
-          topics: "Session 3: Machine Learning Techniques for EEG signal processing. Session 4: Applications demo (different case studies) ",
+          date: "14/11/22",
+          time: "10.00-3.00",
+          mode: "online",
+          venue: "TBA",
+          list: "true",
+          topic:
+            "Introduction to Ethical Hacking.\nFoot printing and Reconnaissance.\nScanning Networks.\nMalware Threats.\nSniffing.\nDenial-of-Service",
+          resource: [
+            {
+              name: "Dr.Mohamed Ibrahim ",
+              desig: "Founder, Ibby Cyber Security mentor  ",
+              email: "ilyas@tripleminfotech.com ",
+            },
+          ],
+          staff: [
+            {
+              name: "Dr.M.Vanitha ",
+              desig: "Associate Professor  ",
+              phone: 7871784886,
+              email: "vanitha@saveetha.ac.in ",
+            },
+            {
+              name: "Mr.K.Arun Kumar ",
+              desig: "Associate Professor  ",
+              phone: 9600981800,
+              email: "arunkumar@saveetha.ac.in ",
+            },
+          ],
+          student: [
+            {
+              name: "Vaishali S",
+              year: "IV ",
+              phone: 6382603290,
+              email: "mohammedhasan.ece.sec@gmail.com ",
+            },
+            {
+              name: "Sri Kamatchi S",
+              year: "II  ",
+              phone: 7358406893,
+              email: "deepaswe2@gmail.com ",
+            },
+          ],
         },
       },
       {
-        name: "Crafting Research Article and Engineering your Resume using AI Revolution ",
-        logo: "/EventsAssets/ecew1.webp",
+        name: "Computer Vision",
+        logo: "/EventsAssets/ecew3.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
-        venue: " ",
-        company: " Saveetha ECE Deaprtment",
-        resource: [
-          {
-            name: "Dr P Baraneedharan ",
-            desig: "Faculty ",
-            phone: 9443648262,
-            email: "pbaraneedharan@saveetha.ac.in",
-          },
-        ],
-        staff: [
-          {
-            name: "Dr P Baraneedharan ",
-            desig: "Assistant Professor ",
-            phone: 99443648262,
-            email: "pbaraneedharan@saveetha.ac.in",
-          },
-          {
-            name: "Dr. Mausam Chouksey ",
-            desig: "Assistant Professor ",
-            phone: 9973041451,
-            email: "mausamchouksey@saveetha.ac.in",
-          },
-        ],
-        student: [
-          {
-            name: "Kalaivani  ",
-            year: "III",
-            phone: 8825642398,
-            email: "vkalaivanikalai3015@gmail.com",
-          },
-          {
-            name: "S.Vaishnavi",
-            year: "III",
-            phone: 97373976683,
-            email: "vaishnavisrinivasanvs2003@gmail.com",
-          },
-        ],
+        mode: "TBA",
+        venue: "TBA",
+        company: "IT EXPERT TRAINING",
 
-        link: " ",
+        link: "https://forms.gle/1bufuZaJttSTF44C8",
         day1: {
-          date: "30/10/23",
-          mode: "OFFLINE",
-          venue: " ",
-          topics: "Session 1 : AI in Research & Manuscript. Understanding and Formulating research Hypothesis. AI Tools and Software Requirements. Session 2 :  Data ethics and Visualization, Structuring Paper, Scholarly publishing & Citation Management.Peer Review and futuristic scope in AI.",
-        },
-        day2: {
-          date: "31/10/23",
-          mode: "OFFLINE",
-          venue: " ",
-          topics: "Session 3 : Types, Benefits of Networking, Strategies for Effective Connections, Leveraging Social Media and Online Platforms. Session 4 : Understanding the Purpose, Preparation, formatting and structure, Emphasizing Skills, Profile Optimization. ",
+          date: "15/11/22",
+          time: "10.00-3.00",
+          mode: "online",
+          venue: "TBA",
+          list: "true",
+          topic:
+            '"Computer Vision Made easy with Python"\n computer vision overview\n image operations\n handling Videos\n identifying colors\n Machine learning in computer vision\n Face Detections',
+          resource: [
+            {
+              name: "Mr. Muhammed Ilyas ",
+              desig: "Chief Executive Officer, IT Expert Training, Chennai  ",
+              phone: 9884648010,
+              email: "ilyas@tripleminfotech.com",
+            },
+          ],
+          staff: [
+            {
+              name: "Dr.M.Vanitha ",
+              desig: "Associate Professor  ",
+              phone: 7871784886,
+              email: "vanitha@saveetha.ac.in ",
+            },
+            {
+              name: "Dr.A.Elakkiya  ",
+              desig: "Associate Professor  ",
+              phone: 9952376256,
+              email: "elakkiyaa@saveetha.ac.in  ",
+            },
+          ],
+          student: [
+            {
+              name: "Muralidharan N ",
+              year: "III ",
+              phone: 7708905895,
+              email: "muralidharanvpt@gmail.com ",
+            },
+            {
+              name: "Nagarajan R ",
+              year: "II  ",
+              phone: 6383456337,
+              email: "r.ns.raj2003@gmail.com  ",
+            },
+          ],
         },
       },
       {
-        name: " Design Dichotomy ",
-        logo: "/EventsAssets/ecew1.webp",
+        name: "Mobile application development using Machine learning ",
+        logo: "/EventsAssets/ecew4.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
-        venue: " ",
-        company: " Zoho",
-        resource: [
-          {
-            name: "Mr.Kalyan Narayanan ",
-            desig: "UI/UX designer ",
-            phone: 9962386422,
-            email: "sakthi@saveetha.ac.in",
-          },
-        ],
-        staff: [
-          {
-            name: "Ms.G.Keerthiga",
-            desig: "Assistant Professor(SG) ",
-            phone: 8825783729,
-            email: "keerthiga@saveetha.ac.in",
-          },
-          {
-            name: "Ms.K.Sakthi ",
-            desig: "Assistant Professor(SG) ",
-            phone: 9962386422,
-            email: "sakthi@saveetha.ac.in",
-          },
-        ],
-        student: [
-          {
-            name: "P.Karthikeyan ",
-            year: "II",
-            phone: 8939655011,
-            email: "karthikeyan76652@gmail.com",
-          },
-          {
-            name: "K.Varsha",
-            year: "II",
-            phone: 7603858843,
-            email: "varshakofficial2k23@gmail.com",
-          },
-        ],
+        mode: "TBA",
+        venue: "TBA",
+        company: "Towards Technology",
 
-        link: " ",
+        link: "https://forms.gle/MxwUSnoTJqYdWm1q9",
         day1: {
-          date: "30/10/23",
-          mode: "HYBRID",
-          venue: " ",
-          topics: "Session 1: Introduction. Session 2: Design thinking for aspiring creators",
-        },
-        day2: {
-          date: "31/10/23",
-          mode: "HYBRID",
-          venue: " ",
-          topics: "Session 3:  Hands-on workshop to inculcate design applications. ",
+          date: "17/11/22",
+          time: "10.00-3.00",
+          mode: "online",
+          venue: "TBA",
+          list: "true",
+          topic:
+            "FN Session: Machine Learning Introduction \nData importance \nDevelop and Validate Machine Learning model \nMachine Learning deployment methods \nFN Session: \nHands-on Session: (Create mobile app for diabetes prediction) \n   Problem statement \nData Collection \nData pre-processing \nTrain Machine Learning model \n Validate Machine Learning model\nDevelop mobile application by deploying Machine Learning model \nInstall the application in mobile ",
+          resource: [
+            {
+              name: "Ms.Vaishnavi Pandiyan ",
+              desig: "Co founder  ",
+              email: "info@towardstechno.com ",
+            },
+          ],
+          staff: [
+            {
+              name: "T.Archana  ",
+              desig: "Associate Professor (SG) ",
+              phone: 7871784886,
+              email: "archana@saveetha.ac.in  ",
+            },
+            {
+              name: "A.Hemamalini  ",
+              desig: "Associate Professor (SG) ",
+              phone: 9952376256,
+              email: "hemamalini@saveetha.ac.in  ",
+            },
+          ],
+          student: [
+            {
+              name: "S.A.ABDUL KALAM  ",
+              year: "II ",
+              phone: 9159478581,
+              email: "akkalam305@gmail.com ",
+            },
+            {
+              name: "Manoj Ravichandran",
+              year: "III  ",
+              phone: 7904106485,
+              email: "manojmsd7@gmail.com  ",
+            },
+          ],
         },
       },
       {
-        name: "Semiconductor inspection using Matlab and Python",
-        logo: "/EventsAssets/ecew1.webp",
+        name: "Data Analysis using Machine Learning in MATLAB",
+        logo: "/EventsAssets/ecew5.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
-        venue: " ",
-        company: " Applied Material PVT.LTD.",
-        resource: [
-          {
-            name: "Mr.Arun Kumar  ",
-            desig: "Senior Engineer ",
-            phone: 9443648262,
-            email: "arunvijay537@gmail.com",
-          },
-          {
-            name: "Mr.Senthil Kumar  ",
-            desig: "Senior Engineer ",
-          },
-        ],
-        staff: [
-          {
-            name: "Dr.Raji Pandurangan ",
-            desig: "Assistant Professor ",
-            phone: 9003051625,
-            email: "rajipandurangan@saveetha.ac.in",
-          },
-          {
-            name: "Dr.Mahendran",
-            desig: "Assistant Professor ",
-            phone: 9698999699,
-            email: "mahendrank@saveetha.ac.in",
-          },
-        ],
-        student: [
-          {
-            name: "Dhanu Dhavin B ",
-            year: "II",
-            phone: 9677513751,
-            email: "dhanubalagesan@gmail.com ",
-          },
-          {
-            name: "Dhayanithi S",
-            year: "II",
-            phone: 8825454463,
-            email: "dnithi2208@gmail.com",
-          },
-        ],
+        mode: "TBA",
+        venue: "TBA",
+        company: "Renault Nissan Technology & Business Centre, Chennai, India",
 
-        link: " ",
+        link: "https://forms.gle/GMCc9pXLRm5YKEJw8",
         day1: {
-          date: "27/10/23",
-          mode: "OFFLINE",
-          venue: " ",
-          topics: "Session 1: Introduction about semiconductors in industry. Session 2: Case study on realtime examples using matlab. ",
-        },
-        day2: {
-          date: "28/10/23",
-          mode: "OFFLINE",
-          venue: " ",
-          topics: "Session 3: Exploring about semiconductors using python coding with hands on. Session 4: Designing semiconductors devices on PCB . ",
+          date: "16/11/22",
+          time: "10am -3pm",
+          mode: "online",
+          venue: "TBA",
+          list: "true",
+          topic:
+            "Implement and test your algorithms\n Develop the computational codes and debugging\nUse a large database of built in algorithms\n  Process still images and create simulation videos\nSymbolic computation\n Call external libraries\nApplications",
+          resource: [
+            {
+              name: "Mr. ARUN KUMAR .L  ",
+              desig: "Senior Software Engineer  ",
+              email: "arunvijay537@gmail.com ",
+            },
+          ],
+          staff: [
+            {
+              name: "Dr.M.Selvi ",
+              desig: "Professor & Deputy HOD   ",
+              phone: 9443105843,
+              email: "selvim@saveetha.ac.in  ",
+            },
+            {
+              name: "Dr.Raji Pandurangan  ",
+              desig: "Associate Professor  ",
+              phone: 9003051625,
+              email: "rajipandurangan@saveetha.ac.in  ",
+            },
+          ],
+          student: [
+            {
+              name: "Karthikeyan S",
+              year: "IV ",
+              phone: 7338929319,
+              email: "spradeeps2002@gmail.com ",
+            },
+            {
+              name: "Vishnu Priya M K",
+              year: "II  ",
+              phone: 7358250220,
+              email: "vishnupreya@2004  ",
+            },
+            {
+              name: "Elangovan S",
+              year: "II  ",
+              phone: 9360770345,
+            },
+          ],
         },
       },
       {
-        name: "One Day Workshop on Smart System Design using TinkerCAD ",
-        logo: "/EventsAssets/ecew1.webp",
+        name: '"How to be happy all through your life?" Yes, Hidden Secret Unlocked !',
+        logo: "/EventsAssets/ecew6.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
-        venue: " ",
-        company: " Econ-System Pvt.Ltd, Chennai",
-        resource: [
-          {
-            name: "Ms.Kalaimathi K ",
-            desig: "Embedded Engineer ",
-            phone: 8667600644,
-            email: "kalaimathics@gmail.com",
-          },
-        ],
-        staff: [
-          {
-            name: "Dr.NirmalaDevi K  ",
-            desig: "Assistant Professor ",
-            phone: 9677781647,
-            email: "nirmaladevik@saveetha.ac.in",
-          },
-          {
-            name: "Dr.Mahendran",
-            desig: "Assistant Professor ",
-            phone: 9698999699,
-            email: "mahendrank@saveetha.ac.in",
-          },
-        ],
-        student: [
-          {
-            name: "Narthika K ",
-            year: "II",
-            phone: 8754879313,
-            email: "narthinarthika26@gmail.com",
-          },
-          {
-            name: "NandhaKishore R",
-            year: "II",
-            phone: 9344248604,
-            email: "r.nandakishore24@gmail",
-          },
-        ],
+        mode: "TBA",
+        venue: "TBA",
+        company: "ADCOM AND WOW ACADEMY",
 
-        link: " ",
+        link: "https://forms.gle/ivxCuJwffXKSW3FZ8",
         day1: {
-          date: "28/10/23",
-          mode: "OFFLINE",
-          venue: " ",
-          topics: "Session 1: Introduction. Session 2 : Hands on TinkerCAD Tool.",
+          date: "18/11/22",
+          time: "10.00-3.00",
+          mode: "Offline",
+          venue: "ECE 5th Floor LH01 & LH02",
+          list: "true",
+          topic:
+            "Brain storming sessions \nHappiness revealed factors\nActivities which creates fun and cherish able moments ",
+          resource: [
+            {
+              name: "R.S.MANI  ",
+              desig: "FOUNDER ",
+              email: "mani@adcomindia.com ",
+            },
+          ],
+          staff: [
+            {
+              name: "G.Keerthiga  ",
+              desig: "Associate Professor (SG)  ",
+              phone: 8825783729,
+              email: "keerthiga@saveetha.ac.in  ",
+            },
+            {
+              name: "K.Sakthi  ",
+              desig: "Associate Professor (SG) ",
+              phone: 9962386422,
+              email: "sakthi@saveetha.ac.in    ",
+            },
+          ],
+          student: [
+            {
+              name: "Mohammed Hasan M ",
+              year: "IV ",
+              phone: 9944709448,
+              email: "ajuprasath12@gmail.com  ",
+            },
+            {
+              name: "J swetha ",
+              year: "II  ",
+              phone: 8248238746,
+              email: "karthioffece@gmail.com  ",
+            },
+          ],
         },
       },
       {
-        name: "NanoBot: Hands-on workshop on Arduino-Powered Path Tracker ",
-        logo: "/EventsAssets/ecew1.webp",
+        name: 'A journey to Semiconductor manufacturing and Avionics Calibration Services',
+        logo: "/EventsAssets/ecew7.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
-        venue: " ",
-        company: " Saveetha ECE Deaprtment",
-        resource: [
-          {
-            name: "Logachandru R  ",
-            desig: "Student ",
-            phone: 9485855863,
-            email: "entirety2104@gmail.com",
-          },
-          {
-            name: "Nanda Kishore R ",
-            desig: "Student ",
-            phone: 9344248604,
-            email: "r.nandakishore24@gmail.com",
-          },
-        ],
-        staff: [
-          {
-            name: "Ms.A. Hema Malini ",
-            desig: "Assistant Professor(SG) ",
-            phone: 9952648240,
-            email: "hemamalini@saveetha.ac.in",
-          },
-          {
-            name: "Ms.T.Archana ",
-            desig: "Assistant Professor(SG) ",
-            phone: 9171493190,
-            email: "archana@saveetha@ac.in",
-          },
-          {
-            name: "Ms. Rohini M ",
-            desig: "Assistant Professor(SG) ",
-            phone: 7395959360,
-            email: "ROHINIM@saveetha.ac.in",
-          },
-        ],
-        student: [
-          {
-            name: "Logachandru R  ",
-            desig: "Student ",
-            phone: 9485855863,
-            email: "entirety2104@gmail.com",
-          },
-          {
-            name: "Nanda Kishore R ",
-            desig: "Student ",
-            phone: 9344248604,
-            email: "r.nandakishore24@gmail.com",
-          },
-        ],
+        company: "Cal-Asia Pte Ltd",
+        link: "https://shorturl.at/eGL18",
+        morng: "Semiconductor Process and Exposure in Production Environment.Semiconductor process and operation steps.Handling of Wafers.Automation on Testing with various Steps from Raw Silicon to completed IC’s (Video based demonstration).What is Front end process.What is Back end.Summary of Semiconductor manufacturing journey",
+        afternoon: "Avionic Calibration Services.Equipment used in avionics environment.Calibration Process.Testing and types of signal process.Role of calibration and its importance.Exposure to avionics Field equipments",
 
-        link: " ",
         day1: {
-          date: "30/10/23",
-          mode: "OFFLINE",
-          venue: " ",
-          topics: "Session 1: Introduction. Session 2: Materials and Prerequisites. Session 3: Understanding Line Following. ",
-        },
-        day2: {
-          date: "31/10/23",
-          mode: "OFFLINE",
-          venue: " ",
-          topics: "Session 4: Hardware Setup. Session 5: Arduino Programming. Session 6: Calibration and Testing. Session 7: Fine-Tuning and Challenges. Session 8: Q&A Session. ",
-        },
-      },
-      {
-        name: "AI-Powered Chatbots: From Idea to Implementation Workshop ",
-        logo: "/EventsAssets/ecew1.webp",
-        tag: "WORKSHOP",
-        color: "0, 70, 90",
-        venue: " ",
-        company: " Saveetha ECE Deaprtment",
-        resource: [
-          {
-            name: "Dr.Raji Pandurangan ",
-            desig: "Assistant Professor ",
-            phone: 9003051625,
-            email: "rajipandurangan@saveetha.ac.in",
-          },
-        ],
-        staff: [
-          {
-            name: "Dr.Raji Pandurangan ",
-            desig: "Assistant Professor ",
-            phone: 9003051625,
-            email: "rajipandurangan@saveetha.ac.in",
-          },
-          {
-            name: "Dr.Mahendran",
-            desig: "Assistant Professor ",
-            phone: 9698999699,
-            email: "mahendrank@saveetha.ac.in",
-          },
-        ],
-        student: [
-          {
-            name: "Vishnuu priya MK ",
-            year: "III",
-            phone: 7358250220,
-            email: "vishnupreya2004@gmail.com",
-          },
-          {
-            name: "J.Swetha ",
-            year: "III",
-            phone: 8248238746,
-            email: "deepaswe2@gmail.com",
-          },
-        ],
-
-        link: " ",
-        day1: {
-          date: "25/10/23",
-          mode: "OFFLINE",
-          venue: " ",
-          topics: "session 1: All about Chat GPT and AI. session 2: Hands on AI tools.",
-        },
-        day2: {
-          date: "26/10/23",
-          mode: "OFFLINE",
-          venue: " ",
-          topics: "Session 3: Resume building using AI. Session 4: PPT preparation using AI. ",
-        },
-      },
-      {
-        name: "Flask Bootcamp: Building your own Web App Development",
-        logo: "/EventsAssets/ecew1.webp",
-        tag: "WORKSHOP",
-        color: "0, 70, 90",
-        venue: " ",
-        company: " Towards technology",
-        resource: [
-          {
-            name: "S. Karthick",
-            desig: "Project Engineer ",
-            phone: 9786457803,
-            email: "karthiksubr97@gmail.com",
-          },
-        ],
-        staff: [
-          {
-            name: "T.Archana ",
-            desig: "Assistant professor (SG)",
-            phone:  8778842147,
-            email: "archana@saveetha.ac.in",
-          },
-          {
-            name: "C.Srinivasasn",
-            desig: "Assistant Professor ",
-            phone: 9894726688,
-            email: "srinivasanc@saveetha.ac.in",
-          },
-        ],
-        student: [
-          {
-            name: "Arthi.A  ",
-            year: "IV",
-            phone: 9025854664,
-            email: "aarthidjdj@gmail.com",
-          },
-          {
-            name: "Sharmila.R",
-            year: "IV",
-            phone: 8778208071 ,
-            email: "sharmilarajendran129@gmail.com",
-          },
-          {
-            name: "Rohith.D ",
-            year: "IV",
-            phone: 8618939697,
-            email: "rohithdevarajulu@gmail.com",
-          },
-          {
-            name: "Aravindharam D",
-            year: "IV",
-            phone: 8248855697,
-            email: "iamaravindharam@gmail.com",
-          },
-        ],
-
-        link: " ",
-        day1: {
-          date: "26/10/23",
-          mode: "OFFLINE",
-          venue: " ",
-          topics: "Introduction to Full stack web development. Fundamentals of flask framework. Api development - request and response. Building UI - html/css.",
-        },
-        day2: {
-          date: "27/10/23",
-          mode: "OFFLINE",
-          venue: " ",
-          topics: "Python requests. Get wheather public api. Create whether display in html. Wheather live Visualization",
+          date: "16/11/22",
+          time: "10.00-4.00",
+          mode: "ONLINE",
+          venue: "TBA",
+          resource: [
+            {
+              name: "Mr D Ganesh Babu",
+              phone: "Cal-Asia Pte Ltd working as Technical Manager in calibration department, Singapore.",
+              email: "mani@adcomindia.com ",
+              desig: "",
+            },
+          ],
+          staff: [
+            {
+              name: "Dr.M.Vanitha",
+              desig: "Associate Professor  ",
+              phone: 7871784886,
+              email: "keerthiga@saveetha.ac.in  ",
+            },
+            {
+              name: "Dr.A.Elakkiya",
+              desig: "Associate Professor ",
+              phone: 9952376256,
+              email: "sakthi@saveetha.ac.in    ",
+            },
+            {
+              name: "Mr.K.Arunkumar",
+              desig: "Associate Professor",
+              phone: 9600981800,
+              email: "sakthi@saveetha.ac.in",
+            },
+          ],
+          student: [
+            {
+              name: "Annapoorani.S",
+              year: "IV ",
+              phone: 9629805774,
+              email: "ajuprasath12@gmail.com  ",
+            },
+          ],
         },
       },
     ],
