@@ -1886,7 +1886,7 @@ export const EventDetails = [
 
         tag: "EVENT",
         color: "0, 1, 38",
-        logo: "/EventsAssets/ai1.webp",
+        logo: "/EventsAssets/aim1.webp",
         staff: [
           {
             name: "Mr Saravanan T ",
@@ -1937,7 +1937,7 @@ export const EventDetails = [
         venue: "AI&DS department",
         time: "1:00 - 4:00pm",
         members: "1",
-        rules:
+        note:
           "Team Size: 1 (Solo event) .Requisite: Laptop is Mandatory .Pre-requisite: Python, or Java, or C",
         round1:
           "Debug to Escape - The First Round is debugging the non-virtual code provided to them physically on the spot within the time limit and get clues to unlock the next Level",
@@ -1947,7 +1947,7 @@ export const EventDetails = [
           "Be the Immortal - The final round is to escape the room by having the clues of the first and second rounds",
         tag: "EVENT",
         color: "0, 1, 38",
-        logo: "/EventsAssets/ai2.webp",
+        logo: "/EventsAssets/aim2.webp",
         staff: [
           {
             name: "Mr Koli Himanth Rao ",
@@ -1997,7 +1997,7 @@ export const EventDetails = [
         venue: "AI&DS department",
         time: "12:300pm - 3:30pm",
         members: "1",
-        rules:
+        note:
           "Team Size: 1 (Solo event) .Requisite: Laptop is Mandatory.Pre-requisite: Software like Autodesk, Blender, etc",
         round1:
           " Design Dynamo -  Participants designing 3D models receive a 2D reference, to generate a new 3D model",
@@ -2008,7 +2008,7 @@ export const EventDetails = [
 
         tag: "EVENT",
         color: "0, 1, 38",
-        logo: "/EventsAssets/ai3.webp",
+        logo: "/EventsAssets/aim3.webp",
         staff: [
           {
             name: "Dr.Malathi K ",
@@ -2130,7 +2130,7 @@ export const EventDetails = [
         note:"Requisite: Laptop, Phone, or any other device is required",
           tag: "EVENT",
         color: "0, 1, 38",
-        logo: "/EventsAssets/ai5.webp",
+        logo: "/EventsAssets/aim5.webp",
         staff: [
           {
             name: "Dr.Selvakumar.R  ",
@@ -2181,64 +2181,59 @@ export const EventDetails = [
     ],
     workshopslist: [
       {
-        name: "MOBILE ROBOTIC AND SIMULATION  ",
-        logo: "/EventsAssets/aiw1.webp",
+        name: "NLP Transformers to classify Text ",
+        logo: "/EventsAssets/aimw1.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
-        link: "https://docs.google.com/forms/d/e/1FAIpQLSelczRKs8BpNXoFTGMMwqUpuAqHabroYLMm-QcYfsBiipP39A/viewform",
+        company:" Accenture",
+        link: "https://forms.gle/m4keKu7WvojoXXco8",
         day1: {
-          date: "15.11.2022 ",
+          date: "28.10.2023 ",
           time: "9.00-3.00pm",
           mode: "OFFLINE",
           venue: "AI&DS department",
           topic:
-            "Introduction to robot anatomy links , joints and types or robots. Kinematic modeling of robot.Forward kinematics using robo analyser .Inverse kinematics using robot analyser .Introduction to robo dk .Hands on with 6 axis industrial robot",
+            "Evolution of NLP - Theory session .We will concentrate like how NLP has evolved over the years .Solving Text Classification with Transformers - Hands on session ",
           resource: [
             {
-              name: "Mr.Vasanth Kumar.CH ",
-              desig: "Assistant Professor(SG)",
-              phone: 8122328543,
-              email: "vasanthkumar@savetha.ac.in ",
+              name: "Mr Praveen Thenraj Gunasekaran",
+              desig: "Machine Learning Engineer ",
+              phone:   9894553007 ,
+              email: "Praveenmec67@gmail.com ",
             },
             {
-              name: "Mr.Sridhar.S  ",
-              desig: "Assistant Professor(OG)",
-              phone: 9962282076,
-              email: "sridhar@saveetha.ac.in  ",
+              name: "Mr. Selvakuberan Karuppasamy  ",
+              desig: "Machine Learning Engineer ",
+              phone: 9962114466,
+              email: "Selva kuberan.k@gmail.com  ",
             },
           ],
           staff: [
             {
-              name: "Mr.Vasanth Kumar.CH ",
-              desig: "Assistant Professor(SG)",
-              phone: 8122328543,
-              email: "vasanthkumar@savetha.ac.in ",
-            },
-            {
-              name: "Mr.Sridhar.S  ",
-              desig: "Assistant Professor(OG)",
-              phone: 9962282076,
-              email: "sridhar@saveetha.ac.in  ",
+              name: "Ms.Magitha Nirmala Tennyson ",
+              desig: "Assistant Professor",
+              phone: 7358377693 ,
+              email: "Magitha Nirmalatennyson @saveetha.ac.in ",
             },
           ],
           student: [
             {
-              name: "Aishree Ramesh  ",
+              name: " Mr.Sai Eswar Kandukuri ",
               year: "III",
-              phone: 7305663829,
-              email: "aishree.ramesh@gmail.com ",
+              phone: 9502159659 ,
+              email: "Saieswar1607@gmail.com ",
             },
             {
-              name: "Jayashree Rao.V ",
+              name: "Mrs.B Mahalakshmi ",
               year: "III",
-              phone: 9962926229,
-              email: "jayashreerao1510@gmail.com ",
+              phone: 7200481646 ,
+              email: "Balireddymahalakshmi04 @gmail.com  ",
             },
             {
-              name: "Thenmozhi.P ",
+              name: "Mr.YUVASAKTHI N C  ",
               year: "II",
-              phone: 7305404849,
-              email: "thenmozhipv293@gmail.com ",
+              phone: 7868927573 ,
+              email: "Shakthi.education1@gmail.com  ",
             },
             {
               name: "Ashwin Raaj.S ",
@@ -2250,33 +2245,28 @@ export const EventDetails = [
         },
       },
       {
-        name: "Game Development  ",
-        logo: "/EventsAssets/aiw2.webp",
+        name: " Hands on Mobile App Development ",
+        logo: "/EventsAssets/aimw2.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
-
-        link: "https://docs.google.com/forms/d/e/1FAIpQLSdvQNXVEr5jPksC-x-uk3Cs7sOuB0uTgwYr1qGsn9Brh-UCFw/viewform",
+         company:"IVY Mobility",
+        link: "https://forms.gle/CPQoCbMPAV98eZQa7",
         day1: {
-          date: "16.11.2022 ",
+          date: "27.10.2023 ",
           time: "9.00-3.00",
           mode: "OFFLINE",
           venue: "AI&DS department",
-          topic: "Designing the 3D models using Maya ",
+          topic: "Introduction to Mobile App Development .Android Environment Setup and Architecture .Creating Your First Android App ",
           resource: [
             {
-              name: "Vijayaragavan ARR ",
-              desig: "3 year student",
-              phone: 9443654516,
-              email: "vijayaragavan.arr@gmail.com  ",
+              name: "Mr V.Murugan MCA.,MBA. ",
+              desig: "Technical Architect ",
+              phone: 9566138799 ,
+              email: "MuruganMnc@gmail.com  ",
             },
           ],
           staff: [
-            {
-              name: "Archana S H ",
-              desig: "Assistant Professor",
-              phone: 9094375369,
-              email: "archana.s.h@saveetha.ac.in ",
-            },
+              
             {
               name: "Dr.Aswini Jayaraman ",
               desig: " Professor",
@@ -2286,40 +2276,41 @@ export const EventDetails = [
           ],
           student: [
             {
-              name: "Someasvar.R ",
-              year: "II",
-              phone: 9786053400,
-              email: "deepakbakiya455@gmail.com  ",
+              name: "Mr.JEEVA ABISHAKE A  ",
+              year: "III",
+              phone: 8056663183 ,
+              email: "Jeeva abishake@gmail.com  ",
             },
             {
-              name: "Sherwin Roger R D ",
+              name: "Mr.AAKASH S  ",
               year: "III",
-              phone: 9789820475,
-              email: "sherwinroger02@gmail.com ",
+              phone: 6383960184 ,
+              email: "Aakash Akshith455@gmail .com ",
+            },
+            {
+              name: "Mrs.Kothai K ",
+              year: "II",
+              phone: 9176977202  ,
+              email: "Kothai.dks@ gmail.com ",
             },
           ],
         },
-        day2: {
-          date: "17.11.2022 ",
-          time: "9.00-3.00pm",
+        day1: {
+          date: "27.10.2023 ",
+          time: "9.00-3.00",
           mode: "OFFLINE",
           venue: "AI&DS department",
-          topic: "Developing 2D/3D game using Unity/Unreal ",
+          topic: "Android User Interface (UI) Layouts and Control.Designing simple application.Debugging and Deployment ",
           resource: [
             {
-              name: "Vijayaragavan ARR  ",
-              desig: "3 year student",
-              phone: 9443654516,
-              email: "vijayaragavan.arr@gmail.com  ",
+              name: "Mr V.Murugan MCA.,MBA. ",
+              desig: "Technical Architect ",
+              phone: 9566138799 ,
+              email: "MuruganMnc@gmail.com  ",
             },
           ],
           staff: [
-            {
-              name: "Archana S H ",
-              desig: "Assistant Professor",
-              phone: 9094375369,
-              email: "archana.s.h@saveetha.ac.in ",
-            },
+              
             {
               name: "Dr.Aswini Jayaraman ",
               desig: " Professor",
@@ -2329,124 +2320,75 @@ export const EventDetails = [
           ],
           student: [
             {
-              name: "Someasvar.R ",
-              year: "II",
-              phone: 9786053400,
-              email: "deepakbakiya455@gmail.com  ",
+              name: "Mr.JEEVA ABISHAKE A  ",
+              year: "III",
+              phone: 8056663183 ,
+              email: "Jeeva abishake@gmail.com  ",
             },
             {
-              name: "Sherwin Roger R D ",
+              name: "Mr.AAKASH S  ",
               year: "III",
-              phone: 9789820475,
-              email: "sherwinroger02@gmail.com ",
+              phone: 6383960184 ,
+              email: "Aakash Akshith455@gmail .com ",
+            },
+            {
+              name: "Mrs.Kothai K ",
+              year: "II",
+              phone: 9176977202  ,
+              email: "Kothai.dks@ gmail.com ",
             },
           ],
         },
       },
       {
-        name: "3D Designing & Manufacturing",
-        logo: "/EventsAssets/aiw3.webp",
+        name: "Introduction to Mobile Robotics",
+        logo: "/EventsAssets/aiMw3.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
-      
-        link: "https://docs.google.com/forms/d/e/1FAIpQLSe4vrqp0lMhP4C7fE2NtrH8WRhZGUpWk1tX-Z2NGa5AdJ3MNQ/viewform",
+        company:"Saveetha Engineering College",
+        link: "https://forms.gle/hRiwAKYjbwZ533Zs7",
         day1: {
-          date: "14.11.2022",
+          date: "31.10.2023",
           time: "9.00am-3.00pm",
           mode: "OFFLINE",
           venue: "AI&DS department",
           topic:
-            "Introduction to Fusion 360 .Introduction to 3D Printing.Introduction to cura software  ",
+            "Session 1: Basics of Robotics .Session 2: Microcontrollers and Microprocessors . Session 3: Hands-on Robotics .  Session 4: Real-world Applications  ",
           resource: [
             {
-              name: "Dr.S.Sellakumar ",
+              name: "Mr. Vasanth Kumar C H",
               desig: "Assistant Professor ",
-              phone: 9486932452,
-              email: "sellakumar@saveetha.ac.in  ",
-            },
-            {
-              name: "Dr. Vignesh Sekar  ",
-              desig: "Assistant Professor ",
-              phone: 7397332087,
-              email: "vigneshs@saveetha.ac.in  ",
+              phone: 7338920965 ,
+              email: "vasanthkum arch@saveet ha.ac.in  ",
             },
           ],
           staff: [
             {
-              name: "Dr.S.Sellakumar ",
+              name: "Mrs.Swedha  ",
               desig: "Assistant Professor ",
               phone: 9486932452,
-              email: "sellakumar@saveetha.ac.in  ",
-            },
-            {
-              name: "Dr. Vignesh Sekar  ",
-              desig: "Assistant Professor ",
-              phone: 7397332087,
-              email: "vigneshs@saveetha.ac.in  ",
+              email: "swedha@saveetha.ac.in   ",
             },
           ],
           student: [
             {
-              name: "Fawziya A  ",
+              name: "Mr.D Amarnath Reddy ",
               year: "III",
-              phone: 9790619169,
-              email: "fawziya267@gmail.com  ",
+              phone:   9398355729 ,
+              email: "Reddy Amarnath745@gmail.com   ",
             },
+               
             {
-              name: "Paarkavya B  ",
-              year: "II",
-              phone: 8122429102,
-              email: "paarkavy.bv@gmail.com ",
-            },
-          ],
-        },
-        day2: {
-          date: "15.11.2022",
-          time: "9.00-3.00pm",
-          mode: "OFFLINE",
-          venue: "AI&DS department",
-          topic:
-            "Hands on training, demonstration to the 3D printing components ",
-          resource: [
-            {
-              name: "Dr.S.Sellakumar ",
-              desig: "Assistant Professor ",
-              phone: 9486932452,
-              email: "sellakumar@saveetha.ac.in  ",
-            },
-            {
-              name: "Dr. Vignesh Sekar  ",
-              desig: "Assistant Professor ",
-              phone: 7397332087,
-              email: "vigneshs@saveetha.ac.in  ",
-            },
-          ],
-          staff: [
-            {
-              name: "Dr.S.Sellakumar ",
-              desig: "Assistant Professor ",
-              phone: 9486932452,
-              email: "sellakumar@saveetha.ac.in  ",
-            },
-            {
-              name: "Dr. Vignesh Sekar  ",
-              desig: "Assistant Professor ",
-              phone: 7397332087,
-              email: "vigneshs@saveetha.ac.in  ",
-            },
-          ],
-          student: [
-            {
-              name: "Fawziya A  ",
+              name: "Mr.M Vivekanandha Reddy  ",
               year: "III",
-              phone: 9790619169,
-              email: "fawziya267@gmail.com  ",
+              phone: 8340813556 ,
+              email: "Vivekreddy8360@gmail.com ",
             },
             {
-              name: "Paarkavya B  ",
-              year: "II",
-              phone: 8122429102,
-              email: "paarkavy.bv@gmail.com ",
+              name: "Mrs.Amurtha Vaahini KN   ",
+              year: "III",
+              phone: 9042288678 ,
+              email: "Amurtha045@gmail.com  ",
             },
           ],
         },
