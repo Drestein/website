@@ -154,8 +154,8 @@ export const comobj = [
     bgtext: "Proj",
   },
   {
-    id: "#proster",
-    title: "Proster Presentation",
+    id: "#poster",
+    title: "Poster Presentation",
     img: "/DepartmentAssets/proj.webp",
     des: "test",
     color: "#ff58c2",

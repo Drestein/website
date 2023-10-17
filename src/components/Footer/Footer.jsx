@@ -130,7 +130,7 @@ const Footer = () => {
             Dr. K. Suresh Kumar
           </Chip>
           </a>
-          <a href="https://www.saveetha.ac.in/index.php/2-uncategorised/489-dr-k-suresh-kumar-m-tech-ph-d"  target="_blank" class="links">
+          <a href="https://www.saveetha.ac.in/index.php/departments/mechanical-engineering?id=661"  target="_blank" class="links">
           <Chip
             size="lg"
             style={{ backgroundColor: "transparent" }}
@@ -189,7 +189,7 @@ const Footer = () => {
             AKASH A
           </Chip>
           </a>
-          <a href="https://www.linkedin.com/in/inesh-n-389517273/"  target="_blank" class="links">
+          <a href="https://www.linkedin.com/in/vijayaragavan-arr/"  target="_blank" class="links">
           <Chip
             size="md"
             style={{ backgroundColor: "transparent" }}
@@ -197,7 +197,7 @@ const Footer = () => {
               <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
             }
             >
-            Inesh N
+            Vijayaragavan ARR
           </Chip>
           </a>
         </div>
