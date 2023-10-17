@@ -4,7 +4,7 @@ export const EventDetails = [
     title: "Information Technology",
     eventslist: [
       {
-        name: "PROMPTCRAFT",
+        name: "PROMPT CRAFT",
         date: "02 Nov 2023(FN)",
         type: "Solo",
         venue: "",
@@ -164,7 +164,7 @@ export const EventDetails = [
       {
         name: "EMBRACE THE UNKNOWN", 
         date: "03 Nov 2023(FN)",
-        type: "Team",
+        type: "Duo",
         venue: "",
         time: "Forenoon",
         members: "2",
@@ -205,11 +205,11 @@ export const EventDetails = [
           {
             name: "Manoj MV",
             year: "II",
-            phone: 9789895272,
+            phone: 9789895273,
             email: "manojvelmurugan04@gmail.com",
           },
           {
-            name: "Dinesh kumaraa",
+            name: "Dinesh kumaraa k",
             year: "II",
             phone: 8438923349,
             email: "dineshkumaraa03@gmail.com",
@@ -481,12 +481,12 @@ export const EventDetails = [
         venue: "",
         time: "FORENOON",
         round1title: "",
-        round1: "Select a chit to take the project that you are going to build. Decide the components that is required for the project. If they failed to get the required components hints will be given by performing some simple task.",
+        round1: "Select a chit to take the project that you are going to build. Decide the components that is required for the project. If they failed to get the required components hints will be given by performing some simple task",
         round2title: "",
         round2: "To get the connections, the circuit connections will be given in the form of a puzzle. They have to complete the puzzle to get the connections. (The puzzle will be the pictorial representation of the circuit connections)",
         round3title: "",
-        round3: "Once the connections are given in the tinkercad (a website to give the connections to all the components and execute the project) code will be provided after completing the basic level IoT related quiz.Already executed programs should not be shown.",
-        note: "Other browsers should not be used.",
+        round3: "Once the connections are given in the tinkercad (a website to give the connections to all the components and execute the project) code will be provided after completing the basic level IoT related quiz.Already executed programs should not be shown",
+        note: "Other browsers should not be used",
         tag: "EVENT",
         color: "0, 1, 38",
         logo: "/EventsAssets/cyb1.webp",
@@ -538,16 +538,16 @@ export const EventDetails = [
         venue: "",
         time: "Forenoon",
         members: "1-2",
-        rules: "Students must bring their own laptop with linux installed.(Round 1 doesn't require the use of kali linux but round 2 does).Students can use any open source (OSINT) tool to find the answer.Team size must be 1-2.Sharing answers with other participants is prohibited.Participants who finishes the first round and answers all questions correctly within the given time will be selected the second round.If not, as time for first round ends, Participants who answered maximum questions will be selected for the next round.",
+        rules: "Students must bring their own laptop with linux installed.(Round 1 doesn't require the use of kali linux but round 2 does).Students can use any open source (OSINT) tool to find the answer.Team size must be 1-2.Sharing answers with other participants is prohibited.Participants who finishes the first round and answers all questions correctly within the given time will be selected the second round.If not, as time for first round ends, Participants who answered maximum questions will be selected for the next round",
         round1title: "",
         round1:
           "A random image will be given.Participants will be required to find more details about the image, like from the image user and finding their email address or city they live in, etc.In this round the questions will be relatively easy and most question can easily be found using Google dorking or hackin.1st round will consists of 10 questions.Participants will be required to answer the questions within the time limit - 25 mins",
         round2title: "",
         round2:
-          "In second round, the first one to complete all the question correctly will be the winner.If not, the one who get the most answers right within the time limit will be the winner.This round will require the use of Kali linux.",
+          "In second round, the first one to complete all the question correctly will be the winner.If not, the one who get the most answers right within the time limit will be the winner.This round will require the use of Kali linux",
         round3title: "",
         round3:
-          "In this round 7 question will be asked. This round is relatively in higher difficulty.Participants will be required to answer the question within time limit - 35 mins.",
+          "In this round 7 question will be asked. This round is relatively in higher difficulty.Participants will be required to answer the question within time limit - 35 mins",
         tag: "EVENT",
         color: "0, 1, 38",
         logo: "/EventsAssets/cyb2.webp",
@@ -602,9 +602,9 @@ export const EventDetails = [
         round1:
           "In the First Round, we will be giving a lecture on encoding and decoding. To perform a decode the hash value is given to the participant and the participants needs to decode that hash say the text format which contains an IP address and password and access the target computer remotely via SSH and participants can set the in the first round all selected and move to round 2",
         round2:
-          "In the Second Round, after accessing the target computer We make it more Competitive. And Make it in a Fun way by giving dares to them. We decided to make the leader board in very interactive HTML/CSS code to understand their position in the game and after decrypting three more hashes teams gets into the third round.",
+          "In the Second Round, after accessing the target computer We make it more Competitive. And Make it in a Fun way by giving dares to them. We decided to make the leader board in very interactive HTML/CSS code to understand their position in the game and after decrypting three more hashes teams gets into the third round",
         round3:
-          "In the Third Round, we finalize. The teams are selected According to their position and timing secured by them and completion of decrypting will win and quiz may or may not be considered.",
+          "In the Third Round, we finalize. The teams are selected According to their position and timing secured by them and completion of decrypting will win and quiz may or may not be considered",
         tag: "EVENT",
         color: "0, 1, 38",
         logo: "/EventsAssets/cyb3.webp",
@@ -1031,211 +1031,208 @@ export const EventDetails = [
       }, 
     ],
     workshopslist: [
-      // {
-      //   name: "Laptop Servicing",
-      //   logo: "/EventsAssets/csew1.webp",
-      //   tag: "WORKSHOP",
-      //   mode: "OFFLINE",
-      //   color: "0, 70, 90",
-      //   company: "Connect Infosystems",
-      //   link: "https://docs.google.com/forms/d/11z1tTzRXVvKzKEaIiYMvsoYGGWR0FGrhzSNc2zqMoqY/viewform?edit_requested=true",
-      //   day1: {
-      //     date: "16/11/2022-FN",
-      //     time: "10am-1pm",
-      //     mode: "OFFLINE",
-      //     venue: "CSE GF Seminar Hall LH 02",
-      //     resource: [
-      //       {
-      //         name: "Selvakumar.R.M",
-      //         desig: "Founder & Chairman",
-      //         phone: 9962738480,
-      //         email: "connectchennai99@gmail.com",
-      //       },
-      //     ],
-      //     staff: [
-      //       {
-      //         name: "Dr.Nagappan G",
-      //         desig: "Professor and Head",
-      //         phone: 9840662250,
-      //         email: "nagappan.cse@saveetha.ac.in",
-      //       },
-      //       {
-      //         name: "Dr.R.Kaladevi",
-      //         desig: "Assistant Professor (SG)",
-      //         phone: 9710074931,
-      //         email: "kaladevir@saveetha.ac.in",
-      //       },
-      //     ],
-      //     student: [
-      //       {
-      //         name: "Kishore N",
-      //         year: "IV",
-      //         phone: 9894801443,
-      //         email: "ruthudhana25@gmail.com",
-      //       },
-      //       {
-      //         name: "Thirupathy M",
-      //         year: "III",
-      //         phone: 9344065593,
-      //         email: "ssanjay1303@gmail.com",
-      //       },
-      //     ],
-      //   },
-      // },
-      // {
-      //   name: "3D Digital Game Art & Design",
-      //   logo: "/EventsAssets/csew2.webp",
-      //   tag: "WORKSHOP",
-      //   color: "0, 70, 90",
-      //   company: "ARENA ANIMATION",
-      //   link: "https://docs.google.com/forms/d/1Mhii3T4faZ0fJgs5Mb8AykTcMazNWpeOx65JBF49N6A/viewform?edit_requested=true",
-      //   day1: {
-      //     date: "17.11.2022 (FN)",
-      //     time: "10am-12pm",
-      //     mode: "OFFLINE",
-      //     venue: "Bot Lab",
-      //     resource: [
-      //       {
-      //         name: "E. VINCENT ASHOK KUMAR",
-      //         desig: "TECHNICAL TRAINER (GAMING AND VFX)",
-      //         phone: 9962738480,
-      //         email: "vadapalaniarena1@gmail.com",
-      //       },
-      //     ],
-      //     staff: [
-      //       {
-      //         name: "Dr.Nagappan G",
-      //         desig: "Professor & Head",
-      //         phone: 9840662250,
-      //         email: "nagappan.cse@saveetha.ac.in",
-      //       },
-      //       {
-      //         name: "Dr.R.Kaladevi",
-      //         desig: "Assistant Professor (SG)",
-      //         phone: 9710074931,
-      //         email: "kaladevir@saveetha.ac.in",
-      //       },
-      //     ],
-      //     student: [
-      //       {
-      //         name: "Meenadshi M",
-      //         year: "III",
-      //         phone: 8939544089,
-      //         email: "meenadshi2020@gmail.com",
-      //       },
-      //       {
-      //         name: "Lawanya B",
-      //         year: "III",
-      //         phone: 9940409305,
-      //         email: "lawabala2003@gmail.com",
-      //       },
-      //       {
-      //         name: "Priya V",
-      //         year: "III",
-      //         phone: 6381835516,
-      //         email: "priyavenkat192002@gmail.com",
-      //       },
-      //     ],
-      //   },
-      // },
-      // {
-      //   name: "🔥2 DAYS 2 WORKSHOPS 2 CERTIFICATES",
-      //   logo: "/EventsAssets/csew3.webp",
-      //   tag: "OFFER",
-      //   note: "💥REGISTER AT A LOWER PRICE TOGETHER!. DAY 1: LAPTOP SERVICING - 16/11/20222. DAY 2: 3D DIGITAL GAME ART & DESIGN - 17/11/2022. 💥GET BENEFITTED ON BOTH DAYS!. ❌EACH WORKSHOP AT RS 200 SEPARATELY❌.  ✅TOGETHER AT RS 300 ✅",
-      //   color: "0, 70, 90",
-      //   link: "https://forms.gle/aTNuUnvzXfFMoyfRA",
-      //   day1: {
-      //     date: "16/11/2022-FN",
-      //     time: "10am-1pm",
-      //     mode: "OFFLINE",
-      //     venue: "CSE GF Seminar Hall LH 02",
-      //     resource: [
-      //       {
-      //         name: "MR.Selvakumar.R.M",
-      //         desig: "Founder & Chairman",
-      //         phone: 9962738480,
-      //         email: "connectchennai99@gmail.com",
-      //       },
-      //     ],
-      //     staff: [
-      //       {
-      //         name: "Dr.Nagappan G",
-      //         desig: "Professor and Head",
-      //         phone: 9840662250,
-      //         email: "nagappan.cse@saveetha.ac.in",
-      //       },
-      //       {
-      //         name: "Dr.R.Kaladevi",
-      //         desig: "Assistant Professor (SG)",
-      //         phone: 9710074931,
-      //         email: "kaladevir@saveetha.ac.in",
-      //       },
-      //     ],
-      //     student: [
-      //       {
-      //         name: "Kishore N",
-      //         year: "IV",
-      //         phone: 9894801443,
-      //         email: "ruthudhana25@gmail.com",
-      //       },
-      //       {
-      //         name: "Thirupathy M",
-      //         year: "III",
-      //         phone: 9344065593,
-      //         email: "ssanjay1303@gmail.com",
-      //       },
-      //     ],
-      //   },
-      //   day2: {
-      //     date: "17.11.2022 (FN)",
-      //     time: "10am-12pm",
-      //     mode: "OFFLINE",
-      //     venue: "Bot Lab",
-      //     resource: [
-      //       {
-      //         name: "E. VINCENT ASHOK KUMAR",
-      //         desig: "TECHNICAL TRAINER (GAMING AND VFX)",
-      //         phone: 9962738480,
-      //         email: "vadapalaniarena1@gmail.com",
-      //       },
-      //     ],
-      //     staff: [
-      //       {
-      //         name: "Dr.Nagappan G",
-      //         desig: "Professor & Head",
-      //         phone: 9840662250,
-      //         email: "nagappan.cse@saveetha.ac.in",
-      //       },
-      //       {
-      //         name: "Dr.R.Kaladevi",
-      //         desig: "Assistant Professor (SG)",
-      //         phone: 9710074931,
-      //         email: "kaladevir@saveetha.ac.in",
-      //       },
-      //     ],
-      //     student: [
-      //       {
-      //         name: "Meenadshi M",
-      //         year: "III",
-      //         phone: 8939544089,
-      //         email: "meenadshi2020@gmail.com",
-      //       },
-      //       {
-      //         name: "Lawanya B",
-      //         year: "III",
-      //         phone: 9940409305,
-      //         email: "lawabala2003@gmail.com",
-      //       },
-      //       {
-      //         name: "Priya V",
-      //         year: "III",
-      //         phone: 6381835516,
-      //         email: "priyavenkat192002@gmail.com",
-      //       },
-      //     ],
-      //   },
-      // },
+      {
+        name: "Dive into ReactJS",
+        logo: "/EventsAssets/csew1.webp",
+        tag: "WORKSHOP",
+        mode: "OFFLINE",
+        color: "0, 70, 90",
+        company: " Instellars Global Consulting, Bangalore",
+        link: "https://docs.google.com/forms/d/11z1tTzRXVvKzKEaIiYMvsoYGGWR0FGrhzSNc2zqMoqY/viewform?edit_requested=true",
+        day1: {
+          date: "25/10/2023",
+          time: "10am-1pm",
+          mode: "OFFLINE",
+          venue: "CSE GF Seminar Hall LH 02",
+          topic:"Basic JavaScript for React Js, CSS Library – Bootstrap ,React Life Cycle, React, Hooks. ",
+          resource: [
+            {
+              name: "Mr. Raj Kumar D ",
+              desig: "Senior Consultan",
+              // phone: 9962738480,
+              // email: "connectchennai99@gmail.com",
+            },
+          ],
+          staff: [
+            {
+              name: "Ms. Abiram",
+              desig: "Assistant Professor ",
+              phone: 6374642045 ,
+              email: "abiramia@saveetha.ac.in ",
+            },
+          ],
+          student: [
+            {
+              name: "Madhumitha S ",
+              year: "IV",
+              phone: 7550300217 ,
+              email: "madhumithask1799@gmail.com ",
+            },
+            {
+              name: "Lakshmi Srujana ",
+              year: "III",
+              phone: 9398198233 ,
+              email: "srujanasrujju7@gmail.com ",
+            },
+            {
+              name: "Pavithra  ",
+              year: "III",
+              phone: 6380307917 ,
+              email: "Pavithramuniyandi07@gmail.com ",
+            },
+          ],
+        },
+        day2: {
+          date: "26/10/2023",
+          time: "FULL DAY",
+          mode: "OFFLINE",
+          venue: "TBA",
+          topic:"React Router, Redux, API Handling, Debugging React  ",
+          resource: [
+            {
+              name: "Mr. Raj Kumar D ",
+              desig: "Senior Consultan",
+              // phone: 9962738480,
+              // email: "connectchennai99@gmail.com",
+            },
+          ],
+          staff: [
+            {
+              name: "Ms. Abiram",
+              desig: "Assistant Professor ",
+              phone: 6374642045 ,
+              email: "abiramia@saveetha.ac.in ",
+            },
+          ],
+          student: [
+            {
+              name: "Madhumitha S ",
+              year: "IV",
+              phone: 7550300217 ,
+              email: "madhumithask1799@gmail.com ",
+            },
+            {
+              name: "Lakshmi Srujana ",
+              year: "III",
+              phone: 9398198233 ,
+              email: "srujanasrujju7@gmail.com ",
+            },
+            {
+              name: "Pavithra  ",
+              year: "III",
+              phone: 6380307917 ,
+              email: "Pavithramuniyandi07@gmail.com ",
+            },
+          ],
+        },
+      },
+      {
+        name: "Hacker's Hideout ",
+        logo: "/EventsAssets/csew2.webp",
+        tag: "WORKSHOP",
+        color: "0, 70, 90",
+        company: "Pynesec Technologies",
+        link: "https://docs.google.com/forms/d/1Mhii3T4faZ0fJgs5Mb8AykTcMazNWpeOx65JBF49N6A/viewform?edit_requested=true",
+        day1: {
+          date: "30.10.2023 ",
+          time: "FULL DAY",
+          mode: "OFFLINE",
+          topic:"Latest Trends in CyberSecurity. Introduction. Who we are . Hacking History - how it all begins . Why do we Require Ethical Hackers . Types of Hackers ",
+          venue: "",
+          resource: [
+            {
+              name: "Mr.Vasanth ",
+              desig: "Chief Executive Officer ",
+              // phone: 9962738480,
+              // email: "vadapalaniarena1@gmail.com",
+            },
+          ],
+          staff: [
+            {
+              name: "Dr.V.Loganathan  ",
+              desig: "ASSOCIATE PROFESSOR ",
+              phone: 7395963361 ,
+              // email: "nagappan.cse@saveetha.ac.in",
+            },
+          ],
+          student: [
+            {
+              name: "Harsha ",
+              year: "IV ",
+              phone: 7010942499 ,
+              email: "harshasanthoshkumar@gmail.com ",
+            },
+            {
+              name: "Linga Sree ",
+              year: "III",
+              phone: 8015380880 ,
+              email: "lingasri5@gmail.com ",
+            },
+            {
+              name: "Hariharan ",
+              year: "III",
+              phone: 6385452810 ,
+              email: "hariharan00332810@gmail.com ",
+            },
+            {
+              name: "Thanga Deepika ",
+              year: "III",
+              phone: 9944171065  ,
+              email: "rtdeepika0910@gmail.com",
+            },
+          ],
+        },
+        day2: {
+          date: "31.10.2023 ",
+          time: "FULL DAY",
+          mode: "OFFLINE",
+          topic:"Scopes of Hacking. What are all compliance standards . OWASP 10 Vulnerability. Demos with real-time examples. Hands-on experience ",
+          venue: "",
+          resource: [
+            {
+              name: "Mr.Vasanth ",
+              desig: "Chief Executive Officer ",
+              // phone: 9962738480,
+              // email: "vadapalaniarena1@gmail.com",
+            },
+          ],
+          staff: [
+            {
+              name: "Dr.V.Loganathan  ",
+              desig: "ASSOCIATE PROFESSOR ",
+              phone: 7395963361 ,
+              // email: "nagappan.cse@saveetha.ac.in",
+            },
+          ],
+          student: [
+            {
+              name: "Harsha ",
+              year: "IV ",
+              phone: 7010942499 ,
+              email: "harshasanthoshkumar@gmail.com ",
+            },
+            {
+              name: "Linga Sree ",
+              year: "III",
+              phone: 8015380880 ,
+              email: "lingasri5@gmail.com ",
+            },
+            {
+              name: "Hariharan ",
+              year: "III",
+              phone: 6385452810 ,
+              email: "hariharan00332810@gmail.com ",
+            },
+            {
+              name: "Thanga Deepika ",
+              year: "III",
+              phone: 9944171065  ,
+              email: "rtdeepika0910@gmail.com",
+            },
+          ],
+        },
+      },
+     
     ],
   },
 
@@ -2303,7 +2300,7 @@ export const EventDetails = [
         time: "9:30 - 12:30 pm",
         members: "3min-5max",
         note:
-          "Team Size: 3-5 Members .Requisite: Laptop is Mandatory for PPT Presentation .",
+          "Team Size: 3-5 Members .Requisite: Laptop is Mandatory for PPT Presentation ",
        round1title:"Idea Abstraction",
         round1:
           "Teams develops their unique business ideas within assigned domains, and brings out the concepts as an abstract around 200 words within 45 minutes ",
@@ -2547,7 +2544,7 @@ export const EventDetails = [
     workshopslist: [
       {
         name: "NLP Transformers to classify Text ",
-        logo: "/EventsAssets/aimw1.webp",
+        logo: "/EventsAssets/aimw3.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
         company:" Accenture",
@@ -3530,7 +3527,7 @@ export const EventDetails = [
           "This round is based on mini tasks and buzzers.Each team should secretly assign members as easy,medium,hard.Based on the levels,the following members should perform the task given,press the buzzer and answer the question.Points will be awarded individually for easy,medium and hard levels.5.	The team which gains high points will be declared as the winner.",  
         tag: "EVENT",
         color: "0, 1, 38",
-        logo: "/EventsAssets/bme3.webp",
+        logo: "/EventsAssets/chem3.webp",
         staff: [
           {
             name: "Dr.N.Umaiyambika",
@@ -3574,7 +3571,7 @@ export const EventDetails = [
           "one vs one.Each team must select a candidate to participate in the final round.Teammates can be changed once the final round.Participants  must remember the maximum number of snaps that will be absorbed in the collage.Whoever got the maximum number of points that team will be considered as the winner.",  
         tag: "EVENT",
         color: "0, 1, 38",
-        logo: "/EventsAssets/chem3.webp",
+        logo: "/EventsAssets/chem4.webp",
         staff: [
           {
             name: " Dr.P. Senthilkumar",
@@ -3605,7 +3602,7 @@ export const EventDetails = [
         logo: "EventsAssets/chemw1.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
-        link: " ",
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSdCctTzJS_-Td8gcffoufKCvalekgfek9WK570Yfymo85PCAA/viewform ",
         day1: {
           date: "30/10/2023",
           time: "9:00am - 3.00pm",
@@ -3620,10 +3617,10 @@ export const EventDetails = [
               email: "srenganathan@annauniv.edu",
             },
             {
-              name: "Dr.A.Balasubramanian",
-              desig: "Associate Professor",
-              phone: 9488478235,
-              email: "balasubramaniana@saveetha.ac.in",
+              name: "Dr.N.Umaiyambika",
+              desig: "Assistant Professor",
+              phone: 9444945153,
+              email:"umaiyambikan@saveetha.ac.in",
             },
             
           ],
