@@ -2542,72 +2542,7 @@ export const EventDetails = [
           },
         ],
       },
-      {
-        name: "Memes Mania",
-        date: "03 Nov 2023(FN)",
-        type: "solo",
-        venue: "AI&DS department",
-        time: "1pm-4pm",
-        members: "2",
-        rules:
-          "Team Size: 1 (Solo event) ",
-        round1:
-          "Meme It Up - Cook up your funniest meme as a solo artist or duo",
-        round2:
-          "The Meme Battle -Face off against meme rivals with assigned concepts",
-        round3:
-          "Touchdown with Tech - Create a tech-savvy meme using a provided template",
-        note:"Requisite: Laptop, Phone, or any other device is required",
-          tag: "EVENT",
-        color: "0, 1, 38",
-        logo: "/EventsAssets/aim5.webp",
-        staff: [
-          {
-            name: "Dr.Selvakumar.R  ",
-            desig: "Associate  Professor",
-            phone: 9080702009 ,
-            email: "selvakumarr@saveetha.ac.in ",
-          },
-          {
-            name: "Mr.Dhinesh Babu. G.L  ",
-            desig: "Assistant Professor (SG )",
-            phone: 9994265716 ,
-            email: "dineshbabugl@saveetha.ac.in ",
-          },
-          {
-            name: " Mr.Najeem Dheen A ",
-            desig: "Assistant Professor (SG )",
-            phone: 9994265716 ,
-            email: "najeemdheena@saveetha.ac.in ",
-          },
-        ],
-        student: [
-          {
-            name: "Syed Abdul Wasih H ",
-            year: "III",
-            phone: 6383058584 ,
-            email: "Abdul.wasih03@gmail.com ",
-          },
-          {
-            name: "Harshavardhini  M",
-            year: "III",
-            phone: 8189829969 ,
-            email: "Harshavardhini332004@gmail. com ",
-          },
-          {
-            name: "Manoj Karthik R  ",
-            year: "II",
-            phone: 6379711530 ,
-            email: "manojrathinavelu31@gmail.com ",
-          },
-          {
-            name: "Gopika R  ",
-            year: "II",
-            phone: 8825910481,
-            email:"Gopikahoe10@gmail.com ",
-          },
-        ],
-      },
+      
     ],
     workshopslist: [
       {
@@ -3213,7 +3148,7 @@ export const EventDetails = [
            round3:"Highest building will be considered.  Basement of the building should be strong.Glues and celo tape will not be provided",
           tag: "EVENT",
         color: "0, 1, 38",
-        logo: "/EventsAssets/civil2.webp",
+        logo: "/EventsAssets/civil3.webp",
         staff: [
           {
             name: "Mrs.Amsayazhi pandian ",
@@ -4083,7 +4018,9 @@ export const EventDetails = [
         rules: "All must wear safety shoe and college ID card is must.",
         round1:
           "Technical quiz will be conducted (10 mins)",
-        round2: "operation on lathe Turning process (to reduce the diameter to the specified diameter). Step turning or Knurling. Any one topic will be given. (30 mins)",
+
+        round2: 
+        "operation on lathe Turning process (to reduce the diameter to the specified diameter). Step turning or Knurling. Any one topic will be given. (30 mins)",
         round3:
           "Operation of Surface testing ( 20 mins).Inspection will be done by examiner after the work is done . Fastest finishing and perfect accuracy will be declared as winner.",
         tag: "EVENT",
@@ -4187,8 +4124,9 @@ export const EventDetails = [
         time: "9:00 AM TO 12:00PM",
         members: "min 2 person per team",
         round1:
-        "Each team can consist of a minimum of 2 members. Safety kits will be provided and they must be worn at all times during the event. Mobile phones are not allowed during the event. Any team found violating safety rules may be disqualified. The game will involve creating a pneumatic linkage system within a given time frame. Teams will be scored based on the efficiency and accuracy of their pneumatic linkage system. Bonus points may be awarded for innovative designs. Duration is 10 mins ",
-      round2: "Each team can consist of a minimum of 2 members. Safety kits will be provided and they must be worn at all times during the event. Mobile phones are not allowed during the event. Any team found violating safety rules may be disqualified. The game will involve creating a pneumatic linkage system within a given time frame. Teams will be scored based on the efficiency and accuracy of their pneumatic linkage system. Bonus points may be awarded for innovative designs. Duration is 10 mins  ",
+        "Each team can consist of a maximum of 2 members. Safety kits will be provided and they must be worn at all times during the event. Mobile phones are not allowed during the event. Any team found violating safety rules may be disqualified. The game will involve creating a pneumatic linkage system within a given time frame. Teams will be scored based on the efficiency and accuracy of their pneumatic linkage system. Bonus points may be awarded for innovative designs. Duration is 10 mins ",
+      round2:
+       "Each team can consist of a maximum of 2 members. Safety kits will be provided and they must be worn at all times during the event. Mobile phones are not allowed during the event. Any team found violating safety rules may be disqualified. The game will involve creating a pneumatic linkage system within a given time frame. Teams will be scored based on the efficiency and accuracy of their pneumatic linkage system. Bonus points may be awarded for innovative designs. Duration is 10 mins  ",
         tag: "EVENT",
         color: "0, 1, 38",
 
@@ -4292,6 +4230,60 @@ export const EventDetails = [
             },
           ],
         },
+        day1: {
+          date: "26.10.2023",
+          mode: "offline",
+          time: "9:00AM TO 3:00PM",
+          topic:" FN-Principles Of Flights, Flying Procedures, Stake Holders and their laws. AN-RotorCraft Operation and aerodynamics, Equipment maintenance. *ALL MUST BRING YOUR OWN LAPTOP",
+          resource: [
+            {
+              name: "G.S.Rahul",
+              desig: "Trainer",
+              phone: 8939360814,
+              email: "s.rahulgovind@gmail.com",
+            },
+            {
+              name: "M.Mothesh",
+              desig: "Trainer",
+              phone: 9710745354,
+              email: "smothesh1201@gmail.com",
+            },
+          ],
+          staff: [
+            {
+              name: "Dr. C.RADHIKA",
+              desig: "Associate Professor",
+              phone: 9884280906,
+              email: "radhika@saveetha.ac.in",
+            },
+            {
+              name: "DR. R.RAJASEKAR",
+              desig: "Associate Professor",
+              phone: 9597647948,
+              email: "rajasekarr@saveetha.ac.in",
+            },
+          ],
+          student: [
+            {
+              name: "B. R. MITHUN RAJ ",
+              year: "IV",
+              phone: 9444253575,
+              email: "rmithun186@gmail.com",
+            },
+            {
+              name: " M. NARESH KUMAR ",
+              year: "IV",
+              phone: 9025863763,
+              email: "mnareshkumar0611@gmail.com",
+            },
+            {
+              name: "K. A.  SHYAM SUNDAR  ",
+              year: "III",
+              phone: 9360719209,
+              email: "kashyam2003@gmail.com",
+            },
+          ],
+        },
       },
       {
         name: "3D PRINTING",
@@ -4303,6 +4295,26 @@ export const EventDetails = [
           mode: "offline",
           date: "27/10/2023",
           time: "9:00AM TO 3:00PM",
+          resource: [
+            {
+              name: "Dr.sabarinathan palaniyapan",
+              desig: "Associate Professor(SDC)",
+              phone: 8973267279,
+              email: "Sabariphd21@gmail.com",
+            },
+            {
+              name: "Dr.sellakumar s",
+              desig: "Associate Professor(SEC)",
+              phone: 9486932452,
+              email: "Sellakumar@saveetha.ac.in",
+            },
+            {
+              name: "Dr.Muthukumar v",
+              desig: "Associate Professor(SEC)",
+              phone: 9176941555,
+              email: "muthukumar@saveetha.ac.in",
+            },
+          ],
           staff: [
             {
               name: "Dr. V.MUTHUKUMAR",
