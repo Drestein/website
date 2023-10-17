@@ -1667,6 +1667,68 @@ export const EventDetails = [
     title: "Artificial Intelligence and Data Science",
     eventslist: [
       {
+        name: "Pick Your Filter",
+        date: "02 Nov 2023(FN)",
+        type: "2-4",
+        venue: "AI&DS department",
+        time: "10am-12pm",
+        members: "2-4",
+        rules:
+          "programming Language: python ",
+      round1title:"Learning Filters ",
+        round1:
+          " Participants will be explained about basic image processing operations to warp an image",
+      round2title:"Challenge Round ",
+        round2:
+          "Each Team will be provided with a colab link with a basic source code, and 10 pictures. Teams have to warp the image with the coding to make sure the image is as unrecognizable as possibl Once all pictures are modified, they are passed to other teams.The teams have to guess the images. If a team has guessed all 10 pictures, another 10 pictures from any other team shall be given",
+      note:"General requirement : laptop Mandatory, bring charger along if needed",
+          tag: "EVENT",
+        color: "0, 1, 38",
+
+        logo: "/EventsAssets/ai4.webp",
+        staff: [
+          {
+            name: "Ms.S.Shanmuga Priya ",
+            desig: "Assistant Professor",
+            phone: 9094623070 ,
+            email: "shanmugapriyas@saveetha.ac.in ",
+          },
+          {
+            name: "Ms.Ranjani A ",
+            desig: "Assistant Professor",
+            phone: 9600878427 ,
+            email: "ranjania@saveetha.ac.in ",
+          },
+        ],
+        student: [
+          {
+            name: "Safa S ",
+            year: "IV",
+            phone: 755012566,
+            email: "safasiraj006@gmail.com ",
+          },
+          {
+            name: "Kaushika A ",
+            year: "III",
+            phone: 9940674299 ,
+            email: "kaushika.anandh@gmail.com ",
+          },
+          {
+            name: "Ashwin Raaj S ",
+            year: "III",
+            phone: 7904748817 ,
+            email: "ashwinraajs2003@gmail.com ",
+          },
+          {
+            name: "Jayakrishnan ",
+            year: "II",
+            phone: 6383445779 ,
+            email: "ibljai004@gmail.com ",
+          },
+        
+        ],
+      },
+      {
         name: "Design Battle ",
         // tagline: "Code Treasure Hunt",
         date: "02 Nov 2023(AN)",
@@ -1739,9 +1801,7 @@ export const EventDetails = [
         venue: "AI&DS department",
         time: "9.00am-12.00pm",
         members: "1",
-        // rules:
-      
-        //   "3-4 participants in each group.No electronic devices are allowed to be used.Clues will be given on spot",
+        note:"Laptop Mandatory",
       round1title:"IMAGE PROMPTING ",      
         round1:
           "From a pool of images each participant will be given one image . From the AI website given to them , they must prompt in the website to get a precise image. Maximum prompt limit is 10.They must upload their prompt image in a provided website to check for similarities and are ranked in order. 50% of the participants are qualified to the next round ",
@@ -1802,6 +1862,7 @@ export const EventDetails = [
         type: "Max 2",
         venue: "AI&DS department",
         time: "1.00pm - 4:00pm",
+        note:"Laptop Mandatory",
         members: "2",
         rules:
           "ANY PROGRAMMING LANGUAGE IS ALLOWED .HACKER RANK ACCOUNT IS COMPULSORY TEAM SIZE = 2 ",
@@ -1860,74 +1921,13 @@ export const EventDetails = [
         ],
       },
       {
-        name: "Pick Your Filter",
-        date: "02 Nov 2023(FN)",
-        type: "2-4",
-        venue: "AI&DS department",
-        time: "10am-12pm",
-        members: "2-4",
-        rules:
-          "programming Language: python ",
-      round1title:"Learning Filters ",
-        round1:
-          " Participants will be explained about basic image processing operations to warp an image",
-      round2title:"Challenge Round ",
-        round2:
-          "Each Team will be provided with a colab link with a basic source code, and 10 pictures. Teams have to warp the image with the coding to make sure the image is as unrecognizable as possibl Once all pictures are modified, they are passed to other teams.The teams have to guess the images. If a team has guessed all 10 pictures, another 10 pictures from any other team shall be given",
-      note:"General requirement : laptop Mandatory, bring charger along if needed",
-          tag: "EVENT",
-        color: "0, 1, 38",
-
-        logo: "/EventsAssets/ai4.webp",
-        staff: [
-          {
-            name: "Ms.S.Shanmuga Priya ",
-            desig: "Assistant Professor",
-            phone: 9094623070 ,
-            email: "shanmugapriyas@saveetha.ac.in ",
-          },
-          {
-            name: "Ms.Ranjani A ",
-            desig: "Assistant Professor",
-            phone: 9600878427 ,
-            email: "ranjania@saveetha.ac.in ",
-          },
-        ],
-        student: [
-          {
-            name: " Safa S ",
-            year: "IV",
-            phone: 755012566,
-            email: "safasiraj006@gmail.com ",
-          },
-          {
-            name: "Kaushika A ",
-            year: "III",
-            phone: 9940674299 ,
-            email: "kaushika.anandh@gmail.com ",
-          },
-          {
-            name: "Ashwin Raaj S ",
-            year: "III",
-            phone: 7904748817 ,
-            email: "ashwinraajs2003@gmail.com ",
-          },
-          {
-            name: "Jayakrishnan ",
-            year: "II",
-            phone: 6383445779 ,
-            email: "ibljai004@gmail.com ",
-          },
-        
-        ],
-      },
-      {
         name: "MARVEL QUEST",
         date: "03 Nov 2023(FN)",
         type: "3 member",
         venue: "AI&DS department",
         time: "9am-12pm",
         members: "3",
+        note:"Laptop Mandatory",
         rules:
           "Teams consist of 3 members, laptop mandatory, self-formed or assigned . Skills: Marvel movie knowledge, math problem-solving, Python programming. Rounds include varied challenges: math, programming, and movie-related questions. Fair play and no plagiarism enforced; cheating leads to disqualification. Scoring: Scores will be calculated based on accuracy, creativity, and problem-solving skills. Points will be deducted for excessive hint usage, promoting fair competition ",
         round1:
@@ -3513,299 +3513,310 @@ export const EventDetails = [
     title: "Chemical Engineering",
     eventslist: [
       {
-        name: "Process Snippet",
-        date: "18 Nov 2022(FN)",
-        type: "MAx 3",
-        venue: "RB 3F LH 15",
-        time: "FORENOON",
+        name: "MAVERICK",
+        tagline:"Maverick Minds, Chemical Discoveries.",
+        date: "02 Nov 2023",
+        venue: " ",
+        time: "Forenoon",
         members: "2",
         rules: "",
+        round1title:"ELEMENTAL FLIP",
         round1:
-          "It is a group event of 3.  Participants will be given shuffled charts which contain different unit processes.  Participants should order them according to sector in a given time limit. The team which finishes fast with the correct answer will be selected for the next round",
+          "A team should contain two members each.2 teams at a time will be provided with a chart to know about the matches and a set of cards.one set of cards will be the name of the elements. The Other set will be their atomic number.These 2 sets of cards will be shuffled .The team which finds the most matches will be considered as winners.",
+        round2title:"SCRAMBLE BOX",
         round2:
-          "It is a group event of 3.Participants will be given many charts which contain different unit operations. Participants should order them according to sector in a given time limit.The team which finishes fast with the correct answer will be selected for the next round",
+          "A team should contain 2 members each.One person should flip the bottle and reach the second person and  write the jumbled letters (provided) to him in the back of the second player.The second player writes the letters in the paper and should unscramble the letters with respect to the questions provided to him.",
+        round3title:"RELAY STATION AND WHEEL EXPO.",
         round3:
-          "It is a group event of 3. Participants will be given many charts which contain different Process of flow diagrams of different industries. Participants should order them according to sector in a given time limit.The team which finishes fast with the correct answer will be the winner",
+          "A team should contain 2 members each.The event contains 4 relay stations. Each station will be provided with a who am I question to all the teams. The team which answers first goes to the next station.The remaining teams will be provided with another question in the same station until they answer.If any team requires any clue, they can use the trump card provided to them by spinning the spin wheel.Clues will be provided according to the number displayed by the spin wheel.The team which has crossed more stations at a specific time will be considered as winners.",
         tag: "EVENT",
         color: "0, 1, 38",
         logo: "/EventsAssets/chem1.webp",
         staff: [
           {
-            name: "Ms.N Umaiyambika",
-            phone: "Assistant Professor",
-            email: "umaiyambikan@saveetha.ac.in",
+            name: "Dr.S.Balachandran",
+            desig: "Assistant Professor",
+            phone: 8610979386,
+            email:"balachandrans@saveetha.ac.in",
           },
         ],
         student: [
           {
-            name: "Mohamed Muzahith MS",
+            name: "Sadhana S",
             year: "III",
-            phone: 8124961839,
-            email: "muzahith1499@gmail.com",
+            phone: 6385255018,
+            email: "sadhanasaravanan04@gmail.com",
           },
           {
-            name: "Hari Priya K",
+            name: "Sanchia S",
             year: "III",
-            phone: 9884729013,
-            email: "keshwari19@gmail.com",
+            phone: 9500316260,
+            email: "sanchia.samson@gmail.com",
           },
         ],
       },
-
       {
-        name: "Chem Fluids",
-        date: "18 Nov 2022(AN)",
-        type: "MAX 3",
-        venue: "RB 3F LH 16",
-        time: "AFTERNOON",
-        members: "1-2",
+        name: "Hustle Hour",
+        tagline:"Hustle First Conquer Next",
+        date: "02 Nov 2023",
+        type: "Team",
+        venue: " ",
+        time: "Afternoon",
+        members: "4",
         rules: "",
-        round1title: "NEWTONIAN & NON-NEWTONIAN",
         round1:
-          "The same rule as snake and ladder.It is group event of 3 .The snake will be replaced by Newtonian fluids and the ladder will be replaced by Non- Newtonian fluids. If you are supposed to pass the Non-Newtonian fluids you need to answer the question and also the question will be asked if you sink into the Newtonian fluids. If the question is not  answered you will be eliminated from the game",
-        round2title: "JIM",
+          "A team of 4 members.Each team play in a one vs one format against other team.Boxes assigned with alphabets each will be placed in the centre.Two members from a team must gather letters by tapping the ball into the box.Other two members need to frame words from the gathered letters in a stipulated time.The team with the maximum point advances.",
         round2:
-          " A situational task is given to the participant . The task is related to chemical process industries.A simple Example is that if there is spillage of Sulphuric acid. What will you do! .They must apply the most reluctant procedure to accomplish the task and get their points",
+          "The game is of the format of one vs one among two teams.Each team should solve 3 sets of reverse connection puzzles.After completion of three sets, the first team to solve the final common set will move on to the next round.",
+        round3:
+          "This is a one on one game between two teams.Each team should secretly assign each of its members : Easy, 2 Mediums, Hard.After the toss, the winning team should send one of its members to select the other member from the team for a face off challenge.The one who wins the face off challenge will be rewarded points based on the opposition's hardness level.The first team to gather 5 points will be declared as winner.",
+  
         tag: "EVENT",
         color: "0, 1, 38",
         logo: "/EventsAssets/chem2.webp",
         staff: [
           {
-            name: "Dr.P.Senthilkumar",
-            phone: "Assistant Professor",
-            email: "senthilkumarp@saveetha.ac.in",
-          },
-        ],
-        student: [
-          {
-            name: "Anikesh K",
-            year: "IV",
-            phone: 9962002645,
-            email: "anikesh1979@gmail.com",
-          },
-          {
-            name: "Sneha S",
-            year: "IV",
-            phone: 8056051236,
-            email: "snehamuniyamma1619@gmail.com",
-          },
-        ],
-      },
-      {
-        name: "Clash Xcape",
-        date: "19 Nov 2022(FN/AN)",
-        type: "SOLO",
-        venue: "RB 3H LH 15",
-        time: "FORENOON & AFTERNOON",
-        members: "2",
-        rules:
-          " Participants should play small games in the room to escape from the room. Participants should answer the questions for a minimum of 3 and also should win the game.  For winning each game participants will be given stickers at each game. Those who collect more stickers will be the winner",
-        tag: "EVENT",
-        color: "0, 1, 38",
-        logo: "/EventsAssets/chem3.webp",
-        staff: [
-          {
-            name: "Dr.S. Balachandran",
-            phone: "Assistant Professor",
-            email: " balachandrans@saveetha.ac.in",
-          },
-          {
-            name: "Dr. S.Sundar Rajan",
-            phone: "Assistant Professor",
-            email: "sundarrajanp@saveetha.ac.in",
-          },
-        ],
-        student: [
-          {
-            name: "Abherna Shree M",
-            year: "IV",
-            phone: 9361896759,
-            email: "avesr5820@gmail.com",
-          },
-          {
-            name: "Mohamed Salman S",
-            year: "III",
-            phone: 9840911780,
-            email: "mohamedsalman2226@gmail.com",
-          },
-          {
-            name: "Srikanth T",
-            year: "III",
-            phone: 6382979534,
-            email: "srikanthkanagavalli@gmail.com",
-          },
-          {
-            name: "Dinesh S",
-            year: "II",
-            phone: 9345580512,
-            email: "sarav8397@gmail.com",
-          },
-        ],
-      },
-      {
-        name: "Chem Bridge",
-        tagline: "The idea behind this event is to figure out the (MYSTERY)",
-        date: "19 Nov 2022(AN)",
-        type: "MAX 3",
-        venue: "RB 3F LH 16",
-        time: "AFTERNOON",
-        members: "1-3",
-        rules: "",
-        round1title: "BINGO",
-        round1:
-          "Participants are given a BINGO 4*4 sheets in which chemical names are written.Each team has to describe or should give clues of chemicals to strike out it.when a row or column gets completely stroked off the letter C in “CHEM” will be stricken. In the same manner it follows until any one of the teams strike all the letters in the word “CHEM” and they will be the winner of the game",
-        round2title: "ANIMATION",
-        round2:
-          "An incident will be displayed on the screen. Player has to select an option from the given clues.Players with the correct choice move on",
-        round3title:
-          "COMMUNICATION RELAY:(Repetition of Rules & Direct answer get Eliminated)",
-        round3:
-          "3 Members standing in a row. First one gets a clue from Co-ordinator.  Second one gets a clue from the First one. Third one gets a clue from the Second one.  Third one has to choose the element from the board",
-        tag: "EVENT",
-        color: "0, 1, 38",
-        logo: "/EventsAssets/chem4.webp",
-        staff: [
-          {
-            name: "DR. M. HEMALATHA ",
-            phone: "Assistant Professor",
-            email: "umaiyambikan@saveetha.ac.in",
+            name: " Dr.Sundar Rajan. P",
+            desig: "Assistant Professor",
+            phone: 9962603615,
+            email: "sundarrajan@saveetha.ac.in",
           },
         ],
         student: [
           {
             name: "Kathirlingam V",
-            year: "II",
+            year: "III",
             phone: 9894931232,
-            email: "kathirlingam180304@gmail.com",
+            email: "kathirlingamv@gmail.com",
           },
           {
-            name: "Sandhiya K",
-            year: "II",
+            name: "Sandhiya K ",
+            year: "III",
             phone: 9080988158,
-            email: "sandhyaa2203@gmail.com",
+            email: "sandhiyakanagarathinam@gmail.com",
+          },
+        ],
+      },
+  
+      {
+        name: "Venzer O Ratsel",
+        tagline:"Quest for clues",
+        date: "03 Nov 2023",
+        venue: " ",
+        type:"Team",
+        time: "Forenoon",
+        members: "4",
+        rules: "",
+        round1title:"WORDMESH MASTERS",
+        round1:
+          "Each team should contain 4 members.A bowl contains a group of letters Some specific letters are numbered at the back of the flash card.Each team will be given 1 minute to arrange the word from the bowl of letters , According to the number.Points are awarded based on the total number of words.The teams with same point will be further send to memorize task.The selected teams will further step into round-2.",
+        round2title:"PUZZLE FUSION X",
+        round2:
+          "This is one on one game between two teams.Initially the dismantle puzzle will be given to the team.The team who saw the puzzle can raise the question to the opposite team (given by organisers).Then the following team will raise the question to the other team,the third chance will be chosen by the raffle tickets method.Points are awarded based on the answer and timing to answer the questions.",
+        round3title:"WHIRL 2 WIN",
+        round3:
+          "This round is based on mini tasks and buzzers.Each team should secretly assign members as easy,medium,hard.Based on the levels,the following members should perform the task given,press the buzzer and answer the question.Points will be awarded individually for easy,medium and hard levels.5.	The team which gains high points will be declared as the winner.",  
+        tag: "EVENT",
+        color: "0, 1, 38",
+        logo: "/EventsAssets/bme3.webp",
+        staff: [
+          {
+            name: "Dr.N.Umaiyambika",
+            desig: "Assistant Professor",
+            phone: 9444945153,
+            email:"umaiyambikan@saveetha.ac.in",
+          },
+        ],
+        student: [
+          {
+            name: "Dhanush S",
+            year: "II",
+            phone: 8637432631,
+            email: "dha20102004@gmail.com",
+          },
+          {
+            name: "Swetha G",
+            year: "II",
+            phone: 9362972196,
+            email: "swegangu0309@gmail.com",
+          },
+        ],
+      },
+      {
+        name: "Clash Of Chemland",
+        tagline:"Chemthings",
+        date: "02 Nov 2023",
+        venue: " ",
+        type:"Team",
+        time: "Forenoon",
+        members: "2",
+        rules: "",
+        round1title:"Chem Auction",
+        round1:
+          "2 per team.Each team will be given some bidding money for attending the questions.Three type set of points will be given for the auction (10 points, 20 points & 50 points).Minimum price will be changed at every set of points.Bidding can start at a minimum price set and increase as bids are placed.To earn points for the answer correctly, if it is the wrong answer, bidding money will be reduced.Those who earn the more point they will eligible for next round.",
+        round2title:"Film Flick",
+        round2:
+          "2 per team.The team has to watch the movie clips one by one.We will play some chemical related movie clips on the screen.Find out  the chemical related things which are used in the movie clips.Points will be added for the right answer.Each question has three points.who earn more points, they are go to the final round.",
+        round3title:"Mind Hunter",
+        round3:
+          "one vs one.Each team must select a candidate to participate in the final round.Teammates can be changed once the final round.Participants  must remember the maximum number of snaps that will be absorbed in the collage.Whoever got the maximum number of points that team will be considered as the winner.",  
+        tag: "EVENT",
+        color: "0, 1, 38",
+        logo: "/EventsAssets/chem3.webp",
+        staff: [
+          {
+            name: " Dr.P. Senthilkumar",
+            desig: "Associate Professor",
+            phone: 7305105056,
+            email:"senthilkumarp@saveetha.ac.in",
+          },
+        ],
+        student: [
+          {
+            name: "Vishnupriyan R",
+            year: "III",
+            phone: 8111083313,
+            email: "vishnupriyanravi2004@gmail.com",
+          },
+          {
+            name: "Yuvaraj M P ",
+            year: "III",
+            phone: 9043246600,
+            email: "yuvarajmp2@gmail.com",
           },
         ],
       },
     ],
     workshopslist: [
       {
-        name: "EXCEL for Chemical Engineers: Basics to Advanced",
-        logo: "/EventsAssets/chemw1.webp",
+        name: "Hands on training - Green Energy Production",
+        logo: "EventsAssets/chemw1.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
-        note: "KINDLY BRING YOUR OWN LAPTOPS",
-        link: "https://forms.gle/xcEjNELQwCrbjXfa9",
+        link: " ",
         day1: {
-          date: "16/11/2022",
-          time: "FULL DAY",
-          venue: "RB 3F CRE LAB",
-          mode:"OFFLINE",
-          company: "International Flavours & Fragrances India Pvt.Ltd",
-          topic:
-            "Basics and intermediate level in excel which is used in Chemical Engineering field.  Basic level: Eg. Fitting, Plotting, and Solving Intermediate level: Eg. Piping Design and Unit operation",
+          date: "30/10/2023",
+          time: "9:00am - 3.00pm",
+          mode: "OFFLINE",
+          venue: " ",
+          topic:"Session 1 - Biodiesel synthesis using Third Generation  algal biomass.Session 2 - Hands on Training in Lipid  extraction and transesterification process for Biodiesel Synthesis.",
           resource: [
             {
-              name: "Mr.Dayalan Chokkalingam",
-              phone: "Senior process Engineer, IFF, Chennai",
-              email: "Dayalan.C@iff.com",
-              desig: ""
+              name: "Dr.S.Renganathan",
+              desig: "Professor",
+              phone: 9941613532,
+              email: "srenganathan@annauniv.edu",
             },
             {
               name: "Dr.A.Balasubramanian",
-              phone: "Associate professor, SEC",
+              desig: "Associate Professor",
+              phone: 9488478235,
               email: "balasubramaniana@saveetha.ac.in",
-              desig: ""
             },
-            {
-              name: "Dr.P. Senthil Kumar",
-              phone: "Associate professor, SEC",
-              email: "senthilkumarp@saveetha.ac.in",
-              desig: ""
-            },
+            
           ],
           staff: [
             {
-              name: "Dr.A.Balasubramanian",
-              phone: "Associate Professor and Head",
-              email: "balasubramaniana@saveetha.ac.in",
+              name: "Dr.N.Umaiyambika",
+              desig: "Assistant Professor",
+              phone: 9444945153,
+              email:"umaiyambikan@saveetha.ac.in",
             },
           ],
           student: [
             {
-              name: "Abherna shree M",
+              name: "Thamidalapati Lokesh",
               year: "IV",
-              phone: 9361896759,
-              email: "abhernashree80@gmail.com",
+              phone: 6302333052,
+              email: "lokesh18pc52@gmail.com",
             },
             {
-              name: "RUKESH K",
-              year: "III",
-              phone: 9360260922,
-              email: "srikanthkanagavalli@gmail.com",
-            },
-            {
-              name: "Srikanth",
-              year: "III",
-              phone: 6382979534,
-              email: "srikanthkanagavalli@gmail.com",
+              name: "Shajan S",
+              year: "IV",
+              phone: 7695827492,
+              email: "sshajan625@gmail.com",
             },
           ],
         },
         day2: {
-          date: "17/11/2022",
-          time: "FULL DAY",
+          date: "31/10/2023",
+          time: "9:00am - 3.00pm",
           mode: "OFFLINE",
-          venue: "RB 3F CRE LAB",
-          company: "International Flavours & Fragrances India Pvt.Ltd",
-          topic:
-            "Advanced GV level in excel which is used in Chemical Engineering field. Advanced level: Eg. Process Analysis",
-            resource: [
-              {
-                name: "Mr.Dayalan Chokkalingam",
-                phone: "Senior process Engineer, IFF, Chennai",
-                email: "Dayalan.C@iff.com",
-                desig: ""
-              },
-              {
-                name: "Dr.A.Balasubramanian",
-                phone: "Associate professor, SEC",
-                email: "balasubramaniana@saveetha.ac.in",
-                desig: ""
-              },
-              {
-                name: "Dr.P. Senthil Kumar",
-                phone: "Associate professor, SEC",
-                email: "senthilkumarp@saveetha.ac.in",
-                desig: ""
-              },
-            ],
-            staff: [
-              {
-                name: "Dr.A.Balasubramanian",
-                phone: "Associate Professor and Head",
-                email: "balasubramaniana@saveetha.ac.in",
-              },
-            ],
-            student: [
-              {
-                name: "Abherna shree M",
-                year: "IV",
-                phone: 9361896759,
-                email: "abhernashree80@gmail.com",
-              },
-              {
-                name: "RUKESH K",
-                year: "III",
-                phone: 9360260922,
-                email: "srikanthkanagavalli@gmail.com",
-              },
-              {
-                name: "Srikanth",
-                year: "III",
-                phone: 6382979534,
-                email: "srikanthkanagavalli@gmail.com",
-              },
-            ],
+          venue: " ",
+          topic:"Session 1  - Design of Experiments (DOE) using Design Expert software.Session 2 - Hands on Session in  DOE with Problem on biodiesel synthesis.",
+          resource: [
+            {
+              name: "Dr.A.Balasubramanian",
+              desig: "Associate Professor",
+              phone: 9488478235,
+              email: "balasubramaniana@saveetha.ac.in",
+            },
+            {
+              name: "Dr.N.Umaiyambika",
+              desig: "Assistant Professor",
+              phone: 9444945153,
+              email:"umaiyambikan@saveetha.ac.in",
+            },
+          ],
+          staff: [
+            {
+              name: "Dr.N.Umaiyambika",
+              desig: "Assistant Professor",
+              phone: 9444945153,
+              email:"umaiyambikan@saveetha.ac.in",
+            },
+          ],
+          student: [
+            {
+              name: "Thamidalapati Lokesh",
+              year: "IV",
+              phone: 6302333052,
+              email: "lokesh18pc52@gmail.com",
+            },
+            {
+              name: "Shajan S",
+              year: "IV",
+              phone: 7695827492,
+              email: "sshajan625@gmail.com",
+            },
+          ],
+        },
+        day3: {
+          date: "1/11/2023",
+          time: "9:00am - 3.00pm",
+          mode: "OFFLINE",
+          venue: " ",
+          topic:"Session 1  - Microbial Fuel Cells: A Promising Technology for Renewable Energy and Environmental Sustainability.Session 2 - Hands-On: Build Your Own Microbial Fuel Cell.",
+          resource: [
+            {
+              name: " Dr.P. Senthilkumar",
+              desig: "Associate Professor",
+              phone: 7305105056,
+              email:"senthilkumarp@saveetha.ac.in",
+            },
+          ],
+          staff: [
+            {
+              name: "Dr.N.Umaiyambika",
+              desig: "Assistant Professor",
+              phone: 9444945153,
+              email:"umaiyambikan@saveetha.ac.in",
+            },
+          ],
+          student: [
+            {
+              name: "Thamidalapati Lokesh",
+              year: "IV",
+              phone: 6302333052,
+              email: "lokesh18pc52@gmail.com",
+            },
+            {
+              name: "Shajan S",
+              year: "IV",
+              phone: 7695827492,
+              email: "sshajan625@gmail.com",
+            },
+          ],
         },
       },
     ],

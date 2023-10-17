@@ -11,7 +11,7 @@ export const departobj = [
   {
     id: "#aids",
     title: "Artificial\tIntelligence\t& Data\tScience",
-    img: "/DepartmentAssets/ece.webp",
+    img: "/DepartmentAssets/aids.webp",
     des: "test",
     color: "#ff3b41",
     bgtext: "data",
