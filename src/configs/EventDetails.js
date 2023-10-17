@@ -10,11 +10,11 @@ export const EventDetails = [
         venue: "",
         time: "FORENOON",
         round1title: "Cipher Seek",
-        round1: "Participants must provide the most suitable prompt to the AI to obtain a secret password. Each level contains one password to be found by the participant. Participants have a time limit of 10 minutes to clear the round. To proceed to the second round, a participant must successfully clear 5 out of the 6 levels. The first round consists of 6 levels, and participants will be shortlisted for the second round based on their performance. ",
+        round1: "Participants must provide the most suitable prompt to the AI to obtain a secret password. Each level contains one password to be found by the participant. Participants have a time limit of 10 minutes to clear the round. To proceed to the second round, a participant must successfully clear 5 out of the 6 levels. The first round consists of 6 levels, and participants will be shortlisted for the second round based on their performance ",
         round2title: "Digital Da Vinci",
-        round2: "Participants will be given two images by your team. Participants' task is to identify and describe similar details in the given images. Using DALL-E, they should generate a prompt to find a similar image based on their description.Participants must submit both the generated prompt and the image they find using the software. Participants will be evaluated based on the quality of their prompts and the similarity of the images they find. Those who successfully match the images will proceed to the next round.",
+        round2: "Participants will be given two images by your team. Participants' task is to identify and describe similar details in the given images. Using DALL-E, they should generate a prompt to find a similar image based on their description.Participants must submit both the generated prompt and the image they find using the software. Participants will be evaluated based on the quality of their prompts and the similarity of the images they find. Those who successfully match the images will proceed to the next round",
         round3title: "Web Wizardry",
-        round3: "Participants will be provided with a web development template. Using ChatGPT or Google Bard, participants must develop the frontend of a website based on the provided template. The goal is to create a website that closely resembles the given template in design and functionality. Participants should submit their final website outputs. The winner will be decided based on the similarities between their final website and the provided template. ",
+        round3: "Participants will be provided with a web development template. Using ChatGPT or Google Bard, participants must develop the frontend of a website based on the provided template. The goal is to create a website that closely resembles the given template in design and functionality. Participants should submit their final website outputs. The winner will be decided based on the similarities between their final website and the provided template ",
         tag: "EVENT",
         color: "0, 1, 38",
         logo: "/EventsAssets/it1.webp",
@@ -54,7 +54,7 @@ export const EventDetails = [
         ],
       },
       {
-        name: "Unmask the Truth",
+        name: "RiddleSQL : Unmask the Truth",
         date: "02 Nov 2023(AN)",
         type: "Duo",
         venue: " ",
@@ -63,13 +63,13 @@ export const EventDetails = [
         rules: "",
         round1title: "Pick Quik",
         round1:
-          "1.	Participants can compete either as solo or duo. 2.	Basic knowledge of SQL and some reasoning is required. 3.	Simple quiz round based on SQL and to test your detective ability ",
+          "Participants can compete either as solo or duo. Basic knowledge of SQL and some reasoning is required. Simple quiz round based on SQL and to test your detective ability ",
         round2title: "Man Under the Hood",
         round2:
-          "1. Infamous Elder wand is stolen , you will be given the city’s records in the form of sqlite3 database 2. A knowledge in SQL is necessary and some basic sqlite3 commands optionally. 3. Participants can surf the internet. 4. You can only solve the required objective using only the sqlite3 command line shell provided. 5. Along solving the participants has to maintain a log file (Log of SQL queries) that is a simple text file for supporting your answer, this is very necessary for qualification. 6. The end goal is to find the objective given at the time of event ",
+          "Infamous Elder wand is stolen , you will be given the city’s records in the form of sqlite3 database  A knowledge in SQL is necessary and some basic sqlite3 commands optionally.  Participants can surf the internet.  You can only solve the required objective using only the sqlite3 command line shell provided.  Along solving the participants has to maintain a log file (Log of SQL queries) that is a simple text file for supporting your answer, this is very necessary for qualification.  The end goal is to find the objective given at the time of event ",
         round3title: "Web of Fallacy",
         round3:
-          " 1. Infamous Elder wand is stolen , you will be given the city’s records in the form of sqlite3 database. 2. A knowledge in SQL is necessary and some basic sqlite3 commands optionally. 3. Participants can surf the internet. 4. You can only solve the required objectives using only the sqlite3 command line shell provided. 5. Along solving the participants has to maintain a log file (Log of SQL queries) that is a simple txt file for supporting your answers, this is very necessary for qualification. 6. The end goal is to find the given objectives given at the time of event ",
+          "  Infamous Elder wand is stolen , you will be given the city’s records in the form of sqlite3 database.  A knowledge in SQL is necessary and some basic sqlite3 commands optionally.  Participants can surf the internet.  You can only solve the required objectives using only the sqlite3 command line shell provided.  Along solving the participants has to maintain a log file (Log of SQL queries) that is a simple txt file for supporting your answers, this is very necessary for qualification.  The end goal is to find the given objectives given at the time of event ",
         tag: "EVENT",
         color: "0, 1, 38",
         logo: "/EventsAssets/it2.webp",
@@ -120,11 +120,11 @@ export const EventDetails = [
         logo: "/EventsAssets/it3.webp",
         rules: "Participants should bring their own drones. Participants can compete either as solo or as a team of 3",
         round1title:"Wild Wings",
-        round1:"1. Participants will be provided with the loads to lift. 2. Small, Medium and Large accordingly. 3. Participants have to lift weights using their drone. 4. Based on the amount of weights they lift points will be provided. Total Points - 10 ",
+        round1:" Participants will be provided with the loads to lift.  Small, Medium and Large accordingly.  Participants have to lift weights using their drone. Based on the amount of weights they lift points will be provided. Total Points - 10 ",
         round2title:"Demotiff",
-        round2:"1. Routes or patterns will be drawn. 2. The participants have to trace the track, and complete the task within the given duration of time.  3. Whoever completes the task efficiently and with less duration, will be given high points. Total Points - 10 ",
+        round2:" Routes or patterns will be drawn.  The participants have to trace the track, and complete the task within the given duration of time. Whoever completes the task efficiently and with less duration, will be given high points. Total Points - 10 ",
         round3title:"Dracarys the Ruler ",
-        round3:"1. The final round is to showcase their uniqueness and their talent. 2. The participants have to perform any task, or show their innovation, creativity with their drones.  3. The participants have to gather the audience’s attention.  4. Based on which the points will be provided. Points - 10 Total - 30  ",
+        round3:"  The final round is to showcase their uniqueness and their talent.  The participants have to perform any task, or show their innovation, creativity with their drones. The participants have to gather the audience’s attention. Based on which the points will be provided. Points - 10 . Total - 30  ",
     
         staff: [
           {
@@ -164,7 +164,7 @@ export const EventDetails = [
       {
         name: "EMBRACE THE UNKNOWN", 
         date: "03 Nov 2023(FN)",
-        type: "Duo",
+        type: "Team",
         venue: "",
         time: "Forenoon",
         members: "2",
@@ -205,11 +205,11 @@ export const EventDetails = [
           {
             name: "Manoj MV",
             year: "II",
-            phone: 9789895273,
+            phone: 9789895272,
             email: "manojvelmurugan04@gmail.com",
           },
           {
-            name: "Dinesh kumaraa k",
+            name: "Dinesh kumaraa",
             year: "II",
             phone: 8438923349,
             email: "dineshkumaraa03@gmail.com",
@@ -982,7 +982,7 @@ export const EventDetails = [
         ],
       },  
       {
-        name: "Crypto Hunt",
+        name: "Crypto      Hunt",
         desc: "Ideathon",
         date: "03 Nov 2023(FN)",
         type: "2-3",
@@ -992,11 +992,11 @@ export const EventDetails = [
         members: "1-3",
         round1:
           "Participants face 15 intriguing questions online, covering questions about programming and cryptographic techniques.Teams must answer questions correctly and quickly to secure a spot in the top 10",
-        round2title: "PPT Presentation",
+
         round2:
-          "The qualified teams are gathered in a venue, armed with a college map and a WhatsApp group for communication.Clues are encrypted using various encryption techniques including steganography, cryptography, etc.., which will lead them to the hidden venues.Usage of AI - Tools are not encouraged and will immediately lead to disqualification.To unlock the next challenge, teams must decipher these clues and provide passcodes to volunteers and so on.The final clues will require all the collected clues in order to find the final destination. More info at the venue",
+          "The qualified teams are gathered in a venue, armed with a college map and a WhatsApp group for communication.Clues are encrypted using various encryption techniques including steganography, cryptography, etc. which will lead them to the hidden venues.Usage of AI - Tools are not encouraged and will immediately lead to disqualification.To unlock the next challenge, teams must decipher these clues and provide passcodes to volunteers and so on.The final clues will require all the collected clues in order to find the final destination. More info at the venue",
         
-          note:"Crypto-Hunt is a thrilling two-round event that will put your deciphering and technical skills to the test.The event consists of two rounds. Find the clue in a Techie way, the Fun way! ",
+        note:"Crypto-Hunt is a thrilling two-round event that will put your deciphering and technical skills to the test.The event consists of two rounds. Find the clue in a Techie way, the Fun way! ",
           tag: "EVENT",
         color: "0, 1, 38",
         logo: "/EventsAssets/cse4.webp",
@@ -1038,7 +1038,7 @@ export const EventDetails = [
         mode: "OFFLINE",
         color: "0, 70, 90",
         company: " Instellars Global Consulting, Bangalore",
-        link: "https://docs.google.com/forms/d/11z1tTzRXVvKzKEaIiYMvsoYGGWR0FGrhzSNc2zqMoqY/viewform?edit_requested=true",
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSfQNr0w2_ltXeaLdXqXs83h-JNNPxRkHH-QzllDvNUtFvWMUA/viewform",
         day1: {
           date: "25/10/2023",
           time: "10am-1pm",
@@ -1132,7 +1132,7 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
         company: "Pynesec Technologies",
-        link: "https://docs.google.com/forms/d/1Mhii3T4faZ0fJgs5Mb8AykTcMazNWpeOx65JBF49N6A/viewform?edit_requested=true",
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSehSdMZSZwOIgdYOV5pNv6AwTxmEcvuORiRCjdN9T5WHNVDNg/viewform",
         day1: {
           date: "30.10.2023 ",
           time: "FULL DAY",
