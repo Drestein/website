@@ -1084,7 +1084,7 @@ export const EventDetails = [
         },
         day2: {
           date: "27/10/2023",
-          time: "FULL DAY",
+          time: "9.00AM-3.00PM",
           mode: "OFFLINE",
           venue: "TBA",
           topic:"React Router, Redux, API Handling, Debugging React  ",

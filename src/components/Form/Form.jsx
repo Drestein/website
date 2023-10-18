@@ -557,7 +557,7 @@ const Form = () => {
 
               </div>
             ) : null}
-            {1? ( // wha to change 1 for registion
+            {0? ( // wha to change 1 for registion
               <form
                 onSubmit={handlesubmit}
                 style={{ marginInline: "auto" }}
