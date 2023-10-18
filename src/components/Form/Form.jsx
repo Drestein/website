@@ -748,7 +748,7 @@ const Form = () => {
                       label="Events"
                       onChange={(e) => {
                         if (Event === true) {
-                          setPay(Pay - 150);
+                          setPay(Pay - 200);
                           setEventName({
                             CSE: [],
                             IT: [],

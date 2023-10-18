@@ -1040,8 +1040,8 @@ export const EventDetails = [
         company: " Instellars Global Consulting, Bangalore",
         link: "https://docs.google.com/forms/d/e/1FAIpQLSfQNr0w2_ltXeaLdXqXs83h-JNNPxRkHH-QzllDvNUtFvWMUA/viewform",
         day1: {
-          date: "25/10/2023",
-          time: "10am-1pm",
+          date: "26/10/2023",
+          time: "9.00AM-3.00PM",
           mode: "OFFLINE",
           venue: "CSE GF Seminar Hall LH 02",
           topic:"Basic JavaScript for React Js, CSS Library – Bootstrap ,React Life Cycle, React, Hooks. ",
@@ -1083,7 +1083,7 @@ export const EventDetails = [
           ],
         },
         day2: {
-          date: "26/10/2023",
+          date: "27/10/2023",
           time: "FULL DAY",
           mode: "OFFLINE",
           venue: "TBA",
