@@ -982,7 +982,7 @@ export const EventDetails = [
         ],
       },  
       {
-        name: "Crypto      Hunt",
+        name: "Crypto Hunt",
         desc: "Ideathon",
         date: "03 Nov 2023(FN)",
         type: "2-3",
