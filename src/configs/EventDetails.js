@@ -54,7 +54,8 @@ export const EventDetails = [
         ],
       },
       {
-        name: "RiddleSQL : Unmask the Truth",
+        name: "RiddleSQL",
+        tagline:" Unmask the Truth",
         date: "02 Nov 2023(AN)",
         type: "Duo",
         venue: " ",
@@ -162,7 +163,7 @@ export const EventDetails = [
         ],
       },
       {
-        name: "EMBRACE THE UNKNOWN", 
+        name: "EMBRACE\tTHE\tUNKNOWN", 
         date: "03 Nov 2023(FN)",
         type: "Team",
         venue: "",
