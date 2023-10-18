@@ -4709,17 +4709,19 @@ export const EventDetails = [
         name: " READ THE MANUAL",
         date: "02 Nov 2023(AN)",
         type: "MAX 3",
-        venue: "",
+        venue: "TBA",
         time: "FULL DAY",
         members: "1-2",
         rules: "",
-
+        round1title:"Kahoot Quiz",
         round1:
-          "A slip will be given to the participants they should find the experiment first. 5 minutes time will be given to the participants and asked to read the experiment, then the manual will be returned on time. 5 minutes will be given for connection. 5 minutes for Acquisition of the output. Best performers with acquiring output out of all team will be selected for second round",
-    
+          "30 questions will be projected ,20 seconds for each questions. Phones are not allowed. 3 Members per team",
+        round2title:"Knowledge Talk",
         round2:
-          "A quiz will be conducted where the team has to answer and score maximum marks. The team which scores maximum will have the advantage of either choosing their own experiment or can impose one experiment to the opponent team",
-        tag: "EVENT",
+          " Images will be projected and Participant have to talk about the images shown. Preparation time will be given(Mobiles are allowed while preparation time). This is elimination round. Marks will be given based on informative sound",
+        round3title:"Read the Manual",
+        round3:"Manual will be given for 5mins and taken back. Participant have to do the experiment and show the output. Mark will be provided based on output shown. If participants need manual once again means they have to do a task",
+          tag: "EVENT",
         color: "0, 1, 38",
         logo: "/EventsAssets/med2.webp",
         staff: [
@@ -4749,8 +4751,8 @@ export const EventDetails = [
         name: "BLIND TEASER ",
         date: "03 Nov 2023(AN)",
         type: "MAX 2",
-        venue: "",
-        time: "HALF DAY",
+        venue: "TBA",
+        time: "9.00AM-12.00PM",
         members: "2",
 
         round1:
@@ -4771,10 +4773,10 @@ export const EventDetails = [
         ],
         student: [
           {
-            name: "Adhithyan.N",
+            name: "Sharmila.M",
             year: "IV",
-            phone: 7358191692 ,
-            email: "adhitiyan@gmail.com ",
+            phone: 6382785465 ,
+            email: "sharmila85465@gmail.com ",
           },
           {
             name: "Aassiq suhail ",
@@ -4790,22 +4792,17 @@ export const EventDetails = [
         type: "2",
         venue: "ADMIN 4F DT LAB",
         time: "FULL DAY",
-        members: "2",
-        // round1title: "Puzzle",
-        // round1:
-        //   "Maximum of 2 members per team.Pieces of papers with medical instrument will be provided for each team.One in a team will be blind folded and the other can guide his teammate providing instruction to fit the pieces correctly to form a picture.Max time: 120 second.The best three teams will be selected for next round",
-        // round2:
-        //   "Rule to be followed as same as round .1 Max time : 60 seconds.Two teams will be selected for final round",
-        // round3: "Rule to be followed as same as round. 1 Max time : 40 seconds",
+        members: "DUO",
+
         tag: "EVENT",
         color: "0, 1, 38",
         logo: "/EventsAssets/med4.webp",
         staff: [
           {
-            name: "Dr.S.Vinurajkumar ",
+            name: "Ms.sindhuja",
             desig: "Assistant Professor",
-            phone: 9003225516 ,
-            email: "vinurajkumars@saveetha.ac.in ",
+            phone: 9677943434 ,
+            email: "sindhujar@saveetha.ac.in ",
           },
         ],
         student: [
@@ -4832,7 +4829,7 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
         company: "KVS BIOMEDICAL",
-        // link: "https://forms.gle/Y1yaT8ZQzBgYnB3k6",
+        link: "https://forms.gle/ng8EcPAdeXzzEm4j6",
         day1: {
           date: "26/11/22(FN & AN)",
           time: "FULL DAY",
@@ -4846,7 +4843,7 @@ export const EventDetails = [
 
             resource: [
             {
-              name: "Mr.Pravinkumar ",
+              name: "Mr.Praveenkumar ",
               desig: "Founder & Managing Director",
               phone: 8248537980,
               email: "kvsbiomedical@gmail.com /praveenkv@kvsbiomedical.com ",
@@ -5759,7 +5756,7 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
 
-        link: " ",
+        link: " https://forms.gle/qw2sUtjyDYTF2auR8 ",
         day1: {
           date: "30/10/2023",
           time: "FORENOON & AFTERNOON",
@@ -5857,7 +5854,7 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
 
-        link: " ",
+        link: " https://forms.gle/CuFB5KcJCDeQabMY9 ",
         day1: {
           date: "26/10/2023",
           time: "TBA",
