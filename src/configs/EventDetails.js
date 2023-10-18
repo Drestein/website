@@ -1370,7 +1370,7 @@ export const EventDetails = [
     workshopslist: [
       {
         name: "Hands on workshop on Millet based bakery products.",
-        // logo: "/EventsAssets/agriw1.webp",
+        logo: "/EventsAssets/agriw1.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
         link: "https://forms.gle/MJ1soYmvR8CSLU6CA",
@@ -1384,8 +1384,8 @@ export const EventDetails = [
           resource: [ {
             name: "Karpoora Sundara Pandian N  ",
             desig:"Assistant professor ",
-            phone: 8610157110  ,
-            email: "nandhinir@saveetha.ac.in  ",
+            phone: 7845938847  ,
+            email: "karpoorasundaram@gmail.com  ",
           },
         
         ],
@@ -1393,7 +1393,7 @@ export const EventDetails = [
             {
               name: "Nandhini R ",
               desig: "Assistant professor ",
-              phone: 9677883599,
+              phone: 8610157110,
               email: "nandhinir@saveetha.ac.in ",
             },
             {
@@ -1475,7 +1475,7 @@ export const EventDetails = [
       },
       {
         name: "Modernizing Agriculture with Drone Data and Image Analysis ",
-        // logo: "/EventsAssets/agriw2.webp",
+        logo: "/EventsAssets/agriw2.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
         company: "Agricultural Engineering Department, CIT Nagar",
@@ -2376,11 +2376,11 @@ export const EventDetails = [
         note:
           "Team Size: 1 (Solo event) .Requisite: Laptop is Mandatory.Pre-requisite: Software like Autodesk, Blender, etc",
         round1:
-          " Design Dynamo -  Participants designing 3D models receive a 2D reference, to generate a new 3D model",
+          "Design Dynamo:Participants need to generate a new  design in 3D with a given 2D reference",
         round2:
-          "Elegance Epoch - Participants must enhance their 3D models with effects and animations to boost their visual appeal",
+          "Elegance Epoch: Participants must enhance their 2D or 3D models with effects and animations to boost their visual appeal",
         round3:
-          "Picture-Perfect - Participants must design a 3D model environment to enhance its visual appeal and create a cohesive composition",
+          "Picture-Perfect: Participants must design a 3D model environment with an appropriate background",
 
         tag: "EVENT",
         color: "0, 1, 38",
@@ -2912,7 +2912,7 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
   
-        link: " ",
+        link: "https://forms.gle/XCqNnJ7mi4VBSqeG6 ",
         day1: {
           date: "28/10/2023",
           time: "8:00am - 3.00pm",
@@ -2953,7 +2953,7 @@ export const EventDetails = [
           date: "30/10/2023",
           time: "8:00am - 3.00pm",
           mode: "OFFLINE",
-          venue: " ",
+          venue: " TBA",
           topic:
             "The  overall idea of this workshop is to make the students understand and learn about designing, prototyping and assembling SMD components on a practical basis. The worshop is to be conducted for 2 days. First day goes for 25 set of students likewise the second day too. This event is a remarkable start for SMD - PCB prototyping. ",
           resource: [
@@ -2991,9 +2991,9 @@ export const EventDetails = [
         logo: "/EventsAssets/bmew2.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
-        company: "  ",
+        // company: "  ",
   
-        link: " ",
+        link: "https://forms.gle/XCqNnJ7mi4VBSqeG6 ",
         day1: {
           date: "26/10/2023",
           time: "8am-3pm",
@@ -3525,7 +3525,7 @@ export const EventDetails = [
         name: "Venzer O Ratsel",
         tagline:"Quest for clues",
         date: "03 Nov 2023",
-        venue: " ",
+        venue: "TBA ",
         type:"Team",
         time: "Forenoon",
         members: "4",
@@ -3538,7 +3538,7 @@ export const EventDetails = [
           "This is one on one game between two teams.Initially the dismantle puzzle will be given to the team.The team who saw the puzzle can raise the question to the opposite team (given by organisers).Then the following team will raise the question to the other team,the third chance will be chosen by the raffle tickets method.Points are awarded based on the answer and timing to answer the questions",
         round3title:"WHIRL 2 WIN",
         round3:
-          "This round is based on mini tasks and buzzers.Each team should secretly assign members as easy,medium,hard.Based on the levels,the following members should perform the task given,press the buzzer and answer the question.Points will be awarded individually for easy,medium and hard levels.5.	The team which gains high points will be declared as the winner",  
+          "This round is based on mini tasks and buzzers.Each team should secretly assign members as easy,medium,hard.Based on the levels,the following members should perform the task given,press the buzzer and answer the question.Points will be awarded individually for easy,medium and hard levels.	The team which gains high points will be declared as the winner",  
         tag: "EVENT",
         color: "0, 1, 38",
         logo: "/EventsAssets/chem3.webp",
@@ -6123,7 +6123,7 @@ export const EventDetails = [
         // logo: "EventsAssets/ecew10.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
-        link: " ",
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSdZkJQsw1tPhygAVQtFVERrAjPKFYZ0bpHgf1vel-KE60OUoQ/viewform ",
         day1: {
           date: "30/10/2023",
           time: "FULL DAY",
@@ -6246,7 +6246,7 @@ export const EventDetails = [
         // logo: "EventsAssets/ecew2.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
-        link: " ",
+        link: "https://forms.gle/dZDnuGqLKXBQhhXm6 ",
         day1: {
           date: "25/10/2023",
           time: "FULL DAY",
@@ -6368,7 +6368,7 @@ export const EventDetails = [
         // logo: "EventsAssets/chemw1.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
-        link: " ",
+        link: " https://docs.google.com/forms/d/e/1FAIpQLSfk3dnhMvo-fduhUss8idOcqED4PHcKeM8L3WZ5C_dPA9_ZmA/viewform",
         day1: {
           date: "26/10/2023",
           time: "FULL DAY",
