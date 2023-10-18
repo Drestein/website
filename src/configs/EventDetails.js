@@ -834,7 +834,8 @@ export const EventDetails = [
         venue: "",
         time: "Forenoon",
         members: "2-3",
-        rules: "",
+        // rules: "",
+        note:"Participants should have atleast one laptop per team",
         round1title: "Conexus Infinium (connection between objects)",
         round1:
           "Participants are presented with incomplete code and graphics related to various computer science domains. Their goal is to deduce the code's function or purpose using visual clues from the provided images.Various visual aids like flowcharts, diagrams, and algorithms are used to hint at the code's logic. Teams compete in a rapid-fire style where they buzz in to answer first",
@@ -885,10 +886,11 @@ export const EventDetails = [
         // tagline: "UI design",
         date: "02 Nov 2023(AN)",
         type: "1-2",
-        venue: "",
+        venue: "TBA",
         time: "Afternoon",
-        members: "1-2",
+        members: "2 members",
         rules: "",
+        note:"Participants should have atleast one laptop per team",
         // note: "Must Bring your own Laptop",
         round1title: "Battle of the Brains ",
         round1:
@@ -941,6 +943,7 @@ export const EventDetails = [
         time: "Forenoon",
         members: "2",
         rules: "",
+        note:"Participants should have atleast one laptop per team",
         round1title: "CodeWerzo",
         round1:
           "This round is a multifaceted challenge, featuring a mix of MCQs, coding tasks, and brain-teasing puzzles that participants must solve to test their knowledge and problem-solving abilities.Random Rivals, Top 10 Thrivals: Who Will Gain the Advantage in the Ultimate Showdown?",
