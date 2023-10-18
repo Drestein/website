@@ -543,7 +543,7 @@ const Form = () => {
           }}
         >
           <CssVarsProvider theme={theme} className="formsheet">
-            {1 ? (
+            {0 ? (
               <div
                 style={{
                   fontSize: "2vw",
@@ -554,7 +554,7 @@ const Form = () => {
                   alignItems: "center",
                 }}
               >
-
+                Registration disabled!
               </div>
             ) : null}
             {1? ( // wha to change 1 for registion
