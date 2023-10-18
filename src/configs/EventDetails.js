@@ -2240,7 +2240,7 @@ export const EventDetails = [
         name: "Code Fusion",
         date: "02 Nov 2023(FN)",
         type: "Max 3",
-        venue: "AI&DS department",
+        venue: "TBA",
         time: "9am-12pm",
         members: "1-3",
         rules:
@@ -2303,7 +2303,7 @@ export const EventDetails = [
         tagline: "Code Treasure Hunt",
         date: "02 Nov 2023(AN)",
         type: "3-5",
-        venue: "AI&DS department",
+        venue: "TBA",
         time: "9:30 - 12:30 pm",
         members: "3min-5max",
         note:
@@ -2370,7 +2370,7 @@ export const EventDetails = [
         name: " Unsplash",
         date: "02 Nov 2023(AN)",
         type: "solo",
-        venue: "AI&DS department",
+        venue: "TBA",
         time: "12:300pm - 3:30pm",
         members: "1",
         note:
@@ -2430,7 +2430,7 @@ export const EventDetails = [
         name: "Escape Room",
         date: "03 Nov 2023(FN)",
         type: "solo",
-        venue: "AI&DS department",
+        venue: "TBA",
         time: "1:00 - 4:00pm",
         members: "1-3",
         note:
@@ -2489,7 +2489,7 @@ export const EventDetails = [
         name: "Memes Mania",
         date: "03 Nov 2023(FN)",
         type: "Solo",
-        venue: "",
+        venue: "TBA",
         time: "FN",
         members: "1",
         note:"Team Size: 1 (Solo event). Requisite: Laptop, Phone, or any other device is required ",
@@ -2566,7 +2566,7 @@ export const EventDetails = [
           date: "28.10.2023 ",
           time: "9.00-3.00pm",
           mode: "OFFLINE",
-          venue: "AI&DS department",
+          venue: "TBA",
           topic:
             "Evolution of NLP - Theory session .We will concentrate like how NLP has evolved over the years .Solving Text Classification with Transformers - Hands on session ",
           resource: [
@@ -2630,7 +2630,7 @@ export const EventDetails = [
           date: "27.10.2023 ",
           time: "9.00-3.00",
           mode: "OFFLINE",
-          venue: "AI&DS department",
+          venue: "TBA",
           topic: "Introduction to Mobile App Development .Android Environment Setup and Architecture .Creating Your First Android App ",
           resource: [
             {
@@ -2670,11 +2670,11 @@ export const EventDetails = [
             },
           ],
         },
-        day1: {
-          date: "27.10.2023 ",
+        day2: {
+          date: "28.10.2023 ",
           time: "9.00-3.00",
           mode: "OFFLINE",
-          venue: "AI&DS department",
+          venue: "TBA",
           topic: "Android User Interface (UI) Layouts and Control.Designing simple application.Debugging and Deployment ",
           resource: [
             {
@@ -2726,7 +2726,7 @@ export const EventDetails = [
           date: "31.10.2023",
           time: "9.00am-3.00pm",
           mode: "OFFLINE",
-          venue: "AI&DS department",
+          venue: "TBA",
           topic:
             "Session 1: Basics of Robotics .Session 2: Microcontrollers and Microprocessors . Session 3: Hands-on Robotics .  Session 4: Real-world Applications  ",
           resource: [
@@ -4971,7 +4971,7 @@ export const EventDetails = [
         venue: " TBA",
         time: "Afternoon",
         members: "4",
-        rules: "karthiraja072@gmail.com ",
+        // rules: "karthiraja072@gmail.com ",
         round1:
           " A slide will be projected which consists of 30 pictures.     Two teams will have to observe the slide for 30 seconds, then the teams will list out the components present in the slide one by one.   Repetition of components/components not in list may result in disqualification",
         round2:
