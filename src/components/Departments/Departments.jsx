@@ -64,7 +64,7 @@ function Departments() {
         className="DeptHead"
       >
         <div className="GalleryHeadTxt" id="SpecialEvents">
-          Special Events
+          Common Events
         </div>
       </motion.h1>
       <DepartmentContainer>

@@ -394,73 +394,126 @@ const Form = () => {
 
   const test = [
     {
-      name: "CSE",
-      events: [
-        "The Lost Code",
-        "Design Space",
-        "Sightless Snippets",
-        "Dare to Compete",
-      ],
-    },
-    {
-      name: "IT",
-      events: ["Switcheroo", "Game of Codes", "Cipher Hunt", "Codeverse"],
-    },
-    {
-      name: "ECE",
-      events: ["ElectroBlitz", "CRYOSAT", "Circuit Buzz", "Obstacle Mania"],
-    },
-    {
-      name: "EEE",
-      events: ["ROBO SOCCER CHALLENGE", "Techisetz", "BRAIN SCAPE", "RAIKIRI"],
-    },
-    {
-      name: "EIE",
-      events: ["Fire Tech", "Tech puzzle", "Debugging theorem", "Instantrix"],
-    },
-    {
       name: "AGRI",
       events: [
-        "SHERLOCK HOLMES",
-        "DEVILS ADVOCATE",
-        "TREASURE HUNT",
-        "NEURO COMBAT",
+        "BLOODY SWEET",
+        "ARE YOU A BRAINE",
+        "NEUTRAL NEXUS",
+      ],
+    },
+   
+    {
+      name: "AIDS",
+      events: [
+        "PICK YOUR FILTER",
+        "DESIGN BATTLE",
+        "PROMPT YOUR WAY THRU",
+        "MIND SWAP",
+        "MARVEL QUEST",
       ],
     },
     {
-      name: "AI",
+      name: "AIML",
       events: [
-        "Code and Debug",
-        "Shark Tank",
-        "Memesrus",
-        "WEB CON",
-        "Data Hunt",
+        "SHARK TANK",
+        "ESCAPE ROOM",
+        "UNSPLASH",
+        "CODE FUSION",
       ],
     },
     {
       name: "BME",
       events: [
-        "Med factory",
-        "Mind Flayers",
-        "Kampf geist",
+        "TECHGPRES",
+        "THE CASE",
+        "DE-DEMOLISH",
         "Neurotic Expelliarmus",
       ],
     },
     {
-      name: "CIVIL",
-      events: ["Build-IT", "MAP THE GAP", "CADD Modeling", "Code cracking"],
+      name: "CHEM",
+      events: [
+        "MAVERICK",
+         "HUSTLE HOUR",
+          "CLASH OF CHEMLAND", 
+          "VENZER O RATSEL",
+        ],
     },
     {
-      name: "CHEM",
-      events: ["PROCESS SNIPPET", "CHEM FLUIDS", "CLASH XCAPE", "CHEM BRIDGE"],
+      name: "CIVIL",
+      events: [
+        "INVERTO",
+       "CONSTRUCT WITH CONSTRAINTS",
+        "PAPER SCRAPER",
+         ],
     },
+    {
+      name: "CSE",
+      events: [
+        "EXPECTO PATRONUM",
+        "BINARY ILLUSIONS",
+        "GAMBOL CIPHERING",
+        "CRYPTO HUNT",
+      ],
+    },
+    {
+      name: "CS&IOT",
+      events: [
+        "KICKSTART WITH IOT",
+        "OSINT PLAYGROUND",
+        "LIFE ENCODERS",
+        "IOT ENTREPRENEURSHIP CHALLENGE",
+      ],
+    },
+    {
+      name: "ECE",
+      events: ["CIRCUIT CRUISER",
+       "FUNTRONICS",
+        "ROVER RALLY",
+         "MEGAHERTZ",
+         "SILICON SMACKDOWN",
+        ],
+    },
+    {
+      name: "EEE",
+      events: ["ROBO SOCCER",
+       "LINE FOLLOWER",
+      ],
+    },
+    {
+      name: "EIE",
+      events: [
+        "TECHNAROK",
+       "TECH EMERGE", 
+       "ELECTRO BUZZ", 
+       "TECHNOLADS",
+      ],
+    },
+    {
+      name: "IT",
+      events: [
+        "PROMPT CRAFT",
+         "RIDDLESQL",
+          "DRONE THE DRACARYS",
+           "EMBRACE THE UNKNOWN",
+          ],
+    },
+    {
+      name: "MED",
+      events: [
+        "CONNECTIONS",
+       "READ THE MANUAL",
+         "BLIND TEASER",
+         "ANATOMIA",
+        ],
+    },
+  
     {
       name: "MECH",
       events: [
-        "Dezania",
-        "Mr. Machinist",
-        "Water Rocketry",
-        "Cad Modelling And Stimulation",
+        "MR.LATHE",
+        "FUSION ARTIST",
+        "PNEULINK",
       ],
     },
     {
@@ -472,10 +525,7 @@ const Form = () => {
         "Imagine Through Lens",
       ],
     },
-    {
-      name: "MED",
-      events: ["Anatomia", "CIRCUITO", "CONNECTIONS", "BLIND TEASER"],
-    },
+   
   ];
 
   return (
@@ -504,10 +554,10 @@ const Form = () => {
                   alignItems: "center",
                 }}
               >
-                Registration coming soon...
+
               </div>
             ) : null}
-            {0 ? ( // wha to change 1 for registion
+            {1 ? ( // wha to change 1 for registion
               <form
                 onSubmit={handlesubmit}
                 style={{ marginInline: "auto" }}
@@ -710,12 +760,14 @@ const Form = () => {
                             MED: [],
                             CHEM: [],
                             AGRI: [],
-                            AI: [],
+                            AIDS: [],
+                            AIML:[],
+                            CSIOT:[],
                             MBA: [],
                             BME: [],
                           });
                         } else {
-                          setPay(Pay + 150);
+                          setPay(Pay + 200);
                         }
                         setEvent(e.target.checked);
                       }}
