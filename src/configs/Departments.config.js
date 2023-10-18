@@ -64,7 +64,7 @@ export const departobj = [
   {
     id: "#csiot",
     title: "Cyber\tSecurity\t& Internet\tOf\tThings",
-    img: "/DepartmentAssets/ai.webp",
+    img: "/DepartmentAssets/csiot.webp",
     des: "test",
     color: "#CDCD00",
     bgtext: "network",

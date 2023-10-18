@@ -227,22 +227,22 @@ const Footer = () => {
           <div class="social-links">
             <a
               target="_blank"
-              href="https://www.facebook.com/pg/SaveethaEngineeringCollegeSEC/posts/?ref=page_internal"
+              href="https://m.facebook.com/story.php?story_fbid=pfbid0Dg1DrcX8xcWc4zXLjVjE9Bka8G6U3sqeLj3hNfFnZP8UZnSUqrwQgqgyGfDf3LkAl&id=61552576827758&sfnsn=wiwspwa&mibextid=RUbZ1f"
             >
               <FaFacebook />
             </a>
-            <a target="_blank" href="https://twitter.com/SaveethaSEC/">
+            <a target="_blank" href="https://twitter.com/drestein_in/status/1714284030588600527?t=tzQKp_5pV5pFIOh_iw6W3w&s=08">
               <FaTwitter />
             </a>
             <a
               target="_blank"
-              href="https://www.instagram.com/saveethaengineeringcollege/"
+              href="https://www.instagram.com/p/CygHkkgyiBI/?igshid=MTc4MmM1YmI2Ng"
             >
               <FaInstagram />
             </a>
             <a
               target="_blank"
-              href="https://www.linkedin.com/in/saveetha-engineering-college/"
+              href="https://www.linkedin.com/in/drestein-in-93a163297/"
             >
               <FaLinkedinIn />
             </a>
