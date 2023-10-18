@@ -170,14 +170,15 @@ export const EventDetails = [
         time: "Forenoon",
         members: "2",
         rules: "Participants should bring their own laptops. Participants can compete as a team of 2 ",
+        round1title:"Quiz Game",
         round1:
-          "Participants will have a quiz game. Participants have to complete the quiz within the time limit. Particular number of participants only allowed to the next round",
+          "Participants will take part in a quiz game.Each team must complete the quiz within the specified time limit.Only a specific number of teams with the highest scores will advance to the next round",
         round2title: "Enga da kenatha kaanom",
         round2:
-          "Participant 1 will be in the venue, Another one is going the search the QR Code. Participant 2 will find the QR and scan it, It will show one puzzle he is going to solve the puzzle, After solving it, if the puzzle is solved correctly,it will show another link. Participant 2 will send the link to his team mate. After getting the link ,he is going to debug the code. If the code passed all the testcases, it will show one popup. The pop up message will have the next QR code place. He is going to tell the Qr place to his friend ",
+          "Participant 1 will be present at the event venue, while the other teammate will search for a QR Code.Participant 2 will locate and scan the QR Code, revealing a puzzle to solve. Upon solving it correctly, another link will be displayed.Participant 2 will send the link to their teammate. The teammate will debug the provided code. If the code passes all test cases, a popup message will appear.The popup message will contain the location of the next QR Code. The teammate will communicate this location to their partner",
         round3title: "Enga namba porom ",
         round3:
-          "Participant 1 will be in the venue, Another one is going the search the QR Code. Participant 2 will find the QR and scan it, It will show one puzzle he is going to solve the puzzle, After solving it . If the puzzle is solved correctly ,it will show another link. Participant 2 will send the link to his team   mate. After getting the link, he is going to solve the code. If the code passed all the testcases, it will show one popup. The pop up message will have the next QR code place.He is going to tell the Qr place to his friend.DSA Questions will be asked",
+          "Similar to Round 2, Participant 1 will be present at the venue, while the other teammate searches for a QR Code. Participant 2 will find and scan the QR Code, revealing a puzzle. After solving it correctly, another link will be displayed. Participant 2 will send the link to their teammate.The teammate will solve the provided code. If the code passes all test cases, a popup message will appear.The popup message will contain the location of the next QR Code. The teammate will communicate this location to their partner.Data Structures and Algorithms (DSA) questions will be asked in this round ",
         tag: "EVENT",
         color: "0, 1, 38",
     
@@ -221,26 +222,26 @@ export const EventDetails = [
 
     workshopslist: [
       {
-        name: "Cybersecurity And Ethical Hacking",
+        name: "DEVSECOPS",
         logo: "EventsAssets/itw1.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
         company:
-          "Vulnerability Synopsys pvt Limited & Dead Bed Cyber Solutions",
-        link: "https://docs.google.com/forms/d/e/1FAIpQLScn1PKWf0lwBPBjdTpW9Cka71dOTFMljQRK-l1s6G98ihCjHg/viewform",
+          "CStream.IO, Los Angeles, California, United States",
+        link: "",
         day1: {
-          date: "14.11.2022 and 15.11.2022(FN & AN)",
+          date: "25.10.2023(FN & AN)",
           time: "9:00 - 3:00pm",
           mode: "OFFLINE",
-          venue: "Blockchain Lab",
+          venue: "TBA",
           list: true,
-          topic: `1. Cybersecurity introduction 45 mins  \na. Different Domain of cybersecurity & Job Opportunity \nb. Roles and responsibilities\nc. Phases of hacking\n2. Web Application Terminologies 90 mins\na. Protocol basics & Subdomains\nb. Request & Response \nc. Encoding\nd. Same origin Policy & cross-origin Policy \ne. Cookies & Sessions \n3. Tools and techniques 120 mins\na. Burp suite Pro\nb. Acunetix vs Nessus`,
+          topic: "Overview of DevSecOps. Dev - Building reliable products (Hands on Workshop). SecOps - Enabling for Secure Product operations",
           resource: [
             {
-              name: "Er.Praveen Kumar ",
-              desig: "Founder of Dead bed Cyber Solutions",
-              phone: 8925760280,
-              email: "praveenkumarvelu190@gmail.com",
+              name: "Somasundaram Subbu",
+              desig: "CEO and Co-Founder",
+              phone: 8939062130,
+              email: "ssubbu.connect@gmail.com",
             },
           ],
           staff: [
@@ -253,79 +254,22 @@ export const EventDetails = [
           ],
           student: [
             {
-              name: "Tafseer Ali I",
+              name: "Jayapriya",
               year: "III",
-              phone: 8608209543,
-              email: "harinig025@gmail.com",
+              phone: 8608686872,
+              email: "jayapriyaanandkumar@gmail.com",
             },
             {
-              name: "Prem Anand",
+              name: "Pavithra",
               year: "III",
-              phone: 9994424024,
-              email: "aadhithya3210@gmail.com",
+              phone: 7358144662,
+              email: "pavithra1012004@gmail.com",
             },
             {
-              name: "Harini G",
+              name: "Saran S",
               year: "III",
-              phone: "harinig025@gmail.com",
-              email: "aadhithya3210@gmail.com",
-            },
-            {
-              name: "Sugavarathan L",
-              year: "III",
-              phone: 7010268757,
-              email: "aadhithya3210@gmail.com",
-            },
-          ],
-        },
-        day2: {
-          date: "14.11.2022 and 15.11.2022(FN & AN)",
-          time: "9:00 -3.00pm",
-          mode: "OFFLINE",
-          venue: "Blockchain Lab",
-          list: true,
-          topic:
-            "4. Owasp Top 10 Attack vectors & Hands-on Demo 200 mins\na. Broken Access Control\nb. Injection\nc. Security Misconfiguration\nd. Vulnerable and Outdated Components\ne. Identification and Authentication Failures\nf. Server-Side Request Forgery\n5. source code review & Hands-on Demo 200 mins",
-          resource: [
-            {
-              name: "Er.Praveen Kumar ",
-              desig: "Founder of Dead bed Cyber Solutions",
-              phone: 8925760280,
-              email: "praveenkumarvelu190@gmail.com",
-            },
-          ],
-          staff: [
-            {
-              name: "Ms.Karthika RN",
-              desig: "Assistant Professor",
-              phone: 8248816873,
-              email: "karthikarn@saveetha.ac.in",
-            },
-          ],
-          student: [
-            {
-              name: "Tafseer Ali I",
-              year: "III",
-              phone: 8608209543,
-              email: "harinig025@gmail.com",
-            },
-            {
-              name: "Prem Anand",
-              year: "III",
-              phone: 9994424024,
-              email: "aadhithya3210@gmail.com",
-            },
-            {
-              name: "Harini G",
-              year: "III",
-              phone: "harinig025@gmail.com",
-              email: "aadhithya3210@gmail.com",
-            },
-            {
-              name: "Sugavarathan L",
-              year: "III",
-              phone: 7010268757,
-              email: "aadhithya3210@gmail.com",
+              phone: 6381602448,
+              email: "saransaran0184@gmail.com",
             },
           ],
         },
