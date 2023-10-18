@@ -171,13 +171,13 @@ export const EventDetails = [
         members: "2",
         rules: "Participants should bring their own laptops. Participants can compete as a team of 2 ",
         round1:
-          "Participants will have a quiz game. Participants have to complete the quiz within the time limit. Particular number of participants only allowed to the next round.",
+          "Participants will have a quiz game. Participants have to complete the quiz within the time limit. Particular number of participants only allowed to the next round",
         round2title: "Enga da kenatha kaanom",
         round2:
-          "Participant 1 will be in the venue, Another one is going the search the QR Code. Participant 2 will find the QR and scan it, It will show one puzzle he is going to solve the puzzle, After solving it, if the puzzle is solved correctly,it will show another link. Participant 2 will send the link to his team mate. After getting the link ,he is going to debug the code. If the code passed all the testcases, it will show one popup. The pop up message will have the next QR code place. He is going to tell the Qr place to his friend. ",
+          "Participant 1 will be in the venue, Another one is going the search the QR Code. Participant 2 will find the QR and scan it, It will show one puzzle he is going to solve the puzzle, After solving it, if the puzzle is solved correctly,it will show another link. Participant 2 will send the link to his team mate. After getting the link ,he is going to debug the code. If the code passed all the testcases, it will show one popup. The pop up message will have the next QR code place. He is going to tell the Qr place to his friend ",
         round3title: "Enga namba porom ",
         round3:
-          "Participant 1 will be in the venue, Another one is going the search the QR Code. Participant 2 will find the QR and scan it, It will show one puzzle he is going to solve the puzzle, After solving it . If the puzzle is solved correctly ,it will show another link. Participant 2 will send the link to his team   mate. After getting the link, he is going to solve the code. If the code passed all the testcases, it will show one popup. The pop up message will have the next QR code place.He is going to tell the Qr place to his friend.DSA Questions will be asked. ",
+          "Participant 1 will be in the venue, Another one is going the search the QR Code. Participant 2 will find the QR and scan it, It will show one puzzle he is going to solve the puzzle, After solving it . If the puzzle is solved correctly ,it will show another link. Participant 2 will send the link to his team   mate. After getting the link, he is going to solve the code. If the code passed all the testcases, it will show one popup. The pop up message will have the next QR code place.He is going to tell the Qr place to his friend.DSA Questions will be asked",
         tag: "EVENT",
         color: "0, 1, 38",
     
@@ -658,7 +658,7 @@ export const EventDetails = [
         venue: "",
         time: "Afternoon",
         // members: "1-3",
-        rules: "List of Domains.IoT Healthcare Solutions.Smart Home and IoT.IoT in Agriculture.Industrial IoT (IIoT).IoT for Sustainability.IoT and Accessibility.Smart Cities.IoT and Education.",
+        note: "List of Domains: IoT Healthcare Solutions.Smart Home and IoT.IoT in Agriculture.Industrial IoT (IIoT).IoT for Sustainability.IoT and Accessibility.Smart Cities.IoT and Education.",
         round1:
           "The IoT Entrepreneurship Challenge is a dedicated platform aimed at fostering the entrepreneurial spirit and refining the business acumen of student participants. This competitive event extends an invitation to both individuals and teams to present inventive IoT startup concepts within specified domains.",
         round2title:"Power Pitch",
@@ -778,9 +778,7 @@ export const EventDetails = [
           mode: "OFFLINE",
           venue: "",
           list: true,
-          topic: `
-          A Deep Dive into Fundamentals of IOT
-          `,
+          topic: "A Deep Dive into Fundamentals of IOT",
           resource: [
             {
               name: "Mr.C.H.VASANTHKUMAR",
@@ -1059,7 +1057,7 @@ export const EventDetails = [
           ],
           staff: [
             {
-              name: "Ms. Abiram",
+              name: "Ms. Abirami",
               desig: "Assistant Professor ",
               phone: 6374642045 ,
               email: "abiramia@saveetha.ac.in ",
@@ -1538,7 +1536,7 @@ export const EventDetails = [
         color: "0, 70, 90",
         company: "Agricultural Engineering Department, CIT Nagar",
 
-        link: " https://forms.gle/MJ1soYmvR8CSLU6CA",
+        link: " https://forms.gle/dGW3graHym75TTEn8",
         day1: {
           date: "30/10/2023",
           time: "Full day",
@@ -1770,69 +1768,6 @@ export const EventDetails = [
           },
         ],
       },
-
-      {
-        name: "PROMPT YOUR WAY THRU ",
-        date: "03 Nov 2023(FN)",
-        type: "SOLO",
-        venue: "AI&DS department",
-        time: "9.00am-12.00pm",
-        members: "1",
-        note:"Laptop Mandatory",
-      round1title:"IMAGE PROMPTING ",      
-        round1:
-          "From a pool of images each participant will be given one image . From the AI website given to them , they must prompt in the website to get a precise image. Maximum prompt limit is 10.They must upload their prompt image in a provided website to check for similarities and are ranked in order. 50% of the participants are qualified to the next round ",
-        round2title:"OPEN BOOK CHALLENGE",
-          round2:
-          " Participants will be given a dataset and they must create a Machine Learning Model to fit the dataset and train it.Participants can refer to any website except AI Based Chatbots like Bard, Chatgpt etc They have to complete it in the given time limit",
-        round3title:"PRESENTATION",       
-          round3:
-          "Participants have to understand and create visualizations for the dataset provided and must present their understanding about the data",
-        tag: "EVENT",
-        color: "0, 1, 38",
-        logo: "/EventsAssets/ai2.webp",
-        staff: [
-          {
-            name: "Mr. Dhinesh Kumar K S ",
-            desig: "Assistant Professor",
-            phone: 9176338438 ,
-            email: "dhineshkumarks@saveetha.ac.in ",
-          },
-          {
-            name: "Mr.Ramachandran V ",
-            desig: "Assistant Professor",
-            phone: 99940736,
-            email: "ramchandranv@saveetha.ac.in ",
-          },
-        ],
-        student: [
-          {
-            name: "Jayashree Rao  ",
-            year: "IV",
-            phone: 9962926229 ,
-            email: "jayashreerao1510@gmail.com ",
-          },
-          {
-            name: "Lokesh Krishnaa ",
-            year: "IV ",
-            phone: 9962595534 ,
-            email: "lokeshkrishnaa2003@gmail.com ",
-          },
-          {
-            name: "Sherwin Roger ",
-            year: "IV",
-            phone: 9789820475 ,
-            email: "sherwinroger02@gmail.com ",
-          },
-          {
-            name: "Someasvar R ",
-            year: "III",
-            phone: 9786053400 ,
-            email: "deepakbakiya455@gmail.com ",
-          },
-        ],
-      },
-
       {
         name: "Mind Swap",
         date: "02 Nov 2023(AN)",
@@ -1897,6 +1832,69 @@ export const EventDetails = [
           },
         ],
       },
+      {
+        name: "PROMPT YOUR WAY THRU ",
+        date: "03 Nov 2023(FN)",
+        type: "SOLO",
+        venue: "AI&DS department",
+        time: "9.00am-12.00pm",
+        members: "1",
+        note:"Laptop Mandatory",
+      round1title:"IMAGE PROMPTING ",      
+        round1:
+          "From a pool of images each participant will be given one image . From the AI website given to them , they must prompt in the website to get a precise image. Maximum prompt limit is 10.They must upload their prompt image in a provided website to check for similarities and are ranked in order. 50% of the participants are qualified to the next round ",
+        round2title:"OPEN BOOK CHALLENGE",
+          round2:
+          " Participants will be given a dataset and they must create a Machine Learning Model to fit the dataset and train it.Participants can refer to any website except AI Based Chatbots like Bard, Chatgpt etc They have to complete it in the given time limit",
+        round3title:"PRESENTATION",       
+          round3:
+          "Participants have to understand and create visualizations for the dataset provided and must present their understanding about the data",
+        tag: "EVENT",
+        color: "0, 1, 38",
+        logo: "/EventsAssets/ai2.webp",
+        staff: [
+          {
+            name: "Mr. Dhinesh Kumar K S ",
+            desig: "Assistant Professor",
+            phone: 9176338438 ,
+            email: "dhineshkumarks@saveetha.ac.in ",
+          },
+          {
+            name: "Mr.Ramachandran V ",
+            desig: "Assistant Professor",
+            phone: 99940736,
+            email: "ramchandranv@saveetha.ac.in ",
+          },
+        ],
+        student: [
+          {
+            name: "Jayashree Rao  ",
+            year: "IV",
+            phone: 9962926229 ,
+            email: "jayashreerao1510@gmail.com ",
+          },
+          {
+            name: "Lokesh Krishnaa ",
+            year: "IV ",
+            phone: 9962595534 ,
+            email: "lokeshkrishnaa2003@gmail.com ",
+          },
+          {
+            name: "Sherwin Roger ",
+            year: "IV",
+            phone: 9789820475 ,
+            email: "sherwinroger02@gmail.com ",
+          },
+          {
+            name: "Someasvar R ",
+            year: "III",
+            phone: 9786053400 ,
+            email: "deepakbakiya455@gmail.com ",
+          },
+        ],
+      },
+
+     
       {
         name: "MARVEL QUEST",
         date: "03 Nov 2023(FN)",
@@ -1973,7 +1971,7 @@ export const EventDetails = [
         color: "0, 70, 90",
         link: "https://forms.gle/FNNHeXz1HLr4o1z86",
         day1: {
-          date: "26.11.2023",
+          date: "26.10.2023",
           time: "9.00-3.00pm",
           mode: "OFFLINE",
           venue: "AI&DS department",
@@ -2023,7 +2021,7 @@ export const EventDetails = [
           ],
         },
         day2: {
-          date: "27.11.2023",
+          date: "27.10.2023",
           time: "9.00-3.00pm",
           mode: "OFFLINE",
           venue: "AI&DS department",
@@ -2081,7 +2079,7 @@ export const EventDetails = [
         company:"Monolith Research and Training Labs",
         link: " https://forms.gle/w9nABVoeNWt6bQz68",
         day1: {
-          date: "30.11.2023 ",
+          date: "30.10.2023 ",
           time: "9.00-3.00",
           mode: "OFFLINE",
           venue: "AI&DS department",
@@ -2130,7 +2128,7 @@ export const EventDetails = [
           ],
         },
         day2: {
-          date: "31.11.2023 ",
+          date: "31.10.2023 ",
           time: "9.00-3.00pm",
           mode: "OFFLINE",
           venue: "AI&DS department",
@@ -2187,7 +2185,7 @@ export const EventDetails = [
         company:"Monolith Research and Training Labs",
         link: " https://forms.gle/nnejZ3Egc3XhWEV5A",
         day1: {
-          date: "27.11.2023",
+          date: "27.10.2023",
           time: "9.00am-3.00pm",
           mode: "OFFLINE",
           venue: "AI&DS department",
@@ -2237,7 +2235,7 @@ export const EventDetails = [
           ],
         },
         day2: {
-          date: "28.11.2022",
+          date: "28.10.2022",
           time: "9.00-3.00pm",
           mode: "OFFLINE",
           venue: "AI&DS department",
@@ -2294,6 +2292,68 @@ export const EventDetails = [
     id: "aiml",
     title: "Artificial Intelligence and Machine Learning",
     eventslist: [
+      {
+        name: "Code Fusion",
+        date: "02 Nov 2023(FN)",
+        type: "Max 3",
+        venue: "AI&DS department",
+        time: "9am-12pm",
+        members: "1-3",
+        rules:
+          "Team Size: 1 (Solo event). Requisite: Laptop is Mandatory.Pre-requisite: Python, or Java, or C ",
+
+        round1:
+          "Code in the dark – It’s dark, participants have to write the code without visual feedback",
+
+        round2:
+          "Notepad Coding - This round involves writing code in a plain text format without the aid of code editors",
+        round3:
+        "Unleash Your Inner Code Warrior - No Rules, Just Glory!",
+          tag: "EVENT",
+        color: "0, 1, 38",
+
+        logo: "/EventsAssets/aim4.webp",
+        staff: [
+          {
+            name: "Mrs.Poongulale  ",
+            desig: "Assistant Professor",
+            phone: 9442787826 ,
+            email: "poongulalie@saveetha.ac.in ",
+          },
+          {
+            name: "Dr.Saravanan N",
+            desig: "Assistant Professor",
+            phone: 8056823397 ,
+            email: "nsaravanan@saveetha. ac.in ",
+          },
+        ],
+        student: [
+          {
+            name: "Pradeesh S  ",
+            year: "III",
+            phone: 8220032343 ,
+            email: "pradeesh.3333@gmail.com ",
+          },
+          {
+            name: "Pranave B  ",
+            year: "III",
+            phone: 9500748525 ,
+            email: "Pranave.ai@gmail.com ",
+          },
+          {
+            name: "Aldrin Lijo J E",
+            year: "II",
+            phone: 7338930198  ,
+            email: "aldrinlijo04@gmail.com",
+          },
+          {
+            name: "Yamunaasri T S",
+            year: "II",
+            phone: 9884497722 ,
+            email: "yamunaasri31@gmail.com ",
+          },
+        ],
+      },
       {
         name: "Shark Tank",
         tagline: "Code Treasure Hunt",
@@ -2360,65 +2420,7 @@ export const EventDetails = [
         ],
       },
 
-      {
-        name: "Escape Room",
-        date: "03 Nov 2023(FN)",
-        type: "solo",
-        venue: "AI&DS department",
-        time: "1:00 - 4:00pm",
-        members: "1-3",
-        note:
-          "Team Size: 1 (Solo event) .Requisite: Laptop is Mandatory .Pre-requisite: Python, or Java, or C",
-        round1:
-          "Debug to Escape - The First Round is debugging the non-virtual code provided to them physically on the spot within the time limit and get clues to unlock the next Level",
-        round2:
-          " Solve to Evolve - Second Round Coding round, People need to solve the coding questions provided so that they'll get the access to next location. This is also a time-limited one",
-        round3:
-          "Be the Immortal - The final round is to escape the room by having the clues of the first and second rounds",
-        tag: "EVENT",
-        color: "0, 1, 38",
-        logo: "/EventsAssets/aim2.webp",
-        staff: [
-          {
-            name: "Mr Koli Himanth Rao ",
-            desig: "Assistant Professor",
-            phone: 9966253100 ,
-            email: "kollihimantharao@saveetha.ac.in ",
-          },
-          {
-            name: "Ms Magitha  Nirmala Tennyson ",
-            desig: "Assistant Professor",
-            phone: 7358377693 ,
-            email: "Magithanirmala tennyson @saveetha.ac.in ",
-          },
-        ],
-        student: [
-          {
-            name: "GV Pavan Kumar ",
-            year: "III",
-            phone: 9346016760 ,
-            email: "11022003.gv@gmail.com ",
-          },
-          {
-            name: "K Sanath kumar  Reddy ",
-            year: "III",
-            phone: 9030854365 ,
-            email: "sanathkoduru@gmail.com ",
-          },
-          {
-            name: "Uddandi Koti  Sai Sankar ",
-            year: "II",
-            phone: 9014066694 ,
-            email: "koti.saisankar0505@gmail.com ",
-          },
-          {
-            name: "Pooja A ",
-            year: "II",
-            phone: 8754423081 ,
-            email: "poojaanbu0@gmail.com ",
-          },
-        ],
-      },
+      
 
       {
         name: " Unsplash",
@@ -2481,64 +2483,128 @@ export const EventDetails = [
         ],
       },
       {
-        name: "Code Fusion",
-        date: "02 Nov 2023(FN)",
-        type: "Max 3",
+        name: "Escape Room",
+        date: "03 Nov 2023(FN)",
+        type: "solo",
         venue: "AI&DS department",
-        time: "9am-12pm",
+        time: "1:00 - 4:00pm",
         members: "1-3",
-        rules:
-          "Team Size: 1 (Solo event). Requisite: Laptop is Mandatory.Pre-requisite: Python, or Java, or C ",
-
+        note:
+          "Team Size: 1 (Solo event) .Requisite: Laptop is Mandatory .Pre-requisite: Python, or Java, or C",
         round1:
-          "Code in the dark – It’s dark, participants have to write the code without visual feedback",
-
+          "Debug to Escape - The First Round is debugging the non-virtual code provided to them physically on the spot within the time limit and get clues to unlock the next Level",
         round2:
-          "Notepad Coding - This round involves writing code in a plain text format without the aid of code editors",
+          " Solve to Evolve - Second Round Coding round, People need to solve the coding questions provided so that they'll get the access to next location. This is also a time-limited one",
         round3:
-        "Unleash Your Inner Code Warrior - No Rules, Just Glory!",
-          tag: "EVENT",
+          "Be the Immortal - The final round is to escape the room by having the clues of the first and second rounds",
+        tag: "EVENT",
         color: "0, 1, 38",
-
-        logo: "/EventsAssets/aim4.webp",
+        logo: "/EventsAssets/aim2.webp",
         staff: [
           {
-            name: "Mrs.Poongulale  ",
+            name: "Mr Koli Himanth Rao ",
             desig: "Assistant Professor",
-            phone: 9442787826 ,
-            email: "poongulalie@saveetha.ac.in ",
+            phone: 9966253100 ,
+            email: "kollihimantharao@saveetha.ac.in ",
           },
           {
-            name: "Dr.Saravanan N",
+            name: "Ms Magitha  Nirmala Tennyson ",
             desig: "Assistant Professor",
-            phone: 8056823397 ,
-            email: "nsaravanan@saveetha. ac.in ",
+            phone: 7358377693 ,
+            email: "Magithanirmala tennyson @saveetha.ac.in ",
           },
         ],
         student: [
           {
-            name: "Pradeesh S  ",
+            name: "GV Pavan Kumar ",
             year: "III",
-            phone: 8220032343 ,
-            email: "pradeesh.3333@gmail.com ",
+            phone: 9346016760 ,
+            email: "11022003.gv@gmail.com ",
           },
           {
-            name: "Pranave B  ",
+            name: "K Sanath kumar  Reddy ",
             year: "III",
-            phone: 9500748525 ,
-            email: "Pranave.ai@gmail.com ",
+            phone: 9030854365 ,
+            email: "sanathkoduru@gmail.com ",
           },
           {
-            name: "Aldrin Lijo J E",
+            name: "Uddandi Koti  Sai Sankar ",
             year: "II",
-            phone: 7338930198  ,
-            email: "aldrinlijo04@gmail.com",
+            phone: 9014066694 ,
+            email: "koti.saisankar0505@gmail.com ",
           },
           {
-            name: "Yamunaasri T S",
+            name: "Pooja A ",
             year: "II",
-            phone: 9884497722 ,
-            email: "yamunaasri31@gmail.com ",
+            phone: 8754423081 ,
+            email: "poojaanbu0@gmail.com ",
+          },
+        ],
+      },
+      {
+        name: "Memes Mania",
+        date: "03 Nov 2023(FN)",
+        type: "Solo",
+        venue: "",
+        time: "FN",
+        members: "1",
+        note:"Team Size: 1 (Solo event). Requisite: Laptop, Phone, or any other device is required ",
+        round1title:"Meme It Up ",
+        round1:
+          "Cook up your funniest meme as a solo artist  ",
+        round2title:"The Meme Battle",
+        round2:
+          "Face off against meme rivals with assigned concepts ",
+        round3title:" ",
+        round3:
+          "Create a tech-savvy meme using a provided template",
+        tag: "EVENT",
+        color: "0, 1, 38",
+        logo: "/EventsAssets/aim5.webp",
+        staff: [
+          {
+            name: "Dr.Selvakumar.R  ",
+            desig: "Associate Professor",
+            phone: 9080702009 ,
+            email: "selvakumarr@saveetha.ac.in ",
+          },
+          {
+            name: "Mr.Dhinesh Babu.G.L",
+            desig: "Assistant Professor",
+            phone: 6383109439,
+            email: "dineshbabugl@saveetha.ac.in",
+          },
+          {
+            name: "Mr.Najeem Dheen A ",
+            desig: "Assistant Professor",
+            phone: 9994265716,
+            email: "najeemdheena@saveetha.ac.in",
+          },
+        ],
+        student: [
+          {
+            name: "Syed Abdul Wasih H ",
+            year: "III",
+            phone: 6383058584 ,
+            email: "Abdul.wasih03@gmail.com ",
+          },
+          {
+            name: "Harshavardhini  M ",
+            year: "III",
+            phone: 8189829969 ,
+            email: "Harshavardhini33200@gmail. com ",
+          },
+          {
+            name: "Manoj Karthik R ",
+            year: "II",
+            phone: 6379711530 ,
+            email: "manojrathinavelu31@gmail.com",
+          },
+          {
+            name: "Gopika R  ",
+            year: "II",
+            phone: 8825910481 ,
+            email: "Gopikahoe10@gmail.com ",
           },
         ],
       },
@@ -2547,7 +2613,7 @@ export const EventDetails = [
     workshopslist: [
       {
         name: "NLP Transformers to classify Text ",
-        logo: "/EventsAssets/aimw3.webp",
+        // logo: "/EventsAssets/aimw3.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
         company:" Accenture",
@@ -2772,9 +2838,9 @@ export const EventDetails = [
         members: "2",
         // rules: "",
         round1:
-          "*Two in a team. * During the event, participants will we given random gadgets or any other equipment names. The team, on or if knowing about the depth in detail about the respective equipment is required to present the same. * Of the two members, each one is expected to present for 10 minutes making upto to a 20 mins presentation on a whole. * Participants can expect to have more opportunities and choices of various devices. *The best 7 will be pushed to next round ",
+          "Two in a team.  During the event, participants will we given random gadgets or any other equipment names. The team, on or if knowing about the depth in detail about the respective equipment is required to present the same. Of the two members, each one is expected to present for 10 minutes making upto to a 20 mins presentation on a whole.  Participants can expect to have more opportunities and choices of various devices. The best 7 will be pushed to next round ",
         round2:
-          "*Technical quiz. * The best 2 will be considered as runner up and winner up ",
+          "Technical quiz. The best 2 will be considered as runner up and winner up ",
         tag: "EVENT",
         color: "0, 1, 38",
         logo: "/EventsAssets/bme1.webp",
@@ -2797,6 +2863,51 @@ export const EventDetails = [
             year: "III",
             phone: 9345109250,
             email: "madhithamalar@gmailcom",
+          },
+        ],
+      },
+      {
+        name: "The Case",
+        date: "02 Nov 2023",
+        venue: " ",
+        type:"Team",
+        time: "TBA",
+        members: "3",
+        // rules: "",
+        round1:
+          "A team of 3. A medical case along with a field of forensic and patrol investigation will be assigned to each team. The case can even be a part of a real incident or the incident as a whole. The overall concept is to make the event a thrilled and route turning experience for all. The teams are expected to solve the case certainly and accurately. All participants would be awarded with tiny, cute compliments. Registration fee ",
+        round2:
+          " After completion of the first round, there will be a analysis type of round will happen. The teams that excel in this round will be pushed onto the third/final round (based on the count of the participants)",
+        round3:
+          "The winner and two runnerups will be chosen for compliments from our college. ",  
+        tag: "EVENT",
+        color: "0, 1, 38",
+        logo: "/EventsAssets/bme3.webp",
+        staff: [
+          {
+            name: "Dr. Kishore Mohan",
+            desig: "Assistant Professor",
+            phone: 7010755452,
+          },
+        ],
+        student: [
+          {
+            name: "Abirami",
+            year: "IV",
+            phone: 7604879212,
+            email: "abiramibasudevan57@gmail.com",
+          },
+          {
+            name: "Adithya SR",
+            year: "IV",
+            phone: 9176156222,
+            email: "adiithyasr@gmail.com",
+          },
+          {
+            name: "Charumathi",
+            year: "IV",
+            phone: 9952091585,
+            email: "charulakshu@gmail.com",
           },
         ],
       },
@@ -2848,51 +2959,7 @@ export const EventDetails = [
         ],
       },
   
-      {
-        name: "The Case",
-        date: "02 Nov 2023",
-        venue: " ",
-        type:"Team",
-        time: "TBA",
-        members: "3",
-        // rules: "",
-        round1:
-          "A team of 3. A medical case along with a field of forensic and patrol investigation will be assigned to each team. The case can even be a part of a real incident or the incident as a whole. The overall concept is to make the event a thrilled and route turning experience for all. The teams are expected to solve the case certainly and accurately. All participants would be awarded with tiny, cute compliments. Registration fee ",
-        round2:
-          " After completion of the first round, there will be a analysis type of round will happen. The teams that excel in this round will be pushed onto the third/final round (based on the count of the participants).",
-        round3:
-          "The winner and two runnerups will be chosen for compliments from our college. ",  
-        tag: "EVENT",
-        color: "0, 1, 38",
-        logo: "/EventsAssets/bme3.webp",
-        staff: [
-          {
-            name: "Dr. Kishore Mohan",
-            desig: "Assistant Professor",
-            phone: 7010755452,
-          },
-        ],
-        student: [
-          {
-            name: "Abirami",
-            year: "IV",
-            phone: 7604879212,
-            email: "abiramibasudevan57@gmail.com",
-          },
-          {
-            name: "Adithya SR",
-            year: "IV",
-            phone: 9176156222,
-            email: "adiithyasr@gmail.com",
-          },
-          {
-            name: "Charumathi",
-            year: "IV",
-            phone: 9952091585,
-            email: "charulakshu@gmail.com",
-          },
-        ],
-      },
+      
     ],
     workshopslist: [
       {
@@ -3434,13 +3501,13 @@ export const EventDetails = [
         rules: "",
         round1title:"ELEMENTAL FLIP",
         round1:
-          "A team should contain two members each.2 teams at a time will be provided with a chart to know about the matches and a set of cards.one set of cards will be the name of the elements. The Other set will be their atomic number.These 2 sets of cards will be shuffled .The team which finds the most matches will be considered as winners.",
+          "A team should contain two members each.2 teams at a time will be provided with a chart to know about the matches and a set of cards.one set of cards will be the name of the elements. The Other set will be their atomic number.These 2 sets of cards will be shuffled .The team which finds the most matches will be considered as winners",
         round2title:"SCRAMBLE BOX",
         round2:
-          "A team should contain 2 members each.One person should flip the bottle and reach the second person and  write the jumbled letters (provided) to him in the back of the second player.The second player writes the letters in the paper and should unscramble the letters with respect to the questions provided to him.",
+          "A team should contain 2 members each.One person should flip the bottle and reach the second person and  write the jumbled letters (provided) to him in the back of the second player.The second player writes the letters in the paper and should unscramble the letters with respect to the questions provided to him",
         round3title:"RELAY STATION AND WHEEL EXPO.",
         round3:
-          "A team should contain 2 members each.The event contains 4 relay stations. Each station will be provided with a who am I question to all the teams. The team which answers first goes to the next station.The remaining teams will be provided with another question in the same station until they answer.If any team requires any clue, they can use the trump card provided to them by spinning the spin wheel.Clues will be provided according to the number displayed by the spin wheel.The team which has crossed more stations at a specific time will be considered as winners.",
+          "A team should contain 2 members each.The event contains 4 relay stations. Each station will be provided with a who am I question to all the teams. The team which answers first goes to the next station.The remaining teams will be provided with another question in the same station until they answer.If any team requires any clue, they can use the trump card provided to them by spinning the spin wheel.Clues will be provided according to the number displayed by the spin wheel.The team which has crossed more stations at a specific time will be considered as winners",
         tag: "EVENT",
         color: "0, 1, 38",
         logo: "/EventsAssets/chem1.webp",
@@ -3477,11 +3544,11 @@ export const EventDetails = [
         members: "4",
         rules: "",
         round1:
-          "A team of 4 members.Each team play in a one vs one format against other team.Boxes assigned with alphabets each will be placed in the centre.Two members from a team must gather letters by tapping the ball into the box.Other two members need to frame words from the gathered letters in a stipulated time.The team with the maximum point advances.",
+          "A team of 4 members.Each team play in a one vs one format against other team.Boxes assigned with alphabets each will be placed in the centre.Two members from a team must gather letters by tapping the ball into the box.Other two members need to frame words from the gathered letters in a stipulated time.The team with the maximum point advances",
         round2:
-          "The game is of the format of one vs one among two teams.Each team should solve 3 sets of reverse connection puzzles.After completion of three sets, the first team to solve the final common set will move on to the next round.",
+          "The game is of the format of one vs one among two teams.Each team should solve 3 sets of reverse connection puzzles.After completion of three sets, the first team to solve the final common set will move on to the next round",
         round3:
-          "This is a one on one game between two teams.Each team should secretly assign each of its members : Easy, 2 Mediums, Hard.After the toss, the winning team should send one of its members to select the other member from the team for a face off challenge.The one who wins the face off challenge will be rewarded points based on the opposition's hardness level.The first team to gather 5 points will be declared as winner.",
+          "This is a one on one game between two teams.Each team should secretly assign each of its members : Easy, 2 Mediums, Hard.After the toss, the winning team should send one of its members to select the other member from the team for a face off challenge.The one who wins the face off challenge will be rewarded points based on the opposition's hardness level.The first team to gather 5 points will be declared as winner",
   
         tag: "EVENT",
         color: "0, 1, 38",
@@ -3521,13 +3588,13 @@ export const EventDetails = [
         rules: "",
         round1title:"WORDMESH MASTERS",
         round1:
-          "Each team should contain 4 members.A bowl contains a group of letters Some specific letters are numbered at the back of the flash card.Each team will be given 1 minute to arrange the word from the bowl of letters , According to the number.Points are awarded based on the total number of words.The teams with same point will be further send to memorize task.The selected teams will further step into round-2.",
+          "Each team should contain 4 members.A bowl contains a group of letters Some specific letters are numbered at the back of the flash card.Each team will be given 1 minute to arrange the word from the bowl of letters , According to the number.Points are awarded based on the total number of words.The teams with same point will be further send to memorize task.The selected teams will further step into round-2",
         round2title:"PUZZLE FUSION X",
         round2:
-          "This is one on one game between two teams.Initially the dismantle puzzle will be given to the team.The team who saw the puzzle can raise the question to the opposite team (given by organisers).Then the following team will raise the question to the other team,the third chance will be chosen by the raffle tickets method.Points are awarded based on the answer and timing to answer the questions.",
+          "This is one on one game between two teams.Initially the dismantle puzzle will be given to the team.The team who saw the puzzle can raise the question to the opposite team (given by organisers).Then the following team will raise the question to the other team,the third chance will be chosen by the raffle tickets method.Points are awarded based on the answer and timing to answer the questions",
         round3title:"WHIRL 2 WIN",
         round3:
-          "This round is based on mini tasks and buzzers.Each team should secretly assign members as easy,medium,hard.Based on the levels,the following members should perform the task given,press the buzzer and answer the question.Points will be awarded individually for easy,medium and hard levels.5.	The team which gains high points will be declared as the winner.",  
+          "This round is based on mini tasks and buzzers.Each team should secretly assign members as easy,medium,hard.Based on the levels,the following members should perform the task given,press the buzzer and answer the question.Points will be awarded individually for easy,medium and hard levels.5.	The team which gains high points will be declared as the winner",  
         tag: "EVENT",
         color: "0, 1, 38",
         logo: "/EventsAssets/chem3.webp",
@@ -3565,13 +3632,13 @@ export const EventDetails = [
         rules: "",
         round1title:"Chem Auction",
         round1:
-          "2 per team.Each team will be given some bidding money for attending the questions.Three type set of points will be given for the auction (10 points, 20 points & 50 points).Minimum price will be changed at every set of points.Bidding can start at a minimum price set and increase as bids are placed.To earn points for the answer correctly, if it is the wrong answer, bidding money will be reduced.Those who earn the more point they will eligible for next round.",
+          "2 per team.Each team will be given some bidding money for attending the questions.Three type set of points will be given for the auction (10 points, 20 points & 50 points).Minimum price will be changed at every set of points.Bidding can start at a minimum price set and increase as bids are placed.To earn points for the answer correctly, if it is the wrong answer, bidding money will be reduced.Those who earn the more point they will eligible for next round",
         round2title:"Film Flick",
         round2:
-          "2 per team.The team has to watch the movie clips one by one.We will play some chemical related movie clips on the screen.Find out  the chemical related things which are used in the movie clips.Points will be added for the right answer.Each question has three points.who earn more points, they are go to the final round.",
+          "2 per team.The team has to watch the movie clips one by one.We will play some chemical related movie clips on the screen.Find out  the chemical related things which are used in the movie clips.Points will be added for the right answer.Each question has three points.who earn more points, they are go to the final round",
         round3title:"Mind Hunter",
         round3:
-          "one vs one.Each team must select a candidate to participate in the final round.Teammates can be changed once the final round.Participants  must remember the maximum number of snaps that will be absorbed in the collage.Whoever got the maximum number of points that team will be considered as the winner.",  
+          "one vs one.Each team must select a candidate to participate in the final round.Teammates can be changed once the final round.Participants  must remember the maximum number of snaps that will be absorbed in the collage.Whoever got the maximum number of points that team will be considered as the winner",  
         tag: "EVENT",
         color: "0, 1, 38",
         logo: "/EventsAssets/chem4.webp",
@@ -3611,7 +3678,7 @@ export const EventDetails = [
           time: "9:00am - 3.00pm",
           mode: "OFFLINE",
           venue: " ",
-          topic:"Session 1 - Biodiesel synthesis using Third Generation  algal biomass.Session 2 - Hands on Training in Lipid  extraction and transesterification process for Biodiesel Synthesis.",
+          topic:"Session 1 - Biodiesel synthesis using Third Generation  algal biomass.Session 2 - Hands on Training in Lipid  extraction and transesterification process for Biodiesel Synthesis",
           resource: [
             {
               name: "Dr.S.Renganathan",
@@ -3749,15 +3816,15 @@ export const EventDetails = [
 
         round1title: "Techons",
         round1:
-          " •	10 questions. •	Each question carries 10 points. •	Duration: 10 minutes. •	Top 6 teams will be qualified for the next round ",
+          " 	10 questions. 	Each question carries 10 points. 	Duration: 10 minutes.	Top 6 teams will be qualified for the next round ",
         note: "It is a technical connection event. Group of images will be displayed as a clue to find the technical words ",  
         round2title: "Flip it!",
         round2:
-          "• 8 Pairs. • Each Pair carries 10 points. • Duration: 2 minutes. • Top 4 teams will be qualified for next round ",
+          " 8 Pairs. Each Pair carries 10 points.  Duration: 2 minutes. Top 4 teams will be qualified for next round ",
         note: "It is a memory game. 16 sheets of paper will be arranged on a table, each with a circuit image on the back side. Among these sheets, there will be 8 pairs of circuit images.The game involves flipping over two sheets of paper sequentially.If they reveal matching circuit images, you will earn 10 points.If they don't match, you must return them to their original positions. You continue flipping sheets until the time limit is reached ",   
         round3title: "Circuitrick",
         round3:
-          "• 5 Symbols. • Each correct guess carries 20 points. • Duration: 3 minutes. • Winners & Runners will be selected based on points ",
+          "5 Symbols.  Each correct guess carries 20 points. Duration: 3 minutes.  Winners & Runners will be selected based on points ",
         note: "5 circuit/schematic symbols will be given to one of the teammates. That person has to identify each symbol and has to give clues, accordingly. Other teammate should guess the word correctly ",
         logo: "/EventsAssets/eie1.webp",
         staff: [
@@ -3793,15 +3860,15 @@ export const EventDetails = [
         rules: "",
         round1title: "IDENTIFY AND CONQUER",
         round1:
-          " 1. TEAM TASK. 2. EACH TEAM WILL BE PROVIDED BY THE SEPARATE CIRCUIT LAYOUT. 3. TOTAL POINTS 5. 4.TIME ORIENTED TASK ",
+          "  TEAM TASK.  EACH TEAM WILL BE PROVIDED BY THE SEPARATE CIRCUIT LAYOUT.  TOTAL POINTS 5.TIME ORIENTED TASK ",
         note: "IDENTIFYING THE COMPONENTS THAT WERE USED IN THE GIVEN CIRCUIT DIAGRAM ",  
         round2title: "RAPID FIRE- KNOWLEDGE AS NEW BATTLE FIELD ",
         round2:
-          "1. TEAM TASK. 2. FUN TASK IS BEEN ASSIGNED FOR EACH QUESTIONS. 3. TOTAL POINTS 5. 4. TIME ORIENTED TASK ",
+          " TEAM TASK.  FUN TASK IS BEEN ASSIGNED FOR EACH QUESTIONS.  TOTAL POINTS 5. TIME ORIENTED TASK ",
         note: "OPEN TEST FOR THE PARTICIPANT KNOWLEDGE ON THE BASIS OF ELECTRONICS AND INSTRUMENTATION FIELD. IMAGES WERE DISPLAYED TO THE PARTICIPANTS , THEY WERE ASKED TO IDENTIFY THE DISPLAYED IMAGE AND FEW WORDS ON IT. FIRST TEAM TO COMPLETE THE TASK WILL GET THE CHANCE TO ANSWER  ",   
         round3title: "INNOVATE TECH",
         round3:
-          "1. TEAM TASK. 2. PARTICIPENTS WERE WIDLY EXPLAIN THERE OWN IDEAS TO SOLVE THE GIVEN ENGINEERING PROBLEMS IN THE SOCIETY  ",
+          " TEAM TASK.  PARTICIPENTS WERE WIDLY EXPLAIN THERE OWN IDEAS TO SOLVE THE GIVEN ENGINEERING PROBLEMS IN THE SOCIETY  ",
         note: "THIS EVENT BRINGS AN BRIGHT MINDS IN ENGINEERING TO TACKLE THE REAL WORLD CHALLENGES ",
         tag: "EVENT",
         color: "0, 1, 38",
@@ -3847,7 +3914,7 @@ export const EventDetails = [
         round3title: "PICTONARY",
         round3:
           "Each team is given a picture. More accurate the drawing more points will be given. Duration: 2 minutes. Winners & Runners will be selected based on their scores so far ",
-        note: "The team mate should be able to guess the picture drawn by the other member before him. The team that guesses the most wins the game. ",
+        note: "The team mate should be able to guess the picture drawn by the other member before him. The team that guesses the most wins the game ",
         tag: "EVENT",
         color: "0, 1, 38",
         logo: "/EventsAssets/eie3.webp",
@@ -3928,7 +3995,7 @@ export const EventDetails = [
         company: "Space Zee Technology",
         link: "https://docs.google.com/forms/d/e/1FAIpQLSfebj4TlUlbk0fBg3-QP8PQCF4aDKsWf04RBJIG-1SskfAvMw/viewform?usp=sf_link",
         day1: {
-          date: "TBA",
+          date: "26/10/2023",
           time: "FULL DAY",
           mode: "OFFLINE",
           venue:"",
@@ -3965,7 +4032,7 @@ export const EventDetails = [
           ],
         },
         day2: {
-          date: "TBA",
+          date: "26/10/2023",
           time: "FULL DAY",
           mode: "OFFLINE",
           venue:"",
@@ -4015,14 +4082,14 @@ export const EventDetails = [
         venue: " ",
         time: "9:00 AM TO 12:00 PM",
         members: "2",
-        rules: "All must wear safety shoe and college ID card is must.",
+        rules: "All must wear safety shoe and college ID card is must",
         round1:
           "Technical quiz will be conducted (10 mins)",
 
         round2: 
         "operation on lathe Turning process (to reduce the diameter to the specified diameter). Step turning or Knurling. Any one topic will be given. (30 mins)",
         round3:
-          "Operation of Surface testing ( 20 mins).Inspection will be done by examiner after the work is done . Fastest finishing and perfect accuracy will be declared as winner.",
+          "Operation of Surface testing ( 20 mins).Inspection will be done by examiner after the work is done . Fastest finishing and perfect accuracy will be declared as winner",
         tag: "EVENT",
         color: "0, 1, 38",
         logo: "/EventsAssets/mech1.webp",
@@ -4074,7 +4141,7 @@ export const EventDetails = [
         round1title:"BASIC DESIGN", 
         round1: "Duration: 3 to 5 minutes for presentation. Design Submission Deadline: All designs must be submitted by the specified time. Late submissions will not be accepted. Qualification Criteria: Only correct designs submitted on time will qualify for the next round ",
         round2title:"INTERMEDIATE DESIGN",
-        round2: " Duration: 5 to 7 minutes for presentation. Design Submission Deadline: All designs must be submitted by the specified time. Late submissions will not be accepted. Qualification Criteria: Only correct designs submitted on time will qualify for the final round. ",
+        round2: " Duration: 5 to 7 minutes for presentation. Design Submission Deadline: All designs must be submitted by the specified time. Late submissions will not be accepted. Qualification Criteria: Only correct designs submitted on time will qualify for the final round ",
         round3title:"ADVANCED DESIGN",
         round3: "Duration: 10 to 13 minutes for presentation. Design Submission Deadline: All designs must be submitted by the specified time. Late submissions will not be accepted. Qualification Criteria: Only correct designs submitted on time will qualify. Staff Coordinator's Decision: The decision of the staff coordinator regarding design correction and evaluation is final. Participants are expected to adhere to these rules and timelines to ensure fair competition and a successful design event. Good luck to all participants!",
         tag: "EVENT",
@@ -4830,7 +4897,7 @@ export const EventDetails = [
         company: "KVS BIOMEDICAL",
         link: "https://forms.gle/ng8EcPAdeXzzEm4j6",
         day1: {
-          date: "26/11/22(FN & AN)",
+          date: "26/10/22(FN & AN)",
           time: "FULL DAY",
 
           mode: "OFFLINE",
@@ -5189,7 +5256,7 @@ export const EventDetails = [
     workshopslist: [
       {
         name: "CREATE YOUR OWN FLAPPY BIRD GAME USING PYTHON",
-        logo: "/EventsAssets/ecew1.webp",
+        // logo: "/EventsAssets/ecew1.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
         venue: "TBA",
@@ -5287,7 +5354,7 @@ export const EventDetails = [
       },//1
       {
         name: "CREATE AN ARTIFICIAL INTELLIGENT CHATBOT USING PYTHON AND CHATGPT",
-        logo: "/EventsAssets/ecew2.webp",
+        // logo: "/EventsAssets/ecew2.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
         mode: "TBA",
@@ -5386,7 +5453,7 @@ export const EventDetails = [
       },//2
       {
         name: "MASTERING THE ART OF WEB HACKING",
-        logo: "/EventsAssets/ecew3.webp",
+        // logo: "/EventsAssets/ecew3.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
         mode: "TBA",
@@ -5487,7 +5554,7 @@ export const EventDetails = [
       },//3
       {
         name: "HANDS ON WORKSHOP ON PCB DESIGN AND PROTOTYPING ",
-        logo: "/EventsAssets/ecew4.webp",
+        // logo: "/EventsAssets/ecew4.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
         mode: "Offline",
@@ -5640,7 +5707,7 @@ export const EventDetails = [
       },//4
       {
         name: "Non-Stationary Signal Processing with ML and Data Analytics",
-        logo: "/EventsAssets/ecew5.webp",
+        // logo: "/EventsAssets/ecew5.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
         venue: "TBA",
@@ -5746,7 +5813,7 @@ export const EventDetails = [
       },//5
       {
         name: "CRAFTING RESEARCH ARTICLE AND ENGINEERING YOUR RESUME USING AI REVOLUTION",
-        logo: "/EventsAssets/ecew6.webp",
+        // logo: "/EventsAssets/ecew6.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
         venue: "TBA",
@@ -5845,7 +5912,7 @@ export const EventDetails = [
       },//6
       {
         name: "DESIGN DICHOTOMY",
-        logo: "/EventsAssets/ecew7.webp",
+        // logo: "/EventsAssets/ecew7.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
         mode: "TBA",
@@ -5944,8 +6011,8 @@ export const EventDetails = [
         
       },//7
       {
-        name: "MSEMICONDUCTOR INSPECTION USING MATLAB AND PYTHON",
-        logo: "/EventsAssets/ecew8.webp",
+        name: "SEMICONDUCTOR INSPECTION USING MATLAB AND PYTHON",
+        // logo: "/EventsAssets/ecew8.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
         mode: "TBA",
@@ -6055,7 +6122,7 @@ export const EventDetails = [
       },//8
       {
         name: "ONE DAY WORKSHOP ON SMART SYSTEM DESIGN USING TINKERCAD",
-        logo: "/EventsAssets/ecew9.webp",
+        // logo: "/EventsAssets/ecew9.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
         mode: "Offline",
@@ -6109,7 +6176,7 @@ export const EventDetails = [
       },//9
       {
         name: "NanoBot: Hands-on workshop on Arduino-Powered Path Tracker  ",
-        logo: "EventsAssets/ecew10.webp",
+        // logo: "EventsAssets/ecew10.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
         link: " ",
@@ -6232,7 +6299,7 @@ export const EventDetails = [
       },//10
       {
         name: "AI-Powered Chatbots: From Idea to Implementation Workshop ",
-        logo: "EventsAssets/ecew2.webp",
+        // logo: "EventsAssets/ecew2.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
         link: " ",
@@ -6354,7 +6421,7 @@ export const EventDetails = [
       },//11
       {
         name: "Flask Bootcamp: Building your own Web App Development ",
-        logo: "EventsAssets/chemw1.webp",
+        // logo: "EventsAssets/chemw1.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
         link: " ",
@@ -6490,11 +6557,11 @@ export const EventDetails = [
         members: "2",
         // rules: "TBA",
         round1:
-          "1.A Team can have a maximum of two members. 2.Only one participant should control a robot. No player can be exchanged in the middle of match. A robot can push or hit the ball. It cannot withhold or grab the ball. 3.The time given for each team to play is “ 4 minutes “. (timing can be varied depending on the situation). 4.The first team to score 3 Goals within 4 minutes wins the round ; Or else the team which scores higher number of goals in 4 minutes wins the round. 5.Human interference (e.g. touching the robot) during the game is not allowed. Only organizers can interfere when it is needed. 6.Decision of the Judges and Event Organizers shall be treated as final and binding on all and cannot be contested. 7.The event coordinator is the match referee. He takes all the decisions and participants have to abide by it. 8.Coordinators reserve the right to ask for the explanation of the robot. The coordinator can change the rules of the game depending on the situation. • Rules & Regulations may change without prior notice, by the Event organizers. • Positions of balls in the arena will be decided by the organizers on the particular day of event ",
+          "A Team can have a maximum of two members. Only one participant should control a robot. No player can be exchanged in the middle of match. A robot can push or hit the ball. It cannot withhold or grab the ball. The time given for each team to play is “ 4 minutes “. (timing can be varied depending on the situation). The first team to score 3 Goals within 4 minutes wins the round ; Or else the team which scores higher number of goals in 4 minutes wins the round. Human interference (e.g. touching the robot) during the game is not allowed. Only organizers can interfere when it is needed. Decision of the Judges and Event Organizers shall be treated as final and binding on all and cannot be contested. The event coordinator is the match referee. He takes all the decisions and participants have to abide by it. 8.Coordinators reserve the right to ask for the explanation of the robot. The coordinator can change the rules of the game depending on the situation.  Rules & Regulations may change without prior notice, by the Event organizers.  Positions of balls in the arena will be decided by the organizers on the particular day of event ",
         round2:
-          "1.A Team can have a maximum of two members. 2.Only one participant should control a robot. No player can be exchanged in the middle of match. A robot can push or hit the ball. It cannot withhold or grab the ball. 3.The time given for each team to play is “ 4 minutes “. (timing can be varied depending on the situation). 4.The first team to score 3 Goals within 4 minutes wins the round ; Or else the team which scores higher number of goals in 4 minutes wins the round. 5.Human interference (e.g. touching the robot) during the game is not allowed. Only organizers can interfere when it is needed. 6.Decision of the Judges and Event Organizers shall be treated as final and binding on all and cannot be contested. 7.The event coordinator is the match referee. He takes all the decisions and participants have to abide by it. 8.Coordinators reserve the right to ask for the explanation of the robot. The coordinator can change the rules of the game depending on the situation. • Rules & Regulations may change without prior notice, by the Event organizers. • Positions of balls in the arena will be decided by the organizers on the particular day of the event ",
+          "A Team can have a maximum of two members. Only one participant should control a robot. No player can be exchanged in the middle of match. A robot can push or hit the ball. It cannot withhold or grab the ball. The time given for each team to play is “ 4 minutes “. (timing can be varied depending on the situation). The first team to score 3 Goals within 4 minutes wins the round ; Or else the team which scores higher number of goals in 4 minutes wins the round. Human interference (e.g. touching the robot) during the game is not allowed. Only organizers can interfere when it is needed. Decision of the Judges and Event Organizers shall be treated as final and binding on all and cannot be contested. The event coordinator is the match referee. He takes all the decisions and participants have to abide by it. 8.Coordinators reserve the right to ask for the explanation of the robot. The coordinator can change the rules of the game depending on the situation.  Rules & Regulations may change without prior notice, by the Event organizers.  Positions of balls in the arena will be decided by the organizers on the particular day of the event ",
         round3:
-          "1.A Team can have a maximum of two members. 2.Only one participant should control a robot. No player can be exchanged in the middle of match. A robot can push or hit the ball. It cannot withhold or grab the ball. 3.The time given for each team to play is “ 4 minutes “. (timing can be varied depending on the situation). 4.The first team to score 3 Goals within 4 minutes wins the round ; Or else the team which scores higher number of goals in 4 minutes wins the round. 5.Human interference (e.g. touching the robot) during the game is not allowed. Only organizers can interfere when it is needed. 6.Decision of the Judges and Event Organizers shall be treated as final and binding on all and cannot be contested. 7.The event coordinator is the match referee. He takes all the decisions and participants have to abide by it. 8.Coordinators reserve the right to ask for the explanation of the robot. The coordinator can change the rules of the game depending on the situation. • Rules & Regulations may change without prior notice, by the Event organizers. • Positions of balls in the arena will be decided by the organizers on the particular day of event ",
+          "A Team can have a maximum of two members. Only one participant should control a robot. No player can be exchanged in the middle of match. A robot can push or hit the ball. It cannot withhold or grab the ball. The time given for each team to play is “ 4 minutes “. (timing can be varied depending on the situation). The first team to score 3 Goals within 4 minutes wins the round ; Or else the team which scores higher number of goals in 4 minutes wins the round. Human interference (e.g. touching the robot) during the game is not allowed. Only organizers can interfere when it is needed. Decision of the Judges and Event Organizers shall be treated as final and binding on all and cannot be contested. The event coordinator is the match referee. He takes all the decisions and participants have to abide by it. 8.Coordinators reserve the right to ask for the explanation of the robot. The coordinator can change the rules of the game depending on the situation.  Rules & Regulations may change without prior notice, by the Event organizers.  Positions of balls in the arena will be decided by the organizers on the particular day of event ",
         tag: "EVENT",
         color: "0, 1, 38",
         logo: "/EventsAssets/eee1.webp",

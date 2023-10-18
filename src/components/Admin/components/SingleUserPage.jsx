@@ -41,7 +41,7 @@ function SingleUserPage() {
   const userid = params.userid;
   const [Registeredpeople, setRegistredPeople] = useState([]);
   const [load, setLoad] = useState(true);
-  //    http://localhost:3000/user/qlkwnfdklwqfn
+    //  http://localhost:3000/user/qlkwnfdklwqfn
 
 
 
