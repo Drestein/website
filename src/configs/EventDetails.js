@@ -713,7 +713,7 @@ export const EventDetails = [
     workshopslist: [
       {
         name: "WEB PENTESTING AND BUG BOUNTY",
-        logo: "EventsAssets/cybw1.webp",
+        logo: "EventsAssets/csbw1.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
         company:
@@ -767,7 +767,7 @@ export const EventDetails = [
       },
       {
         name: "A Deep Dive into Fundamentals of IOT",
-        logo: "EventsAssets/cybw2.webp",
+        logo: "EventsAssets/csbw2.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
         company: "Faculty of Saveetha Engineering College",
