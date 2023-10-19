@@ -35,7 +35,7 @@ export const DisplayPopupProvider = ({ children }) => {
     day2: "error",
     day3: "error",
     company: "error",
-    link: "",
+    //link: "",
     note: "",
     morng: "",
     afternoon: "",

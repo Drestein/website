@@ -228,7 +228,7 @@ export const EventDetails = [
         color: "0, 70, 90",
         company:
           "CStream.IO, Los Angeles, California, United States",
-        link: "",
+        //link: "",
         day1: {
           date: "25.10.2023(FN & AN)",
           time: "9:00 - 3:00pm",
@@ -280,7 +280,7 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
         company: "NA",
-        link: "https://docs.google.com/forms/d/e/1FAIpQLSdZJpUE7AtrSvTuiaZDnjPwdUEERfCL_sdC7oRms9gE_GtmMQ/viewform",
+        //link: "https://docs.google.com/forms/d/e/1FAIpQLSdZJpUE7AtrSvTuiaZDnjPwdUEERfCL_sdC7oRms9gE_GtmMQ/viewform",
         day1: {
           date: "16.11.2022",
           time: "9:00 -3.00pm",
@@ -364,7 +364,7 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
         company: "SIFY",
-        link: "https://docs.google.com/forms/d/e/1FAIpQLSdYJUy5c4a9ffCvZkTCf6IGDeCeNbeB9C0DraxVMTjqsmew9A/viewform?usp=sf_link",
+        //link: "https://docs.google.com/forms/d/e/1FAIpQLSdYJUy5c4a9ffCvZkTCf6IGDeCeNbeB9C0DraxVMTjqsmew9A/viewform?usp=sf_link",
         day1: {
           date: "16.11.2022 - FN",
           time: "9:00 -3.00pm",
@@ -662,7 +662,7 @@ export const EventDetails = [
         color: "0, 70, 90",
         company:
           "CAPPRICIO SECURITIES",
-        link: "https://forms.gle/Z5xNg6dpUKKKxfJ97",
+        //link: "https://forms.gle/Z5xNg6dpUKKKxfJ97",
         day1: {
           date: "26.10.2023(FN & AN)",
           time: "9:00 - 3:00pm",
@@ -715,7 +715,7 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
         company: "Faculty of Saveetha Engineering College",
-        link: "https://forms.gle/NhC4Vt1F6CpucysQ8",
+        //link: "https://forms.gle/NhC4Vt1F6CpucysQ8",
         day1: {
           date: "28.10.2023",
           time: "9:00 -3.00pm",
@@ -830,7 +830,7 @@ export const EventDetails = [
         date: "02 Nov 2023(AN)",
         type: "DUO",
         venue: "TBA",
-        time: "1pm-3pm",
+        time: "12pm-3pm",
         members: "2 members",
         rules: "",
         note:"General requirement : laptop Mandatory, bring charger along if needed",
@@ -932,18 +932,17 @@ export const EventDetails = [
         name: "Crypto Hunt",
         // desc: "Ideathon",
         date: "03 Nov 2023(FN)",
-        type: "DUO",
+        type: "Trio",
         venue: "TBA",
-        time: "8.00AM-11.30",
+        time: "8.00AM-12.00PM",
 
-        members: "2 members",
+        members: "3 members",
         round1:
           "Participants face 20 intriguing questions online, covering questions about programming and cryptographic techniques.Teams must answer questions correctly and quickly to secure a spot in the top 10",
 
         round2:
-          "The qualified teams are gathered in a venue, armed with a college map and a WhatsApp group for communication.Clues are encrypted using various encryption techniques including steganography, cryptography, etc. which will lead them to the hidden venues.Usage of AI - Tools are not encouraged and will immediately lead to disqualification.To unlock the next challenge, teams must decipher these clues and provide passcodes to volunteers and so on.The final clues will require all the collected clues in order to find the final destination. More info at the venue",
+          "Crypto-Hunt is a thrilling two-round event that will put your deciphering and technical skills to the test.The event consists of two rounds. Find the clue in a Techie way, the Fun way! ",
         note:"General requirement : laptop Mandatory, bring charger along if needed",
-        note:"The qualified teams are gathered in a venue, armed with a college map and a WhatsApp group for communication.	Clues are encrypted using various encryption techniques including steganography, cryptography, etc.	These clues will lead them to the hidden venues.	Usage of AI - Tools are not encouraged and will immediately lead to disqualification.To unlock the next challenge, teams must decipher these clues and provide passcodes to volunteers and so on.	The final clues will require all the collected clues in order to find the final destination.More info at the venue, ",
           tag: "EVENT",
         color: "0, 1, 38",
         logo: "/EventsAssets/cse4.webp",
@@ -986,7 +985,7 @@ export const EventDetails = [
         color: "0, 70, 90",
         company: " Instellars Global Consulting, Bangalore",
         note:"General requirement : laptop Mandatory, bring charger along if needed",
-        // link: "https://docs.google.com/forms/d/e/1FAIpQLSfQNr0w2_ltXeaLdXqXs83h-JNNPxRkHH-QzllDvNUtFvWMUA/viewform",
+        // //link: "https://docs.google.com/forms/d/e/1FAIpQLSfQNr0w2_ltXeaLdXqXs83h-JNNPxRkHH-QzllDvNUtFvWMUA/viewform",
         day1: {
           date: "26/10/2023",
           time: "8AM-3PM",
@@ -1081,7 +1080,7 @@ export const EventDetails = [
         color: "0, 70, 90",
         company: "Pynesec Technologies",
         note:"General requirement : laptop Mandatory, bring charger along if needed",
-        // link: "https://docs.google.com/forms/d/e/1FAIpQLSehSdMZSZwOIgdYOV5pNv6AwTxmEcvuORiRCjdN9T5WHNVDNg/viewform",
+        // //link: "https://docs.google.com/forms/d/e/1FAIpQLSehSdMZSZwOIgdYOV5pNv6AwTxmEcvuORiRCjdN9T5WHNVDNg/viewform",
         day1: {
           date: "30.10.2023 ",
           time: "8AM-3PM",
@@ -1376,7 +1375,7 @@ export const EventDetails = [
         logo: "/EventsAssets/agriw1.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
-        link: "https://forms.gle/MJ1soYmvR8CSLU6CA",
+        //link: "https://forms.gle/MJ1soYmvR8CSLU6CA",
         company:"CFDT, TANUVAS",
         day1: {
           date: "27/10/2022",
@@ -1483,7 +1482,7 @@ export const EventDetails = [
         color: "0, 70, 90",
         company: "Agricultural Engineering Department, CIT Nagar",
 
-        link: " https://forms.gle/dGW3graHym75TTEn8",
+        //link: " https://forms.gle/dGW3graHym75TTEn8",
         day1: {
           date: "30/10/2023",
           time: "Full day",
@@ -1916,7 +1915,7 @@ export const EventDetails = [
         logo: "/EventsAssets/aiw1.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
-        link: "https://forms.gle/FNNHeXz1HLr4o1z86",
+        //link: "https://forms.gle/FNNHeXz1HLr4o1z86",
         day1: {
           date: "26.10.2023",
           time: "9.00-3.00pm",
@@ -2024,7 +2023,7 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
         company:"Monolith Research and Training Labs",
-        link: " https://forms.gle/w9nABVoeNWt6bQz68",
+        //link: " https://forms.gle/w9nABVoeNWt6bQz68",
         day1: {
           date: "30.10.2023 ",
           time: "9.00-3.00",
@@ -2130,7 +2129,7 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
         company:"Monolith Research and Training Labs",
-        link: " https://forms.gle/nnejZ3Egc3XhWEV5A",
+        //link: " https://forms.gle/nnejZ3Egc3XhWEV5A",
         day1: {
           date: "27.10.2023",
           time: "9.00am-3.00pm",
@@ -2568,7 +2567,7 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
         company:" Accenture",
-        link: "https://forms.gle/m4keKu7WvojoXXco8",
+        //link: "https://forms.gle/m4keKu7WvojoXXco8",
         day1: {
           date: "28.10.2023 ",
           time: "9.00-3.00pm",
@@ -2632,7 +2631,7 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
          company:"IVY Mobility",
-        link: "https://forms.gle/CPQoCbMPAV98eZQa7",
+        //link: "https://forms.gle/CPQoCbMPAV98eZQa7",
         day1: {
           date: "27.10.2023 ",
           time: "9.00-3.00",
@@ -2728,7 +2727,7 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
         company:"Saveetha Engineering College",
-        link: "https://forms.gle/hRiwAKYjbwZ533Zs7",
+        //link: "https://forms.gle/hRiwAKYjbwZ533Zs7",
         day1: {
           date: "31.10.2023",
           time: "9.00am-3.00pm",
@@ -2919,7 +2918,7 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
   
-        link: "https://forms.gle/XCqNnJ7mi4VBSqeG6 ",
+        //link: "https://forms.gle/XCqNnJ7mi4VBSqeG6 ",
         day1: {
           date: "28/10/2023",
           time: "8:00am - 3.00pm",
@@ -3000,7 +2999,7 @@ export const EventDetails = [
         color: "0, 70, 90",
         // company: "  ",
   
-        link: "https://forms.gle/XCqNnJ7mi4VBSqeG6 ",
+        //link: "https://forms.gle/XCqNnJ7mi4VBSqeG6 ",
         day1: {
           date: "26/10/2023",
           time: "8am-3pm",
@@ -3101,7 +3100,7 @@ export const EventDetails = [
         name: "Construct with constraints ",
         date: "03 Nov 2023(FN)",
         type: "2",
-        venue: "Survey LAB,Gf  Rectangular block",
+        venue: "",
         time: "AFTERNOON",
         members: "2",
         rules: "",
@@ -3152,9 +3151,9 @@ export const EventDetails = [
         // desc: "Cipher Hunt is a cybersecurity competition that is all about finding weaknesses and exploiting loopholes in various computer programs. It aims to engage participants in the creative exploration of real-world computer security by distilling the significant disciplines of professional cybersecurity into short, objectively measurable exercises.An ethical hacking contest in which contestants will have to find pieces of information, called ‘flags’, hidden in each of the challenges. So, assemble your team, prepare to decrypt hidden messages, exploit vulnerabilities, and do whatever it takes to Hunt!",
         date: "02 Nov 2023(AN)",
         type: "Solo",
-        venue: "Survey LAB, GF,Rectangular block",
+        venue: "",
         time: "AFTERNOON",
-        members: "2",
+        members: "3",
         rules: "",
         round1title:"Chosse it ",
         round1:
@@ -3204,7 +3203,7 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
         company:"Techmaax",
-        link: "https://docs.google.com/forms/d/e/1FAIpQLSd1YjNa3lgwmANBmkcjksymUGNOgmHJMSq_6L4_AdQ9kFKlbg/viewform?usp=pp_url",
+        //link: "https://docs.google.com/forms/d/e/1FAIpQLSd1YjNa3lgwmANBmkcjksymUGNOgmHJMSq_6L4_AdQ9kFKlbg/viewform?usp=pp_url",
         day1: {
           date: "27/10/2023",
           time: "FULL DAY",
@@ -3323,7 +3322,7 @@ export const EventDetails = [
         color: "0, 70, 90",
         company: "ADK Design, Chennai",
 
-        link: "https://docs.google.com/forms/d/e/1FAIpQLSdjhOpp-LxsjsC5plvxTB9N_CvEhUiFENRcUW7EtKHm-59t9w/viewform?usp=pp_url",
+        //link: "https://docs.google.com/forms/d/e/1FAIpQLSdjhOpp-LxsjsC5plvxTB9N_CvEhUiFENRcUW7EtKHm-59t9w/viewform?usp=pp_url",
         day1: {
           date: "30/10/2023",
           time: "FULL DAY",
@@ -3623,7 +3622,7 @@ export const EventDetails = [
         logo: "EventsAssets/chemw1.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
-        link: "https://docs.google.com/forms/d/e/1FAIpQLSdCctTzJS_-Td8gcffoufKCvalekgfek9WK570Yfymo85PCAA/viewform ",
+        //link: "https://docs.google.com/forms/d/e/1FAIpQLSdCctTzJS_-Td8gcffoufKCvalekgfek9WK570Yfymo85PCAA/viewform ",
         day1: {
           date: "30/10/2023",
           time: "9:00am - 3.00pm",
@@ -3944,7 +3943,7 @@ export const EventDetails = [
         color: "0, 70, 90",
         venue:"TBA",
         company: "Space Zee Technology",
-        link: "https://docs.google.com/forms/d/e/1FAIpQLSfebj4TlUlbk0fBg3-QP8PQCF4aDKsWf04RBJIG-1SskfAvMw/viewform?usp=sf_link",
+        //link: "https://docs.google.com/forms/d/e/1FAIpQLSfebj4TlUlbk0fBg3-QP8PQCF4aDKsWf04RBJIG-1SskfAvMw/viewform?usp=sf_link",
         day1: {
           date: "26/10/2023",
           time: "FULL DAY",
@@ -4193,7 +4192,7 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
         company: "THINK BIG",
-        link: " https://docs.google.com/forms/d/e/1FAIpQLSeHCybuLQ03SWuWwRKETpcYnXfnPWvwsZz62OCfS57WhuaXTw/viewform?usp=sf_link",
+        //link: " https://docs.google.com/forms/d/e/1FAIpQLSeHCybuLQ03SWuWwRKETpcYnXfnPWvwsZz62OCfS57WhuaXTw/viewform?usp=sf_link",
         day1: {
           date: "25.10.2023",
           mode: "offline",
@@ -4308,7 +4307,7 @@ export const EventDetails = [
         logo: "/EventsAssets/mechw2.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
-        link: "https://docs.google.com/forms/d/e/1FAIpQLSeI_8QwQgRcO7IcC_GI2w-iIeyQU0Pl-vE6L1-1IUiHq-m5vw/viewform",
+        //link: "https://docs.google.com/forms/d/e/1FAIpQLSeI_8QwQgRcO7IcC_GI2w-iIeyQU0Pl-vE6L1-1IUiHq-m5vw/viewform",
         day1: {
           mode: "offline",
           date: "27/10/2023",
@@ -4416,59 +4415,76 @@ export const EventDetails = [
     eventslist: [
       {
         name: " Adzap",
-        date: "18 Nov 2022(FN)",
-        type: "3-7",
-        venue: "Admin Block 3F IW LH 01",
-        time: "FORENOON",
-        members: "2",
-        rules: "",
-        round1:
-          "No electronic gadget allowed in stage and during discussion. In a group at least 3 person should participate and maximum 7. All must have a equal participation (in group).  Any property related to ad can be used",
-        round2:
-          "Timing for the stage performance is 5 minutes. They should not extend the time. No illegal or political word should be used. From one college only one team is allowed.In Group Maximum of 3 people should be PRELIMINARY Judges decision is the final one",
-        round3:
-          "Political & Illegal Words Shouldn't Be Used During The Performance",
+        date: "02 Nov 2023(FN)",
+        type: "team",
+        venue: "",
+        time: "12p.m to 2:00p.m",
+        members: "5- 8members in a team",
+        rules: "The event consists of 2 rounds, The 1st round is finding the company logo and ( round 1 qualified team will be selected for 2nd round).Group event (5- 8members in a team).Product name will be given 5 minutes before the event.Vulgarity or offensive terms will lead to disqualification.Time given is 5-7 minutes for the total performance.Strictly adhere to the time limit.Property and background music is allowed.Teams can advertise the product in a funny fashion.Materials required can be brought by the participants",
         tag: "EVENT",
         color: "0, 1, 38",
         logo: "/EventsAssets/mba1.webp",
         staff: [
           {
-            name: "Dr.S.GANGADHARAN",
-            desig: "Assistant Professor",
-            phone: 9894320588,
-            email: "Sgangadharan @gmail.com",
+            name: "Dr. Jyothi",
+            desig: "Associate Professor",
+            phone: 9790953098,
+            email: "jyothip@saveetha.ac.in",
           },
         ],
         student: [
           {
-            name: "Jayasri.V",
-            year: "I",
-            phone: 8074340999,
-            email: "jsrikumar008 @gmail.com",
+            name: "Lakshmi Narayanan. S",
+            year: "II",
+            phone: 9944525845,
+            email: "Narayanansriram10@gmail.com",
           },
           {
-            name: "Krishna Kumar.S",
+            name: "Navina. T",
+            year: "II",
+            phone: 7200092138,
+            email: "navinathanikodi@gmail.com",
+          },{
+            name: "Amala Jenifer. B",
+            year: "II",
+            phone: 7904848441,
+            email: "amalajenifer2001@gmail.com",
+          },{
+            name: "Abirami. S",
             year: "I",
-            phone: 8778270202,
-            email: "Siddhu @gmail.com",
+            phone: 8903022114,
+            email: "abirami182002@gmail.com",
+          },{
+            name: "Srinidhi. S",
+            year: "I",
+            phone: 9629808541,
+            email: "ssrinidhi912@gmail.com",
+          },{
+            name: "Vishnupriya. J",
+            year: "I",
+            phone: 7305397423,
+            email: "vishnupriyajanarthanan1@gmail.com",
           },
         ],
       },
       {
-        name: " Business Quiz",
-        date: "18 Nov 2022(AN)",
-        type: "2",
-        venue: "Admin Block 3F IW LH 02",
-        time: "AFTERNOON",
-        members: "1-2",
+        name: " Best Manager",
+        date: "03 Nov 2023(FN)",
+        type: "Solo",
+        venue: "",
+        time: "08:00 a.m. to 11:00 a.m.",
+        members: "1",
         rules:
-          "Participation in the form of Team only [2 Members per team]. Compulsory the team has to register to be eligible for the competition. Replacement of any participant of a team is not allowed after registration.  Participants shall not be allowed to use Mobile phones or any other electronic devices during the stages of quiz.  There are no restrictions on the number of teams. Judges decision are final",
+          "Number of participants for the event will only be 1 per college. The Best Manager will be carried in 3/4 different rounds.The rounds for the best manager will be as follows: a) Presentation on the given case study, which will be common for all Presentation time 5-6 mins.b) Numerical aptitude test.c) Cash management game.d) Rapid fire round (Psychometric Test).e) Interpretation of the financial statements of different companies ",
+        round1title:"",
         round1:
           "Total of 15 MCQ type Questions Each question carries 1 Mark  Only 1 member per team allowed to attend this round The Top 5 selected teams will move on to the round 2",
-
+        round2title:"",
         round2:
           " Both the team members join together to attend this .round Total of 25 questions will be asked. 5 questions per team Each question carries 2 Marks, If question get passed to the next team it carries 1 Mark In case of tie, extra tie breaker questions may be asked to decide the winners",
-
+        round3title:"",
+        round4title:"",
+        round5title:"",
         tag: "EVENT",
         color: "0, 1, 38",
         logo: "/EventsAssets/mba2.webp",
@@ -4599,7 +4615,7 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
         company: " Knowledge Xchange Community",
-        link: "https://forms.gle/Ds2pnv1AoWTgb1RW7",
+        // link: "https://forms.gle/Ds2pnv1AoWTgb1RW7",
         day1: {
           date: "14/11/2022",
           time: "FORENOON",
@@ -4638,7 +4654,7 @@ export const EventDetails = [
         color: "0, 70, 90",
 
 
-        link: "https://forms.gle/jZp6bq3Th32nsQPH7",
+        //link: "https://forms.gle/jZp6bq3Th32nsQPH7",
         day1: {
           date: "17/11/2022",
           mode: "OFFLINE",
@@ -4846,7 +4862,7 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
         company: "KVS BIOMEDICAL",
-        link: "https://forms.gle/ng8EcPAdeXzzEm4j6",
+        //link: "https://forms.gle/ng8EcPAdeXzzEm4j6",
         day1: {
           date: "26/10/22(FN & AN)",
           time: "FULL DAY",
@@ -5151,7 +5167,7 @@ export const EventDetails = [
         venue: "TBA",
         type:"Team",
         time: "Forenoon",
-        members: "2",
+        members: "3",
         rules: "A team must contain three members",
         round1:
           " Each has to dictate one technical term related to VLSI one after one. The team which repeats the same terms or fails to dictate on time will be directly eliminated. Six teams will be selected to round two ",
@@ -5190,6 +5206,18 @@ export const EventDetails = [
             phone: 9884165732 ,
             email: "gopathri143@gmail.com ",
           },
+          {
+            name: "Thilageshwaran ",
+            year: "III",
+            phone: 9791095167,
+            email: " roganthilak@gmail.com ",
+          },
+          {
+            name: "Sridhar ",
+            year: "III",
+            phone: 7904044632 ,
+            email: "sridharramalingam1806@gmail.com",
+          },
         ],
       },
     ],
@@ -5202,7 +5230,7 @@ export const EventDetails = [
         venue: "TBA",
         company:"IT Expect Training",
     
-        // link: "https://forms.gle/cSmjSPii3pibWvEu7",
+        // //link: "https://forms.gle/cSmjSPii3pibWvEu7",
         day1: {
           date: "25/10/23",
           time: "FN AND AN",
@@ -5301,7 +5329,7 @@ export const EventDetails = [
         venue: "TBA",
         company: "IT EXPERT TRAINING",
     
-        link: "https://forms.gle/ocbCaV91wxDqmPad8",
+        //link: "https://forms.gle/ocbCaV91wxDqmPad8",
         day1: {
           date: "25/10/23",
           time: "FN AND AN",
@@ -5400,7 +5428,7 @@ export const EventDetails = [
         venue: "TBA",
         company: "Cyber Haels Infotech Pvt.Ltd.",
     
-        link: "https://forms.gle/NxxK2nYx1heZhCAR6",
+        //link: "https://forms.gle/NxxK2nYx1heZhCAR6",
         day1: {
           date: "30/10/23",
           time: "FN & AN",
@@ -5501,7 +5529,7 @@ export const EventDetails = [
         venue: "TBA",
         company: "Saveetha ECE Department",
     
-        link: "https://forms.gle/eJwD3xKuqUE9GSPF8",
+        //link: "https://forms.gle/eJwD3xKuqUE9GSPF8",
         day1: {
           date: "30/10/23",
           time: "FN & AN",
@@ -5653,7 +5681,7 @@ export const EventDetails = [
         venue: "TBA",
         company:"Sathyabama university",
     
-        link: "https://forms.gle/2EFB6R98ceFGp9fk6",
+        //link: "https://forms.gle/2EFB6R98ceFGp9fk6",
         day1: {
           date: "30/10/23",
           time: "FN AND AN",
@@ -5759,7 +5787,7 @@ export const EventDetails = [
         venue: "TBA",
         company:"Saveetha ECE Deaprtment",
     
-        link: "https://forms.gle/9XERHJCQf7dmQcs5A",
+        //link: "https://forms.gle/9XERHJCQf7dmQcs5A",
         day1: {
           date: "30/10/23",
           time: "FN AND AN",
@@ -5859,7 +5887,7 @@ export const EventDetails = [
         venue: "TBA",
         company: "Zoho",
     
-        link: "https://forms.gle/4zAANomeJEGBdGbH6",
+        //link: "https://forms.gle/4zAANomeJEGBdGbH6",
         day1: {
           date: "30/10/23",
           time: "FN AND AN",
@@ -5959,7 +5987,7 @@ export const EventDetails = [
         venue: "TBA",
         company: "Applied Material PVT.LTD.",
     
-        link: "https://forms.gle/gg4ecaRqfK7fCrwg6",
+        //link: "https://forms.gle/gg4ecaRqfK7fCrwg6",
         day1: {
           date: "27/10/23",
           time: "FN & AN",
@@ -6069,7 +6097,7 @@ export const EventDetails = [
         venue: "TBA",
         company: "Econ-System Pvt.Ltd, Chennai",
     
-        link: "https://forms.gle/U7W74gNJ6H6zSbgH6",
+        //link: "https://forms.gle/U7W74gNJ6H6zSbgH6",
         day1: {
           date: "28/10/23",
           time: "FN & AN",
@@ -6119,7 +6147,7 @@ export const EventDetails = [
         // logo: "EventsAssets/ecew10.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
-        link: "https://docs.google.com/forms/d/e/1FAIpQLSdZkJQsw1tPhygAVQtFVERrAjPKFYZ0bpHgf1vel-KE60OUoQ/viewform ",
+        //link: "https://docs.google.com/forms/d/e/1FAIpQLSdZkJQsw1tPhygAVQtFVERrAjPKFYZ0bpHgf1vel-KE60OUoQ/viewform ",
         day1: {
           date: "30/10/2023",
           time: "FULL DAY",
@@ -6242,11 +6270,11 @@ export const EventDetails = [
         // logo: "EventsAssets/ecew2.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
-        link: "https://forms.gle/dZDnuGqLKXBQhhXm6 ",
+        //link: "https://forms.gle/dZDnuGqLKXBQhhXm6 ",
         day1: {
           date: "25/10/2023",
           time: "FULL DAY",
-          mode: "OFFLINE",
+          mode: "Hybrid",
           company:"Saveetha ECE Deaprtment",
           venue: "TBA ",
           topic:"session 1: All about Chat GPT and AI .session 2: Hands on AI tools. Session 3: Resume building using AI.Session 4: PPT preparation using AI ",
@@ -6273,7 +6301,7 @@ export const EventDetails = [
               email:"mahendrank@saveetha.ac.in ",
             },
           ],
-          student: [
+          student:[
             {
               name: "Vishnuu priya MK  ",
               year: "III",
@@ -6286,24 +6314,12 @@ export const EventDetails = [
               phone: 8248238746,
               email: "deepaswe2@gmail.com ",
             },
-            {
-              name: "Arthi.A ",
-              year: "IV",
-              phone: 8618939697 ,
-              email: "iamaravindharam@gmail.com ",
-            },
-            {
-              name: "Sharmila.R ",
-              year: "IV",
-              phone: 8248855697 ,
-              email: "rohithdevarajulu@gmail.com ",
-            },
           ],
         },
         day2: {
           date: "26/10/2023",
           time: "FULL DAY",
-          mode: "OFFLINE",
+          mode: "Hubrid",
           company:"Saveetha ECE Deaprtment",
           venue: "TBA ",
           // topic:"session 1: All about Chat GPT and AI .session 2: Hands on AI tools. Session 3: Resume building using AI.Session 4: PPT preparation using AI ",
@@ -6343,18 +6359,6 @@ export const EventDetails = [
               phone: 8248238746,
               email: "deepaswe2@gmail.com ",
             },
-            {
-              name: "Arthi.A ",
-              year: "IV",
-              phone: 8618939697 ,
-              email: "iamaravindharam@gmail.com ",
-            },
-            {
-              name: "Sharmila.R ",
-              year: "IV",
-              phone: 8248855697 ,
-              email: "rohithdevarajulu@gmail.com ",
-            },
           ],
         },
         
@@ -6364,7 +6368,7 @@ export const EventDetails = [
         // logo: "EventsAssets/chemw1.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
-        link: " https://docs.google.com/forms/d/e/1FAIpQLSfk3dnhMvo-fduhUss8idOcqED4PHcKeM8L3WZ5C_dPA9_ZmA/viewform",
+        //link: " https://docs.google.com/forms/d/e/1FAIpQLSfk3dnhMvo-fduhUss8idOcqED4PHcKeM8L3WZ5C_dPA9_ZmA/viewform",
         day1: {
           date: "26/10/2023",
           time: "FULL DAY",
@@ -6576,7 +6580,7 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
 
-        link: " https://forms.gle/qw2sUtjyDYTF2auR8 ",
+        //link: " https://forms.gle/qw2sUtjyDYTF2auR8 ",
         day1: {
           date: "30/10/2023",
           time: "FORENOON & AFTERNOON",
@@ -6674,7 +6678,7 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
 
-        link: " https://forms.gle/CuFB5KcJCDeQabMY9 ",
+        //link: " https://forms.gle/CuFB5KcJCDeQabMY9 ",
         day1: {
           date: "26/10/2023",
           time: "TBA",
@@ -6768,7 +6772,7 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
 
-        link: "https://forms.gle/JiCxAFFzpHkJfBur6 ",
+        //link: "https://forms.gle/JiCxAFFzpHkJfBur6 ",
         day1: {
           date: "30/10/2023",
           time: "TBA",
