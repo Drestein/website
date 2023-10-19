@@ -40,6 +40,7 @@ const EventCard = ({
   morng,
   afternoon,
   topic,
+  outcome,
   compet,
   material,
 }) => {
@@ -59,6 +60,7 @@ const EventCard = ({
       venue,
       time,
       members,
+      outcome,
       round1,
       round1title,
       round2title,
