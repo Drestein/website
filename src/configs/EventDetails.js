@@ -7,7 +7,7 @@ export const EventDetails = [
         name: "PROMPT CRAFT",
         date: "02 Nov 2023(FN)",
         type: "Solo",
-        venue: "",
+        venue: "TBA",
         time: "FORENOON",
         round1title: "Cipher Seek",
         round1: "Participants must provide the most suitable prompt to the AI to obtain a secret password. Each level contains one password to be found by the participant. Participants have a time limit of 10 minutes to clear the round. To proceed to the second round, a participant must successfully clear 5 out of the 6 levels. The first round consists of 6 levels, and participants will be shortlisted for the second round based on their performance ",
@@ -207,7 +207,7 @@ export const EventDetails = [
           {
             name: "Manoj MV",
             year: "II",
-            phone: 9789895272,
+            phone: 9789895273,
             email: "manojvelmurugan04@gmail.com",
           },
           {
@@ -431,7 +431,7 @@ export const EventDetails = [
         round2: "To get the connections, the circuit connections will be given in the form of a puzzle. They have to complete the puzzle to get the connections. (The puzzle will be the pictorial representation of the circuit connections)",
         round3title: "",
         round3: "Once the connections are given in the tinkercad (a website to give the connections to all the components and execute the project) code will be provided after completing the basic level IoT related quiz.Already executed programs should not be shown",
-        note: "Other browsers should not be used",
+        note:"General requirement : laptop Mandatory, bring charger along if needed",
         tag: "EVENT",
         color: "0, 1, 38",
         logo: "/EventsAssets/cyb1.webp",
@@ -484,7 +484,7 @@ export const EventDetails = [
         time: "Forenoon",
         members: "1-2",
         rules: "Students must bring their own laptop with linux installed.(Round 1 doesn't require the use of kali linux but round 2 does).Students can use any open source (OSINT) tool to find the answer.Team size must be 1-2.Sharing answers with other participants is prohibited.Participants who finishes the first round and answers all questions correctly within the given time will be selected the second round.If not, as time for first round ends, Participants who answered maximum questions will be selected for the next round",
-        round1title: "",
+        note:"General requirement : laptop Mandatory, bring charger along if needed",
         round1:
           "A random image will be given.Participants will be required to find more details about the image, like from the image user and finding their email address or city they live in, etc.In this round the questions will be relatively easy and most question can easily be found using Google dorking or hackin.1st round will consists of 10 questions.Participants will be required to answer the questions within the time limit - 25 mins",
         round2title: "",
@@ -715,6 +715,7 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
         company: "Faculty of Saveetha Engineering College",
+        note:"General requirement : laptop Mandatory, bring charger along if needed",
         //link: "https://forms.gle/NhC4Vt1F6CpucysQ8",
         day1: {
           date: "28.10.2023",
