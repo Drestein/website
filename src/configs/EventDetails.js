@@ -825,6 +825,7 @@ export const EventDetails = [
       }, 
       {
         name: "BINARY ILLUSIONS",
+        
         // tagline: "UI design",
         date: "02 Nov 2023(AN)",
         type: "DUO",
@@ -846,7 +847,7 @@ export const EventDetails = [
           // Tools: "FIGMA.FLUID UI.VISILI AI",
         tag: "EVENT",
         color: "0, 1, 38",
-        logo: "/EventsAssets/cs2.webp",
+        logo: "/EventsAssets/cse2.webp",
         staff: [
           {
             name: "Dr. M.Vijay Anand ",
