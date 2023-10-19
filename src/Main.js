@@ -15,7 +15,7 @@ import Footer from "./components/Footer/Footer";
 import "./App.css";
 import Counter from "./components/counter/Counter";
 import { fontWeight } from "@mui/system";
-import Departments from "./components/Departments/comman events";
+// import Departments from "./components/Departments/comman events";
 const DepartmentDiv = styled.div`
   position: sticky;
 `;
@@ -69,9 +69,9 @@ const Main = () => {
           <Counter />
         </div>
 
-      <DepartmentDiv id="comman events">
+      {/* <DepartmentDiv id="comman events">
         <comman />
-      </DepartmentDiv>
+      </DepartmentDiv> */}
       <div
         style={{
           display: "flex",
