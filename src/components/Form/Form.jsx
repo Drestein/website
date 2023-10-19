@@ -139,19 +139,22 @@ const Form = () => {
   }, []);
 
   const [eventName, setEventName] = React.useState({
-    CSE: [],
-    IT: [],
-    EEE: [],
-    ECE: [],
-    EIE: [],
-    MECH: [],
-    CIVIL: [],
-    MED: [],
-    CHEM: [],
     AGRI: [],
-    AI: [],
-    MBA: [],
+    AIDS:[],
+    AIML: [],
     BME: [],
+    CHEM: [],
+    CSE: [],
+    CIVIL: [],
+    CSIOT:[],
+    ECE:[],
+    EEE:[],
+    EIE: [],
+    IT: [],
+    MED: [],
+    MECH: [],
+    MBA: [],
+    
   });
   const [userExist, setUserExist] = useState([]);
 
@@ -355,7 +358,7 @@ const Form = () => {
       formdata.CashToBePaid += 200;
     }
     if (Project === true) {
-      formdata.CashToBePaid += 250;
+      formdata.CashToBePaid += 200;
     }
     
     console.log(formdata);
@@ -457,7 +460,7 @@ const Form = () => {
       ],
     },
     {
-      name: "CS&IOT",
+      name: "CSIOT",
       events: [
         "KICKSTART WITH IOT",
         "OSINT PLAYGROUND",
@@ -750,21 +753,22 @@ const Form = () => {
                         if (Event === true) {
                           setPay(Pay - 200);
                           setEventName({
-                            CSE: [],
-                            IT: [],
-                            EEE: [],
-                            ECE: [],
-                            EIE: [],
-                            MECH: [],
-                            CIVIL: [],
-                            MED: [],
-                            CHEM: [],
                             AGRI: [],
-                            AIDS: [],
-                            AIML:[],
-                            CSIOT:[],
-                            MBA: [],
+                            AIDS:[],
+                            AIML: [],
                             BME: [],
+                            CHEM: [],
+                            CSE: [],
+                            CIVIL: [],
+                            CSIOT:[],
+                            ECE:[],
+                            EEE:[],
+                            EIE: [],
+                            IT: [],
+                            MED: [],
+                            MECH: [],
+                            MBA: [],
+                            
                           });
                         } else {
                           setPay(Pay + 200);
