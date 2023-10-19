@@ -167,7 +167,7 @@ const Footer = () => {
             SUGAVARATHAN L
           </Chip>
           </a>
-          <a href="https://www.linkedin.com/in/itz-akash/"  target="_blank"class="links"> 
+          <a href="https://www.linkedin.com/in/vishwa-raja-a59825210/"   target="_blank"class="links"> 
           <Chip
             size="md"
             style={{ backgroundColor: "transparent" }}
@@ -178,7 +178,7 @@ const Footer = () => {
              VISHWARAJA R
           </Chip>
           </a>
-          <a href="https://www.linkedin.com/in/vishwa-raja-a59825210/"  target="_blank" class="links">
+          <a href="https://www.linkedin.com/in/itz-akash/"  target="_blank" class="links">
           <Chip
             size="md"
             style={{ backgroundColor: "transparent" }}

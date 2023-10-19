@@ -39,6 +39,7 @@ const EventCard = ({
   note,
   morng,
   afternoon,
+  topic,
   compet,
   material,
 }) => {
@@ -54,6 +55,7 @@ const EventCard = ({
       format,
       rules,
       type,
+      topic,
       venue,
       time,
       members,

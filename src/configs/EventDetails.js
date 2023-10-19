@@ -3096,17 +3096,17 @@ export const EventDetails = [
         type: "2",
         venue: "Survey LAB,Gf  Rectangular block",
         time: "AFTERNOON",
-        members: "1-2",
+        members: "2",
         rules: "",
         round1title: "connect it",
         round1:
-          "2 persons per team . First move, first preference (tie breaker).  Connect the images to form a word .Round 1 winners are allowed for round 2 ",
+          "2 persons per team.First move, first preference (tie breaker).Connect the images to form a word.Round 1 winners are allowed for round 2",
         round2title: "draw it",
         round2:
-          " Qualified team in round 1 will be played in round 2 .Draw the proposed structure.Note: According to the drawing popsicles will be given in round 3. 5 minutes will be given for drawing ",
+          " Qualified team in round 1 will be played in round 2.Draw the proposed structure.Note: According to the drawing popsicles will be given in round 3.10 minutes will be given for drawing",
         round3title: "construct it",
         round3:
-          "Qualified team in round 2 will be played in round 3 .Construct the proposed structure using given popsicles .30 mins will be given .Construct the structure by managing the hindrances .The structure should be strong enough to withstand vertical loads and vibrations ",
+          "Qualified team in round 2 will be played in round 3.Construct the proposed structure using given popsicles.All the required materials will be provided.30 mins will be given.Construct the structure by managing the constraints (Immersive activity).The structure should be strong enough to withstand vertical loads and height of the structure is concerned ",
         tag: "EVENT",
         color: "0, 1, 38",
         logo: "/EventsAssets/civil2.webp",
@@ -3143,7 +3143,7 @@ export const EventDetails = [
       {
         name: "PAPER SCRAPER ",
         // desc: "Cipher Hunt is a cybersecurity competition that is all about finding weaknesses and exploiting loopholes in various computer programs. It aims to engage participants in the creative exploration of real-world computer security by distilling the significant disciplines of professional cybersecurity into short, objectively measurable exercises.An ethical hacking contest in which contestants will have to find pieces of information, called ‘flags’, hidden in each of the challenges. So, assemble your team, prepare to decrypt hidden messages, exploit vulnerabilities, and do whatever it takes to Hunt!",
-        date: "03 Nov 2023(AN)",
+        date: "02 Nov 2023(AN)",
         type: "Solo",
         venue: "Survey LAB, GF,Rectangular block",
         time: "AFTERNOON",
@@ -3151,13 +3151,13 @@ export const EventDetails = [
         rules: "",
         round1title:"Chosse it ",
         round1:
-          "Given quiz should be finished within 30 minitues ",
-        round2title:"Guess it ",
-          round2:
-          "First player should not tell the direct answer. Secont player should not talk . Third player should find answer ",
-       round3title:" Buil it ",
-           round3:"Highest building will be considered.  Basement of the building should be strong.Glues and celo tape will not be provided",
-          tag: "EVENT",
+          "A team should consist of 3 members.The quiz will be conducted for 20 minutes.The highest 8 teams will be selected ",
+        round2title:"Guess it ",
+        round2:
+          "The terms will be explained to the first player. According to that, the first player should give hints to the second player.The second player should draw according to the hints given by the first player.Second, the player should not talk.The third player should find the image drawn by the second player.The duration of the second round is around 15 minutes.The highest four teams will be selected for the third round ",
+        round3title:" Buil it ",
+        round3:"Newspapers will be provided.Buildings should be constructed only with newspapers.The highest building will be considered.The basement of the building should be strong.The building will be checked to see whether it resists all the constraints",
+        tag: "EVENT",
         color: "0, 1, 38",
         logo: "/EventsAssets/civil3.webp",
         staff: [
@@ -4925,6 +4925,7 @@ export const EventDetails = [
         round3title:"J5M",
         round3:
           "  Each team will be provided with an on-the-spot topic related to Electronics and Communication Engineering (ECE).     Participants have 5 minutes to prepare and 5 mins for their Presentation.  Use of mobile during preparation is allowed and referring notes during presentation is not allowed. Teams will be evaluated based on the content of their presentations, communication skills,response to Queries and attention towards the crowd",
+        outcome: "Participants demonstrate their ability to think on their feet and effectively communicate technical information related to ECE",  
         tag: "EVENT",
         color: "0, 1, 38",
         logo: "/EventsAssets/ece1.webp",
@@ -4971,14 +4972,14 @@ export const EventDetails = [
         venue: " TBA",
         time: "Afternoon",
         members: "4",
-        // rules: "karthiraja072@gmail.com ",
+        rules: "A Team consists of two members.Round 2 will be a listening activity.Round 3 is about block arrangements",
         round1:
           " A slide will be projected which consists of 30 pictures.     Two teams will have to observe the slide for 30 seconds, then the teams will list out the components present in the slide one by one.   Repetition of components/components not in list may result in disqualification",
         round2:
           "  One person from the team will listen to an audio file once, then  the person will give instructions to the next person on the same team.   The next person will do the instructions and draw the instructed object or circuit.    The team which performs well will qualify for the next round",
         round3:
           "There will be 12 blocks presented for everyone.  6 blocks contain questions and 6 blocks contain answers.   One person from the team will guide the other and the other will follow the    instruction and match the blocks correctly for the timing of “60 Seconds”.   Based on the time calculation and correct matched answers, the winners will be announced",
-        note:"OUTCOME:Participants will gain the fast-thinking ability and increase their memory power.   Participants can increase their listening skills and guiding performance.It improves physical attraction and gives the skills of team coordination",
+        outcome: "It improves physical attraction and gives the skills of team coordination ",
         tag: "EVENT",
         color: "0, 1, 38",
         logo: "/EventsAssets/ece2.webp",
@@ -5031,8 +5032,8 @@ export const EventDetails = [
         venue: " ",
         type:"Team",
         time: "Forenoon",
-        members: "4",
-        rules: "A team consists of 5 members.Their bot should complete the straight line path.The bots should not leave the track",
+        members: "5",
+        rules: "A team consists of 5 members.Their bot should gain maximum marks in all round to win the competition.",
         round1title:"WORDMESH MASTERS",
         round1:
           " Participants have to explain about their project and the unique features of the robot. They have to explain the budget too. They have to present their project with the PPT",
@@ -5040,7 +5041,7 @@ export const EventDetails = [
           "A straight black line will be drawn and whoever completed it in less time gets more  marks. If their robots just crossed the straight line , it is enough to be qualified for the next   round. The team which completes it in more time will get less marks",
         round3:
           "This round consists of different directions of black line and the robot has to cross the end line to win the competition. Winners will be decided based on time taken and distance travelled",  
-        note:"OUTCOME:Participants will gain the confidence to do an experiment on their own.Participants are able to demonstrate their circuit design skills and creativity.Participants are able to increase their problem solving skills and  creative thinking",
+        outcome:"Participants are able to increase their problem solving skills and creative thinking",
           tag: "EVENT",
         color: "0, 1, 38",
         logo: "/EventsAssets/ece3.webp",
@@ -5076,22 +5077,22 @@ export const EventDetails = [
       {
         name: "MEGAHERTZ ",
         tagline:"Chemthings",
-        date: "02 Nov 2023",
+        date: "03 Nov 2023(FN)",
         venue: " ",
         type:"Team",
-        time: "Forenoon",
+        time: "9:00-1:00pm",
         members: "2",
         rules: "A team consists of two members,",
         round1title:"Electro-hunt",
         round1:
-          " Randomly jumbled words of components are given. Team members should find the  component with the help of clues. Clues will be about the working and purpose of the component. Names will not be directly  given. Teams should find out more components in a specific time period",
-        round2title:"Film Flick",
+          " Randomly mirrored words of components are given. Team members should find the  component with the help of clues. Clues will be about the working and purpose of the component. Names will not be directly  given. Teams should find out more components in a specific time period",
+        round2title:"ConneXions",
         round2:
           "Teams shall be provided with circuit diagrams and will be allowed to analyze and memorize the diagram for 2 minutes. Participants should find out simple errors in the diagram. Participants should connect the correct circuit within 3 minutes. Teams that find out the error will be given a bonus one minute",
-        round3title:"Mind Hunter",
+        round3title:"wires and ladders)",
         round3:
-          " Teams shall play and solve simple tasks through a board game. . Two teams shall compete against each other in a given period of time. Set of tasks like listing vital components in devices, decoding a message are given. Each team will be asked to complete all the tasks within a short period of time",  
-        note:" OUTCOME: Participants will be able to understand the working and purpose of components or systems.Participants will be able to improve their memory, error identification and rectification and basic circuit connections principles.Participants will be able to improve their memory, understand the fundamentals, time management and problem-solving ability. ",  
+          " Teams shall play and solve simple tasks through a board game.Two teams shall compete against each other in a given period of time. Set of tasks like listing vital components in devices, decoding a message are given. Each team will be asked to complete all the tasks within a short period of time",  
+        outcome: "Participants will be able to improve their memory, understand the fundamentals, time management and problem-solving ability ",  
         tag: "EVENT",
         color: "0, 1, 38",
         logo: "/EventsAssets/ece4.webp",
@@ -5151,7 +5152,7 @@ export const EventDetails = [
           "Group of pictures representing a technical term in VLSI will be displayed in the display one by one until a team finds the answer and can answer it. Three teams will be selected to the third round",
         round3:
           "Group of pictures containing the images related to VLSI as well the names of the pictures will be given to each team. Each team has to match them within the given time. Based on the results teams will be awarded",  
-        note:" OUTCOME: The participants are able to compete with their VLSI knowledge and also they will be find out their level of their knowledge.the participants came to know about their skills in team coordination , critical thinking along with the VLSI technical knowledge.participants will come to know about some basic structures in the field of VLSI ",  
+        outcome: "The participants are able to compete with their VLSI knowledge and also they will be find out their level of their knowledge.the participants came to know about their skills in team coordination , critical thinking along with the VLSI technical knowledge.participants will come to know about some basic structures in the field of VLSI ",  
         tag: "EVENT",
         color: "0, 1, 38",
         logo: "/EventsAssets/ece5.webp",
@@ -5181,18 +5182,6 @@ export const EventDetails = [
             year: "III",
             phone: 9884165732 ,
             email: "gopathri143@gmail.com ",
-          },
-          {
-            name: "SRIDHAR.R",
-            year: "III",
-            phone: 9791095167 ,
-            email: "sridharramalingam1806@gmail.com ",
-          },
-          {
-            name: " THILAGESHWARAN.J  ",
-            year: "III",
-            phone: 7904044632 ,
-            email: "roganthilak@gmail.com ",
           },
         ],
       },
@@ -6772,7 +6761,7 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
 
-        link: " ",
+        link: "https://forms.gle/JiCxAFFzpHkJfBur6 ",
         day1: {
           date: "30/10/2023",
           time: "TBA",
