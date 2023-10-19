@@ -216,9 +216,12 @@ export default function UpdateForm({
       name: "MBA",
       events: [
         "Adzap",
-        "Business Quiz",
-        "FUTURE MANAGER",
-        "Imagine Through Lens",
+        "Best manager",
+        "BEST SELLING PITCH",
+        "BUSINESS QUIZ",
+        "CASE STUDY",
+        "IPL Auction",
+        "JUST A MINUTE{JAM}",
       ],
     },
   ];
