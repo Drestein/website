@@ -773,11 +773,11 @@ export const EventDetails = [
         // tagline: "Code Treasure Hunt",
         date: "02 Nov 2023(FN)",
         type: "Team 2-3",
-        venue: "",
-        time: "Forenoon",
+        venue: "TBA",
+        time: "8am-12pm",
         members: "2-3",
         // rules: "",
-        note:"Participants should have atleast one laptop per team",
+        note:"General requirement : laptop Mandatory, bring charger along if needed",
         round1title: "Conexus Infinium (connection between objects)",
         round1:
           "Participants are presented with incomplete code and graphics related to various computer science domains. Their goal is to deduce the code's function or purpose using visual clues from the provided images.Various visual aids like flowcharts, diagrams, and algorithms are used to hint at the code's logic. Teams compete in a rapid-fire style where they buzz in to answer first",
@@ -827,12 +827,12 @@ export const EventDetails = [
         name: "BINARY ILLUSIONS",
         // tagline: "UI design",
         date: "02 Nov 2023(AN)",
-        type: "1-2",
+        type: "DUO",
         venue: "TBA",
-        time: "Afternoon",
+        time: "1pm-3pm",
         members: "2 members",
         rules: "",
-        note:"Participants should have atleast one laptop per team",
+        note:"General requirement : laptop Mandatory, bring charger along if needed",
         // note: "Must Bring your own Laptop",
         round1title: "Battle of the Brains ",
         round1:
@@ -846,7 +846,7 @@ export const EventDetails = [
           // Tools: "FIGMA.FLUID UI.VISILI AI",
         tag: "EVENT",
         color: "0, 1, 38",
-        logo: "/EventsAssets/cse2.webp",
+        logo: "/EventsAssets/cs2.webp",
         staff: [
           {
             name: "Dr. M.Vijay Anand ",
@@ -882,10 +882,10 @@ export const EventDetails = [
         date: "03 Nov 2023(FN)",
         type: "2",
         venue: "",
-        time: "Forenoon",
+        time: "8am-12pm",
         members: "2",
         rules: "",
-        note:"Participants should have atleast one laptop per team",
+        note:"General requirement : laptop Mandatory, bring charger along if needed",
         round1title: "CodeWerzo",
         round1:
           "This round is a multifaceted challenge, featuring a mix of MCQs, coding tasks, and brain-teasing puzzles that participants must solve to test their knowledge and problem-solving abilities.Random Rivals, Top 10 Thrivals: Who Will Gain the Advantage in the Ultimate Showdown?",
@@ -929,20 +929,20 @@ export const EventDetails = [
       },  
       {
         name: "Crypto Hunt",
-        desc: "Ideathon",
+        // desc: "Ideathon",
         date: "03 Nov 2023(FN)",
-        type: "2-3",
+        type: "DUO",
         venue: "TBA",
-        time: "Forenoon",
+        time: "8.00AM-11.30",
 
-        members: "1-3",
+        members: "2 members",
         round1:
-          "Participants face 15 intriguing questions online, covering questions about programming and cryptographic techniques.Teams must answer questions correctly and quickly to secure a spot in the top 10",
+          "Participants face 20 intriguing questions online, covering questions about programming and cryptographic techniques.Teams must answer questions correctly and quickly to secure a spot in the top 10",
 
         round2:
           "The qualified teams are gathered in a venue, armed with a college map and a WhatsApp group for communication.Clues are encrypted using various encryption techniques including steganography, cryptography, etc. which will lead them to the hidden venues.Usage of AI - Tools are not encouraged and will immediately lead to disqualification.To unlock the next challenge, teams must decipher these clues and provide passcodes to volunteers and so on.The final clues will require all the collected clues in order to find the final destination. More info at the venue",
-        
-        note:"Crypto-Hunt is a thrilling two-round event that will put your deciphering and technical skills to the test.The event consists of two rounds. Find the clue in a Techie way, the Fun way! ",
+        note:"General requirement : laptop Mandatory, bring charger along if needed",
+        note:"The qualified teams are gathered in a venue, armed with a college map and a WhatsApp group for communication.	Clues are encrypted using various encryption techniques including steganography, cryptography, etc.	These clues will lead them to the hidden venues.	Usage of AI - Tools are not encouraged and will immediately lead to disqualification.To unlock the next challenge, teams must decipher these clues and provide passcodes to volunteers and so on.	The final clues will require all the collected clues in order to find the final destination.More info at the venue, ",
           tag: "EVENT",
         color: "0, 1, 38",
         logo: "/EventsAssets/cse4.webp",
@@ -984,10 +984,11 @@ export const EventDetails = [
         mode: "OFFLINE",
         color: "0, 70, 90",
         company: " Instellars Global Consulting, Bangalore",
-        link: "https://docs.google.com/forms/d/e/1FAIpQLSfQNr0w2_ltXeaLdXqXs83h-JNNPxRkHH-QzllDvNUtFvWMUA/viewform",
+        note:"General requirement : laptop Mandatory, bring charger along if needed",
+        // link: "https://docs.google.com/forms/d/e/1FAIpQLSfQNr0w2_ltXeaLdXqXs83h-JNNPxRkHH-QzllDvNUtFvWMUA/viewform",
         day1: {
           date: "26/10/2023",
-          time: "9.00AM-3.00PM",
+          time: "8AM-3PM",
           mode: "OFFLINE",
           venue: "CSE GF Seminar Hall LH 02",
           topic:"Basic JavaScript for React Js, CSS Library – Bootstrap ,React Life Cycle, React, Hooks. ",
@@ -1009,10 +1010,10 @@ export const EventDetails = [
           ],
           student: [
             {
-              name: "Madhumitha S ",
-              year: "IV",
-              phone: 7550300217 ,
-              email: "madhumithask1799@gmail.com ",
+              name: "Harsha ",
+              year: "IV ",
+              phone: 7010942499 ,
+              email: "harshasanthoshkumar@gmail.com ",
             },
             {
               name: "Lakshmi Srujana ",
@@ -1030,7 +1031,7 @@ export const EventDetails = [
         },
         day2: {
           date: "27/10/2023",
-          time: "9.00AM-3.00PM",
+          time: "8AM-3PM",
           mode: "OFFLINE",
           venue: "TBA",
           topic:"React Router, Redux, API Handling, Debugging React  ",
@@ -1044,7 +1045,7 @@ export const EventDetails = [
           ],
           staff: [
             {
-              name: "Ms. Abiram",
+              name: "Ms. Abirami",
               desig: "Assistant Professor ",
               phone: 6374642045 ,
               email: "abiramia@saveetha.ac.in ",
@@ -1052,10 +1053,10 @@ export const EventDetails = [
           ],
           student: [
             {
-              name: "Madhumitha S ",
-              year: "IV",
-              phone: 7550300217 ,
-              email: "madhumithask1799@gmail.com ",
+              name: "Harsha ",
+              year: "IV ",
+              phone: 7010942499 ,
+              email: "harshasanthoshkumar@gmail.com ",
             },
             {
               name: "Lakshmi Srujana ",
@@ -1078,10 +1079,11 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
         company: "Pynesec Technologies",
-        link: "https://docs.google.com/forms/d/e/1FAIpQLSehSdMZSZwOIgdYOV5pNv6AwTxmEcvuORiRCjdN9T5WHNVDNg/viewform",
+        note:"General requirement : laptop Mandatory, bring charger along if needed",
+        // link: "https://docs.google.com/forms/d/e/1FAIpQLSehSdMZSZwOIgdYOV5pNv6AwTxmEcvuORiRCjdN9T5WHNVDNg/viewform",
         day1: {
           date: "30.10.2023 ",
-          time: "FULL DAY",
+          time: "8AM-3PM",
           mode: "OFFLINE",
           topic:"Latest Trends in CyberSecurity. Introduction. Who we are . Hacking History - how it all begins . Why do we Require Ethical Hackers . Types of Hackers ",
           venue: "",
@@ -1103,13 +1105,13 @@ export const EventDetails = [
           ],
           student: [
             {
-              name: "Harsha ",
-              year: "IV ",
-              phone: 7010942499 ,
-              email: "harshasanthoshkumar@gmail.com ",
+              name: "Madhumitha S ",
+              year: "IV",
+              phone: 7550300217 ,
+              email: "madhumithask1799@gmail.com ",
             },
             {
-              name: "Linga Sree ",
+              name: "Lingasri p ",
               year: "III",
               phone: 8015380880 ,
               email: "lingasri5@gmail.com ",
@@ -1130,15 +1132,15 @@ export const EventDetails = [
         },
         day2: {
           date: "31.10.2023 ",
-          time: "FULL DAY",
+          time: "8AM-3PM",
           mode: "OFFLINE",
           topic:"Scopes of Hacking. What are all compliance standards . OWASP 10 Vulnerability. Demos with real-time examples. Hands-on experience ",
-          venue: "",
+          venue: "TBA",
           resource: [
             {
               name: "Mr.Vasanth ",
               desig: "Chief Executive Officer ",
-              // phone: 9962738480,
+              phone: "-",
               // email: "vadapalaniarena1@gmail.com",
             },
           ],
@@ -1152,13 +1154,13 @@ export const EventDetails = [
           ],
           student: [
             {
-              name: "Harsha ",
-              year: "IV ",
-              phone: 7010942499 ,
-              email: "harshasanthoshkumar@gmail.com ",
+              name: "Madhumitha S ",
+              year: "IV",
+              phone: 7550300217 ,
+              email: "madhumithask1799@gmail.com ",
             },
             {
-              name: "Linga Sree ",
+              name: "Lingasri p",
               year: "III",
               phone: 8015380880 ,
               email: "lingasri5@gmail.com ",
@@ -2239,20 +2241,21 @@ export const EventDetails = [
       {
         name: "Code Fusion",
         date: "02 Nov 2023(FN)",
-        type: "Max 3",
+        type: "solo",
         venue: "TBA",
         time: "9am-12pm",
-        members: "1-3",
+        members: "1",
         rules:
-          "Team Size: 1 (Solo event). Requisite: Laptop is Mandatory.Pre-requisite: Python, or Java, or C ",
-
+          "Team Size: 1 (Solo event).Pre-requisite: Python, or Java, or C ",
+        round1title:"Code in the dark",
         round1:
-          "Code in the dark – It’s dark, participants have to write the code without visual feedback",
-
+          "The screens are turned off,participants have to code without visual feedback",
+        round2title:"Notepad Coding",
         round2:
-          "Notepad Coding - This round involves writing code in a plain text format without the aid of code editors",
-        round3:
-        "Unleash Your Inner Code Warrior - No Rules, Just Glory!",
+          "This round involves coding in a plain text format without the aid of compliers",
+        round3title:"Old School",
+        round3:"The classic,No rules! Participants have to answer the questions within the given time",
+        note:"The College will provide systems, and participants aren't aloowed to use their laptops",
           tag: "EVENT",
         color: "0, 1, 38",
 
@@ -2371,16 +2374,19 @@ export const EventDetails = [
         date: "02 Nov 2023(AN)",
         type: "solo",
         venue: "TBA",
-        time: "12:300pm - 3:30pm",
+        time: "12:30pm - 3:30pm",
         members: "1",
         note:
-          "Team Size: 1 (Solo event) .Requisite: Laptop is Mandatory.Pre-requisite: Software like Autodesk, Blender, etc",
-        round1:
-          "Design Dynamo:Participants need to generate a new  design in 3D with a given 2D reference",
-        round2:
-          "Elegance Epoch: Participants must enhance their 2D or 3D models with effects and animations to boost their visual appeal",
-        round3:
-          "Picture-Perfect: Participants must design a 3D model environment with an appropriate background",
+          "Team Size: 1 (Solo event) .Requisite: Laptop is Mandatory",
+        round1title:"Design Dynamo",
+          round1:
+          "Participants need to generate a new  design in 3D with a given 2D reference",
+        round2title:"Elegance Epoch",
+          round2:
+          "Participants must enhance their  3D models with effects and animations to boost their visual appeal",
+        round3title:"Picture-Perfect",
+          round3:
+          "Participants must design a 3D model environment with an appropriate background",
 
         tag: "EVENT",
         color: "0, 1, 38",
@@ -2389,7 +2395,7 @@ export const EventDetails = [
           {
             name: "Dr.Malathi K ",
             desig: "Asst Professor",
-            phone: 9444749975,
+            // phone: 9444749975,
             email: "malathi.k@saveetha.ac.in ",
           },
           {
@@ -5033,7 +5039,7 @@ export const EventDetails = [
         type:"Team",
         time: "Forenoon",
         members: "5",
-        rules: "A team consists of 5 members.Their bot should gain maximum marks in all round to win the competition.",
+        rules: "A team consists of 5 members.Their bot should gain maximum marks in all round to win the competition ",
         round1title:"WORDMESH MASTERS",
         round1:
           " Participants have to explain about their project and the unique features of the robot. They have to explain the budget too. They have to present their project with the PPT",
@@ -5195,7 +5201,7 @@ export const EventDetails = [
         venue: "TBA",
         company:"IT Expect Training",
     
-        link: "https://forms.gle/cSmjSPii3pibWvEu7",
+        // link: "https://forms.gle/cSmjSPii3pibWvEu7",
         day1: {
           date: "25/10/23",
           time: "FN AND AN",
