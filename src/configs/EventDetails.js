@@ -4569,7 +4569,7 @@ export const EventDetails = [
           "Participants will be given annual reports of companies and they will have to analyze the figures and suggest the future course of action to the board of directors ",
         tag: "EVENT",
         color: "0, 1, 38",
-        logo: "/EventsAssets/mba2.webp",
+        logo: "/EventsAssets/mba.4webp",
         staff: [
           {
             name: "Dr. Elango",
@@ -4684,7 +4684,7 @@ export const EventDetails = [
       {
         name: " Business Quiz",
         date: "02 Nov 2023(AN)",
-        type: "STeam",
+        type: "Team",
         venue: "",
         time: "2:00 pm to 04:00 pm",
         members: "1-3",
@@ -4692,7 +4692,7 @@ export const EventDetails = [
           "A team contains maximum of 3 members.Mobile phone will be prohibited during the eventIn case of using mobile phone during the event the team will be disqualified.Judges decision will be the Final.Each round have a set of questions, Quiz will have questions related to the world of business.Question will be selected by team based on lot number.Time limit for each round will be explained before the competition.Quiz Format preliems have 1 round main's have 4 rounds.Further information will be informed before the competition",
         tag: "EVENT",
         color: "0, 1, 38",
-        logo: "/EventsAssets/mba4.webp",
+        logo: "/EventsAssets/mba2.webp",
         staff: [
           {
             name: "Dr. Anitha",
@@ -4900,7 +4900,7 @@ export const EventDetails = [
         color: "0, 70, 90",
         // company: " Knowledge Xchange Community",
         // link: "",
-        rules:"Certificate will be provided Only if you attend for two days. I'd card must. Participants must register in advance to attend the workshop. All participants are expected to arrive on time for each session.Actively engage in discussions and activities during the workshop. Treat fellow participants and the workshop facilitators with respect and courtesy. Do not share sensitive information about fellow participants or the workshop content outside the workshop. Turn off or silence mobile phones and other electronic devices during the sessions to minimize disruptions. Participants should bring any required materials or tools specified by the workshop organizers. Follow all instructions provided by the workshop facilitators. Feel free to ask questions and seek clarification when needed.Dress appropriately for the workshop; casual or business casual attire is usually suitable. Adhere to a professional and ethical code of conduct during the workshop.Do not record or broadcast the workshop sessions without permission.Complete any evaluation forms or surveys to provide feedback about the workshop",
+        note:"Certificate will be provided Only if you attend for two days. I'd card must. Participants must register in advance to attend the workshop. All participants are expected to arrive on time for each session.Actively engage in discussions and activities during the workshop. Treat fellow participants and the workshop facilitators with respect and courtesy. Do not share sensitive information about fellow participants or the workshop content outside the workshop. Turn off or silence mobile phones and other electronic devices during the sessions to minimize disruptions. Participants should bring any required materials or tools specified by the workshop organizers. Follow all instructions provided by the workshop facilitators. Feel free to ask questions and seek clarification when needed.Dress appropriately for the workshop; casual or business casual attire is usually suitable. Adhere to a professional and ethical code of conduct during the workshop.Do not record or broadcast the workshop sessions without permission.Complete any evaluation forms or surveys to provide feedback about the workshop",
         day1: {
           date: "27/11/2023",
           time: "Fullday",
