@@ -110,9 +110,15 @@ export default function ConditionalValidationGrid() {
       MECH: isEmpty(data.EventsRegistered.MECH)
         ? ""
         : data.EventsRegistered.MECH.join(","),
-      AI: isEmpty(data.EventsRegistered.AI)
+      AIDS: isEmpty(data.EventsRegistered.AIDS)
         ? ""
-        : data.EventsRegistered.AI.join(","),
+        : data.EventsRegistered.AIDS.join(","),
+      AIML: isEmpty(data.EventsRegistered.AIML)
+        ? ""
+        : data.EventsRegistered.AIML.join(","),
+      CSIOT: isEmpty(data.EventsRegistered.CSIOT)
+        ? ""
+        : data.EventsRegistered.CSIOT.join(","), 
       CHEM: isEmpty(data.EventsRegistered.CHEM)
         ? ""
         : data.EventsRegistered.CHEM.join(","),
@@ -273,7 +279,9 @@ export default function ConditionalValidationGrid() {
     { field: "EEE", headerName: "EEE", minWidth: "150", editable: false },
     { field: "EIE", headerName: "EIE", minWidth: "150", editable: false },
     { field: "MECH", headerName: "MECH", minWidth: "150", editable: false },
-    { field: "AI", headerName: "AI", minWidth: "150", editable: false },
+    { field: "AIDS", headerName: "AIDS", minWidth: "150", editable: false },
+    { field: "AIML", headerName: "AIML", minWidth: "150", editable: false },
+    { field: "CSIOT", headerName: "CSIOT", minWidth: "150", editable: false },
     { field: "CHEM", headerName: "CHEM", minWidth: "150", editable: false },
     { field: "MBA", headerName: "MBA", minWidth: "150", editable: false },
     { field: "MED", headerName: "MED", minWidth: "150", editable: false },

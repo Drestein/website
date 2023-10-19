@@ -250,7 +250,7 @@ export default function UpdateForm({
     }
     if (DepPaid && Event) {
       console.log("event running");
-      Amountpaid += 150;
+      Amountpaid += 200;
     }
     //check for total amount
     if (Event) {
