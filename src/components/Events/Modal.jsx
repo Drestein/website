@@ -206,6 +206,32 @@ const Modal = ({ open, setOpenModal }) => {
                 </ol>
               </div>
             ) : null}
+            {eventObject.round5 ? (
+              <div className="round2">
+                <h3>
+                  Round 5:
+                  {eventObject.round2title
+                    ? `( ${eventObject.round2title} )`
+                    : ""}
+                </h3>
+                {eventObject?.round2level2 && <h4>Level 1 :</h4>}
+                <ol>
+                  {splitround2.map((each) => {
+                    return <li>{each}</li>;
+                  })}
+                </ol>
+                {eventObject?.round2level2 && (
+                  <>
+                    <h4>Level 2 :</h4>
+                    <ol>
+                      {splitround2level2.map((each) => {
+                        return <li>{each}</li>;
+                      })}
+                    </ol>
+                  </>
+                )}
+              </div>
+            ) : null}
             {eventObject.note ? (
                   <div className="rules">
                     {eventObject.tag === "OFFER" ? <h3>OFFER:</h3> : <h3>NOTE:</h3>}
