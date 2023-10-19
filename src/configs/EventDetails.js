@@ -169,16 +169,16 @@ export const EventDetails = [
         venue: "",
         time: "Forenoon",
         members: "2",
-        rules: "Participants should bring their own laptops. Participants can compete as a team of 2 ",
+        rules: "Participants are required to bring their own laptops.Participants can compete in teams of 2 members",
         round1title:"Quiz Game",
         round1:
-          "Participants will take part in a quiz game.Each team must complete the quiz within the specified time limit.Only a specific number of teams with the highest scores will advance to the next round",
-        round2title: "Enga da kenatha kaanom",
+          "Participants will take part in a quiz game. Each team must complete the quiz within the specified time limit.Only a specific number of teams with the highest scores will advance to the next round",
+        round2title: "Enga da kenatha kanom",
         round2:
-          "Participant 1 will be present at the event venue, while the other teammate will search for a QR Code.Participant 2 will locate and scan the QR Code, revealing a puzzle to solve. Upon solving it correctly, another link will be displayed.Participant 2 will send the link to their teammate. The teammate will debug the provided code. If the code passes all test cases, a popup message will appear.The popup message will contain the location of the next QR Code. The teammate will communicate this location to their partner",
-        round3title: "Enga namba porom ",
+          "Participant 1 will be present at the event venue, while the other teammate will search for a QR Code. Participant 2 will locate and scan the QR Code, revealing a puzzle to solve. Upon solving it correctly, another link will be displayed. Participant 2 will send the link to their teammate.The teammate will debug the provided code. If the code passes all test cases, a popup message will appear.The popup message will contain the location of the next QR Code. The teammate will communicate this location to their partner",
+        round3title: "Enga namba porom  ",
         round3:
-          "Similar to Round 2, Participant 1 will be present at the venue, while the other teammate searches for a QR Code. Participant 2 will find and scan the QR Code, revealing a puzzle. After solving it correctly, another link will be displayed. Participant 2 will send the link to their teammate.The teammate will solve the provided code. If the code passes all test cases, a popup message will appear.The popup message will contain the location of the next QR Code. The teammate will communicate this location to their partner.Data Structures and Algorithms (DSA) questions will be asked in this round ",
+          "Similar to Round 2, Participant 1 will be present at the venue, while the other teammate searches for a QR Code.Participant 2 will find and scan the QR Code, revealing a puzzle. After solving it correctly, another link will be displayed Participant 2 will send the link to their teammate.The teammate will solve the provided code. If the code passes all test cases, a popup message will appear.The popup message will contain the location of the next QR Code. The teammate will communicate this location to their partner.Data Structures and Algorithms (DSA) questions will be asked in this round",
         tag: "EVENT",
         color: "0, 1, 38",
     
@@ -234,6 +234,7 @@ export const EventDetails = [
           time: "9:00 - 3:00pm",
           mode: "OFFLINE",
           venue: "TBA",
+          company:"CStream.IO, Los Angeles, California, United States",
           list: true,
           topic: "Overview of DevSecOps. Dev - Building reliable products (Hands on Workshop). SecOps - Enabling for Secure Product operations",
           resource: [
@@ -273,13 +274,14 @@ export const EventDetails = [
             },
           ],
         },
+        
       },
       {
-        name: "React JS  ",
+        name: "ERC-Token Blockchain",
         logo: "EventsAssets/itw2.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
-        company: "NA",
+        company: "Span Technologies, Chennai",
         //link: "https://docs.google.com/forms/d/e/1FAIpQLSdZJpUE7AtrSvTuiaZDnjPwdUEERfCL_sdC7oRms9gE_GtmMQ/viewform",
         day1: {
           date: "16.11.2022",
@@ -290,15 +292,15 @@ export const EventDetails = [
           topic: ` 1. BASIC REACT CONCEPTS\n2. REDUX CONCEPTS`,
           resource: [
             {
-              name: "Ms.Aarthy Magesh",
-              desig: "Application Development Analyst",
-              phone: 6379346410,
-              email: "aarthy4002@gmail.com",
+              name: "Sanjay Kumar M",
+              desig: "Trainee",
+              phone: 7550132900,
+              email: "sanjaymoad786@gmail.com",
             },
           ],
           staff: [
             {
-              name: "Ms. Abinaya G",
+              name: "Ms. V Swedha",
               desig: "Assistant Professor",
               phone: 9500206093,
               email: "gabinaya@saveetha.ac.in",
@@ -997,7 +999,7 @@ export const EventDetails = [
             {
               name: "Mr. Raj Kumar D ",
               desig: "Senior Consultan",
-              // phone: 9962738480,
+              phone: "-",
               // email: "connectchennai99@gmail.com",
             },
           ],
@@ -1040,7 +1042,7 @@ export const EventDetails = [
             {
               name: "Mr. Raj Kumar D ",
               desig: "Senior Consultan",
-              // phone: 9962738480,
+              phone: "-",
               // email: "connectchennai99@gmail.com",
             },
           ],
@@ -1080,9 +1082,9 @@ export const EventDetails = [
         tag: "WORKSHOP",
         mode: "OFFLINE",
         color: "0, 70, 90",
-        company: " Instellars Global Consulting, Bangalore",
+        // company: " Instellars Global Consulting, Bangalore",
         note:"General requirement : laptop Mandatory, bring charger along if needed",
-        // //link: "https://docs.google.com/forms/d/e/1FAIpQLSewJPzRyB72YaMrv9JHd_tuSxL_bwneojCDrGs0MRKnqsobqg/viewform",
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSewJPzRyB72YaMrv9JHd_tuSxL_bwneojCDrGs0MRKnqsobqg/viewform",
         day1: {
           date: "28/10/2023",
           time: "9AM-3PM",
@@ -1093,7 +1095,7 @@ export const EventDetails = [
             {
               name: "Venkateshwaran R S ",
               desig: "Founder of Corporate Chronicle Media",
-              // phone: "-",
+              phone: "-",
             },
           ],
           staff: [
@@ -1152,7 +1154,7 @@ export const EventDetails = [
         color: "0, 70, 90",
         company: "Pynesec Technologies",
         note:"General requirement : laptop Mandatory, bring charger along if needed",
-        // //link: "https://docs.google.com/forms/d/e/1FAIpQLSehSdMZSZwOIgdYOV5pNv6AwTxmEcvuORiRCjdN9T5WHNVDNg/viewform",
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSehSdMZSZwOIgdYOV5pNv6AwTxmEcvuORiRCjdN9T5WHNVDNg/viewform",
         day1: {
           date: "30.10.2023 ",
           time: "8AM-3PM",
@@ -1163,7 +1165,7 @@ export const EventDetails = [
             {
               name: "Mr.Vasanth ",
               desig: "Chief Executive Officer ",
-              // phone: 9962738480,
+              phone: "-",
               // email: "vadapalaniarena1@gmail.com",
             },
           ],
