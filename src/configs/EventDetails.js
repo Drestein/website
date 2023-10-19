@@ -220,198 +220,198 @@ export const EventDetails = [
       },
     ],
 
-    workshopslist: [
-      {
-        name: "DEVSECOPS",
-        logo: "EventsAssets/itw1.webp",
-        tag: "WORKSHOP",
-        color: "0, 70, 90",
-        company:
-          "CStream.IO, Los Angeles, California, United States",
-        //link: "",
-        day1: {
-          date: "25.10.2023(FN & AN)",
-          time: "9:00 - 3:00pm",
-          mode: "OFFLINE",
-          venue: "TBA",
-          list: true,
-          topic: "Overview of DevSecOps. Dev - Building reliable products (Hands on Workshop). SecOps - Enabling for Secure Product operations",
-          resource: [
-            {
-              name: "Somasundaram Subbu",
-              desig: "CEO and Co-Founder",
-              phone: 8939062130,
-              email: "ssubbu.connect@gmail.com",
-            },
-          ],
-          staff: [
-            {
-              name: "Ms.Karthika RN",
-              desig: "Assistant Professor",
-              phone: 8248816873,
-              email: "karthikarn@saveetha.ac.in",
-            },
-          ],
-          student: [
-            {
-              name: "Jayapriya",
-              year: "III",
-              phone: 8608686872,
-              email: "jayapriyaanandkumar@gmail.com",
-            },
-            {
-              name: "Pavithra",
-              year: "III",
-              phone: 7358144662,
-              email: "pavithra1012004@gmail.com",
-            },
-            {
-              name: "Saran S",
-              year: "III",
-              phone: 6381602448,
-              email: "saransaran0184@gmail.com",
-            },
-          ],
-        },
-      },
-      {
-        name: "React JS  ",
-        logo: "EventsAssets/itw2.webp",
-        tag: "WORKSHOP",
-        color: "0, 70, 90",
-        company: "NA",
-        //link: "https://docs.google.com/forms/d/e/1FAIpQLSdZJpUE7AtrSvTuiaZDnjPwdUEERfCL_sdC7oRms9gE_GtmMQ/viewform",
-        day1: {
-          date: "16.11.2022",
-          time: "9:00 -3.00pm",
-          mode: "OFFLINE",
-          venue: "Blockchain Lab",
-          list: true,
-          topic: ` 1. BASIC REACT CONCEPTS\n2. REDUX CONCEPTS`,
-          resource: [
-            {
-              name: "Ms.Aarthy Magesh",
-              desig: "Application Development Analyst",
-              phone: 6379346410,
-              email: "aarthy4002@gmail.com",
-            },
-          ],
-          staff: [
-            {
-              name: "Ms. Abinaya G",
-              desig: "Assistant Professor",
-              phone: 9500206093,
-              email: "gabinaya@saveetha.ac.in",
-            },
-          ],
-          student: [
-            {
-              name: "Gokul Sekar",
-              year: "III",
-              phone: 8754207383,
-              email: "gokulsekar74@gmail.com",
-            },
-            {
-              name: "Sathiya Narayanan G",
-              year: "III",
-              phone: 8015365007,
-              email: "sathiyanarayanan.g2003b1@gmail.com",
-            },
-          ],
-        },
-        day2: {
-          date: "17.11.2022(FN & AN)",
-          time: "9:00am -3.00pm",
-          mode: "OFFLINE",
-          venue: "Blockchain Lab",
-          list: true,
-          topic: "1. HANDS-ON PRACTICE\n2. KT ON CURRENT INDUSTRIES PROJECT",
-          resource: [
-            {
-              name: "Ms.Aarthy Magesh",
-              desig: "Application Development Analyst",
-              phone: 6379346410,
-              email: "aarthy4002@gmail.com",
-            },
-          ],
-          staff: [
-            {
-              name: "Ms. Abinaya G",
-              desig: "Assistant Professor",
-              phone: 9500206093,
-              email: "gabinaya@saveetha.ac.in",
-            },
-          ],
-          student: [
-            {
-              name: "Gokul Sekar",
-              year: "III",
-              phone: 8754207383,
-              email: "gokulsekar74@gmail.com",
-            },
-            {
-              name: "Sathiya Narayanan G",
-              year: "III",
-              phone: 8015365007,
-              email: "sathiyanarayanan.g2003b1@gmail.com",
-            },
-          ],
-        },
-      },
-      {
-        name: "AWS – Cloud Practitioner",
-        logo: "EventsAssets/itw3.webp",
-        tag: "WORKSHOP",
-        color: "0, 70, 90",
-        company: "SIFY",
-        //link: "https://docs.google.com/forms/d/e/1FAIpQLSdYJUy5c4a9ffCvZkTCf6IGDeCeNbeB9C0DraxVMTjqsmew9A/viewform?usp=sf_link",
-        day1: {
-          date: "16.11.2022 - FN",
-          time: "9:00 -3.00pm",
-          mode: "OFFLINE",
-          venue: "Kalam Hall CSE 5th Floor",
-          list: true,
-          topic:
-            "1.Fundamental Cloud Concepts of AWS\n2.Benefits and Types of Cloud Computing\n3.AWS Cloud Infrastructure\n4.Understanding AWS Core services\n5.AWS App Integration\n6.AWS Identities and User Management\n7.Architecting Application on Amazon EC2\n8.Developer Services ",
-          resource: [
-            {
-              name: "S.Dinesh",
-              desig: "Backup Administrator",
-              phone: 7338914886,
-              email: "s.dineshpersonal@gmail.com",
-            },
-            {
-              name: "M.Pratheekshaa",
-              desig: "Linux-System Administrator",
-              phone: 9361035551,
-              email: "Pratheekshaa721@gmail.com",
-            },
-          ],
-          staff: [
-            {
-              name: "Ms. Panimalar SP",
-              desig: "Assistant Professor",
-              phone: 9789703697,
-              email: "panimalarsp@saveetha.ac.in",
-            },
-          ],
-          student: [
-            {
-              name: "Jayapriya.T",
-              year: "II ",
-              phone: 8608686872,
-              email: "jayapriyaanandkumar@gmail.com",
-            },
-            {
-              name: "Pavithra.P",
-              year: "II",
-              phone: 7358144662,
-              email: "pavithra1012004@gmail.com",
-            },
-          ],
-        },
-      },
-    ],
+    // workshopslist: [
+    //   {
+    //     name: "DEVSECOPS",
+    //     logo: "EventsAssets/itw1.webp",
+    //     tag: "WORKSHOP",
+    //     color: "0, 70, 90",
+    //     company:
+    //       "CStream.IO, Los Angeles, California, United States",
+    //     //link: "",
+    //     day1: {
+    //       date: "25.10.2023(FN & AN)",
+    //       time: "9:00 - 3:00pm",
+    //       mode: "OFFLINE",
+    //       venue: "TBA",
+    //       list: true,
+    //       topic: "Overview of DevSecOps. Dev - Building reliable products (Hands on Workshop). SecOps - Enabling for Secure Product operations",
+    //       resource: [
+    //         {
+    //           name: "Somasundaram Subbu",
+    //           desig: "CEO and Co-Founder",
+    //           phone: 8939062130,
+    //           email: "ssubbu.connect@gmail.com",
+    //         },
+    //       ],
+    //       staff: [
+    //         {
+    //           name: "Ms.Karthika RN",
+    //           desig: "Assistant Professor",
+    //           phone: 8248816873,
+    //           email: "karthikarn@saveetha.ac.in",
+    //         },
+    //       ],
+    //       student: [
+    //         {
+    //           name: "Jayapriya",
+    //           year: "III",
+    //           phone: 8608686872,
+    //           email: "jayapriyaanandkumar@gmail.com",
+    //         },
+    //         {
+    //           name: "Pavithra",
+    //           year: "III",
+    //           phone: 7358144662,
+    //           email: "pavithra1012004@gmail.com",
+    //         },
+    //         {
+    //           name: "Saran S",
+    //           year: "III",
+    //           phone: 6381602448,
+    //           email: "saransaran0184@gmail.com",
+    //         },
+    //       ],
+    //     },
+    //   },
+    //   {
+    //     name: "React JS  ",
+    //     logo: "EventsAssets/itw2.webp",
+    //     tag: "WORKSHOP",
+    //     color: "0, 70, 90",
+    //     company: "NA",
+    //     //link: "https://docs.google.com/forms/d/e/1FAIpQLSdZJpUE7AtrSvTuiaZDnjPwdUEERfCL_sdC7oRms9gE_GtmMQ/viewform",
+    //     day1: {
+    //       date: "16.11.2022",
+    //       time: "9:00 -3.00pm",
+    //       mode: "OFFLINE",
+    //       venue: "Blockchain Lab",
+    //       list: true,
+    //       topic: ` 1. BASIC REACT CONCEPTS\n2. REDUX CONCEPTS`,
+    //       resource: [
+    //         {
+    //           name: "Ms.Aarthy Magesh",
+    //           desig: "Application Development Analyst",
+    //           phone: 6379346410,
+    //           email: "aarthy4002@gmail.com",
+    //         },
+    //       ],
+    //       staff: [
+    //         {
+    //           name: "Ms. Abinaya G",
+    //           desig: "Assistant Professor",
+    //           phone: 9500206093,
+    //           email: "gabinaya@saveetha.ac.in",
+    //         },
+    //       ],
+    //       student: [
+    //         {
+    //           name: "Gokul Sekar",
+    //           year: "III",
+    //           phone: 8754207383,
+    //           email: "gokulsekar74@gmail.com",
+    //         },
+    //         {
+    //           name: "Sathiya Narayanan G",
+    //           year: "III",
+    //           phone: 8015365007,
+    //           email: "sathiyanarayanan.g2003b1@gmail.com",
+    //         },
+    //       ],
+    //     },
+    //     day2: {
+    //       date: "17.11.2022(FN & AN)",
+    //       time: "9:00am -3.00pm",
+    //       mode: "OFFLINE",
+    //       venue: "Blockchain Lab",
+    //       list: true,
+    //       topic: "1. HANDS-ON PRACTICE\n2. KT ON CURRENT INDUSTRIES PROJECT",
+    //       resource: [
+    //         {
+    //           name: "Ms.Aarthy Magesh",
+    //           desig: "Application Development Analyst",
+    //           phone: 6379346410,
+    //           email: "aarthy4002@gmail.com",
+    //         },
+    //       ],
+    //       staff: [
+    //         {
+    //           name: "Ms. Abinaya G",
+    //           desig: "Assistant Professor",
+    //           phone: 9500206093,
+    //           email: "gabinaya@saveetha.ac.in",
+    //         },
+    //       ],
+    //       student: [
+    //         {
+    //           name: "Gokul Sekar",
+    //           year: "III",
+    //           phone: 8754207383,
+    //           email: "gokulsekar74@gmail.com",
+    //         },
+    //         {
+    //           name: "Sathiya Narayanan G",
+    //           year: "III",
+    //           phone: 8015365007,
+    //           email: "sathiyanarayanan.g2003b1@gmail.com",
+    //         },
+    //       ],
+    //     },
+    //   },
+    //   {
+    //     name: "AWS – Cloud Practitioner",
+    //     logo: "EventsAssets/itw3.webp",
+    //     tag: "WORKSHOP",
+    //     color: "0, 70, 90",
+    //     company: "SIFY",
+    //     //link: "https://docs.google.com/forms/d/e/1FAIpQLSdYJUy5c4a9ffCvZkTCf6IGDeCeNbeB9C0DraxVMTjqsmew9A/viewform?usp=sf_link",
+    //     day1: {
+    //       date: "16.11.2022 - FN",
+    //       time: "9:00 -3.00pm",
+    //       mode: "OFFLINE",
+    //       venue: "Kalam Hall CSE 5th Floor",
+    //       list: true,
+    //       topic:
+    //         "1.Fundamental Cloud Concepts of AWS\n2.Benefits and Types of Cloud Computing\n3.AWS Cloud Infrastructure\n4.Understanding AWS Core services\n5.AWS App Integration\n6.AWS Identities and User Management\n7.Architecting Application on Amazon EC2\n8.Developer Services ",
+    //       resource: [
+    //         {
+    //           name: "S.Dinesh",
+    //           desig: "Backup Administrator",
+    //           phone: 7338914886,
+    //           email: "s.dineshpersonal@gmail.com",
+    //         },
+    //         {
+    //           name: "M.Pratheekshaa",
+    //           desig: "Linux-System Administrator",
+    //           phone: 9361035551,
+    //           email: "Pratheekshaa721@gmail.com",
+    //         },
+    //       ],
+    //       staff: [
+    //         {
+    //           name: "Ms. Panimalar SP",
+    //           desig: "Assistant Professor",
+    //           phone: 9789703697,
+    //           email: "panimalarsp@saveetha.ac.in",
+    //         },
+    //       ],
+    //       student: [
+    //         {
+    //           name: "Jayapriya.T",
+    //           year: "II ",
+    //           phone: 8608686872,
+    //           email: "jayapriyaanandkumar@gmail.com",
+    //         },
+    //         {
+    //           name: "Pavithra.P",
+    //           year: "II",
+    //           phone: 7358144662,
+    //           email: "pavithra1012004@gmail.com",
+    //         },
+    //       ],
+    //     },
+    //   },
+    // ],
   },
   
   {
@@ -4569,7 +4569,7 @@ export const EventDetails = [
           "Participants will be given annual reports of companies and they will have to analyze the figures and suggest the future course of action to the board of directors ",
         tag: "EVENT",
         color: "0, 1, 38",
-        logo: "/EventsAssets/mba.4webp",
+        logo: "/EventsAssets/mba4.webp",
         staff: [
           {
             name: "Dr. Elango",
@@ -4901,71 +4901,69 @@ export const EventDetails = [
         // company: " Knowledge Xchange Community",
         // link: "",
         note:"Certificate will be provided Only if you attend for two days. I'd card must. Participants must register in advance to attend the workshop. All participants are expected to arrive on time for each session.Actively engage in discussions and activities during the workshop. Treat fellow participants and the workshop facilitators with respect and courtesy. Do not share sensitive information about fellow participants or the workshop content outside the workshop. Turn off or silence mobile phones and other electronic devices during the sessions to minimize disruptions. Participants should bring any required materials or tools specified by the workshop organizers. Follow all instructions provided by the workshop facilitators. Feel free to ask questions and seek clarification when needed.Dress appropriately for the workshop; casual or business casual attire is usually suitable. Adhere to a professional and ethical code of conduct during the workshop.Do not record or broadcast the workshop sessions without permission.Complete any evaluation forms or surveys to provide feedback about the workshop",
+        staff: [
+          {
+            name: "Dr.Ramasundaram",
+            desig: "Associate Professor",
+            phone: 9884725694,
+            email: "ramasundaram@saveetha.ac.in",
+          },
+          {
+            name: "Dr. Vanitha",
+            desig: "Associate Professor",
+            phone: 8220781719,
+            email: "vanithaa@saveetha.ac.in",
+          },
+        ],
+        student: [
+          {
+            name: "Mehanaz.M",
+            year: "II",
+            phone: 7538830168,
+            email: "mehanasali2001@gmail.com",
+          },
+          {
+            name: "Vishali.D",
+            year: "II",
+            phone: 6374344432,
+            email: "vishalideva17@gmail.com",
+          },
+          {
+            name: "SamImmanvel. S",
+            year: "I",
+            phone: 9361490931,
+            email: "samimmanuel005@gmail.com",
+          },
+          {
+            name: "Sandhiya. M",
+            year: "I",
+            phone: 9094377366,
+            email: "sanrenukavi2002@gmail.com",
+          },
+          {
+            name: "Sandhiya. R.U ",
+            year: "I",
+            phone: 9840021831,
+            email: "dhikchi1212@gmail.com",
+          },
+          {
+            name: "Jayasudha. S",
+            year: "I",
+            phone: 9962841726,
+            email: "Jayasudha795@gamil.com",
+          },
+        ],
         day1: {
           date: "27/11/2023",
           time: "Fullday",
           mode: "OFFLINE",
           venue: "",
-          // resource: [
-          //   {
-          //     name: "Mr.Partheepan Rudrapati",
-          //     desig: "CEO",
-          //     phone: 9965303553,
-          //     email: "drrpartheepan@gmail.com",
-          //   },
-          // ],
-          staff: [
-            {
-              name: "Dr.Ramasundaram",
-              desig: "Associate Professor",
-              phone: 9884725694,
-              email: "ramasundaram@saveetha.ac.in",
-            },
-            {
-              name: "Dr. Vanitha",
-              desig: "Associate Professor",
-              phone: 8220781719,
-              email: "vanithaa@saveetha.ac.in",
-            },
-          ],
-          student: [
-            {
-              name: "Mehanaz.M",
-              year: "II",
-              phone: 7538830168,
-              email: "mehanasali2001@gmail.com",
-            },
-            {
-              name: "Vishali.D",
-              year: "II",
-              phone: 6374344432,
-              email: "vishalideva17@gmail.com",
-            },
-            {
-              name: "SamImmanvel. S",
-              year: "I",
-              phone: 9361490931,
-              email: "samimmanuel005@gmail.com",
-            },
-            {
-              name: "Sandhiya. M",
-              year: "I",
-              phone: 9094377366,
-              email: "sanrenukavi2002@gmail.com",
-            },
-            {
-              name: "Sandhiya. R.U ",
-              year: "I",
-              phone: 9840021831,
-              email: "dhikchi1212@gmail.com",
-            },
-            {
-              name: "Jayasudha. S",
-              year: "I",
-              phone: 9962841726,
-              email: "Jayasudha795@gamil.com",
-            },
-          ],
+        },
+        day2: {
+          date: "28/11/2023",
+          time: "Fullday",
+          mode: "OFFLINE",
+          venue: "",
         },
       },
     ],
