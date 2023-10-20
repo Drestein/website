@@ -1,0 +1,87 @@
+.containerdept {
+  margin-bottom: 1rem;
+  overflow: hidden;
+  color: #fff;
+}
+
+.containerdept .card {
+  transition: all, 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+.containerdept .card .imgBx {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10000;
+  width: 100%;
+  height: 220px;
+  transition: 0.5s;
+}
+
+.containerdept .card .imgBx img {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 270px;
+  max-height: 150px;
+  object-fit: contain;
+}
+
+.containerdept .card .contentBx {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: 0, 20%;
+  height: 100px;
+  text-align: center;
+  transition: 1s;
+  z-index: 10;
+}
+
+.containerdept .card:hover {
+  transform: scale(0.98);
+  border: double 1px transparent;
+  border-radius: 20px;
+  /* background-image: #061018, */
+  background-image: linear-gradient(#00001d, #00001d)
+    linear-gradient(45deg, #f98bff8e 0%, #2bd1ff82 52%, #2bff8789 90%);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+
+.DeptHead {
+  font-size: 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+
+  @media (max-width: 600px) {
+    font-size: 6vw;
+  }
+}
+
+.DeptHead .DeptHeadTxt {
+  font-size: 5vw;
+
+  background-image: linear-gradient(
+    45deg,
+    #f98bff8e 0%,
+    #2bd1ff82 52%,
+    #2bff8789 90%
+  );
+  border-radius: 2rem;
+  padding: 1.2rem 2rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 600px) {
+  .DeptHead {
+    font-size: 6vw;
+  }
+}

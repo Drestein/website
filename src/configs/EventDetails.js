@@ -1140,8 +1140,8 @@ export const EventDetails = [
           "Participants face 20 intriguing questions online, covering questions about programming and cryptographic techniques.Teams must answer questions correctly and quickly to secure a spot in the top 10",
 
         round2:
-          "Crypto-Hunt is a thrilling two-round event that will put your deciphering and technical skills to the test.The event consists of two rounds. Find the clue in a Techie way, the Fun way! ",
-        note:"General requirement : laptop Mandatory, bring charger along if needed",
+          "The qualified teams are gathered in a venue, armed with a college map.Clues are encrypted using various encryption techniques such as Ceasar cipher, Vigenere cipher, etc, which will lead them to the hidden venues.To unlock the next challenge, teams must decipher these clues and provide passcodes to volunteers and each .The final clues will require all the collected clues in order to find the final destination.More info at the venue ",
+        note:"Crypto-Hunt is a thrilling two-round event that will put your deciphering and technical skills to the test.The event consists of two rounds. Find the clue in a Techie way, the Fun way!",
           tag: "EVENT",
         color: "0, 1, 38",
         logo: "/EventsAssets/cse4.webp",
@@ -5098,60 +5098,8 @@ export const EventDetails = [
         // company: " Knowledge Xchange Community",
         link: "https://forms.gle/Xm9RLQiZZ1Z41Jn6A",
         note:"Certificate will be provided Only if you attend for two days. I'd card must. Participants must register in advance to attend the workshop. All participants are expected to arrive on time for each session.Actively engage in discussions and activities during the workshop. Treat fellow participants and the workshop facilitators with respect and courtesy. Do not share sensitive information about fellow participants or the workshop content outside the workshop. Turn off or silence mobile phones and other electronic devices during the sessions to minimize disruptions. Participants should bring any required materials or tools specified by the workshop organizers. Follow all instructions provided by the workshop facilitators. Feel free to ask questions and seek clarification when needed.Dress appropriately for the workshop; casual or business casual attire is usually suitable. Adhere to a professional and ethical code of conduct during the workshop.Do not record or broadcast the workshop sessions without permission.Complete any evaluation forms or surveys to provide feedback about the workshop",
-        staff: [
-          {
-            name: "Dr.Ramasundaram",
-            desig: "Associate Professor",
-            phone: 9884725694,
-            email: "ramasundaram@saveetha.ac.in",
-          },
-          {
-            name: "Dr. Vanitha",
-            desig: "Associate Professor",
-            phone: 8220781719,
-            email: "vanithaa@saveetha.ac.in",
-          },
-        ],
-        student: [
-          {
-            name: "Mehanaz.M",
-            year: "II",
-            phone: 7538830168,
-            email: "mehanasali2001@gmail.com",
-          },
-          {
-            name: "Vishali.D",
-            year: "II",
-            phone: 6374344432,
-            email: "vishalideva17@gmail.com",
-          },
-          {
-            name: "SamImmanvel. S",
-            year: "I",
-            phone: 9361490931,
-            email: "samimmanuel005@gmail.com",
-          },
-          {
-            name: "Sandhiya. M",
-            year: "I",
-            phone: 9094377366,
-            email: "sanrenukavi2002@gmail.com",
-          },
-          {
-            name: "Sandhiya. R.U ",
-            year: "I",
-            phone: 9840021831,
-            email: "dhikchi1212@gmail.com",
-          },
-          {
-            name: "Jayasudha. S",
-            year: "I",
-            phone: 9962841726,
-            email: "Jayasudha795@gamil.com",
-          },
-        ],
         day1: {
-          date: "27/11/2023 to 28/11/2023",
+          date: "27/11/2023 ",
           time: "Fullday",
           mode: "OFFLINE",
           venue: "",
