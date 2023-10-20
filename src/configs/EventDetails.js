@@ -344,7 +344,7 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
         // company: "SIFY",
-        link: "",
+        link: "https://shorturl.at/dyGX5",
         day1: {
           date: "27.10.2023 ",
           time: "9:00 -3.00pm",
@@ -511,7 +511,7 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
         company: "Saveetha School of Engineering",
-        link: "",
+        link: "https://forms.gle/WaUCWeNUhi7Kf8Er7",
         day1: {
           date: "31.10.2023 ",
           time: "9:00 -3.00pm",
