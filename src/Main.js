@@ -4,7 +4,7 @@ import { loadFull } from "tsparticles";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { Particle } from "./configs/partical.config";
 import styled from "styled-components";
-// import Departments from "./components/Departments/Departments";
+import Departments from "./components/event/Departments";
 // import Gallery from "./components/Gallery/Gallery";
 import Gallery2022 from "./components/Gallery/Gallery2022";
 import Nav from "./components/Nav/Nav";
@@ -94,9 +94,11 @@ const Main = () => {
           alt="banner"
         />
       </div>
-      {/* <div id="Gallery">
-        <Gallery />
-      </div> */}
+      
+      <DepartmentDiv id="event">
+        <Departments />
+      </DepartmentDiv>
+
       <div id="Gallery2022">
         <Gallery2022 />
       </div>
