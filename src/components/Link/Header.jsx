@@ -187,7 +187,7 @@ function Main() {
         }}
         className="header_bg"
       >
-        <HeaderMainText className="header_main_text ">
+        {/* <HeaderMainText className="header_main_text ">
           <DresteinText className="drestein">
             <Span let_1 className="shine">
               DR
@@ -205,9 +205,9 @@ function Main() {
             14<sup>th</sup> National Level Inter Collegiate Technical and
             Management Fest
           </NationText>
-        </HeaderMainText>
+        </HeaderMainText> */}
         <Timer className="timer">
-          <CountDown />
+          {/* <CountDown /> */}
           {/* <FlipCountdown
             dayTitle="Days"
             hourTitle="Hours"
@@ -221,12 +221,12 @@ function Main() {
             endAtZero
             endAt={"2022-11-09 01:26:58"}
           /> */}
-          <div className="MainHeaderDate">November 02nd & 03rd</div>
+          {/* <div className="MainHeaderDate">November 02nd & 03rd</div> */}
         </Timer>
       </HeaderBg>
-      <Link to="/form">
+      <Link to="/events">
         <RegisterNow className="button">
-          <HoverSpan className="span_btn">Register Now!</HoverSpan>
+          <HoverSpan className="span_btn">Visit EVENTS!!</HoverSpan>
         </RegisterNow>
       </Link>
       {/* <Link to="/events">

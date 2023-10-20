@@ -9,6 +9,7 @@ import Departments from "./components/event/Departments";
 import Gallery2022 from "./components/Gallery/Gallery2022";
 import Nav from "./components/Nav/Nav";
 import Header from "./components/Header/Header";
+import Link from "./components/Link/Header";
 import About from "./components/About/About";
 import Guest from "./components/Guest/Guest";
 import Footer from "./components/Footer/Footer";
@@ -94,11 +95,12 @@ const Main = () => {
           alt="banner"
         />
       </div>
-      
+
       <DepartmentDiv id="event">
         <Departments />
       </DepartmentDiv>
-
+  
+      <Link />
       <div id="Gallery2022">
         <Gallery2022 />
       </div>

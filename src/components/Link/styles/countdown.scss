@@ -1,0 +1,44 @@
+.countdown-container {
+  justify-content: center;
+  display: flex;
+  font-size: 1.5vw;
+  gap: 1rem;
+  flex-direction: row;
+  @media only screen and (max-width: 600px) {
+    padding-top: 10px;
+    // background-color: rebeccapurple;
+    flex-wrap: wrap;
+    font-size: 3.5vw;
+  }
+}
+
+.day,
+.hours,
+.mins,
+.secs {
+  justify-content: center;
+  align-items: center;
+
+  display: flex;
+  flex-direction: column;
+}
+
+#countdown-card {
+  margin-top: 1vh;
+  align-items: center;
+  justify-content: center;
+  @media only screen and (max-width: 600px) {
+    font-size: 10vw;
+    width: 13vw;
+  }
+  font-size: 5vw;
+  width: 7vw;
+  // background-color: #000;
+  // background: rgba(255, 255, 255, 0.47);
+  background: transparent;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.752);
+  backdrop-filter: blur(11.5px);
+  -webkit-backdrop-filter: blur(11.5px);
+  border: 1px solid rgb(13, 34, 154);
+  border-radius: 1rem;
+}
