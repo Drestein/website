@@ -275,6 +275,59 @@ export const EventDetails = [
         },
       },
       {
+        name: "ERC-Token Blockchain",
+        logo: "EventsAssets/itw6.webp",
+        tag: "WORKSHOP",
+        color: "0, 70, 90",
+        company:
+          "Span Technologies, Chennai",
+        link: "https://rb.gy/xvkko",
+        day1: {
+          date: "01.11.2023(FN & AN)",
+          time: "9:00 - 3:00pm",
+          mode: "OFFLINE",
+          venue: "TBA",
+          list: true,
+          topic: "History of blockchain.Why Blockchain ? .Consensus Mechanism.Role of Cryptography in blockchain wallets.Use cases.DeFi and Dao.Solidity 101.Remix and Hardhat.Creating your own Dogecoin!.What next",
+          resource: [
+            {
+              name: "Sanjay Kumar M",
+              desig: "Trainee",
+              phone: 7550132900,
+              email: "sanjaymoad786@gmail.com",
+            },
+          ],
+          staff: [
+            {
+              name: "Ms. V Swedha",
+              desig: "Assistant Professor",
+              phone: 7338920965,
+              email: "swedha@saveetha.ac.in",
+            },
+          ],
+          student: [
+            {
+              name: "Sathiya Narayanan G",
+              year: "III",
+              phone: 8015365007,
+              email: "sathiyanarayanan.g2003b1@gmail.com",
+            },
+            {
+              name: "Prasanna R",
+              year: "III",
+              phone: 9360411017,
+              email: "rajprasanna67@gmail.com",
+            },
+            {
+              name: "Yogesh B",
+              year: "III",
+              phone: 9488687665,
+              email: "yogeshit2105@gmail.com",
+            },
+          ],
+        },
+      },
+      {
         name: "Salesforce ",
         logo: "EventsAssets/itw2.webp",
         tag: "WORKSHOP",
@@ -343,7 +396,6 @@ export const EventDetails = [
         name: "Cyber security",
         tag: "WORKSHOP",
         color: "0, 70, 90",
-        // company: "SIFY",
         logo: "EventsAssets/itw3.webp",
         link: "https://shorturl.at/dyGX5",
         day1: {
@@ -5103,6 +5155,58 @@ export const EventDetails = [
           time: "Fullday",
           mode: "OFFLINE",
           venue: "",
+          staff: [
+            {
+              name: "Dr.Ramasundaram",
+              desig: "Associate Professor",
+              phone: 9884725694,
+              email: "ramasundaram@saveetha.ac.in",
+            },
+            {
+              name: "Dr. Vanitha",
+              desig: "Associate Professor",
+              phone: 8220781719,
+              email: "vanithaa@saveetha.ac.in",
+            },
+          ],
+          student: [
+            {
+              name: "Mehanaz.M",
+              year: "II",
+              phone: 7538830168,
+              email: "mehanasali2001@gmail.com",
+            },
+            {
+              name: "Vishali.D",
+              year: "II",
+              phone: 6374344432,
+              email: "vishalideva17@gmail.com",
+            },
+            {
+              name: "SamImmanvel. S",
+              year: "I",
+              phone: 9361490931,
+              email: "samimmanuel005@gmail.com",
+            },
+            {
+              name: "Sandhiya. M",
+              year: "I",
+              phone: 9094377366,
+              email: "sanrenukavi2002@gmail.com",
+            },
+            {
+              name: "Sandhiya. R.U ",
+              year: "I",
+              phone: 9840021831,
+              email: "dhikchi1212@gmail.com",
+            },
+            {
+              name: "Jayasudha. S",
+              year: "I",
+              phone: 9962841726,
+              email: "Jayasudha795@gamil.com",
+            },
+          ],
         },
         day2: {
           date: "28/11/2023",
