@@ -207,11 +207,11 @@ export const EventDetails = [
           {
             name: "Manoj MV",
             year: "II",
-            phone: 9789895272,
+            phone: 9789895273,
             email: "manojvelmurugan04@gmail.com",
           },
           {
-            name: "Dinesh kumaraa",
+            name: "Dinesh Kumaraa K",
             year: "II",
             phone: 8438923349,
             email: "dineshkumaraa03@gmail.com",
@@ -220,198 +220,344 @@ export const EventDetails = [
       },
     ],
 
-    // workshopslist: [
-    //   {
-    //     name: "DEVSECOPS",
-    //     logo: "EventsAssets/itw1.webp",
-    //     tag: "WORKSHOP",
-    //     color: "0, 70, 90",
-    //     company:
-    //       "CStream.IO, Los Angeles, California, United States",
-    //     //link: "",
-    //     day1: {
-    //       date: "25.10.2023(FN & AN)",
-    //       time: "9:00 - 3:00pm",
-    //       mode: "OFFLINE",
-    //       venue: "TBA",
-    //       list: true,
-    //       topic: "Overview of DevSecOps. Dev - Building reliable products (Hands on Workshop). SecOps - Enabling for Secure Product operations",
-    //       resource: [
-    //         {
-    //           name: "Somasundaram Subbu",
-    //           desig: "CEO and Co-Founder",
-    //           phone: 8939062130,
-    //           email: "ssubbu.connect@gmail.com",
-    //         },
-    //       ],
-    //       staff: [
-    //         {
-    //           name: "Ms.Karthika RN",
-    //           desig: "Assistant Professor",
-    //           phone: 8248816873,
-    //           email: "karthikarn@saveetha.ac.in",
-    //         },
-    //       ],
-    //       student: [
-    //         {
-    //           name: "Jayapriya",
-    //           year: "III",
-    //           phone: 8608686872,
-    //           email: "jayapriyaanandkumar@gmail.com",
-    //         },
-    //         {
-    //           name: "Pavithra",
-    //           year: "III",
-    //           phone: 7358144662,
-    //           email: "pavithra1012004@gmail.com",
-    //         },
-    //         {
-    //           name: "Saran S",
-    //           year: "III",
-    //           phone: 6381602448,
-    //           email: "saransaran0184@gmail.com",
-    //         },
-    //       ],
-    //     },
-    //   },
-    //   {
-    //     name: "React JS  ",
-    //     logo: "EventsAssets/itw2.webp",
-    //     tag: "WORKSHOP",
-    //     color: "0, 70, 90",
-    //     company: "NA",
-    //     //link: "https://docs.google.com/forms/d/e/1FAIpQLSdZJpUE7AtrSvTuiaZDnjPwdUEERfCL_sdC7oRms9gE_GtmMQ/viewform",
-    //     day1: {
-    //       date: "16.11.2022",
-    //       time: "9:00 -3.00pm",
-    //       mode: "OFFLINE",
-    //       venue: "Blockchain Lab",
-    //       list: true,
-    //       topic: ` 1. BASIC REACT CONCEPTS\n2. REDUX CONCEPTS`,
-    //       resource: [
-    //         {
-    //           name: "Ms.Aarthy Magesh",
-    //           desig: "Application Development Analyst",
-    //           phone: 6379346410,
-    //           email: "aarthy4002@gmail.com",
-    //         },
-    //       ],
-    //       staff: [
-    //         {
-    //           name: "Ms. Abinaya G",
-    //           desig: "Assistant Professor",
-    //           phone: 9500206093,
-    //           email: "gabinaya@saveetha.ac.in",
-    //         },
-    //       ],
-    //       student: [
-    //         {
-    //           name: "Gokul Sekar",
-    //           year: "III",
-    //           phone: 8754207383,
-    //           email: "gokulsekar74@gmail.com",
-    //         },
-    //         {
-    //           name: "Sathiya Narayanan G",
-    //           year: "III",
-    //           phone: 8015365007,
-    //           email: "sathiyanarayanan.g2003b1@gmail.com",
-    //         },
-    //       ],
-    //     },
-    //     day2: {
-    //       date: "17.11.2022(FN & AN)",
-    //       time: "9:00am -3.00pm",
-    //       mode: "OFFLINE",
-    //       venue: "Blockchain Lab",
-    //       list: true,
-    //       topic: "1. HANDS-ON PRACTICE\n2. KT ON CURRENT INDUSTRIES PROJECT",
-    //       resource: [
-    //         {
-    //           name: "Ms.Aarthy Magesh",
-    //           desig: "Application Development Analyst",
-    //           phone: 6379346410,
-    //           email: "aarthy4002@gmail.com",
-    //         },
-    //       ],
-    //       staff: [
-    //         {
-    //           name: "Ms. Abinaya G",
-    //           desig: "Assistant Professor",
-    //           phone: 9500206093,
-    //           email: "gabinaya@saveetha.ac.in",
-    //         },
-    //       ],
-    //       student: [
-    //         {
-    //           name: "Gokul Sekar",
-    //           year: "III",
-    //           phone: 8754207383,
-    //           email: "gokulsekar74@gmail.com",
-    //         },
-    //         {
-    //           name: "Sathiya Narayanan G",
-    //           year: "III",
-    //           phone: 8015365007,
-    //           email: "sathiyanarayanan.g2003b1@gmail.com",
-    //         },
-    //       ],
-    //     },
-    //   },
-    //   {
-    //     name: "AWS – Cloud Practitioner",
-    //     logo: "EventsAssets/itw3.webp",
-    //     tag: "WORKSHOP",
-    //     color: "0, 70, 90",
-    //     company: "SIFY",
-    //     //link: "https://docs.google.com/forms/d/e/1FAIpQLSdYJUy5c4a9ffCvZkTCf6IGDeCeNbeB9C0DraxVMTjqsmew9A/viewform?usp=sf_link",
-    //     day1: {
-    //       date: "16.11.2022 - FN",
-    //       time: "9:00 -3.00pm",
-    //       mode: "OFFLINE",
-    //       venue: "Kalam Hall CSE 5th Floor",
-    //       list: true,
-    //       topic:
-    //         "1.Fundamental Cloud Concepts of AWS\n2.Benefits and Types of Cloud Computing\n3.AWS Cloud Infrastructure\n4.Understanding AWS Core services\n5.AWS App Integration\n6.AWS Identities and User Management\n7.Architecting Application on Amazon EC2\n8.Developer Services ",
-    //       resource: [
-    //         {
-    //           name: "S.Dinesh",
-    //           desig: "Backup Administrator",
-    //           phone: 7338914886,
-    //           email: "s.dineshpersonal@gmail.com",
-    //         },
-    //         {
-    //           name: "M.Pratheekshaa",
-    //           desig: "Linux-System Administrator",
-    //           phone: 9361035551,
-    //           email: "Pratheekshaa721@gmail.com",
-    //         },
-    //       ],
-    //       staff: [
-    //         {
-    //           name: "Ms. Panimalar SP",
-    //           desig: "Assistant Professor",
-    //           phone: 9789703697,
-    //           email: "panimalarsp@saveetha.ac.in",
-    //         },
-    //       ],
-    //       student: [
-    //         {
-    //           name: "Jayapriya.T",
-    //           year: "II ",
-    //           phone: 8608686872,
-    //           email: "jayapriyaanandkumar@gmail.com",
-    //         },
-    //         {
-    //           name: "Pavithra.P",
-    //           year: "II",
-    //           phone: 7358144662,
-    //           email: "pavithra1012004@gmail.com",
-    //         },
-    //       ],
-    //     },
-    //   },
-    // ],
+    workshopslist: [
+      {
+        name: "DEVSECOPS",
+        logo: "EventsAssets/itw1.webp",
+        tag: "WORKSHOP",
+        color: "0, 70, 90",
+        company:
+          "CStream.IO, Los Angeles, California, United States",
+        link: "",
+        day1: {
+          date: "25.10.2023(FN & AN)",
+          time: "9:00 - 3:00pm",
+          mode: "OFFLINE",
+          venue: "TBA",
+          list: true,
+          topic: "Overview of DevSecOps. Dev - Building reliable products (Hands on Workshop). SecOps - Enabling for Secure Product operations",
+          resource: [
+            {
+              name: "Somasundaram Subbu",
+              desig: "CEO and Co-Founder",
+              phone: 8939062130,
+              email: "ssubbu.connect@gmail.com",
+            },
+          ],
+          staff: [
+            {
+              name: "Ms.Karthika RN",
+              desig: "Assistant Professor",
+              phone: 8248816873,
+              email: "karthikarn@saveetha.ac.in",
+            },
+          ],
+          student: [
+            {
+              name: "Jayapriya",
+              year: "III",
+              phone: 8608686872,
+              email: "jayapriyaanandkumar@gmail.com",
+            },
+            {
+              name: "Pavithra",
+              year: "III",
+              phone: 7358144662,
+              email: "pavithra1012004@gmail.com",
+            },
+            {
+              name: "Saran S",
+              year: "III",
+              phone: 6381602448,
+              email: "saransaran0184@gmail.com",
+            },
+          ],
+        },
+      },
+      {
+        name: "Salesforce ",
+        logo: "EventsAssets/itw2.webp",
+        tag: "WORKSHOP",
+        color: "0, 70, 90",
+        company: "Cognizant, Chennai",
+        link: "",
+        day1: {
+          date: "27.10.2023",
+          time: "9:00 -3.00pm",
+          mode: "OFFLINE",
+          venue: "",
+          list: true,
+          topic:"Introduction to CRM.Introduction to Salesforce.What is trialhead?.Types of clouds in Salesforce.Admin Concepts with example.Dev Concepts with example.Hands-on.Smart Share.Wrap-up",
+          resource: [
+            {
+              name: "Kayalvizhi S ",
+              desig: "Programmer Analyst",
+              phone: 7373775433,
+              email: "kayal116295@gmail.com",
+            },
+            {
+              name: "Christika S ",
+              desig: "Programmer Analyst",
+              phone: 9080415655,
+              email: "christikaselvam2000@gmail.com",
+            },
+          ],
+          staff: [
+            {
+              name: "Ms. Abinaya G",
+              desig: "Assistant Professor",
+              phone: 9500206093,
+              email: "gabinaya@saveetha.ac.in",
+            },
+          ],
+          student: [
+            {
+              name: "ARAVIND S",
+              year: "IV",
+              phone: 9025351218,
+              email: "aravindsureshkumar70@gmail.com",
+            },
+            {
+              name: "AADHITYA RAJ V",
+              year: "III",
+              phone: 6374492710,
+              email: "aadhithya3210@gmail.com",
+            },
+            {
+              name: "NAADIRA SAHAR N",
+              year: "III",
+              phone: 8608595118,
+              email: "naadirasahar18@gmail.com",
+            },
+            {
+              name: "YUGENDARAN G",
+              year: "III",
+              phone: 9464272504,
+              email: "gyugendaran05@gmail.com",
+            },
+          ],
+        },
+        
+      },
+      {
+        name: "Cybersecurity",
+        tag: "WORKSHOP",
+        color: "0, 70, 90",
+        // company: "SIFY",
+        link: "",
+        day1: {
+          date: "27.10.2023 ",
+          time: "9:00 -3.00pm",
+          mode: "OFFLINE",
+          venue: "",
+          list: true,
+          topic:
+            "Fundamentals of Software Development.Knowledge of IT Operations.Security Awareness.Container and Kubernetes ",
+          resource: [
+            {
+              name: "Mr. Praveen Kumar V",
+              desig: "Source Code Reviewer",
+              phone: 6379346410,
+              email: "Praveenkumarvelu190@gmail.com",
+            },
+          ],
+          staff: [
+            {
+              name: "Mr. Balaji",
+              desig: "Assistant Professor",
+              phone: 9042328457,
+              email: "balajii@saveetha.ac.in",
+            },
+          ],
+          student: [
+            {
+              name: "Rajesh K",
+              year: "III ",
+              phone: 9150841707,
+              email: "mahirajesh291@gmail.com",
+            },
+            {
+              name: "Sugavarathan L",
+              year: "III ",
+              phone: 7010268757,
+              email: "sugavarathan003@gmail.com",
+            },
+            {
+              name: "Sujithra D",
+              year: "II",
+              phone: 8667385033,
+              email: "sujithradhayalan@gmail.com",
+            },
+            {
+              name: "Shruthi S",
+              year: "II",
+              phone: 6374757716,
+              email: "shruthi2307.july@gmail.com",
+            },
+          ],
+        },
+      },
+      {
+        name: "Cloud CI/CD Pipeline",
+        logo: "EventsAssets/itw4.webp",
+        tag: "WORKSHOP",
+        color: "0, 70, 90",
+        company: "Synopsys Pvt Ltd",
+        link: "",
+        day1: {
+          date: "30.10.2023 ",
+          time: "9:00 -3.00pm",
+          mode: "OFFLINE",
+          venue: "",
+          list: true,
+          topic:
+            "Understanding Cybersecurity.Significance and Real-world Examples.Self-Defense Strategies.Application Security.Live Hacking Demo ",
+          resource: [
+            {
+              name: "Mr. Sanjay Kumar D S",
+              desig: "Cybersecurity Analyst and Ethical Hacker",
+              phone: 6382459254,
+            },
+          ],
+          staff: [
+            {
+              name: "Ms. Abinaya G",
+              desig: "Assistant Professor",
+              phone: 9500206093,
+              email: "gabinaya@saveetha.ac.in",
+            },
+            {
+              name: "Ms.Karthika RN",
+              desig: "Assistant Professor",
+              phone: 8248816873,
+              email: "karthikarn@saveetha.ac.in",
+            },
+          ],
+          student: [
+            {
+              name: "Swathi A",
+              year: "IV ",
+              phone: 8248096438,
+              email: "swathi7203@gmail.com",
+            },
+            {
+              name: "Deepa S",
+              year: "IV ",
+              phone: 8754574363,
+              email: "deepalaga@gmail.com",
+            },
+            {
+              name: "Rajesh K",
+              year: "III ",
+              phone: 9150841707,
+              email: "mahirajesh291@gmail.com",
+            },
+          ],
+        },
+        day2: {
+          date: "31.10.2023 ",
+          time: "9:00 -3.00pm",
+          mode: "OFFLINE",
+          venue: "",
+          list: true,
+          topic:
+            "Continuous Integration/Continuous Delivery (CI/CD).Security Tools.Container and Kubernetes.Create an entire pipeline locally (Hands-on).Create an entire pipeline in the cloud (Hands-on) ",
+          resource: [
+            {
+              name: "Mr. Sanjay Kumar D S",
+              desig: "Cybersecurity Analyst and Ethical Hacker",
+              phone: 6382459254,
+            },
+          ],
+          staff: [
+            {
+              name: "Ms. Abinaya G",
+              desig: "Assistant Professor",
+              phone: 9500206093,
+              email: "gabinaya@saveetha.ac.in",
+            },
+            {
+              name: "Ms.Karthika RN",
+              desig: "Assistant Professor",
+              phone: 8248816873,
+              email: "karthikarn@saveetha.ac.in",
+            },
+          ],
+          student: [
+            {
+              name: "Swathi A",
+              year: "IV ",
+              phone: 8248096438,
+              email: "swathi7203@gmail.com",
+            },
+            {
+              name: "Deepa S",
+              year: "IV ",
+              phone: 8754574363,
+              email: "deepalaga@gmail.com",
+            },
+            {
+              name: "Rajesh K",
+              year: "III ",
+              phone: 9150841707,
+              email: "mahirajesh291@gmail.com",
+            },
+          ],
+        },
+      },
+      {
+        name: " Advanced AI Analytics in Healthcare",
+        logo: "EventsAssets/itw5.webp",
+        tag: "WORKSHOP",
+        color: "0, 70, 90",
+        company: "Saveetha School of Engineering",
+        link: "",
+        day1: {
+          date: "31.10.2023 ",
+          time: "9:00 -3.00pm",
+          mode: "OFFLINE",
+          venue: "",
+          list: true,
+          topic:
+            "Forenoon session: AI’s Role in Disease Diagonisation – Introduction.Convolutional Neural Networks (CNN) for medical image analysis- Hands on.Recurrent Neural Networks (RNN) for time series data-Hands on.Text classification and sentiment analysis.- Hands-on.Named Entity Recognition (NER) for clinical text – Hands –on.11 Critical Diseases Detection AI Strategies – Hands on. Afternoon Session: Overview of Best Medical AI Softwares Regulatory considerations and compliance (HIPAA, GDPR, etc).Case Study: Generative AI in healthcare – Hands on",
+          resource: [
+            {
+              name: "Dr.M.Prakash",
+              desig: "Associate Professor",
+              phone: " ",
+            },
+          ],
+          staff: [
+            {
+              name: "Dr.S.Vidhya",
+              desig: "Associate Professor",
+              phone: 9444778865,
+              email: "vidhya@saveetha.ac.in",
+            },
+          ],
+          student: [
+            {
+              name: "ARAVIND S",
+              year: "IV",
+              phone: 9025351218,
+              email: "aravindsureshkumar70@gmail.com",
+            },
+            {
+              name: "Monicka S",
+              year: "III ",
+              phone: 9345410530,
+              email: "smonicka19@gmail.com",
+            },
+            {
+              name: "Dharshini S",
+              year: "III ",
+              phone: 7200972014,
+              email: "dharshinirsenthilkumar@gmail.com",
+            },
+          ],
+        },
+      },
+    ],
   },
   
   {
@@ -662,7 +808,7 @@ export const EventDetails = [
         color: "0, 70, 90",
         company:
           "CAPPRICIO SECURITIES",
-        //link: "https://forms.gle/Z5xNg6dpUKKKxfJ97",
+        link: "https://forms.gle/Z5xNg6dpUKKKxfJ97",
         day1: {
           date: "26.10.2023(FN & AN)",
           time: "9:00 - 3:00pm",
@@ -715,7 +861,7 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
         company: "Faculty of Saveetha Engineering College",
-        //link: "https://forms.gle/NhC4Vt1F6CpucysQ8",
+        link: "https://forms.gle/NhC4Vt1F6CpucysQ8",
         day1: {
           date: "28.10.2023",
           time: "9:00 -3.00pm",
@@ -985,7 +1131,7 @@ export const EventDetails = [
         color: "0, 70, 90",
         company: " Instellars Global Consulting, Bangalore",
         note:"General requirement : laptop Mandatory, bring charger along if needed",
-        // //link: "https://docs.google.com/forms/d/e/1FAIpQLSfQNr0w2_ltXeaLdXqXs83h-JNNPxRkHH-QzllDvNUtFvWMUA/viewform",
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSfQNr0w2_ltXeaLdXqXs83h-JNNPxRkHH-QzllDvNUtFvWMUA/viewform",
         day1: {
           date: "26/10/2023",
           time: "8AM-3PM",
@@ -1079,9 +1225,7 @@ export const EventDetails = [
         tag: "WORKSHOP",
         mode: "OFFLINE",
         color: "0, 70, 90",
-        company: " Instellars Global Consulting, Bangalore",
-        note:"General requirement : laptop Mandatory, bring charger along if needed",
-        // //link: "https://docs.google.com/forms/d/e/1FAIpQLSewJPzRyB72YaMrv9JHd_tuSxL_bwneojCDrGs0MRKnqsobqg/viewform",
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSewJPzRyB72YaMrv9JHd_tuSxL_bwneojCDrGs0MRKnqsobqg/viewform",
         day1: {
           date: "28/10/2023",
           time: "9AM-3PM",
@@ -1092,7 +1236,7 @@ export const EventDetails = [
             {
               name: "Venkateshwaran R S ",
               desig: "Founder of Corporate Chronicle Media",
-              // phone: "-",
+              phone: " ",
             },
           ],
           staff: [
@@ -1151,7 +1295,7 @@ export const EventDetails = [
         color: "0, 70, 90",
         company: "Pynesec Technologies",
         note:"General requirement : laptop Mandatory, bring charger along if needed",
-        // //link: "https://docs.google.com/forms/d/e/1FAIpQLSehSdMZSZwOIgdYOV5pNv6AwTxmEcvuORiRCjdN9T5WHNVDNg/viewform",
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSehSdMZSZwOIgdYOV5pNv6AwTxmEcvuORiRCjdN9T5WHNVDNg/viewform",
         day1: {
           date: "30.10.2023 ",
           time: "8AM-3PM",
@@ -1446,7 +1590,7 @@ export const EventDetails = [
         logo: "/EventsAssets/agriw1.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
-        //link: "https://forms.gle/MJ1soYmvR8CSLU6CA",
+        link: "https://forms.gle/MJ1soYmvR8CSLU6CA",
         company:"CFDT, TANUVAS",
         day1: {
           date: "27/10/2022",
@@ -1553,7 +1697,7 @@ export const EventDetails = [
         color: "0, 70, 90",
         company: "Agricultural Engineering Department, CIT Nagar",
 
-        //link: " https://forms.gle/dGW3graHym75TTEn8",
+        link: " https://forms.gle/dGW3graHym75TTEn8",
         day1: {
           date: "30/10/2023",
           time: "Full day",
@@ -1724,7 +1868,7 @@ export const EventDetails = [
         name: "Design Battle ",
         // tagline: "Code Treasure Hunt",
         date: "02 Nov 2023(AN)",
-        type: "TEAM",
+        type: "2-3",
         venue: "AI&DS department",
         time: "1.00pm-4.00pm",
         members: "2-3",
@@ -1986,7 +2130,7 @@ export const EventDetails = [
         logo: "/EventsAssets/aiw1.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
-        //link: "https://forms.gle/FNNHeXz1HLr4o1z86",
+        link: "https://forms.gle/FNNHeXz1HLr4o1z86",
         day1: {
           date: "26.10.2023",
           time: "9.00-3.00pm",
@@ -2094,7 +2238,7 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
         company:"Monolith Research and Training Labs",
-        //link: " https://forms.gle/w9nABVoeNWt6bQz68",
+        link: " https://forms.gle/w9nABVoeNWt6bQz68",
         day1: {
           date: "30.10.2023 ",
           time: "9.00-3.00",
@@ -2200,7 +2344,7 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
         company:"Monolith Research and Training Labs",
-        //link: " https://forms.gle/nnejZ3Egc3XhWEV5A",
+        link: " https://forms.gle/nnejZ3Egc3XhWEV5A",
         day1: {
           date: "27.10.2023",
           time: "9.00am-3.00pm",
@@ -2638,7 +2782,7 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
         company:" Accenture",
-        //link: "https://forms.gle/m4keKu7WvojoXXco8",
+        link: "https://forms.gle/m4keKu7WvojoXXco8",
         day1: {
           date: "28.10.2023 ",
           time: "9.00-3.00pm",
@@ -2702,7 +2846,7 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
          company:"IVY Mobility",
-        //link: "https://forms.gle/CPQoCbMPAV98eZQa7",
+        link: "https://forms.gle/CPQoCbMPAV98eZQa7",
         day1: {
           date: "27.10.2023 ",
           time: "9.00-3.00",
@@ -2798,7 +2942,7 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
         company:"Saveetha Engineering College",
-        //link: "https://forms.gle/hRiwAKYjbwZ533Zs7",
+        link: "https://forms.gle/hRiwAKYjbwZ533Zs7",
         day1: {
           date: "31.10.2023",
           time: "9.00am-3.00pm",
@@ -2994,7 +3138,7 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
   
-        //link: "https://forms.gle/XCqNnJ7mi4VBSqeG6 ",
+        link: "https://forms.gle/XCqNnJ7mi4VBSqeG6 ",
         day1: {
           date: "28/10/2023",
           time: "8:00am - 3.00pm",
@@ -3075,7 +3219,7 @@ export const EventDetails = [
         color: "0, 70, 90",
         // company: "  ",
   
-        //link: "https://forms.gle/XCqNnJ7mi4VBSqeG6 ",
+        link: "https://forms.gle/XCqNnJ7mi4VBSqeG6 ",
         day1: {
           date: "26/10/2023",
           time: "8am-3pm",
@@ -3279,7 +3423,7 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
         company:"Techmaax",
-        //link: "https://docs.google.com/forms/d/e/1FAIpQLSd1YjNa3lgwmANBmkcjksymUGNOgmHJMSq_6L4_AdQ9kFKlbg/viewform?usp=pp_url",
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSd1YjNa3lgwmANBmkcjksymUGNOgmHJMSq_6L4_AdQ9kFKlbg/viewform?usp=pp_url",
         day1: {
           date: "27/10/2023",
           time: "FULL DAY",
@@ -3398,7 +3542,7 @@ export const EventDetails = [
         color: "0, 70, 90",
         company: "ADK Design, Chennai",
 
-        //link: "https://docs.google.com/forms/d/e/1FAIpQLSdjhOpp-LxsjsC5plvxTB9N_CvEhUiFENRcUW7EtKHm-59t9w/viewform?usp=pp_url",
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSdjhOpp-LxsjsC5plvxTB9N_CvEhUiFENRcUW7EtKHm-59t9w/viewform?usp=pp_url",
         day1: {
           date: "30/10/2023",
           time: "FULL DAY",
@@ -3698,7 +3842,7 @@ export const EventDetails = [
         logo: "EventsAssets/chemw1.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
-        //link: "https://docs.google.com/forms/d/e/1FAIpQLSdCctTzJS_-Td8gcffoufKCvalekgfek9WK570Yfymo85PCAA/viewform ",
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSdCctTzJS_-Td8gcffoufKCvalekgfek9WK570Yfymo85PCAA/viewform ",
         day1: {
           date: "30/10/2023",
           time: "9:00am - 3.00pm",
@@ -4019,7 +4163,7 @@ export const EventDetails = [
         color: "0, 70, 90",
         venue:"TBA",
         company: "Space Zee Technology",
-        //link: "https://docs.google.com/forms/d/e/1FAIpQLSfebj4TlUlbk0fBg3-QP8PQCF4aDKsWf04RBJIG-1SskfAvMw/viewform?usp=sf_link",
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSfebj4TlUlbk0fBg3-QP8PQCF4aDKsWf04RBJIG-1SskfAvMw/viewform?usp=sf_link",
         day1: {
           date: "26/10/2023",
           time: "FULL DAY",
@@ -4268,7 +4412,7 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
         company: "THINK BIG",
-        //link: " https://docs.google.com/forms/d/e/1FAIpQLSeHCybuLQ03SWuWwRKETpcYnXfnPWvwsZz62OCfS57WhuaXTw/viewform?usp=sf_link",
+        link: " https://docs.google.com/forms/d/e/1FAIpQLSeHCybuLQ03SWuWwRKETpcYnXfnPWvwsZz62OCfS57WhuaXTw/viewform?usp=sf_link",
         day1: {
           date: "25.10.2023",
           mode: "offline",
@@ -4323,7 +4467,7 @@ export const EventDetails = [
             },
           ],
         },
-        day1: {
+        day2: {
           date: "26.10.2023",
           mode: "offline",
           time: "9:00AM TO 3:00PM",
@@ -4383,7 +4527,7 @@ export const EventDetails = [
         logo: "/EventsAssets/mechw2.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
-        //link: "https://docs.google.com/forms/d/e/1FAIpQLSeI_8QwQgRcO7IcC_GI2w-iIeyQU0Pl-vE6L1-1IUiHq-m5vw/viewform",
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSeI_8QwQgRcO7IcC_GI2w-iIeyQU0Pl-vE6L1-1IUiHq-m5vw/viewform",
         day1: {
           mode: "offline",
           date: "27/10/2023",
@@ -4445,7 +4589,7 @@ export const EventDetails = [
         },
         day2: {
           mode: "offline",
-          date: "27/10/2023",
+          date: "28/10/2023",
           time: "9:00AM TO 3:00PM",
           staff: [
             {
@@ -4495,7 +4639,7 @@ export const EventDetails = [
         type: "team",
         venue: "",
         time: "12p.m to 2:00p.m",
-        members: "5- 8members in a team",
+        members: "5 - 8members in a team",
         rules: "The event consists of 2 rounds, The 1st round is finding the company logo and ( round 1 qualified team will be selected for 2nd round).Group event (5- 8members in a team).Product name will be given 5 minutes before the event.Vulgarity or offensive terms will lead to disqualification.Time given is 5-7 minutes for the total performance.Strictly adhere to the time limit.Property and background music is allowed.Teams can advertise the product in a funny fashion.Materials required can be brought by the participants",
         tag: "EVENT",
         color: "0, 1, 38",
@@ -4569,7 +4713,7 @@ export const EventDetails = [
           "Participants will be given annual reports of companies and they will have to analyze the figures and suggest the future course of action to the board of directors ",
         tag: "EVENT",
         color: "0, 1, 38",
-        logo: "/EventsAssets/mba4.webp",
+        logo: "/EventsAssets/mba2.webp",
         staff: [
           {
             name: "Dr. Elango",
@@ -4692,7 +4836,7 @@ export const EventDetails = [
           "A team contains maximum of 3 members.Mobile phone will be prohibited during the eventIn case of using mobile phone during the event the team will be disqualified.Judges decision will be the Final.Each round have a set of questions, Quiz will have questions related to the world of business.Question will be selected by team based on lot number.Time limit for each round will be explained before the competition.Quiz Format preliems have 1 round main's have 4 rounds.Further information will be informed before the competition",
         tag: "EVENT",
         color: "0, 1, 38",
-        logo: "/EventsAssets/mba2.webp",
+        logo: "/EventsAssets/mba4.webp",
         staff: [
           {
             name: "Dr. Anitha",
@@ -4836,7 +4980,7 @@ export const EventDetails = [
         rules:"It is an event related to public speaking. The topic will be given on the spot.The preparation time will be 3 minutes.The speech time will be for 60 seconds.Digital electronics and stationary items are not allowed during the preparation time.Not allowed to discuss the topic with anyone, If it happens then, you will be disqualified",
         tag: "EVENT",
         color: "0, 1, 38",
-        logo: "/EventsAssets/mba5.webp",
+        logo: "/EventsAssets/mba6.webp",
         staff: [
           {
             name: "Dr. Deepak ",
@@ -4894,12 +5038,12 @@ export const EventDetails = [
     ],
     workshopslist: [
       {
-        name: "Work Shop",
+        name: "Master of Trading",
         logo: "/EventsAssets/mbaw1.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
         // company: " Knowledge Xchange Community",
-        // link: "",
+        link: "https://forms.gle/Xm9RLQiZZ1Z41Jn6A",
         note:"Certificate will be provided Only if you attend for two days. I'd card must. Participants must register in advance to attend the workshop. All participants are expected to arrive on time for each session.Actively engage in discussions and activities during the workshop. Treat fellow participants and the workshop facilitators with respect and courtesy. Do not share sensitive information about fellow participants or the workshop content outside the workshop. Turn off or silence mobile phones and other electronic devices during the sessions to minimize disruptions. Participants should bring any required materials or tools specified by the workshop organizers. Follow all instructions provided by the workshop facilitators. Feel free to ask questions and seek clarification when needed.Dress appropriately for the workshop; casual or business casual attire is usually suitable. Adhere to a professional and ethical code of conduct during the workshop.Do not record or broadcast the workshop sessions without permission.Complete any evaluation forms or surveys to provide feedback about the workshop",
         staff: [
           {
@@ -4954,7 +5098,7 @@ export const EventDetails = [
           },
         ],
         day1: {
-          date: "27/11/2023",
+          date: "27/11/2023 to 28/11/2023",
           time: "Fullday",
           mode: "OFFLINE",
           venue: "",
@@ -5142,7 +5286,7 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
         company: "KVS BIOMEDICAL",
-        //link: "https://forms.gle/ng8EcPAdeXzzEm4j6",
+        link: "https://forms.gle/ng8EcPAdeXzzEm4j6",
         day1: {
           date: "26/10/22(FN & AN)",
           time: "FULL DAY",
@@ -5510,7 +5654,7 @@ export const EventDetails = [
         venue: "TBA",
         company:"IT Expect Training",
     
-        // //link: "https://forms.gle/cSmjSPii3pibWvEu7",
+        link: "https://forms.gle/cSmjSPii3pibWvEu7",
         day1: {
           date: "25/10/23",
           time: "FN AND AN",
@@ -5609,7 +5753,7 @@ export const EventDetails = [
         venue: "TBA",
         company: "IT EXPERT TRAINING",
     
-        //link: "https://forms.gle/ocbCaV91wxDqmPad8",
+        link: "https://forms.gle/ocbCaV91wxDqmPad8",
         day1: {
           date: "25/10/23",
           time: "FN AND AN",
@@ -5708,7 +5852,7 @@ export const EventDetails = [
         venue: "TBA",
         company: "Cyber Haels Infotech Pvt.Ltd.",
     
-        //link: "https://forms.gle/NxxK2nYx1heZhCAR6",
+        link: "https://forms.gle/NxxK2nYx1heZhCAR6",
         day1: {
           date: "30/10/23",
           time: "FN & AN",
@@ -5809,7 +5953,7 @@ export const EventDetails = [
         venue: "TBA",
         company: "Saveetha ECE Department",
     
-        //link: "https://forms.gle/eJwD3xKuqUE9GSPF8",
+        link: "https://forms.gle/eJwD3xKuqUE9GSPF8",
         day1: {
           date: "30/10/23",
           time: "FN & AN",
@@ -5961,7 +6105,7 @@ export const EventDetails = [
         venue: "TBA",
         company:"Sathyabama university",
     
-        //link: "https://forms.gle/2EFB6R98ceFGp9fk6",
+        link: "https://forms.gle/2EFB6R98ceFGp9fk6",
         day1: {
           date: "30/10/23",
           time: "FN AND AN",
@@ -6067,7 +6211,7 @@ export const EventDetails = [
         venue: "TBA",
         company:"Saveetha ECE Deaprtment",
     
-        //link: "https://forms.gle/9XERHJCQf7dmQcs5A",
+        link: "https://forms.gle/9XERHJCQf7dmQcs5A",
         day1: {
           date: "30/10/23",
           time: "FN AND AN",
@@ -6167,7 +6311,7 @@ export const EventDetails = [
         venue: "TBA",
         company: "Zoho",
     
-        //link: "https://forms.gle/4zAANomeJEGBdGbH6",
+        link: "https://forms.gle/4zAANomeJEGBdGbH6",
         day1: {
           date: "30/10/23",
           time: "FN AND AN",
@@ -6267,7 +6411,7 @@ export const EventDetails = [
         venue: "TBA",
         company: "Applied Material PVT.LTD.",
     
-        //link: "https://forms.gle/gg4ecaRqfK7fCrwg6",
+        link: "https://forms.gle/gg4ecaRqfK7fCrwg6",
         day1: {
           date: "27/10/23",
           time: "FN & AN",
@@ -6377,7 +6521,7 @@ export const EventDetails = [
         venue: "TBA",
         company: "Econ-System Pvt.Ltd, Chennai",
     
-        //link: "https://forms.gle/U7W74gNJ6H6zSbgH6",
+        link: "https://forms.gle/U7W74gNJ6H6zSbgH6",
         day1: {
           date: "28/10/23",
           time: "FN & AN",
@@ -6427,7 +6571,7 @@ export const EventDetails = [
         // logo: "EventsAssets/ecew10.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
-        //link: "https://docs.google.com/forms/d/e/1FAIpQLSdZkJQsw1tPhygAVQtFVERrAjPKFYZ0bpHgf1vel-KE60OUoQ/viewform ",
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSdZkJQsw1tPhygAVQtFVERrAjPKFYZ0bpHgf1vel-KE60OUoQ/viewform ",
         day1: {
           date: "30/10/2023",
           time: "FULL DAY",
@@ -6550,7 +6694,7 @@ export const EventDetails = [
         // logo: "EventsAssets/ecew2.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
-        //link: "https://forms.gle/dZDnuGqLKXBQhhXm6 ",
+        link: "https://forms.gle/dZDnuGqLKXBQhhXm6 ",
         day1: {
           date: "25/10/2023",
           time: "FULL DAY",
@@ -6648,7 +6792,7 @@ export const EventDetails = [
         // logo: "EventsAssets/chemw1.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
-        //link: " https://docs.google.com/forms/d/e/1FAIpQLSfk3dnhMvo-fduhUss8idOcqED4PHcKeM8L3WZ5C_dPA9_ZmA/viewform",
+        link: " https://docs.google.com/forms/d/e/1FAIpQLSfk3dnhMvo-fduhUss8idOcqED4PHcKeM8L3WZ5C_dPA9_ZmA/viewform",
         day1: {
           date: "26/10/2023",
           time: "FULL DAY",
@@ -6860,7 +7004,7 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
 
-        //link: " https://forms.gle/qw2sUtjyDYTF2auR8 ",
+        link: " https://forms.gle/qw2sUtjyDYTF2auR8 ",
         day1: {
           date: "30/10/2023",
           time: "FORENOON & AFTERNOON",
@@ -6958,7 +7102,7 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
 
-        //link: " https://forms.gle/CuFB5KcJCDeQabMY9 ",
+        link: " https://forms.gle/CuFB5KcJCDeQabMY9 ",
         day1: {
           date: "26/10/2023",
           time: "TBA",
@@ -7052,7 +7196,7 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
 
-        //link: "https://forms.gle/JiCxAFFzpHkJfBur6 ",
+        link: "https://forms.gle/JiCxAFFzpHkJfBur6 ",
         day1: {
           date: "30/10/2023",
           time: "TBA",
