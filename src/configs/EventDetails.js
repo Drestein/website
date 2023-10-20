@@ -228,7 +228,7 @@ export const EventDetails = [
         color: "0, 70, 90",
         company:
           "CStream.IO, Los Angeles, California, United States",
-        link: "",
+        link: "http://surl.li/mgnzi",
         day1: {
           date: "25.10.2023(FN & AN)",
           time: "9:00 - 3:00pm",
@@ -340,7 +340,7 @@ export const EventDetails = [
         
       },
       {
-        name: "Cybersecurity",
+        name: "Cyber security",
         tag: "WORKSHOP",
         color: "0, 70, 90",
         // company: "SIFY",
