@@ -127,8 +127,6 @@ const Form = () => {
   const [qr, setqr] = useState("");
   const [load, setload] = useState(false);
   const [confirmMsg, setconfirmMsg] = useState(false);
-  const [Project, setProject] = React.useState(false);
-  const [Paper, setPaper] = React.useState(false);
   const [Event, setEvent] = useState(false);
   const [Pay, setPay] = useState(0);
   const [img, setImg] = useState(null);
@@ -239,16 +237,7 @@ const Form = () => {
                     <p>
                         Thank you for registering. You have applied for <b>${
                           formdata.DepartEvent ? `Events(₹200)` : ""
-                        }
-                    ${
-                      formdata.PaperPresentation
-                        ? `, Paper Presentation(₹200)`
-                        : ""
-                    }${
-                      formdata.ProjectPresentation
-                        ? `, Project Presentation(₹250)`
-                        : ""
-                    }.
+                        }.
                     </b> Don't worry if you missed an event; you can register for other events offline after coming to Saveetha Engineering College. The registration fee has to be paid at the registration counter on the day of the event by scanning your QR code sent in this email. We expect your presence on this auspicious day.
                     </p>  
                    
@@ -304,7 +293,7 @@ const Form = () => {
       });
       return false;
     }
-    if (Project === false && Paper === false && Event === false) {
+    if ( Event === false) {
       toast.info("Select At least one event", {
         theme: "dark",
         position: "bottom-left",
@@ -322,17 +311,10 @@ const Form = () => {
 
     formdata.cashPaid = false;
 
-    formdata.cashPaidForPaper = false;
-
-    formdata.cashPaidForProject = false;
 
     formdata.CashToBePaid = 0;
 
     formdata.EventsRegistered = eventName;
-
-    formdata.PaperPresentation = Paper;
-
-    formdata.ProjectPresentation = Project;
 
     formdata.AmountPaid = 0;
 
@@ -348,12 +330,6 @@ const Form = () => {
 
     if (Event === true) {
       formdata.CashToBePaid += 200;
-    }
-    if (Paper === true) {
-      formdata.CashToBePaid += 200;
-    }
-    if (Project === true) {
-      formdata.CashToBePaid += 250;
     }
     console.log(formdata);
     if (response[0] === undefined) {
@@ -771,34 +747,6 @@ const Form = () => {
                       }}
                     />
 
-                    <Checkbox
-                      className="check"
-                      color="primary"
-                      size="lg"
-                      label="Paper Presentation"
-                      onChange={(e) => {
-                        if (Paper === true) {
-                          setPay(Pay - 200);
-                        } else {
-                          setPay(Pay + 200);
-                        }
-                        setPaper(e.target.checked);
-                      }}
-                    />
-                    <Checkbox
-                      className="check"
-                      color="primary"
-                      size="lg"
-                      label="Project Display"
-                      onChange={(e) => {
-                        if (Project === true) {
-                          setPay(Pay - 250);
-                        } else {
-                          setPay(Pay + 250);
-                        }
-                        setProject(e.target.checked);
-                      }}
-                    />
                   </Box>
                   {Event === true ? (
                     <div>
