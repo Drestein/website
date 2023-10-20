@@ -344,6 +344,7 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
         // company: "SIFY",
+        logo: "EventsAssets/itw3.webp",
         link: "https://shorturl.at/dyGX5",
         day1: {
           date: "27.10.2023 ",
