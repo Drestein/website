@@ -3422,10 +3422,10 @@ export const EventDetails = [
       {
         name: "PAPER SCRAPER ",
         // desc: "Cipher Hunt is a cybersecurity competition that is all about finding weaknesses and exploiting loopholes in various computer programs. It aims to engage participants in the creative exploration of real-world computer security by distilling the significant disciplines of professional cybersecurity into short, objectively measurable exercises.An ethical hacking contest in which contestants will have to find pieces of information, called ‘flags’, hidden in each of the challenges. So, assemble your team, prepare to decrypt hidden messages, exploit vulnerabilities, and do whatever it takes to Hunt!",
-        date: "02 Nov 2023(AN)",
-        type: "Solo",
+        date: "02 Nov 2023(FN)",
+        type: "Team",
         venue: "",
-        time: "AFTERNOON",
+        time: "Forenoon",
         members: "3",
         rules: "",
         round1title:"Chosse it ",
