@@ -24,13 +24,13 @@ const Mobilenav = ({ openMenu, setOpenMenu }) => {
           >
             <li>Departments</li>
           </Link>
-          {/* <Link
+          <Link
             style={{ textDecoration: "inherit" }}
             onClick={() => setOpenMenu(!openMenu)}
-            to="/Commonevents#"
+            to="/events#"
           >
-            <li>Commonevents</li>
-          </Link> */}
+            <li>Events</li>
+          </Link>
           {/* <Link
             style={{ textDecoration: "inherit" }}
             onClick={() => setOpenMenu(!openMenu)}
