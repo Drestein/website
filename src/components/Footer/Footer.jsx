@@ -89,7 +89,7 @@ const Footer = () => {
               margin: "10px 0",
             }}
           >
-            Site Views
+           <h4 className="heading" align="center">Site Views</h4>
           </p>
           <Card
             sx={{
@@ -109,7 +109,7 @@ const Footer = () => {
           </Card>
         </div>
         <div className="block">
-          <h4 className="heading">CO-ORDINATORS</h4>
+          <h4 className="heading" align="center">CO-ORDINATORS</h4>
           <a href="https://www.saveetha.ac.in/index.php/2-uncategorised/489-dr-k-suresh-kumar-m-tech-ph-d"  target="_blank" class="links">
           <Chip
             size="lg"
@@ -152,7 +152,7 @@ const Footer = () => {
           </a>
           <h4
             className="heading"
-            style={{ marginTop: "2rem", marginBottom: "1rem" }}
+            style={{ marginTop: "2rem", marginBottom: "1rem" }} align="center"
           >
             WEBSITE CO-ORDINATORS
           </h4>
@@ -200,6 +200,144 @@ const Footer = () => {
             Vijayaragavan ARR
           </Chip>
           </a>
+        </div>
+        <div className="block">
+        <h4 className="heading" align="center" >DSC MEMBERS</h4>
+        <Chip
+            size="md"
+            style={{ backgroundColor: "transparent" }}
+            startDecorator={
+              <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
+            }
+            >
+            R.Pavankumar	(Agri) 6383494421
+          </Chip>
+          <Chip
+            size="md"
+            style={{ backgroundColor: "transparent" }}
+            startDecorator={
+              <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
+            }
+            >
+            Vijayaragavan ARR  (AIDS) 9443654516
+          </Chip>
+          <Chip
+            size="md"
+            style={{ backgroundColor: "transparent" }}
+            startDecorator={
+              <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
+            }
+            >
+            Naveen Kumar A 	(AIML) 8925252883
+          </Chip>
+          <Chip
+            size="md"
+            style={{ backgroundColor: "transparent" }}
+            startDecorator={
+              <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
+            }
+            >
+            H.S Dhanush 	(BIO-MEDICAL) 9789058816
+          </Chip>
+          <Chip
+            size="md"
+            style={{ backgroundColor: "transparent" }}
+            startDecorator={
+              <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
+            }
+            >
+            Muhundhan M	(CIVIL) 9791389479
+          </Chip>
+          <Chip
+            size="md"
+            style={{ backgroundColor: "transparent" }}
+            startDecorator={
+              <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
+            }
+            >
+            R.Pavankumar	(Agri) 6383494421
+          </Chip>
+          <Chip
+            size="md"
+            style={{ backgroundColor: "transparent" }}
+            startDecorator={
+              <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
+            }
+            >
+            Srikanth T	(CHEMICAL) 6382979534
+          </Chip>
+          <Chip
+            size="md"
+            style={{ backgroundColor: "transparent" }}
+            startDecorator={
+              <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
+            }
+            >
+            KISHORE.N	(CSE) 9894801443
+          </Chip>
+          <Chip
+            size="md"
+            style={{ backgroundColor: "transparent" }}
+            startDecorator={
+              <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
+            }
+            >
+            R.Jayamani (CSE(Cyber Security)) 9962244445
+          </Chip>
+          <Chip
+            size="md"
+            style={{ backgroundColor: "transparent" }}
+            startDecorator={
+              <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
+            }
+            >
+            Jessica.J	(ECE) 9345337659
+          </Chip>
+          <Chip
+            size="md"
+            style={{ backgroundColor: "transparent" }}
+            startDecorator={
+              <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
+            }
+            >
+            Yeshwanth V	(EIE) 9342019960
+          </Chip>
+          <Chip
+            size="md"
+            style={{ backgroundColor: "transparent" }}
+            startDecorator={
+              <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
+            }
+            >
+            Shanthini.S	(IT) 9025278040
+          </Chip>
+          <Chip
+            size="md"
+            style={{ backgroundColor: "transparent" }}
+            startDecorator={
+              <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
+            }
+            >
+            Angappan.R	(MED) 9025864979
+          </Chip>
+          <Chip
+            size="md"
+            style={{ backgroundColor: "transparent" }}
+            startDecorator={
+              <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
+            }
+            >
+           Kiran raaj k.v	(MECH) 9789994338
+          </Chip>
+          <Chip
+            size="md"
+            style={{ backgroundColor: "transparent" }}
+            startDecorator={
+              <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
+            }
+            >
+           Amudhan. E. K 	(MBA) 7358736824
+          </Chip>
         </div>
         <div className="block">
           <h4 className="heading">USEFUL LINKS</h4>
