@@ -1195,7 +1195,7 @@ export const EventDetails = [
             {
               name: "Mr. Raj Kumar D ",
               desig: "Senior Consultan",
-              // phone: 9962738480,
+              phone: "-",
               // email: "connectchennai99@gmail.com",
             },
           ],
@@ -1238,7 +1238,7 @@ export const EventDetails = [
             {
               name: "Mr. Raj Kumar D ",
               desig: "Senior Consultan",
-              // phone: 9962738480,
+              phone: " ",
               // email: "connectchennai99@gmail.com",
             },
           ],
@@ -1359,7 +1359,7 @@ export const EventDetails = [
             {
               name: "Mr.Vasanth ",
               desig: "Chief Executive Officer ",
-              // phone: 9962738480,
+              phone: " ",
               // email: "vadapalaniarena1@gmail.com",
             },
           ],
@@ -2663,7 +2663,7 @@ export const EventDetails = [
           {
             name: "Dr.Malathi K ",
             desig: "Asst Professor",
-            // phone: 9444749975,
+            phone: " ",
             email: "malathi.k@saveetha.ac.in ",
           },
           {
@@ -4030,17 +4030,17 @@ export const EventDetails = [
       {
         name: "Technarok",
         date: "02 Nov 2023(FN)",
-        type: "Team",
+        type: "Duo",
         venue: "",
         time: "11:00AM-1:00PM",
         tag: "EVENT",
         color: "0, 1, 38",
         // rules: "",
 
-        round1title: "Techons",
+        round1title: "The Number Game",
         round1:
-          " 	10 questions. 	Each question carries 10 points. 	Duration: 10 minutes.	Top 6 teams will be qualified for the next round ",
-        note: "It is a technical connection event. Group of images will be displayed as a clue to find the technical words ",  
+          " 	One component per participant.Based on the description, For Each Correct Statement, 2 Points will be given.Duration: 30 seconds.Points are added up and considered as a team.Top 6 teams will be qualified for the next round ",
+        note: "Every participant in a team must stand on a numbered spot on the floor. Based on the number, a component will be given. Their task is to identify the item correctly ",  
         round2title: "Flip it!",
         round2:
           " 8 Pairs. Each Pair carries 10 points.  Duration: 2 minutes. Top 4 teams will be qualified for next round ",
@@ -4077,14 +4077,14 @@ export const EventDetails = [
       {
         name: "TECH EMERGE",
         date: "02 Nov 2023(FN)",
-        type: "Team",
+        type: "3 members",
         venue: " ",
         time: "11:00AM-1:00PM",
         rules: "",
-        round1title: "IDENTIFY AND CONQUER",
+        round1title: "WORD HUNT",
         round1:
-          "  TEAM TASK.  EACH TEAM WILL BE PROVIDED BY THE SEPARATE CIRCUIT LAYOUT.  TOTAL POINTS 5.TIME ORIENTED TASK ",
-        note: "IDENTIFYING THE COMPONENTS THAT WERE USED IN THE GIVEN CIRCUIT DIAGRAM ",  
+          "  1. Team task (3 members per team ).Time oriented round. 5 question per round (optional).note: Be strong with alphabetic order to play this game",
+        note: "There will be an 27 aloted squares in an room ,each person can stand at any number once an sound hits then from our side we will display an technical word after the word shown -the person who were in the write position of the word which shown  by us will  given an points",  
         round2title: "RAPID FIRE- KNOWLEDGE AS NEW BATTLE FIELD ",
         round2:
           " TEAM TASK.  FUN TASK IS BEEN ASSIGNED FOR EACH QUESTIONS.  TOTAL POINTS 5. TIME ORIENTED TASK ",
@@ -4128,16 +4128,16 @@ export const EventDetails = [
         rules: "",
         round1title: "FIGGERITS",
         round1:
-          "11 words.  Each word carries 10 points. Duration: 15 minutes. Top 6 teams will be qualified for the next round ",
+          "10 questions and one sentence .Top 8 teams will be selected.Team which completes the puzzle quickly will be qualified for the next round ",
         note: "Figgerits a kind of cross logic and word puzzle game . Use clues to decrypt the message and decipher the cryptogram ",  
         round2title: "WORD CHAIN ",
         round2:
-          "As many words as  possible. To say the next word, the picture must be correctly guessed. Each word carries 10 mark. Duration: 2 minutes. Top 4 teams will be qualified for the next round ",
+          "Initial word is randomly given .To say the next word, the given quiz must be answered correctly .Duration: 3 minutes.Top 4 teams will be qualified for the next round ",
         note: " Each team is asked to pick a paper that contains a word. Each team is asked to frame a chain words by relating the previous word within 2 mins.Before saying each word,they have to identify the picture given to them.the team whichever builds the  largest chain, wins the game. ",   
-        round3title: "PICTONARY",
+        round3title: "CIRCUIT MANIAC",
         round3:
-          "Each team is given a picture. More accurate the drawing more points will be given. Duration: 2 minutes. Winners & Runners will be selected based on their scores so far ",
-        note: "The team mate should be able to guess the picture drawn by the other member before him. The team that guesses the most wins the game ",
+          "One common circuit .Note book and pen will be provided.Circuit is displayed only for 15 sec.Winners and runners are selected based on time taken ",
+        note: "Circuit diagram is displayed and each team should copy the circuit within the given time . The team which recreates the circuit with components are the winners ",
         tag: "EVENT",
         color: "0, 1, 38",
         logo: "/EventsAssets/eie3.webp",
@@ -4171,15 +4171,18 @@ export const EventDetails = [
         venue: "",
         time: "08:00AM-10:00AM",
         rules: "",
-        round1title: "PUZZLE PITSHOP",
+        round1title: "PICK AND THINK",
         round1:
-          "20 questions. Each questions carries 2 marks. Several options will be given and  choose the correct answer to fill the puzzle. Duration: 5min  ",  
-        round2title: "WATTWARS ",
+          "5 questions per participant will be given.Each questions carries 2 marks.No negative marks.Duration:Each questions 1minute ",  
+        note:"Key words are assembled in the jar. Each participant have to select a keyword randomly.Each keyword contains 5 questions, participants have to answer for those questions.Those who got maximum marks will proceed to next round",
+        round2title: "VOLT RUSH",
         round2:
-          "15 questions. Images will be given with various definitions and names. Choose the suitable option for the image provided. Duration : 10min ",  
-        round3title: "TIK TIK TIK",
+          "3 questions .Each questions carries 2 marks.Participants should perform and answer the questions.Duration:1minute for each questions.No negative marks ",  
+        note:"The questions will be asked to the participants. After  knowing the answer they have to lift the plastic cups with the help of the balloons to the deadline. Hereafter , they have to answer for the asked questions. If it is wrong point will go for the opponent",
+        round3title: "INTELLECTA",
         round3:
-          "10 questions. Definition will be given with various options. Choose the suitable options. Duration:10min ",
+          "Each participant have to answer for 10 questions.Each contains one mark.If the answer was wrong negative marks will be given.Duration: 5 mins ",
+        note:"•	We will project a Tamil song lyrics which was translated in English. Participants have to find the corresponding song then only they have the capability to proceed into the round 3 questions. While asking questions they have to answer within the given time. If the answer was correct marks will be provided else marks will be deducted as negative marks", 
         tag: "EVENT",
         color: "0, 1, 38",
         logo: "/EventsAssets/eie4.webp",
@@ -4210,7 +4213,7 @@ export const EventDetails = [
       ],
     workshopslist:[
       {
-        name: "Two day workshop on Instrumentation Design with fusion of Technologie",
+        name: "INSTRUMENTATION  DESIGN WITH FUSION OF TECHNOLOGIES",
         logo: "/EventsAssets/eiew1.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
@@ -4218,11 +4221,11 @@ export const EventDetails = [
         company: "Space Zee Technology",
         link: "https://docs.google.com/forms/d/e/1FAIpQLSfebj4TlUlbk0fBg3-QP8PQCF4aDKsWf04RBJIG-1SskfAvMw/viewform?usp=sf_link",
         day1: {
-          date: "26/10/2023",
+          date: "30/10/2023",
           time: "FULL DAY",
           mode: "OFFLINE",
           venue:"",
-          topic: "Day 1: 10:00 AM to 12:00 PM - Introduction to Instrumentation Design • Introduction • Overview of an Engineering Organization • Role of a Process Engineer • Project Documentation. Day 1: 01:00 PM to 03:00 PM - Introduction to Detail Engineering: •P&I Diagram • Instrument Index • IO List • Process Data sheets and Specifications • Instrument Wiring Layout ",
+          topic: "Day 1: 10:00 AM to 12:00 PM- Introduction to Instrumentation Design.Introduction.Overview of an Engineering Organization.Role of a Process Engineer.Project Documentation. Day 1: 01:00 PM to 03:00 PM - Introduction to Detail Engineering: P&I Diagram.Instrument Index .IO List Process Data sheets and Specifications.Instrument Wiring Layout ",
           resource: [
             {
               name: "Hari Haran M",
@@ -4255,11 +4258,11 @@ export const EventDetails = [
           ],
         },
         day2: {
-          date: "26/10/2023",
+          date: "31/10/2023",
           time: "FULL DAY",
           mode: "OFFLINE",
           venue:"",
-          topic: "Day 2: 10:00 AM to 12:00 PM - Introduction to IIoT [Hands-on] • Basics of IoT • Implementation using Domestic standards • Handshake signals Day 2: 01:00 PM to 03:00 PM - Fusion Technology • Introduction to VR/AR in Instrumentation • Implementation of Fusion Technology in Industries • Case studies ",
+          topic: "Day 2: 10:00 AM to 12:00 PM - Introduction to IoT [Hands-on].Basics of IoT.Implementation using Domestic standards.Handshake signals.Day 2: 01:00 PM to 03:00 PM - Fusion Technology.Introduction to VR/AR in Instrumentation.Implementation of Fusion Technology in Industries.Case studies ",
           resource: [
             {
               name: "Hari Haran M",
