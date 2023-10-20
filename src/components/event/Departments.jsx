@@ -110,7 +110,7 @@ function Departments() {
 
               <li style={{
                 padding:'5px 0'
-              }}>  Students are invited to present project works based on their innovative ideas / research at this symposium <strong>DRESTEIN2022</strong>.</li>
+              }}>  Students are invited to present project works based on their innovative ideas / research at this symposium <strong>DRESTEIN2023</strong>.</li>
               <li style={{
                 padding:'5px 0'
               }}> The projects could be on any topic relevant to the engineering disciplines.</li>
