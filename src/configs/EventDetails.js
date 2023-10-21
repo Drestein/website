@@ -288,7 +288,7 @@ export const EventDetails = [
           mode: "OFFLINE",
           venue: "TBA",
           list: true,
-          topic: "History of blockchain.Why Blockchain ? .Consensus Mechanism.Role of Cryptography in blockchain wallets.Use cases.DeFi and Dao.Solidity 101.Remix and Hardhat.Creating your own Dogecoin!.What next",
+        topic: "History of blockchain.Why Blockchain ? .Consensus Mechanism.Role of Cryptography in blockchain wallets.Use cases.DeFi and Dao.Solidity 101.Remix and Hardhat.Creating your own Dogecoin!.What next",
           resource: [
             {
               name: "Sanjay Kumar M",
@@ -513,7 +513,7 @@ export const EventDetails = [
           mode: "OFFLINE",
           venue: "",
           list: true,
-          topic:
+        topic:
             "Continuous Integration/Continuous Delivery (CI/CD).\nSecurity Tools.\nContainer and Kubernetes.\nCreate an entire pipeline locally (Hands-on).\nCreate an entire pipeline in the cloud (Hands-on) ",
           resource: [
             {
