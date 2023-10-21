@@ -790,16 +790,13 @@ export const EventDetails = [
         venue: "",
         time: "Forenoon",
         members: "1-2",
-        rules: "Students must bring their own laptop with linux installed.(Round 1 doesn't require the use of kali linux but round 2 does).Students can use any open source (OSINT) tool to find the answer.Team size must be 1-2.Sharing answers with other participants is prohibited.Participants who finishes the first round and answers all questions correctly within the given time will be selected the second round.If not, as time for first round ends, Participants who answered maximum questions will be selected for the next round",
+        rules: "Students must bring their own laptop with linux installed (Round 1 doesn't require the use of kali linux but round 2 does).Students can use any open source (OSINT) tool to find the answer.Team size must be 1-2.Sharing answers with other participants is prohibited.Participants who finishes the first round and answers all questions correctly within the given time will be selected the second round.If not, as time for first round ends, Participants who answered maximum questions will be selected for the next round",
         round1title: "",
         round1:
           "A random image will be given.Participants will be required to find more details about the image, like from the image user and finding their email address or city they live in, etc.In this round the questions will be relatively easy and most question can easily be found using Google dorking or hackin.1st round will consists of 10 questions.Participants will be required to answer the questions within the time limit - 25 mins",
         round2title: "",
         round2:
-          "In second round, the first one to complete all the question correctly will be the winner.If not, the one who get the most answers right within the time limit will be the winner.This round will require the use of Kali linux",
-        round3title: "",
-        round3:
-          "In this round 7 question will be asked. This round is relatively in higher difficulty.Participants will be required to answer the question within time limit - 35 mins",
+          "In second round, the first one to complete all the question correctly will be the winner.If not, the one who get the most answers right within the time limit will be the winner.This round will require the use of Kali linux.In this round 7 question will be asked. This round is relatively in higher difficulty.Participants will be required to answer the question within time limit - 35 mins",
         tag: "EVENT",
         color: "0, 1, 38",
         logo: "/EventsAssets/cyb2.webp",
