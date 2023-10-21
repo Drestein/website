@@ -219,7 +219,7 @@ const Footer = () => {
               <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
             }
             >
-            Vijayaragavan ARR  (AIDS) 9443654516
+            Vijayaragavan ARR  (AI&DS) 9443654516
           </Chip>
           <Chip
             size="md"
@@ -228,7 +228,7 @@ const Footer = () => {
               <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
             }
             >
-            Naveen Kumar A 	(AIML) 8925252883
+            Naveen Kumar A 	(AI&ML) 8925252883
           </Chip>
           <Chip
             size="md"
@@ -237,7 +237,7 @@ const Footer = () => {
               <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
             }
             >
-            H.S Dhanush 	(BIO-MEDICAL) 9789058816
+            H.S Dhanush 	(BIO-MED) 9789058816
           </Chip>
           <Chip
             size="md"
@@ -282,7 +282,7 @@ const Footer = () => {
               <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
             }
             >
-            R.Jayamani (CSE(Cyber Security)) 9962244445
+            R.Jayamani (Cyber) 9962244445
           </Chip>
           <Chip
             size="md"
