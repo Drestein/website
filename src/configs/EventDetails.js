@@ -610,6 +610,114 @@ export const EventDetails = [
           ],
         },
       },
+      {
+        name: " LLMs and Prompt Engineering",
+        logo: "EventsAssets/itw7.webp",
+        tag: "WORKSHOP",
+        color: "0, 70, 90",
+        company: "InLustro",
+        link: "https://forms.gle/Sb7woJ96Jwm6X6M66",
+        day1: {
+          date: "26.10.2023 ",
+          time: "9:00am - 3.00pm",
+          mode: "OFFLINE",
+          venue: "",
+          list: true,
+          topic:
+            "Introduction to Language Models and Prompt Engineering Building Your First Language Model and Prompt Engineering",
+            resource: [
+              {
+                name: "Sreekanth Tadakaluru",
+                desig: "Data Scientist",
+                phone: 7338709583,
+              },
+            ],
+          staff: [
+            {
+              name: "Ms. Abinaya G",
+              desig: "Assistant Professor",
+              phone: 9500206093,
+              email: "gabinaya@saveetha.ac.in",
+            },
+            {
+              name: "Ms.Karthika RN",
+              desig: "Assistant Professor",
+              phone: 8248816873,
+              email: "karthikarn@saveetha.ac.in",
+            },
+          ],
+          student: [
+            {
+              name: "Raghul M",
+              year: "IV",
+              phone: 9025273351,
+              email: "raghulmalai21@gmail.com",
+            },
+            {
+              name: "Manoj MV",
+              year: "II",
+              phone: 9789895273,
+              email: "manojvelmurugan04@gmail.com",
+            },
+            {
+              name: "Dinesh Kumaraa K",
+              year: "II",
+              phone: 8438923349,
+              email: "dineshkumaraa03@gmail.com",
+            },
+          ],
+        },
+        day2: {
+          date: "27.10.2023 ",
+          time: "9:00am - 3.00pm",
+          mode: "OFFLINE",
+          venue: "",
+          list: true,
+          topic:
+            "Applications of Language Models with Effective Prompt Engineering Advanced Techniques, Responsible AI, and Deploying Models with Custom Prompts ",
+          resource: [
+            {
+              name: "Sreekanth Tadakaluru",
+              desig: "Data Scientist",
+              phone: 7338709583,
+            },
+          ],
+          staff: [
+            {
+              name: "Ms. Abinaya G",
+              desig: "Assistant Professor",
+              phone: 9500206093,
+              email: "gabinaya@saveetha.ac.in",
+            },
+            {
+              name: "Ms.Karthika RN",
+              desig: "Assistant Professor",
+              phone: 8248816873,
+              email: "karthikarn@saveetha.ac.in",
+            },
+          ],
+          student: [
+            {
+              name: "Raghul M",
+              year: "IV",
+              phone: 9025273351,
+              email: "raghulmalai21@gmail.com",
+            },
+            {
+              name: "Manoj MV",
+              year: "II",
+              phone: 9789895273,
+              email: "manojvelmurugan04@gmail.com",
+            },
+            {
+              name: "Dinesh Kumaraa K",
+              year: "II",
+              phone: 8438923349,
+              email: "dineshkumaraa03@gmail.com",
+            },
+          ],
+        },
+      },
     ],
   },
   
@@ -2190,7 +2298,7 @@ export const EventDetails = [
           mode: "OFFLINE",
           venue: "AI&DS department",
           topic:
-            "Introduction to the stock market. What is the stock market?.How does the stock market work? . Different types of stocks .How to read stock quotes . Fundamental analysis . What is fundamental analysis?.How to analyze a company's financial statements . How to identify undervalued stocks. Investing strategies . Different investment strategies, such as value investing, growth investing, and dividend investing .How to choose the right investment strategy for you  .How to build a diversified portfolio ",
+            "First take: The BASICS.Take two: The Fundamental fantasy.Take three: The Portfolio - Pottery.Take four: The Technical analysis.Climax: It depends ",
           resource: [
             {
               name: "Mr. Srivatsan Ranganathan ",
