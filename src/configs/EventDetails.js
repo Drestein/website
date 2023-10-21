@@ -464,7 +464,7 @@ export const EventDetails = [
           venue: "",
           list: true,
           topic:
-            "Understanding Cybersecurity.Significance and Real-world Examples.Self-Defense Strategies.Application Security.Live Hacking Demo ",
+            "Understanding Cybersecurity.\nSignificance and Real-world Examples.\nSelf-Defense Strategies.\nApplication Security.\nLive Hacking Demo ",
           resource: [
             {
               name: "Mr. Sanjay Kumar D S",
@@ -514,7 +514,7 @@ export const EventDetails = [
           venue: "",
           list: true,
           topic:
-            "Continuous Integration/Continuous Delivery (CI/CD).Security Tools.Container and Kubernetes.Create an entire pipeline locally (Hands-on).Create an entire pipeline in the cloud (Hands-on) ",
+            "Continuous Integration/Continuous Delivery (CI/CD).\nSecurity Tools.\nContainer and Kubernetes.\nCreate an entire pipeline locally (Hands-on).\nCreate an entire pipeline in the cloud (Hands-on) ",
           resource: [
             {
               name: "Mr. Sanjay Kumar D S",
@@ -611,7 +611,7 @@ export const EventDetails = [
         },
       },
       {
-        name: " LLMs and Prompt Engineering",
+        name: "LLMs and Prompt Engineering",
         logo: "EventsAssets/itw7.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
