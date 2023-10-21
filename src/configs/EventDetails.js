@@ -2185,62 +2185,12 @@ export const EventDetails = [
         color: "0, 70, 90",
         link: "https://forms.gle/FNNHeXz1HLr4o1z86",
         day1: {
-          date: "26.10.2023",
-          time: "9.00-3.00pm",
+          date: "31.10.2023",
+          time: "10.00-3.00pm",
           mode: "OFFLINE",
           venue: "AI&DS department",
           topic:
             "Introduction to the stock market. What is the stock market?.How does the stock market work? . Different types of stocks .How to read stock quotes . Fundamental analysis . What is fundamental analysis?.How to analyze a company's financial statements . How to identify undervalued stocks. Investing strategies . Different investment strategies, such as value investing, growth investing, and dividend investing .How to choose the right investment strategy for you  .How to build a diversified portfolio ",
-          resource: [
-            {
-              name: "Mr. Srivatsan Ranganathan ",
-              desig: "practising Chartered Accountant ",
-              phone: 9176639320,
-              email: "sibirabi@gmail.com ",
-            },
-          ],
-          staff: [
-            {
-              name: "Dr.Hemavathy P ",
-              desig: "Assistant Professor",
-              phone: 956606222 ,
-              email: "hemavathyp@saveetha.ac.in ",
-            },
-          ],
-          student: [
-            {
-              name: "AAKAASH V P  ",
-              year: "IV",
-              phone: 9629519090 ,
-              email: "aakaashvp0@gmail.com ",
-            },
-            {
-              name: "Meenakshi. M ",
-              year: "III",
-              phone: 9791092131 ,
-              email: "meenakshiapril25@gmail.com ",
-            },
-            {
-              name: "Baggu Dhivya Shri ",
-              year: "III",
-              phone: 9790985669 ,
-              email: "484dhivya.b@gmail.com  ",
-            },
-            {
-              name: " Kaushika A ",
-              year: "III",
-              phone: 9940674299 ,
-              email: "kaushika.anandh@gmail.com ",
-            },
-          ],
-        },
-        day2: {
-          date: "27.10.2023",
-          time: "9.00-3.00pm",
-          mode: "OFFLINE",
-          venue: "AI&DS department",
-          topic:
-            "Technical analysis .What is technical analysis? .How to use charts and technical indicators to analyze stocks . Risk management .What is risk management? .How to identify and manage risk in your investments .How to develop a risk management plan. Trading What is trading? .   Different types of trading orders .How to execute trades .How to develop a trading plan ",
           resource: [
             {
               name: "Mr. Srivatsan Ranganathan ",
@@ -2294,7 +2244,7 @@ export const EventDetails = [
         link: " https://forms.gle/w9nABVoeNWt6bQz68",
         day1: {
           date: "30.10.2023 ",
-          time: "9.00-3.00",
+          time: "10.00am-3.00pm",
           mode: "OFFLINE",
           venue: "AI&DS department",
           topic: "Introduction to Unreal Engine .Overview of Unreal Engine and Game Development . Installing Unreal Engine and Setting Up the Development Environment . Navigating the Unreal Engine Editor . Creating Your First Level. Basic Blueprint Scripting for Game Logic .Game Design Principles in Unreal Engine .Advanced Blueprint Scripting . Character and Animation Setup . Particle Effects and Audio Integration . Introduction to Materials and Shaders ",
@@ -2343,7 +2293,7 @@ export const EventDetails = [
         },
         day2: {
           date: "31.10.2023 ",
-          time: "9.00-3.00pm",
+          time: "10.00am-3.00pm",
           mode: "OFFLINE",
           venue: "AI&DS department",
           topic: "Building Your Game World . Optimizing and Testing Your Game . Packaging and Deployment . Monetization and Publishing Strategies  ",
@@ -2400,7 +2350,7 @@ export const EventDetails = [
         link: " https://forms.gle/nnejZ3Egc3XhWEV5A",
         day1: {
           date: "27.10.2023",
-          time: "9.00am-3.00pm",
+          time: "10.00am-3.00pm",
           mode: "OFFLINE",
           venue: "AI&DS department",
           topic:
@@ -2450,7 +2400,7 @@ export const EventDetails = [
         },
         day2: {
           date: "28.10.2022",
-          time: "9.00-3.00pm",
+          time: "10.00-3.00pm",
           mode: "OFFLINE",
           venue: "AI&DS department",
           topic:
@@ -3149,9 +3099,9 @@ export const EventDetails = [
         logo: "/EventsAssets/bme2.webp",
         staff: [
           {
-            name: "Dr.S.Sivanandam",
+            name: "Dr.P.Sinthia",
             desig: "Associate Professor",
-            phone: 9789010142,
+            phone: 9940521704,
           },
         ],
         student: [
@@ -4219,7 +4169,7 @@ export const EventDetails = [
         color: "0, 70, 90",
         venue:"TBA",
         company: "Space Zee Technology",
-        link: "https://docs.google.com/forms/d/e/1FAIpQLSfebj4TlUlbk0fBg3-QP8PQCF4aDKsWf04RBJIG-1SskfAvMw/viewform?usp=sf_link",
+        link: "https://forms.gle/Q7ssF9x1e9jGcZcF9",
         day1: {
           date: "30/10/2023",
           time: "FULL DAY",
