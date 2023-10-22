@@ -75,6 +75,7 @@ function Departments() {
                 <SpacialEventsCard {...data} />
               </a>
             );
+            
           }
 
           return <div key={i} onClick={handleOpen}><SpacialEventsCard   {...data} /> </div>;

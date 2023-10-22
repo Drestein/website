@@ -790,13 +790,13 @@ export const EventDetails = [
         venue: "",
         time: "Forenoon",
         members: "1-2",
-        rules: "Students must bring their own laptop with linux installed (Round 1 doesn't require the use of kali linux but round 2 does).Students can use any open source (OSINT) tool to find the answer.Team size must be 1-2.Sharing answers with other participants is prohibited.Participants who finishes the first round and answers all questions correctly within the given time will be selected the second round.If not, as time for first round ends, Participants who answered maximum questions will be selected for the next round",
+        rules: "Students can use any open source (OSINT) tool to find the answer.Team size must be 1-2.Sharing answers with other participants is prohibited.Participants who finishes the first round and answers all questions correctly within the given time will be selected the second round.If not, as time for first round ends, Participants who answered maximum questions will be selected for the next round",
         round1title: "",
         round1:
           "A random image will be given.Participants will be required to find more details about the image, like from the image user and finding their email address or city they live in, etc.In this round the questions will be relatively easy and most question can easily be found using Google dorking or hackin.1st round will consists of 10 questions.Participants will be required to answer the questions within the time limit - 25 mins",
         round2title: "",
         round2:
-          "In second round, the first one to complete all the question correctly will be the winner.If not, the one who get the most answers right within the time limit will be the winner.This round will require the use of Kali linux.In this round 7 question will be asked. This round is relatively in higher difficulty.Participants will be required to answer the question within time limit - 35 mins",
+          "In second round, the first one to complete all the question correctly will be the winner.If not, the one who get the most answers right within the time limit will be the winner.In this round 7 question will be asked. This round is relatively in higher difficulty.Participants will be required to answer the question within time limit - 35 mins",
         tag: "EVENT",
         color: "0, 1, 38",
         logo: "/EventsAssets/cyb2.webp",
@@ -1964,7 +1964,7 @@ export const EventDetails = [
         name: "Pick Your Filter",
         date: "02 Nov 2023(FN)",
         type: "2-4",
-        venue: "AI&DS department",
+        venue: " EEE 5F LH2",
         time: "10am-12pm",
         members: "2-4",
         rules:
@@ -2027,7 +2027,7 @@ export const EventDetails = [
         // tagline: "Code Treasure Hunt",
         date: "02 Nov 2023(AN)",
         type: "2-3",
-        venue: "AI&DS department",
+        venue: "EEE 5F OW ML LAB ",
         time: "1.00pm-4.00pm",
         members: "2-3",
         note:
@@ -2091,7 +2091,7 @@ export const EventDetails = [
         name: "Mind Swap",
         date: "02 Nov 2023(AN)",
         type: "Max 2",
-        venue: "AI&DS department",
+        venue: "EEE 5F LH2",
         time: "1.00pm - 4:00pm",
         note:"Laptop Mandatory",
         members: "2",
@@ -2155,7 +2155,7 @@ export const EventDetails = [
         name: "PROMPT YOUR WAY THRU ",
         date: "03 Nov 2023(FN)",
         type: "SOLO",
-        venue: "AI&DS department",
+        venue: " ECE 3F LH2",
         time: "9.00am-12.00pm",
         members: "1",
         note:"Laptop Mandatory",
@@ -2218,7 +2218,7 @@ export const EventDetails = [
         name: "MARVEL QUEST",
         date: "03 Nov 2023(FN)",
         type: "3 member",
-        venue: "AI&DS department",
+        venue: " EEE 5F LH2 ",
         time: "9am-12pm",
         members: "3",
         note:"Laptop Mandatory",
@@ -2293,7 +2293,7 @@ export const EventDetails = [
           date: "31.10.2023",
           time: "10.00-3.00pm",
           mode: "OFFLINE",
-          venue: "AI&DS department",
+          venue: "EEE 5F LH2 ",
           topic:
             "First take: The BASICS.Take two: The Fundamental fantasy.Take three: The Portfolio - Pottery.Take four: The Technical analysis.Climax: It depends ",
           resource: [
@@ -2351,7 +2351,7 @@ export const EventDetails = [
           date: "30.10.2023 ",
           time: "10.00am-3.00pm",
           mode: "OFFLINE",
-          venue: "AI&DS department",
+          venue: "EEE 5F OW AR/VR LAB",
           topic: "Introduction to Unreal Engine .Overview of Unreal Engine and Game Development . Installing Unreal Engine and Setting Up the Development Environment . Navigating the Unreal Engine Editor . Creating Your First Level. Basic Blueprint Scripting for Game Logic .Game Design Principles in Unreal Engine .Advanced Blueprint Scripting . Character and Animation Setup . Particle Effects and Audio Integration . Introduction to Materials and Shaders ",
           resource: [
             {
@@ -2400,7 +2400,7 @@ export const EventDetails = [
           date: "31.10.2023 ",
           time: "10.00am-3.00pm",
           mode: "OFFLINE",
-          venue: "AI&DS department",
+          venue: "EEE 5F OW AR/VR LAB ",
           topic: "Building Your Game World . Optimizing and Testing Your Game . Packaging and Deployment . Monetization and Publishing Strategies  ",
           resource: [
             {
@@ -2457,7 +2457,7 @@ export const EventDetails = [
           date: "27.10.2023",
           time: "10.00am-3.00pm",
           mode: "OFFLINE",
-          venue: "AI&DS department",
+          venue: "EEE 5F OW AR/VR LAB",
           topic:
             "Understanding the Difference Between AR and VR .Dive into Augmented Reality (AR). What is AR? .Real-World Applications of AR .Hands-on Experience with AR App.Exploring Virtual Reality .Introduction  What is VR? . Real-World Applications of VR .Hands-on Experience with VR Devices .Comparing AR a,nd VR  ",
           resource: [
@@ -2507,7 +2507,7 @@ export const EventDetails = [
           date: "28.10.2022",
           time: "10.00-3.00pm",
           mode: "OFFLINE",
-          venue: "AI&DS department",
+          venue: "EEE 5F OW AR/VR LAB",
           topic:
             "Creating Your Own AR and VR App . Overview of AR and VR Development Tools.Step-by-Step Guide to Building a Simple AR/VR App .Participants work on creating their own AR or app. Future Trends and Opportunities in AR and VR  ",
             resource: [
@@ -3106,8 +3106,8 @@ export const EventDetails = [
       {
         name: "TechGpres",
         date: "02 Nov 2023",
-        venue: " ",
-        time: "TBA",
+        venue: " Admin 4th Floor OW LH3 ",
+        time: "1pm-3pm",
         members: "2",
         // rules: "",
         round1:
@@ -3142,9 +3142,9 @@ export const EventDetails = [
       {
         name: "The Case",
         date: "02 Nov 2023",
-        venue: " ",
+        venue: "Admin 4th floor  OW LH5",
         type:"Team",
-        time: "TBA",
+        time: "8am-12pm",
         members: "3",
         // rules: "",
         round1:
@@ -3188,8 +3188,8 @@ export const EventDetails = [
         name: "Brainy escapes",
         date: "TBA",
         type: "Team",
-        venue: " ",
-        time: "TBA",
+        venue: "DTE LAB ADMIN 4TH FLOOR",
+        time: "8am-12pm",
         members: "3",
         // rules: "",
         round1:
@@ -3251,7 +3251,7 @@ export const EventDetails = [
           date: "28/10/2023",
           time: "8:00am - 3.00pm",
           mode: "OFFLINE",
-          venue: "TBA",
+          venue: "DTE LAB ADMIN 4TH FLOOR",
           topic:
             "The  overall idea of this workshop is to make the students understand and learn about designing, prototyping and assembling SMD components on a practical basis. The worshop is to be conducted for 2 days. First day goes for 25 set of students likewise the second day too. This event is a remarkable start for SMD - PCB prototyping. ",
           resource: [
