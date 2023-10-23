@@ -338,6 +338,15 @@ const Footer = () => {
             >
            Amudhan. E. K 	(MBA) 7358736824
           </Chip>
+          <Chip
+            size="md"
+            style={{ backgroundColor: "transparent" }}
+            startDecorator={
+              <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
+            }
+            >
+           Balaji	(EEE) 9345992270
+          </Chip>
         </div>
         <div className="block">
           <h4 className="heading">USEFUL LINKS</h4>

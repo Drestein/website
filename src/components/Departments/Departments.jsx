@@ -63,11 +63,11 @@ function Departments() {
         viewport={{ once: true, amount: 1 }}
         className="DeptHead"
       >
-        <div className="GalleryHeadTxt" id="SpecialEvents">
+        {/* <div className="GalleryHeadTxt" id="SpecialEvents">
           Special Events 
-        </div>
+        </div> */}
       </motion.h1>
-      <DepartmentContainer>
+      {/* <DepartmentContainer>
         {comobj.map((data, i) => {
           if (data.title === "Paper Presentation") {
             return (
@@ -183,7 +183,7 @@ function Departments() {
               <RegisterBtn />
             </a>
         </Box>
-      </Modal>
+      </Modal> */}
       <div id="About">
         <Footer />
       </div>

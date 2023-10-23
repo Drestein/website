@@ -68,20 +68,41 @@ function Departments() {
         </div>
       </motion.h1>
       <DepartmentContainer>
-        {comobj.map((data, i) => {
-          if (data.title === "Paper Presentation") {
-            return (
-              <a href="PaperPresentation.pdf" key={i} target="_blank">
-                <SpacialEventsCard {...data} />
-              </a>
-            );
-            
-          }
+  {comobj.map((data, i) => {
+    if (data.title === "Project Display") {
+      // If the title is "Project Display," render a link to the Project Display PDF.
+      return (
+        <a href="ProjectDisplay.pdf" key={i} target="_blank">
+          <SpacialEventsCard {...data} />
+        </a>
+      );
+    } else if (data.title === "Poster Presentation") {
+      // If the title is "Poster Presentation," render a link to the Poster Presentation PDF.
+      return (
+        <a href="PosterPresentation.pdf" key={i} target="_blank">
+          <SpacialEventsCard {...data} />
+        </a>
+      );
+    } else if (data.title === "Paper Presentation") {
+      // If the title is "Paper Presentation," render a link to the Paper Presentation PDF.
+      return (
+        <a href="PaperPresentation.pdf" key={i} target="_blank">
+          <SpacialEventsCard {...data} />
+        </a>
+      );
+    } else {
+      // For other titles, render the SpacialEventsCard component.
+      return (
+        <div key={i} onClick={handleOpen}>
+          <SpacialEventsCard {...data} />
+        </div>
+      );
+    }
+  })}
+</DepartmentContainer>
 
-          return <div key={i} onClick={handleOpen}><SpacialEventsCard   {...data} /> </div>;
-        })}
-      </DepartmentContainer>
-      <Modal
+      {/*  */}
+      {/* <Modal
         open={open}
         onClose={handleClose}
         // aria-labelledby="modal-modal-title"
@@ -184,7 +205,7 @@ function Departments() {
               <RegisterBtn />
             </a>
         </Box>
-      </Modal>
+      </Modal> */}
       {/* <div id="About">
         <Footer />
       </div> */}

@@ -5317,7 +5317,7 @@ export const EventDetails = [
       },
       {
         name: "BLIND TEASER ",
-        date: "03 Nov 2023(AN)",
+        date: "03 Nov 2023(FN)",
         type: "MAX 2",
         venue: "TBA",
         time: "9.00AM-12.00PM",
@@ -5411,7 +5411,7 @@ export const EventDetails = [
 
             resource: [
             {
-              name: "Mr.Praveenkumar ",
+              name: "Mr.K.B.Praveenkumar ",
               desig: "Founder & Managing Director",
               phone: 8248537980,
               email: "kvsbiomedical@gmail.com /praveenkv@kvsbiomedical.com ",
