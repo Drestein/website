@@ -1622,7 +1622,7 @@ export const EventDetails = [
         name: "Are you a Braine",
         date: "02 Nov 2023(AN)",
         type: "TEAM",
-        venue: "TBA",
+        venue: "RB GF LH 01",
         time: "AFTERNOON",
         members: "5 MEMBERS",
         rules: "",
@@ -1754,7 +1754,7 @@ export const EventDetails = [
           date: "27/10/2022",
           time: "FULL DAY",
           mode: "OFFLINE",
-          venue: "TBA",
+          venue: "CSE 5F Kalam hall",
           list: true,
           resource: [ {
             name: "Karpoora Sundara Pandian N  ",
@@ -1803,20 +1803,21 @@ export const EventDetails = [
           date: "28/10/2022",
           time: "FULL DAY",
           mode: "OFFLINE",
-          venue: "TBA",
+          venue: "CSE 5F Kalam hall",
           list: true,
           resource: [ {
             name: "Karpoora Sundara Pandian N  ",
             desig:"Assistant professor ",
-            phone: 8610157110  ,
-            email: "nandhinir@saveetha.ac.in  ",
-          },],
-
-          staff: [
+            phone: 7845938847  ,
+            email: "karpoorasundaram@gmail.com  ",
+          },
+        
+        ],
+    staff: [
             {
               name: "Nandhini R ",
               desig: "Assistant professor ",
-              phone: 9677883599,
+              phone: 8610157110,
               email: "nandhinir@saveetha.ac.in ",
             },
             {
@@ -1860,7 +1861,7 @@ export const EventDetails = [
           date: "30/10/2023",
           time: "Full day",
           mode: "OFFLINE",
-          venue: "TBA",
+          venue: "CSE 5F Kalam hall",
           resource: [
             {
               name: "Deepthika PS ",
@@ -1905,10 +1906,10 @@ export const EventDetails = [
           ],
         },
         day2: {
-          date: "30/10/2023",
+          date: "31/10/2023",
           time: "Full day",
           mode: "OFFLINE",
-          venue: "TBA",
+          venue: "CSE 5F Kalam hall",
           resource: [
             {
               name: "Deepthika PS ",
@@ -1968,15 +1969,17 @@ export const EventDetails = [
         time: "10am-12pm",
         members: "2-4",
         rules:
-          "programming Language: python ",
-      round1title:"Learning Filters ",
-        round1:
-          " Participants will be explained about basic image processing operations to warp an image",
-      round2title:"Challenge Round ",
+          "Programming Language: python. Laptops Mandatory, with Google Colab Account ",
+        preroundtitle:"Learning Filters ",
+        preround:
+          "Participants will be explained about basic image processing operations to change an image ",
+        round1title:"Ani X Con",
+        round1:"Challenge Your Inner Otaku with a Rapid-Fire Buzzer Round! A Rapid-Fire buzzer rounds for participants to test their anime and image-processing knowledge. Qualifiers of this round shall proceed to the next Round ",
+        round2title:"Challenge Round ",
         round2:
           "Each Team will be provided with a colab link with a basic source code, and 10 pictures. Teams have to warp the image with the coding to make sure the image is as unrecognizable as possibl Once all pictures are modified, they are passed to other teams.The teams have to guess the images. If a team has guessed all 10 pictures, another 10 pictures from any other team shall be given",
-      note:"General requirement : laptop Mandatory, bring charger along if needed",
-          tag: "EVENT",
+        note:"General requirement : laptop Mandatory, bring charger along if needed",
+        tag: "EVENT",
         color: "0, 1, 38",
 
         logo: "/EventsAssets/ai4.webp",
@@ -1998,7 +2001,7 @@ export const EventDetails = [
           {
             name: "Safa S ",
             year: "IV",
-            phone: 755012566,
+            phone: 7550125669,
             email: "safasiraj006@gmail.com ",
           },
           {
@@ -2565,7 +2568,7 @@ export const EventDetails = [
         name: "Code Fusion",
         date: "02 Nov 2023(FN)",
         type: "solo",
-        venue: "TBA",
+        venue: "ML LAB",
         time: "9am-12pm",
         members: "1",
         rules:
@@ -2629,7 +2632,7 @@ export const EventDetails = [
         tagline: "Code Treasure Hunt",
         date: "02 Nov 2023(AN)",
         type: "3-5",
-        venue: "TBA",
+        venue: "CSE 5F LH02",
         time: "9:30 - 12:30 pm",
         members: "3min-5max",
         note:
@@ -2696,7 +2699,7 @@ export const EventDetails = [
         name: " Unsplash",
         date: "02 Nov 2023(AN)",
         type: "solo",
-        venue: "TBA",
+        venue: "AR VR",
         time: "12:30pm - 3:30pm",
         members: "1",
         note:
@@ -2759,7 +2762,7 @@ export const EventDetails = [
         name: "Escape Room",
         date: "03 Nov 2023(FN)",
         type: "solo",
-        venue: "TBA",
+        venue: "STLC LAB, DISCUSSION ROOM",
         time: "1:00 - 4:00pm",
         members: "1-3",
         note:
@@ -2818,7 +2821,7 @@ export const EventDetails = [
         name: "Memes Mania",
         date: "03 Nov 2023(FN)",
         type: "Solo",
-        venue: "TBA",
+        venue: "CSE 5F LH02",
         time: "FN",
         members: "1",
         note:"Team Size: 1 (Solo event). Requisite: Laptop, Phone, or any other device is required ",
@@ -3106,7 +3109,7 @@ export const EventDetails = [
       {
         name: "TechGpres",
         date: "02 Nov 2023",
-        venue: " Admin 4th Floor OW LH3 ",
+        venue: " Admin 4F OW LH3",
         time: "1pm-3pm",
         members: "2",
         // rules: "",
@@ -3142,7 +3145,7 @@ export const EventDetails = [
       {
         name: "The Case",
         date: "02 Nov 2023",
-        venue: "Admin 4th floor  OW LH5",
+        venue: "Admin 4F OW LH5",
         type:"Team",
         time: "8am-12pm",
         members: "3",
@@ -3152,7 +3155,7 @@ export const EventDetails = [
         round2:
           " After completion of the first round, there will be a analysis type of round will happen. The teams that excel in this round will be pushed onto the third/final round (based on the count of the participants)",
         round3:
-          "The winner and two runnerups will be chosen for compliments from our college. ",  
+          "The winner and two runnerups will be chosen for compliments from our college ",  
         tag: "EVENT",
         color: "0, 1, 38",
         logo: "/EventsAssets/bme3.webp",
@@ -3188,7 +3191,7 @@ export const EventDetails = [
         name: "Brainy escapes",
         date: "TBA",
         type: "Team",
-        venue: "DTE LAB ADMIN 4TH FLOOR",
+        venue: "Admin 4F DTE LAB",
         time: "8am-12pm",
         members: "3",
         // rules: "",
@@ -3251,7 +3254,7 @@ export const EventDetails = [
           date: "28/10/2023",
           time: "8:00am - 3.00pm",
           mode: "OFFLINE",
-          venue: "DTE LAB ADMIN 4TH FLOOR",
+          venue: "ECE GF PCB LAB",
           topic:
             "The  overall idea of this workshop is to make the students understand and learn about designing, prototyping and assembling SMD components on a practical basis. The worshop is to be conducted for 2 days. First day goes for 25 set of students likewise the second day too. This event is a remarkable start for SMD - PCB prototyping. ",
           resource: [
@@ -3287,7 +3290,7 @@ export const EventDetails = [
           date: "30/10/2023",
           time: "8:00am - 3.00pm",
           mode: "OFFLINE",
-          venue: " TBA",
+          venue: "ECE GF PCB LAB ",
           topic:
             "The  overall idea of this workshop is to make the students understand and learn about designing, prototyping and assembling SMD components on a practical basis. The worshop is to be conducted for 2 days. First day goes for 25 set of students likewise the second day too. This event is a remarkable start for SMD - PCB prototyping. ",
           resource: [
@@ -3332,7 +3335,7 @@ export const EventDetails = [
           date: "26/10/2023",
           time: "8am-3pm",
           mode: "OFFLINE",
-          venue: "",
+          venue: "CSE GF LH-2 ",
           topic:
             "This workshop covers Automated Manufacturing testing, product design validation, control and monitoring of industrial equipment in a system, and the most recent developments of medical equipment using LabVIEW.",
           resource: [

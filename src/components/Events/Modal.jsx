@@ -11,6 +11,7 @@ import { HashLink as Link } from "react-router-hash-link";
 const Modal = ({ open, setOpenModal }) => {
   const { eventObject } = useContext(DisplayPopupContext);
   const splitrules = eventObject?.rules?.split(".");
+  const splitpreround = eventObject?.preround?.split(".");
   const splitround1 = eventObject?.round1?.split(".");
   const splitround2 = eventObject?.round2?.split(".");
   const splitround3 = eventObject?.round3?.split(".");
@@ -21,6 +22,7 @@ const Modal = ({ open, setOpenModal }) => {
   const splitmorng = eventObject?.morng?.split(".");
   const splitprize = eventObject?.prize?.split(".");
   const splitafternoon = eventObject?.afternoon?.split(".");
+  const splitpreroundlevel2 = eventObject?.preroundlevel2?.split(".");
   const splitround1level2 = eventObject?.round1level2?.split(".");
   const splitround2level2 = eventObject?.round2level2?.split(".");
   const splitworktopicd1 = eventObject?.day1?.topic?.split("\n");
@@ -124,6 +126,33 @@ const Modal = ({ open, setOpenModal }) => {
                 </ol>
               </div>
             ) : null}
+            {eventObject.preround ? (
+              <div className="preround">
+                <h3>
+                  Preround :
+                  {eventObject.preroundtitle
+                    ? ` (${eventObject.preroundtitle})`
+                    : ""}
+                </h3>
+                {eventObject?.preroundlevel2 && <h4>Level 1 :</h4>}
+                <ol>
+                  {splitpreround.map((each) => {
+                    return <li>{each}</li>;
+                  })}
+                </ol>
+                {eventObject?.preroundlevel2 && (
+                  <>
+                    <h4>Level 2 :</h4>
+                    <ol>
+                      {splitpreroundlevel2.map((each) => {
+                        return <li>{each}</li>;
+                      })}
+                    </ol>
+                  </>
+                )}
+              </div>
+            ) : null}
+
             {eventObject.round1 ? (
               <div className="round1">
                 <h3>
