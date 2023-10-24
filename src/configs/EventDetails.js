@@ -104,7 +104,7 @@ export const EventDetails = [
           {
             name: "Harini G",
             year: "III",
-            phone: 89176780818,
+            phone: 9176780818,
             email: "harinig025@gmail.com",
           },
         ],
@@ -125,7 +125,7 @@ export const EventDetails = [
         round2title:"Demotiff",
         round2:" Routes or patterns will be drawn.  The participants have to trace the track, and complete the task within the given duration of time. Whoever completes the task efficiently and with less duration, will be given high points. Total Points - 10 ",
         round3title:"Dracarys the Ruler ",
-        round3:"  The final round is to showcase their uniqueness and their talent.  The participants have to perform any task, or show their innovation, creativity with their drones. The participants have to gather the audience’s attention. Based on which the points will be provided. Points - 10 . Total - 30  ",
+        round3:"  The final round is to showcase their uniqueness and their talent.  The participants have to perform any task, or show their innovation, creativity with their drones. The participants have to gather the audience’s attention. Based on which the points will be provided ",
     
         staff: [
           {
@@ -165,7 +165,7 @@ export const EventDetails = [
       {
         name: "EMBRACE\nTHE\nUNKNOWN", 
         date: "03 Nov 2023(FN)",
-        type: "Team",
+        type: "DUO",
         venue: "CSE GF Seminar hall",
         time: "Forenoon",
         members: "2",
@@ -405,13 +405,13 @@ export const EventDetails = [
           venue: "CSE 1F LH 01 ",
           list: true,
           topic:
-            "Fundamentals of Software Development.Knowledge of IT Operations.Security Awareness.Container and Kubernetes ",
+            "Understanding Cybersecurity. Significance and Real-world Examples .  Self-Defense Strategies. Application Security.Live Hacking Demo             ",
           resource: [
             {
-              name: "Mr. Praveen Kumar V",
-              desig: "Source Code Reviewer",
-              phone: 6379346410,
-              email: "Praveenkumarvelu190@gmail.com",
+              name: "Mr. Sanjay Kumar D S",
+              desig: "Cybersecurity Analyst and Ethical Hacker",
+              phone: 6382459254,
+              // email: "",
             },
           ],
           staff: [
@@ -456,7 +456,7 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
         company: "Synopsys Pvt Ltd",
-        link: "",
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSd1nx3KZvYz2JOJe_8M71EI5XmX6YTYjmopnkeZlXoTV6AjGw/viewform",
         day1: {
           date: "30.10.2023 ",
           time: "9:00 -3.00pm",
@@ -2887,6 +2887,104 @@ export const EventDetails = [
       
     ],
     workshopslist: [
+     
+      {
+        name: " Hands on Mobile App Development ",
+        logo: "/EventsAssets/aimw2.webp",
+        tag: "WORKSHOP",
+        color: "0, 70, 90",
+         company:"IVY Mobility",
+         venue:"ML LAB",
+        link: "https://forms.gle/CPQoCbMPAV98eZQa7",
+        day1: {
+          date: "27.10.2023 ",
+          time: "9.00-3.00",
+          mode: "OFFLINE",
+          venue: "TBA",
+          topic: "Introduction to Mobile App Development .Android Environment Setup and Architecture .Creating Your First Android App ",
+          resource: [
+            {
+              name: "Mr V.Murugan MCA.,MBA. ",
+              desig: "Technical Architect ",
+              phone: 9566138799 ,
+              email: "MuruganMnc@gmail.com  ",
+            },
+          ],
+          staff: [
+              
+            {
+              name: "Dr.Aswini Jayaraman ",
+              desig: " Professor",
+              phone: 9380977888,
+              email: "aswinij@saveetha.ac.in  ",
+            },
+          ],
+          student: [
+            {
+              name: "Mr.JEEVA ABISHAKE A  ",
+              year: "III",
+              phone: 8056663183 ,
+              email: "Jeeva abishake@gmail.com  ",
+            },
+            {
+              name: "Mr.AAKASH S  ",
+              year: "III",
+              phone: 6383960184 ,
+              email: "Aakash Akshith455@gmail .com ",
+            },
+            {
+              name: "Mrs.Kothai K ",
+              year: "II",
+              phone: 9176977202  ,
+              email: "Kothai.dks@ gmail.com ",
+            },
+          ],
+        },
+        day2: {
+          date: "28.10.2023 ",
+          time: "9.00-3.00",
+          mode: "OFFLINE",
+          venue: "ML LAB",
+          topic: "Android User Interface (UI) Layouts and Control.Designing simple application.Debugging and Deployment ",
+          resource: [
+            {
+              name: "Mr V.Murugan MCA.,MBA. ",
+              desig: "Technical Architect ",
+              phone: 9566138799 ,
+              email: "MuruganMnc@gmail.com  ",
+            },
+          ],
+          staff: [
+              
+            {
+              name: "Dr.Aswini Jayaraman ",
+              desig: " Professor",
+              phone: 9380977888,
+              email: "aswinij@saveetha.ac.in  ",
+            },
+          ],
+          student: [
+            {
+              name: "Mr.JEEVA ABISHAKE A  ",
+              year: "III",
+              phone: 8056663183 ,
+              email: "Jeeva abishake@gmail.com  ",
+            },
+            {
+              name: "Mr.AAKASH S  ",
+              year: "III",
+              phone: 6383960184 ,
+              email: "Aakash Akshith455@gmail .com ",
+            },
+            {
+              name: "Mrs.Kothai K ",
+              year: "II",
+              phone: 9176977202  ,
+              email: "Kothai.dks@ gmail.com ",
+            },
+          ],
+        },
+      },
       {
         name: "NLP Transformers to classify Text ",
         // logo: "/EventsAssets/aimw3.webp",
@@ -2898,7 +2996,7 @@ export const EventDetails = [
           date: "28.10.2023 ",
           time: "9.00-3.00pm",
           mode: "OFFLINE",
-          venue: "TBA",
+          venue: "STLC LAB",
           topic:
             "Evolution of NLP - Theory session .We will concentrate like how NLP has evolved over the years .Solving Text Classification with Transformers - Hands on session ",
           resource: [
@@ -2952,102 +3050,6 @@ export const EventDetails = [
         },
       },
       {
-        name: " Hands on Mobile App Development ",
-        logo: "/EventsAssets/aimw2.webp",
-        tag: "WORKSHOP",
-        color: "0, 70, 90",
-         company:"IVY Mobility",
-        link: "https://forms.gle/CPQoCbMPAV98eZQa7",
-        day1: {
-          date: "27.10.2023 ",
-          time: "9.00-3.00",
-          mode: "OFFLINE",
-          venue: "TBA",
-          topic: "Introduction to Mobile App Development .Android Environment Setup and Architecture .Creating Your First Android App ",
-          resource: [
-            {
-              name: "Mr V.Murugan MCA.,MBA. ",
-              desig: "Technical Architect ",
-              phone: 9566138799 ,
-              email: "MuruganMnc@gmail.com  ",
-            },
-          ],
-          staff: [
-              
-            {
-              name: "Dr.Aswini Jayaraman ",
-              desig: " Professor",
-              phone: 9380977888,
-              email: "aswinij@saveetha.ac.in  ",
-            },
-          ],
-          student: [
-            {
-              name: "Mr.JEEVA ABISHAKE A  ",
-              year: "III",
-              phone: 8056663183 ,
-              email: "Jeeva abishake@gmail.com  ",
-            },
-            {
-              name: "Mr.AAKASH S  ",
-              year: "III",
-              phone: 6383960184 ,
-              email: "Aakash Akshith455@gmail .com ",
-            },
-            {
-              name: "Mrs.Kothai K ",
-              year: "II",
-              phone: 9176977202  ,
-              email: "Kothai.dks@ gmail.com ",
-            },
-          ],
-        },
-        day2: {
-          date: "28.10.2023 ",
-          time: "9.00-3.00",
-          mode: "OFFLINE",
-          venue: "TBA",
-          topic: "Android User Interface (UI) Layouts and Control.Designing simple application.Debugging and Deployment ",
-          resource: [
-            {
-              name: "Mr V.Murugan MCA.,MBA. ",
-              desig: "Technical Architect ",
-              phone: 9566138799 ,
-              email: "MuruganMnc@gmail.com  ",
-            },
-          ],
-          staff: [
-              
-            {
-              name: "Dr.Aswini Jayaraman ",
-              desig: " Professor",
-              phone: 9380977888,
-              email: "aswinij@saveetha.ac.in  ",
-            },
-          ],
-          student: [
-            {
-              name: "Mr.JEEVA ABISHAKE A  ",
-              year: "III",
-              phone: 8056663183 ,
-              email: "Jeeva abishake@gmail.com  ",
-            },
-            {
-              name: "Mr.AAKASH S  ",
-              year: "III",
-              phone: 6383960184 ,
-              email: "Aakash Akshith455@gmail .com ",
-            },
-            {
-              name: "Mrs.Kothai K ",
-              year: "II",
-              phone: 9176977202  ,
-              email: "Kothai.dks@ gmail.com ",
-            },
-          ],
-        },
-      },
-      {
         name: "Introduction to Mobile Robotics",
         logo: "/EventsAssets/aiMw3.webp",
         tag: "WORKSHOP",
@@ -3058,7 +3060,7 @@ export const EventDetails = [
           date: "31.10.2023",
           time: "9.00am-3.00pm",
           mode: "OFFLINE",
-          venue: "TBA",
+          venue: "STLC LAB",
           topic:
             "Session 1: Basics of Robotics .Session 2: Microcontrollers and Microprocessors . Session 3: Hands-on Robotics .  Session 4: Real-world Applications  ",
           resource: [
@@ -3108,8 +3110,8 @@ export const EventDetails = [
     eventslist: [
       {
         name: "TechGpres",
-        date: "02 Nov 2023",
-        venue: " Admin 4F OW LH3",
+        date: "02 Nov 2023(FN)",
+        venue: "Admin 4th Floor OW LH3",
         time: "1pm-3pm",
         members: "2",
         // rules: "",
@@ -3142,56 +3144,12 @@ export const EventDetails = [
           },
         ],
       },
-      {
-        name: "The Case",
-        date: "02 Nov 2023",
-        venue: "Admin 4F OW LH5",
-        type:"Team",
-        time: "8am-12pm",
-        members: "3",
-        // rules: "",
-        round1:
-          "A team of 3. A medical case along with a field of forensic and patrol investigation will be assigned to each team. The case can even be a part of a real incident or the incident as a whole. The overall concept is to make the event a thrilled and route turning experience for all. The teams are expected to solve the case certainly and accurately. All participants would be awarded with tiny, cute compliments. Registration fee ",
-        round2:
-          " After completion of the first round, there will be a analysis type of round will happen. The teams that excel in this round will be pushed onto the third/final round (based on the count of the participants)",
-        round3:
-          "The winner and two runnerups will be chosen for compliments from our college ",  
-        tag: "EVENT",
-        color: "0, 1, 38",
-        logo: "/EventsAssets/bme3.webp",
-        staff: [
-          {
-            name: "Dr. Kishore Mohan",
-            desig: "Assistant Professor",
-            phone: 7010755452,
-          },
-        ],
-        student: [
-          {
-            name: "Abirami",
-            year: "IV",
-            phone: 7604879212,
-            email: "abiramibasudevan57@gmail.com",
-          },
-          {
-            name: "Adithya SR",
-            year: "IV",
-            phone: 9176156222,
-            email: "adiithyasr@gmail.com",
-          },
-          {
-            name: "Charumathi",
-            year: "IV",
-            phone: 9952091585,
-            email: "charulakshu@gmail.com",
-          },
-        ],
-      },
+      
       {
         name: "Brainy escapes",
-        date: "TBA",
+        date: "02 Nov 2023(AN)",
         type: "Team",
-        venue: "Admin 4F DTE LAB",
+        venue: "DTE LAB ADMIN 4TH FLOOR",
         time: "8am-12pm",
         members: "3",
         // rules: "",
@@ -3239,10 +3197,144 @@ export const EventDetails = [
           },
         ],
       },
-  
+      {
+        name: "The Case",
+        date: "03 Nov 2023(FN)",
+        venue: "Admin 4th floor  OW LH5 ",
+        type:"Team",
+        time: "8am-12pm",
+        members: "3",
+        // rules: "",
+        round1:
+          "A team of 3. A medical case along with a field of forensic and patrol investigation will be assigned to each team. The case can even be a part of a real incident or the incident as a whole. The overall concept is to make the event a thrilled and route turning experience for all. The teams are expected to solve the case certainly and accurately. All participants would be awarded with tiny, cute compliments. Registration fee ",
+        round2:
+          " After completion of the first round, there will be a analysis type of round will happen. The teams that excel in this round will be pushed onto the third/final round (based on the count of the participants)",
+        round3:
+          "The winner and two runnerups will be chosen for compliments from our college ",  
+        tag: "EVENT",
+        color: "0, 1, 38",
+        logo: "/EventsAssets/bme3.webp",
+        staff: [
+          {
+            name: "Dr. Kishore Mohan",
+            desig: "Assistant Professor",
+            phone: 7010755452,
+          },
+        ],
+        student: [
+          {
+            name: "Abirami",
+            year: "IV",
+            phone: 7604879212,
+            email: "abiramibasudevan57@gmail.com",
+          },
+          {
+            name: "Adithya SR",
+            year: "IV",
+            phone: 9176156222,
+            email: "adiithyasr@gmail.com",
+          },
+          {
+            name: "Charumathi",
+            year: "IV",
+            phone: 9952091585,
+            email: "charulakshu@gmail.com",
+          },
+        ],
+      },
       
     ],
     workshopslist: [
+    
+      {
+        name: "Critical care Equipments Hands on Training",
+        logo: "/EventsAssets/bmew2.webp",
+        tag: "WORKSHOP",
+        color: "0, 70, 90",
+        // company: "  ",
+  
+        link: "https://forms.gle/XCqNnJ7mi4VBSqeG6 ",
+        day1: {
+          date: "26/10/2023",
+          time: "8am-3pm",
+          mode: "OFFLINE",
+          venue: "CSE GF LH-2 ",
+          topic:
+            "This workshop covers Automated Manufacturing testing, product design validation, control and monitoring of industrial equipment in a system, and the most recent developments of medical equipment using LabVIEW.",
+          resource: [
+            {
+              name: "Mr. Vinoth",
+            },
+          ],
+          staff: [
+            {
+              name: "Dr.S.Sivanandam",
+              desig: "Professor",
+              phone: 9789010142,
+            },
+          ],
+          student: [
+            {
+              name: "Krithy Shresta ",
+              year: "IV",
+              phone: 6383272418,
+              email: "Prathibashresta1802@gmail.com",
+            },
+            {
+              name: "Kathir P",
+              year: "IV",
+              phone: 6369038243,
+              email: "kathirparamasivan@gmail.com",
+            },
+            {
+              name: "Madhitha V",
+              year: "III",
+              phone: 9345109250,
+              email: "madhithamalar@gmail.com",
+            },
+          ],
+        },
+        day2: {
+          date: "27/10/2023",
+          time: "8am-3pm",
+          mode: "OFFLINE",
+          venue: "CSE GF LH-2 ",
+          topic:
+            "This workshop covers Automated Manufacturing testing, product design validation, control and monitoring of industrial equipment in a system, and the most recent developments of medical equipment using LabVIEW.",
+          resource: [
+            {
+              name: "Mr. Vinoth",
+            },
+          ],
+          staff: [
+            {
+              name: "Dr.S.Sivanandam",
+              desig: "Professor",
+              phone: 9789010142,
+            },
+          ],
+          student: [
+            {
+              name: "Krithy Shresta ",
+              year: "IV",
+              phone: 6383272418,
+              email: "Prathibashresta1802@gmail.com",
+            },
+            {
+              name: "Kathir P",
+              year: "IV",
+              phone: 6369038243,
+              email: "kathirparamasivan@gmail.com",
+            },
+            {
+              name: "Madhitha V",
+              year: "III",
+              phone: 9345109250,
+              email: "madhithamalar@gmail.com",
+            },
+          ],
+        },
+      },
       {
         name: "SMD - PCB prototyping (hands on training)",
         logo: "EventsAssets/bmew1.webp",
@@ -3319,55 +3411,6 @@ export const EventDetails = [
               year: "IV",
               phone: 8939637559,
               email: "chethanchowdarybs@gmail.com",
-            },
-          ],
-        },
-      },
-      {
-        name: "Critical care Equipments Hands on Training",
-        logo: "/EventsAssets/bmew2.webp",
-        tag: "WORKSHOP",
-        color: "0, 70, 90",
-        // company: "  ",
-  
-        link: "https://forms.gle/XCqNnJ7mi4VBSqeG6 ",
-        day1: {
-          date: "26/10/2023",
-          time: "8am-3pm",
-          mode: "OFFLINE",
-          venue: "CSE GF LH-2 ",
-          topic:
-            "This workshop covers Automated Manufacturing testing, product design validation, control and monitoring of industrial equipment in a system, and the most recent developments of medical equipment using LabVIEW.",
-          resource: [
-            {
-              name: "Mr. Vinoth",
-            },
-          ],
-          staff: [
-            {
-              name: "Dr.S.Sivanandam",
-              desig: "Professor",
-              phone: 9789010142,
-            },
-          ],
-          student: [
-            {
-              name: "Krithy Shresta ",
-              year: "IV",
-              phone: 6383272418,
-              email: "Prathibashresta1802@gmail.com",
-            },
-            {
-              name: "Kathir P",
-              year: "IV",
-              phone: 6369038243,
-              email: "kathirparamasivan@gmail.com",
-            },
-            {
-              name: "Madhitha V",
-              year: "III",
-              phone: 9345109250,
-              email: "madhithamalar@gmail.com",
             },
           ],
         },
@@ -4943,10 +4986,10 @@ export const EventDetails = [
       },
       {
         name: " Business Quiz",
-        date: "02 Nov 2023(AN)",
+        date: "03 Nov 2023(FN)",
         type: "Team",
         venue: "Admin 3F IW LH1",
-        time: "2:00 pm to 04:00 pm",
+        time: "8.00 am to 11:00 am",
         members: "1-3",
         rules:
           "A team contains maximum of 3 members.Mobile phone will be prohibited during the eventIn case of using mobile phone during the event the team will be disqualified.Judges decision will be the Final.Each round have a set of questions, Quiz will have questions related to the world of business.Question will be selected by team based on lot number.Time limit for each round will be explained before the competition.Quiz Format preliems have 1 round main's have 4 rounds.Further information will be informed before the competition",
