@@ -493,9 +493,11 @@ const Form = () => {
       name: "MBA",
       events: [
         "Adzap",
+        "Best Manager",
+        "Best Selling Pitch",
         "Business Quiz",
-        "FUTURE MANAGER",
-        "Imagine Through Lens",
+        "Case Study",
+        "Just a Minute(JAM)",
       ],
     },
    

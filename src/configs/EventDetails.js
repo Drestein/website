@@ -4363,7 +4363,7 @@ export const EventDetails = [
         name: "MR. LATHE",
         date: "02 Nov 2023(FN)",
         type: "Solo",
-        venue: " ",
+        venue: "RECTANGULAR block ",
         time: "9:00 AM TO 12:00 PM",
         members: "2",
         rules: "All must wear safety shoe and college ID card is must",
@@ -4418,7 +4418,7 @@ export const EventDetails = [
         name: "FUSION ARTIST ",
         date: "02 Nov 2023(AN)",
         type: "SOLO",
-        venue: " ",
+        venue: "RECTANGULAR block ",
         time: "1:00 PM TO 3:00 PM",
         members: "1-2",
         rules: "ALL MUST BRING YOUR OWN LAPTOP WITH FUSION 360 INSTALLED ",
@@ -4471,7 +4471,7 @@ export const EventDetails = [
         name: "PNEULINK ",
         date: "03 Nov 2023(FN)",
         type: "Team",
-        venue: "TBA",
+        venue: "RECTANGULAR block",
         time: "9:00 AM TO 12:00PM",
         members: "min 2 person per team",
         round1:
@@ -4526,6 +4526,7 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
         company: "THINK BIG",
+        venue:"RECTANGULAR block",
         link: " https://docs.google.com/forms/d/e/1FAIpQLSeHCybuLQ03SWuWwRKETpcYnXfnPWvwsZz62OCfS57WhuaXTw/viewform?usp=sf_link",
         day1: {
           date: "25.10.2023",
@@ -4641,6 +4642,7 @@ export const EventDetails = [
         logo: "/EventsAssets/mechw2.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
+        venue:"RECTANGULAR block",
         link: "https://docs.google.com/forms/d/e/1FAIpQLSeI_8QwQgRcO7IcC_GI2w-iIeyQU0Pl-vE6L1-1IUiHq-m5vw/viewform",
         day1: {
           mode: "offline",
