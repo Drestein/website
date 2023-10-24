@@ -233,7 +233,7 @@ export const EventDetails = [
           date: "25.10.2023(FN & AN)",
           time: "9:00 - 3:00pm",
           mode: "OFFLINE",
-          venue: "CSE 5F kalam hall  ",
+          venue: "CSE 5F kalam hall",
           list: true,
           topic: "Overview of DevSecOps. Dev - Building reliable products (Hands on Workshop). SecOps - Enabling for Secure Product operations",
           resource: [
@@ -463,13 +463,14 @@ export const EventDetails = [
           mode: "OFFLINE",
           venue: "CSE GF LH 02 ",
           list: true,
-          topic:
-            "Understanding Cybersecurity.\nSignificance and Real-world Examples.\nSelf-Defense Strategies.\nApplication Security.\nLive Hacking Demo ",
+          note:
+            " Fundamentals of Software Development. Knowledge of IT Operations.Security Awareness.Container and Kubernetes",
           resource: [
             {
-              name: "Mr. Sanjay Kumar D S",
-              desig: "Cybersecurity Analyst and Ethical Hacker",
-              phone: 6382459254,
+              name: "Mr. Praveen Kumar V",
+              desig: "Source Code Reviewer",
+              phone: 6379346410,
+              email:"Praveenkumarvelu190@gmail.com",
             },
           ],
           staff: [
@@ -577,7 +578,7 @@ export const EventDetails = [
             {
               name: "Dr.M.Prakash",
               desig: "Associate Professor",
-              phone: " ",
+              
             },
           ],
           staff: [
@@ -1077,7 +1078,7 @@ export const EventDetails = [
         // tagline: "Code Treasure Hunt",
         date: "02 Nov 2023(FN)",
         type: "Team 2-3",
-        venue: "TBA",
+        venue: " CSE 3F LH1 and LH2",
         time: "8am-12pm",
         members: "2-3",
         // rules: "",
@@ -1133,7 +1134,7 @@ export const EventDetails = [
         // tagline: "UI design",
         date: "02 Nov 2023(AN)",
         type: "DUO",
-        venue: "TBA",
+        venue: " CSE 3F LH1 and LH2",
         time: "12pm-3pm",
         members: "2 members",
         rules: "",
@@ -1186,7 +1187,7 @@ export const EventDetails = [
         // tagline: "Blind Coding",
         date: "03 Nov 2023(FN)",
         type: "2",
-        venue: "",
+        venue: " CSE 3F LH1 and LH2",
         time: "8am-12pm",
         members: "2",
         rules: "",
@@ -1237,7 +1238,7 @@ export const EventDetails = [
         // desc: "Ideathon",
         date: "03 Nov 2023(FN)",
         type: "Trio",
-        venue: "TBA",
+        venue: " CSE 3F LH1 and LH2",
         time: "8.00AM-12.00PM",
 
         members: "3 members",
@@ -1294,7 +1295,7 @@ export const EventDetails = [
           date: "26/10/2023",
           time: "8AM-3PM",
           mode: "OFFLINE",
-          venue: "CSE GF Seminar Hall LH 02",
+          venue: " CSE 3F LH1 and LH2",
           topic:"Basic JavaScript for React Js, CSS Library – Bootstrap ,React Life Cycle, React, Hooks. ",
           resource: [
             {
@@ -1337,7 +1338,7 @@ export const EventDetails = [
           date: "27/10/2023",
           time: "8AM-3PM",
           mode: "OFFLINE",
-          venue: "TBA",
+          venue: " CSE 3F LH1 and LH2",
           topic:"React Router, Redux, API Handling, Debugging React  ",
           resource: [
             {
@@ -1388,7 +1389,7 @@ export const EventDetails = [
           date: "28/10/2023",
           time: "9AM-3PM",
           mode: "OFFLINE",
-          venue: "",
+          venue: " CSE 3F LH1 and LH2",
           topic:"Financial Literacy for College Students:  Learn How to Budget, Save, and Invest Like a Pro ",
           resource: [
             {
@@ -1459,7 +1460,7 @@ export const EventDetails = [
           time: "8AM-3PM",
           mode: "OFFLINE",
           topic:"Latest Trends in CyberSecurity. Introduction. Who we are . Hacking History - how it all begins . Why do we Require Ethical Hackers . Types of Hackers ",
-          venue: "",
+          venue:"CSE 3F LH1 and LH2",
           resource: [
             {
               name: "Mr.Vasanth ",
@@ -1508,7 +1509,7 @@ export const EventDetails = [
           time: "8AM-3PM",
           mode: "OFFLINE",
           topic:"Scopes of Hacking. What are all compliance standards . OWASP 10 Vulnerability. Demos with real-time examples. Hands-on experience ",
-          venue: "TBA",
+          venue: "CSE 3F LH1 and LH2",
           resource: [
             {
               name: "Mr.Vasanth ",
