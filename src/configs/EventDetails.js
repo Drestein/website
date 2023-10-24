@@ -3148,7 +3148,7 @@ export const EventDetails = [
       
       {
         name: "Brainy escapes",
-        date: "02 Nov 2023(AN)",
+        date: "02 Nov 2023(FN)",
         type: "Team",
         venue: "DTE LAB ADMIN 4TH FLOOR",
         time: "8am-12pm",
@@ -3819,7 +3819,7 @@ export const EventDetails = [
       {
         name: "MAVERICK",
         tagline:"Maverick Minds, Chemical Discoveries.",
-        date: "02 Nov 2023",
+        date: "02 Nov 2023(FN)",
         venue: "RB 3F LH5 ",
         time: "Forenoon",
         members: "2",
@@ -3862,7 +3862,7 @@ export const EventDetails = [
       {
         name: "Hustle Hour",
         tagline:"Hustle First Conquer Next",
-        date: "02 Nov 2023",
+        date: "02 Nov 2023(AN)",
         type: "Team",
         venue: "RB 3F LH 15 ",
         time: "Afternoon",
@@ -3905,7 +3905,7 @@ export const EventDetails = [
       {
         name: "Venzer O Ratsel",
         tagline:"Quest for clues",
-        date: "03 Nov 2023",
+        date: "03 Nov 2023(FN)",
         venue: "TBA ",
         type:"Team",
         time: "Forenoon",
@@ -3949,7 +3949,7 @@ export const EventDetails = [
       {
         name: "Clash Of Chemland",
         tagline:"Chemthings",
-        date: "02 Nov 2023",
+        date: "02 Nov 2023(FN)",
         venue: "RB 3F LH8",
         type:"Team",
         time: "Forenoon",
@@ -4086,7 +4086,7 @@ export const EventDetails = [
           ],
         },
         day3: {
-          date: "1/11/2023",
+          date: "01/11/2023",
           time: "9:00am - 3.00pm",
           mode: "OFFLINE",
           venue: " ",
@@ -4573,7 +4573,7 @@ export const EventDetails = [
         venue:"RECTANGULAR block",
         link: " https://docs.google.com/forms/d/e/1FAIpQLSeHCybuLQ03SWuWwRKETpcYnXfnPWvwsZz62OCfS57WhuaXTw/viewform?usp=sf_link",
         day1: {
-          date: "25.10.2023",
+          date: "30.10.2023",
           mode: "offline",
           time: "9:00AM TO 3:00PM",
           topic:" FN-Principles Of Flights, Flying Procedures, Stake Holders and their laws. AN-RotorCraft Operation and aerodynamics, Equipment maintenance. *ALL MUST BRING YOUR OWN LAPTOP",
@@ -4627,7 +4627,7 @@ export const EventDetails = [
           ],
         },
         day2: {
-          date: "26.10.2023",
+          date: "31.10.2023",
           mode: "offline",
           time: "9:00AM TO 3:00PM",
           topic:" FN-Principles Of Flights, Flying Procedures, Stake Holders and their laws. AN-RotorCraft Operation and aerodynamics, Equipment maintenance. *ALL MUST BRING YOUR OWN LAPTOP",
@@ -5516,9 +5516,9 @@ export const EventDetails = [
     eventslist: [
       {
         name: "Circuit Cruiser ",
-         date: "02 Nov 2023",
+         date: "02 Nov 2023(FN)",
         venue: " ECE GF LH1",
-        time: "9.00AM - 1.00PM",
+        time: "9.00am - 1.00pm",
         members: "2",
         rules: " A team can have a maximum of 2 members",
         round1title:"Circuit Tracing	",
@@ -5572,7 +5572,7 @@ export const EventDetails = [
 
       {
         name: "FUNTRONICS ",
-        date: "02 Nov 2023(PM)",
+        date: "02 Nov 2023(AN))",
         type: "Team",
         venue: " ECE GF LH2",
         time: "Afternoon",
@@ -5633,7 +5633,7 @@ export const EventDetails = [
       {
         name: "Rover Rally ",
         tagline:"Bot event",
-        date: "02 Nov 2023(AM)",
+        date: "02 Nov 2023(FN)",
         venue: "ECE third floor tele communication lab ",
         type:"Team",
         time: "Forenoon",
@@ -5745,7 +5745,7 @@ export const EventDetails = [
       {
         name: "Silicon Smackdown ",
         // tagline:"Chemthings",
-        date: "03 Nov 2023(AM)",
+        date: "03 Nov 2023(FN)",
         venue: "ECE GF LH2",
         type:"Team",
         time: "Forenoon",
@@ -5815,7 +5815,7 @@ export const EventDetails = [
         link: "https://forms.gle/cSmjSPii3pibWvEu7",
         day1: {
           date: "25/10/23",
-          time: "FN AND AN",
+          time: "FULL DAY",
           mode: "Hybrid",
           venue: "TBA",
     
@@ -5859,7 +5859,7 @@ export const EventDetails = [
         },
         day2: {
           date: "26/10/23",
-          time: "FN AND AN",
+          time: "FULL DAY",
           mode: "Hybrid",
           venue: "ECE III Floor Microprocessor lab",
     
@@ -5914,7 +5914,7 @@ export const EventDetails = [
         link: "https://forms.gle/ocbCaV91wxDqmPad8",
         day1: {
           date: "25/10/23",
-          time: "FN AND AN",
+          time: "FULL DAY",
           mode: "Hybrid",
           venue: "TBA",
     
@@ -5958,7 +5958,7 @@ export const EventDetails = [
         },
         day2: {
           date: "26/10/23",
-          time: "FN AND AN",
+          time: "FULL DAY",
           mode: "Hybrid",
           venue: "ECE III floor Networks lab",
     
@@ -6013,7 +6013,7 @@ export const EventDetails = [
         link: "https://forms.gle/NxxK2nYx1heZhCAR6",
         day1: {
           date: "30/10/23",
-          time: "FN & AN",
+          time: "FULL DAY",
           mode: "Hybrid",
           venue: "TBA",
           list: "true",
@@ -6058,7 +6058,7 @@ export const EventDetails = [
         },
         day2: {
           date: "31/10/23",
-          time: "FN & AN",
+          time: "FULL DAY",
           mode: "Hybrid",
           venue: "ECE III floor Networks lab",
           list: "true",
@@ -6114,7 +6114,7 @@ export const EventDetails = [
         link: "https://forms.gle/eJwD3xKuqUE9GSPF8",
         day1: {
           date: "30/10/23",
-          time: "FN & AN",
+          time: "FULL DAY",
           list: "true",
           topic:
             "Session 1: Overview on PCB Design and Prototyping - Presentation.\n Session 2: PCB circuit simulation using Orcad ",
@@ -6162,7 +6162,7 @@ export const EventDetails = [
         },
         day2: {
           date: "31/10/23",
-          time: "FN & AN",
+          time: "FULL DAY",
           list: "true",
           topic:
             "Session 3: Manual Prototyping of the PCB Design - Hands-on.\n Session 4: Soldering and testing the circuit in Lab environment ",
@@ -6210,7 +6210,7 @@ export const EventDetails = [
         },
         day3: {
           date: "31/10/23",
-          time: "FN & AN",
+          time: "FULL DAY",
           list: "true",
           resource: [
             {
@@ -6266,7 +6266,7 @@ export const EventDetails = [
         link: "https://forms.gle/2EFB6R98ceFGp9fk6",
         day1: {
           date: "30/10/23",
-          time: "FN AND AN",
+          time: "FULL DAY",
           mode: "Offline",
           venue: "TBA",
     
@@ -6313,7 +6313,7 @@ export const EventDetails = [
         },
         day2: {
           date: "31/10/23",
-          time: "FN AND AN",
+          time: "FULL DAY",
           mode: "Offline",
           venue: "TBA",
     
@@ -6372,7 +6372,7 @@ export const EventDetails = [
         link: "https://forms.gle/9XERHJCQf7dmQcs5A",
         day1: {
           date: "30/10/23",
-          time: "FN AND AN",
+          time: "FULL DAY",
           mode: "Offline",
           venue: "ECE GF Seminar hall LHI ",
     
@@ -6416,7 +6416,7 @@ export const EventDetails = [
         },
         day2: {
           date: "31/10/23",
-          time: "FN AND AN",
+          time: "FULL DAY",
           mode: "Offline",
           venue: "ECE GF Seminar hall LHI ",
     
@@ -6471,7 +6471,7 @@ export const EventDetails = [
         link: "https://forms.gle/4zAANomeJEGBdGbH6",
         day1: {
           date: "30/10/23",
-          time: "FN AND AN",
+          time: "FULL DAY",
           mode: "Offline",
           venue: "ECE I Floor OW LH1",
     
@@ -6515,7 +6515,7 @@ export const EventDetails = [
         },
         day2: {
           date: "31/10/23",
-          time: "FN AND AN",
+          time: "FULL DAY",
           mode: "Offline",
           venue: "ECE I Floor OW LH1",
     
@@ -6571,7 +6571,7 @@ export const EventDetails = [
         link: "https://forms.gle/gg4ecaRqfK7fCrwg6",
         day1: {
           date: "27/10/23",
-          time: "FN & AN",
+          time: "FULL DAY",
           mode: "Offline",
           venue: "ECE II floor  Microprocessor  and DSP  lab  ",
           list: "true",
@@ -6620,7 +6620,7 @@ export const EventDetails = [
         },
         day2: {
           date: "28/10/23",
-          time: "FN & AN",
+          time: "FULL DAY",
           mode: "Offline",
           venue: "ECE II floor  Microprocessor  and DSP  lab  ",
           list: "true",
@@ -6681,7 +6681,7 @@ export const EventDetails = [
         link: "https://forms.gle/U7W74gNJ6H6zSbgH6",
         day1: {
           date: "28/10/23",
-          time: "FN & AN",
+          time: "FULL DAY",
           list: "true",
           topic:
             "Session 1: Introduction. \nSession 2 : Hands on TinkerCAD Tool ",
@@ -7186,7 +7186,7 @@ export const EventDetails = [
               email: "kanchana@saveetha.ac.in",
             },
             {
-              name: "Mrs.Hemalatha",
+              name: "Dr.R.Hemalatha",
               desig: "Associate Professor",
               phone: 8870186912,
               email: "hemalathar@saveetha.ac.in",
@@ -7353,7 +7353,7 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
 
-        link: "https://forms.gle/JiCxAFFzpHkJfBur6 ",
+        link:"https://forms.gle/2AQ4sh8rnB55AE2a6",
         day1: {
           date: "30/10/2023",
           time: "TBA",
