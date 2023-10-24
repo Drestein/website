@@ -7,7 +7,7 @@ export const EventDetails = [
         name: "PROMPT CRAFT",
         date: "02 Nov 2023(FN)",
         type: "Solo",
-        venue: "",
+        venue: "Blockchain lab",
         time: "FORENOON",
         round1title: "Cipher Seek",
         round1: "Participants must provide the most suitable prompt to the AI to obtain a secret password. Each level contains one password to be found by the participant. Participants have a time limit of 10 minutes to clear the round. To proceed to the second round, a participant must successfully clear 5 out of the 6 levels. The first round consists of 6 levels, and participants will be shortlisted for the second round based on their performance ",
@@ -58,7 +58,7 @@ export const EventDetails = [
         tagline:" Unmask the Truth",
         date: "02 Nov 2023(AN)",
         type: "Duo",
-        venue: " ",
+        venue: "CSE GF Seminar hall ",
         time: "Afterenoon",
         members: "1-2",
         rules: "",
@@ -113,7 +113,7 @@ export const EventDetails = [
         name: "DRONE THE DRACARYS",
         date: "03 Nov 2023(FN)",
         type: "Team",
-        venue: " ",
+        venue: "Outdoor ",
         time: "Forenoon",
         members: "1-3",
         tag: "EVENT",
@@ -163,10 +163,10 @@ export const EventDetails = [
         ],
       },
       {
-        name: "EMBRACE\tTHE\tUNKNOWN", 
+        name: "EMBRACE\nTHE\nUNKNOWN", 
         date: "03 Nov 2023(FN)",
         type: "Team",
-        venue: "",
+        venue: "CSE GF Seminar hall",
         time: "Forenoon",
         members: "2",
         rules: "Participants should bring their own laptops. Participants can compete as a team of 2 ",
@@ -233,7 +233,7 @@ export const EventDetails = [
           date: "25.10.2023(FN & AN)",
           time: "9:00 - 3:00pm",
           mode: "OFFLINE",
-          venue: "TBA",
+          venue: "CSE 5F kalam hall  ",
           list: true,
           topic: "Overview of DevSecOps. Dev - Building reliable products (Hands on Workshop). SecOps - Enabling for Secure Product operations",
           resource: [
@@ -333,7 +333,7 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
         company: "Cognizant, Chennai",
-        link: "",
+        link: "block chain lab ",
         day1: {
           date: "27.10.2023",
           time: "9:00 -3.00pm",
@@ -402,7 +402,7 @@ export const EventDetails = [
           date: "27.10.2023 ",
           time: "9:00 -3.00pm",
           mode: "OFFLINE",
-          venue: "",
+          venue: "CSE 1F LH 01 ",
           list: true,
           topic:
             "Fundamentals of Software Development.Knowledge of IT Operations.Security Awareness.Container and Kubernetes ",
@@ -461,7 +461,7 @@ export const EventDetails = [
           date: "30.10.2023 ",
           time: "9:00 -3.00pm",
           mode: "OFFLINE",
-          venue: "",
+          venue: "CSE GF LH 02 ",
           list: true,
           topic:
             "Understanding Cybersecurity.\nSignificance and Real-world Examples.\nSelf-Defense Strategies.\nApplication Security.\nLive Hacking Demo ",
@@ -511,7 +511,7 @@ export const EventDetails = [
           date: "31.10.2023 ",
           time: "9:00 -3.00pm",
           mode: "OFFLINE",
-          venue: "",
+          venue: "CSE GF LH 02 ",
           list: true,
         topic:
             "Continuous Integration/Continuous Delivery (CI/CD).\nSecurity Tools.\nContainer and Kubernetes.\nCreate an entire pipeline locally (Hands-on).\nCreate an entire pipeline in the cloud (Hands-on) ",
@@ -569,7 +569,7 @@ export const EventDetails = [
           date: "31.10.2023 ",
           time: "9:00 -3.00pm",
           mode: "OFFLINE",
-          venue: "",
+          venue: "blockchain",
           list: true,
           topic:
             "Forenoon session: AI’s Role in Disease Diagonisation – Introduction.Convolutional Neural Networks (CNN) for medical image analysis- Hands on.Recurrent Neural Networks (RNN) for time series data-Hands on.Text classification and sentiment analysis.- Hands-on.Named Entity Recognition (NER) for clinical text – Hands –on.11 Critical Diseases Detection AI Strategies – Hands on. Afternoon Session: Overview of Best Medical AI Softwares Regulatory considerations and compliance (HIPAA, GDPR, etc).Case Study: Generative AI in healthcare – Hands on",
@@ -621,7 +621,7 @@ export const EventDetails = [
           date: "26.10.2023 ",
           time: "9:00am - 3.00pm",
           mode: "OFFLINE",
-          venue: "",
+          venue: "Admin 5F LH 2",
           list: true,
           topic:
             "Introduction to Language Models and Prompt Engineering Building Your First Language Model and Prompt Engineering",
@@ -671,7 +671,7 @@ export const EventDetails = [
           date: "27.10.2023 ",
           time: "9:00am - 3.00pm",
           mode: "OFFLINE",
-          venue: "",
+          venue: "Admin 5F LH 2",
           list: true,
           topic:
             "Applications of Language Models with Effective Prompt Engineering Advanced Techniques, Responsible AI, and Deploying Models with Custom Prompts ",
@@ -971,7 +971,7 @@ export const EventDetails = [
           date: "26.10.2023(FN & AN)",
           time: "9:00 - 3:00pm",
           mode: "OFFLINE",
-          venue: "",
+          venue: "EEE 5F IOT Lab",
           list: true,
           topic: `FN SESSION:  WEB DEVELOPMENT BASICS RECONNAISSANCE \nAN SESSION:  WEBSITE BRUTEFORCING\nSQL INJECTION\nRATE LIMITING`,
           resource: [
@@ -1024,7 +1024,7 @@ export const EventDetails = [
           date: "28.10.2023",
           time: "9:00 -3.00pm",
           mode: "OFFLINE",
-          venue: "",
+          venue: "EEE 5F IOT Lab",
           list: true,
           topic: "A Deep Dive into Fundamentals of IOT",
           resource: [
@@ -3776,7 +3776,7 @@ export const EventDetails = [
         name: "MAVERICK",
         tagline:"Maverick Minds, Chemical Discoveries.",
         date: "02 Nov 2023",
-        venue: " ",
+        venue: "RB 3F LH5 ",
         time: "Forenoon",
         members: "2",
         rules: "",
@@ -3820,7 +3820,7 @@ export const EventDetails = [
         tagline:"Hustle First Conquer Next",
         date: "02 Nov 2023",
         type: "Team",
-        venue: " ",
+        venue: "RB 3F LH 15 ",
         time: "Afternoon",
         members: "4",
         rules: "",
@@ -3906,7 +3906,7 @@ export const EventDetails = [
         name: "Clash Of Chemland",
         tagline:"Chemthings",
         date: "02 Nov 2023",
-        venue: " ",
+        venue: "RB 3F LH8",
         type:"Team",
         time: "Forenoon",
         members: "2",
@@ -3958,8 +3958,8 @@ export const EventDetails = [
           date: "30/10/2023",
           time: "9:00am - 3.00pm",
           mode: "OFFLINE",
-          venue: " ",
-          topic:"Session 1 - Biodiesel synthesis using Third Generation  algal biomass.Session 2 - Hands on Training in Lipid  extraction and transesterification process for Biodiesel Synthesis",
+          venue: "RB 3F CHEMICAL REACTION ENGINEERING LAB",
+          topic:"Session 1 - Biodiesel synthesis using Third Generation  algal biomass.\nSession 2 - Hands on Training in Lipid  extraction and transesterification process for Biodiesel Synthesis",
           resource: [
             {
               name: "Dr.S.Renganathan",
@@ -4002,8 +4002,8 @@ export const EventDetails = [
           date: "31/10/2023",
           time: "9:00am - 3.00pm",
           mode: "OFFLINE",
-          venue: " ",
-          topic:"Session 1  - Design of Experiments (DOE) using Design Expert software.Session 2 - Hands on Session in  DOE with Problem on biodiesel synthesis.",
+          venue: "RB 3F CHEMICAL REACTION ENGINEERING LAB ",
+          topic:"Session 1  - Design of Experiments (DOE) using Design Expert software.\nSession 2 - Hands on Session in  DOE with Problem on biodiesel synthesis",
           resource: [
             {
               name: "Dr.A.Balasubramanian",
@@ -4089,7 +4089,7 @@ export const EventDetails = [
         name: "Technarok",
         date: "02 Nov 2023(FN)",
         type: "Duo",
-        venue: "",
+        venue: "EEE OW PC Lab",
         time: "11:00AM-1:00PM",
         tag: "EVENT",
         color: "0, 1, 38",
@@ -4132,11 +4132,11 @@ export const EventDetails = [
         ],
       },
   
-      {
+      { 
         name: "TECH EMERGE",
         date: "02 Nov 2023(FN)",
         type: "3 members",
-        venue: " ",
+        venue: "EEE OW LH 1 ",
         time: "11:00AM-1:00PM",
         rules: "",
         round1title: "WORD HUNT",
@@ -4181,7 +4181,7 @@ export const EventDetails = [
         name: "ELECTRO BUZZ",
         date: "02 Nov 2023(AN)",
         type: "Team",
-        venue: "",
+        venue: "EEE OW LH 1",
         time: "01:00AM-03:00PM",
         rules: "",
         round1title: "FIGGERITS",
@@ -4226,7 +4226,7 @@ export const EventDetails = [
         name: "TECHNOLADS",
         date: "03 Nov 2023(FN)",
         type: "Solo",
-        venue: "",
+        venue: "EEE OW LH 1",
         time: "08:00AM-10:00AM",
         rules: "",
         round1title: "PICK AND THINK",
@@ -4275,7 +4275,7 @@ export const EventDetails = [
         logo: "/EventsAssets/eiew1.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
-        venue:"TBA",
+        venue:"EEE GH SEMINAR HALL",
         company: "Space Zee Technology",
         link: "https://forms.gle/Q7ssF9x1e9jGcZcF9",
         day1: {
@@ -4751,10 +4751,10 @@ export const EventDetails = [
         name: " Adzap",
         date: "02 Nov 2023(FN)",
         type: "team",
-        venue: "",
+        venue: "Admin 3F IW LH1",
         time: "12p.m to 2:00p.m",
         members: "5 - 8members in a team",
-        rules: "The event consists of 2 rounds, The 1st round is finding the company logo and ( round 1 qualified team will be selected for 2nd round).Group event (5- 8members in a team).Product name will be given 5 minutes before the event.Vulgarity or offensive terms will lead to disqualification.Time given is 5-7 minutes for the total performance.Strictly adhere to the time limit.Property and background music is allowed.Teams can advertise the product in a funny fashion.Materials required can be brought by the participants",
+        rules: "The event consists of 2 rounds, The 1st round is finding the company logo and 2nd round is Adzap ( round 1 qualified team will be selected for 2nd round).Group event (5- 8members in a team).Product name will be given 5 minutes before the event.Vulgarity or offensive terms will lead to disqualification.Time given is 5 minutes for performance and 2 minutes for Q&A.Property and background music is allowed.Teams can advertise the product in a funny fashion.Materials required can be brought by the participants",
         tag: "EVENT",
         color: "0, 1, 38",
         logo: "/EventsAssets/mba1.webp",
@@ -4796,7 +4796,7 @@ export const EventDetails = [
           },{
             name: "Vishnupriya. J",
             year: "I",
-            phone: 7305397423,
+            phone: 7397314736,
             email: "vishnupriyajanarthanan1@gmail.com",
           },
         ],
@@ -4805,7 +4805,7 @@ export const EventDetails = [
         name: " Best Manager",
         date: "03 Nov 2023(FN)",
         type: "Solo",
-        venue: "",
+        venue: "CSE 3F OW LH6",
         time: "08:00 a.m. to 11:00 a.m.",
         members: "1",
         rules:
@@ -4874,9 +4874,9 @@ export const EventDetails = [
       },
       {
         name: "Best Selling Pitch",
-        date: "02 Nov 2023 (FN)",
+        date: "02 Nov 2023 (AN)",
         type: "Team",
-        venue: "",
+        venue: "Admin 3F IW LH 2",
         time: "02:00 pm to 04:00 pm",
         members: "5",
         rules:"Participants: minimum 2 & maximum 5.Timing: 1-3 minutes.Product/service: any tangible or intangible products and services.Judgements: whatever judge decides  and says, that is final.Event: product/service will be given on the spot before ½ or 1 hour ( it will be based on lottery) try to apply all AP’S.Videos: lights / camera/ Action.Just apply 5 steps and factors",
@@ -4943,7 +4943,7 @@ export const EventDetails = [
         name: " Business Quiz",
         date: "02 Nov 2023(AN)",
         type: "Team",
-        venue: "",
+        venue: "Admin 3F IW LH1",
         time: "2:00 pm to 04:00 pm",
         members: "1-3",
         rules:
@@ -5009,7 +5009,7 @@ export const EventDetails = [
         name: " Case Study",
         date: "02 Nov 2023(AN)",
         type: "Team",
-        venue: "",
+        venue: "CSE 3F OW LH6",
         time: "12:00 pm to 02:00 pm",
         members: "2-4",
         round1title:"Registration",
@@ -5088,7 +5088,7 @@ export const EventDetails = [
         name: " Just a Minute(JAM)",
         date: "02 Nov 2023(AN)",
         type: "Solo",
-        venue: "",
+        venue: "Admin 3F OW LH5 ",
         time: "12:00 pm to 02:00 pm",
         members: "1",
         rules:"It is an event related to public speaking. The topic will be given on the spot.The preparation time will be 3 minutes.The speech time will be for 60 seconds.Digital electronics and stationary items are not allowed during the preparation time.Not allowed to discuss the topic with anyone, If it happens then, you will be disqualified",
@@ -5163,7 +5163,7 @@ export const EventDetails = [
           date: "27/11/2023 ",
           time: "Fullday",
           mode: "OFFLINE",
-          venue: "",
+          venue: "Admin 3F OW LH 5",
           staff: [
             {
               name: "Dr.Ramasundaram",
@@ -5221,7 +5221,7 @@ export const EventDetails = [
           date: "28/11/2023",
           time: "Fullday",
           mode: "OFFLINE",
-          venue: "",
+          venue: "Admin 3F OW LH 5",
         },
       },
     ],
@@ -5234,10 +5234,9 @@ export const EventDetails = [
         name: "CONNECTIONS",
         date: "02 Nov 2023(FN)",
         type: "MAX 3",
-        venue: "",
-        time: "",
+        venue: "ADMIN 4F-LH04",
+        time: "Forenoon",
         members: "1-3",
-        rules: "",
         round1:
           "A Set of images will be displayed on the screen. (Questions will be based on medical Equipment Terminologies.The goal is to connect the images through a series of associated. The participants are made into a team of 3.Each team will be given a fair chance to answer the question. 3 Best team from each round will be qualified for the next round",
         round2:
@@ -5280,10 +5279,9 @@ export const EventDetails = [
         name: " READ THE MANUAL",
         date: "02 Nov 2023(AN)",
         type: "MAX 3",
-        venue: "TBA",
-        time: "FULL DAY",
+        venue: "MI LAB- ADMIN 4F",
+        time: "Afternoon",
         members: "1-2",
-        rules: "",
         round1title:"Kahoot Quiz",
         round1:
           "30 questions will be projected ,20 seconds for each questions. Phones are not allowed. 3 Members per team",
@@ -5322,7 +5320,7 @@ export const EventDetails = [
         name: "BLIND TEASER ",
         date: "03 Nov 2023(FN)",
         type: "MAX 2",
-        venue: "TBA",
+        venue: "MI LAB- ADMIN 4F",
         time: "9.00AM-12.00PM",
         members: "2",
 
@@ -5361,8 +5359,8 @@ export const EventDetails = [
         name: "ANATOMIA",
         date: "03 Nov 2023(FN)",
         type: "2",
-        venue: "ADMIN 4F DT LAB",
-        time: "FULL DAY",
+        venue: "ADMIN 4F-Biochemistry Lab ",
+        time: "Afternoon",
         members: "DUO",
 
         tag: "EVENT",
@@ -5406,7 +5404,7 @@ export const EventDetails = [
           time: "FULL DAY",
 
           mode: "OFFLINE",
-          venue: "",
+          venue: "EEE GF SEMINAR HALL",
           list: true,
           topic:
             "   9.30 AM-11:00 AM: MYTH and Facts of Biomedical Engineering Dispelling Common Myths. Highlighting Realities and Opportunities. Roles and Scopes of Biomedical Engineering in India.  Exploring Career Paths   Industry Trends and future Prospects Healthcare Startups in India and How to Start  Success stories and Opportunities in Healthcare Entrepreneurship Steps to Launch a Healthcare Startup 11:00 AM - 12:00 PM: Hands-On Session 1-CLASS II DEVICES  Blood Pressure monitor and Glucometer with Strips(Basic Level) Operating Procedures for Accurate Readings. Practical Application and Troubleshooting Advanced Pregnancy Kit, RT PCR Viral Transport Medium(Experimental learning) 1:00 PM - 3:00 PM: Hands-On Session 2-CLASS II DEVICES  Tracheostomy kit with Tracheostomy Tubes-Assembling and Disassembling the Tracheostomy Kit, Insertion and Maintenance of Tracheostomy Tubes. Ambulatory Infusion Pump (Intermediate Level) Advanced Syringe Pump(Intermediate level) Practical Application and Best Practices.",
@@ -5473,7 +5471,7 @@ export const EventDetails = [
       {
         name: "Circuit Cruiser ",
          date: "02 Nov 2023",
-        venue: " TBA",
+        venue: " ECE GF LH1",
         time: "9.00AM - 1.00PM",
         members: "2",
         rules: " A team can have a maximum of 2 members",
@@ -5530,7 +5528,7 @@ export const EventDetails = [
         name: "FUNTRONICS ",
         date: "02 Nov 2023(PM)",
         type: "Team",
-        venue: " TBA",
+        venue: " ECE GF LH2",
         time: "Afternoon",
         members: "4",
         rules: "A Team consists of two members.Round 2 will be a listening activity.Round 3 is about block arrangements",
@@ -5590,7 +5588,7 @@ export const EventDetails = [
         name: "Rover Rally ",
         tagline:"Bot event",
         date: "02 Nov 2023(AM)",
-        venue: " ",
+        venue: "ECE third floor tele communication lab ",
         type:"Team",
         time: "Forenoon",
         members: "5",
@@ -5639,7 +5637,7 @@ export const EventDetails = [
         name: "MEGAHERTZ ",
         tagline:"Chemthings",
         date: "03 Nov 2023(FN)",
-        venue: " ",
+        venue: "ECE GF LH1 ",
         type:"Team",
         time: "9:00-1:00pm",
         members: "2",
@@ -5702,7 +5700,7 @@ export const EventDetails = [
         name: "Silicon Smackdown ",
         // tagline:"Chemthings",
         date: "03 Nov 2023(AM)",
-        venue: "TBA",
+        venue: "ECE GF LH2",
         type:"Team",
         time: "Forenoon",
         members: "3",
@@ -5765,7 +5763,7 @@ export const EventDetails = [
         // logo: "/EventsAssets/ecew1.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
-        venue: "TBA",
+        venue: "ECE III Floor Microprocessor lab",
         company:"IT Expect Training",
     
         link: "https://forms.gle/cSmjSPii3pibWvEu7",
@@ -5817,7 +5815,7 @@ export const EventDetails = [
           date: "26/10/23",
           time: "FN AND AN",
           mode: "Hybrid",
-          venue: "TBA",
+          venue: "ECE III Floor Microprocessor lab",
     
           topic: "Developing Flappy bird game environment. Writing logics for the game ",
           resource: [
@@ -5863,8 +5861,8 @@ export const EventDetails = [
         // logo: "/EventsAssets/ecew2.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
-        mode: "TBA",
-        venue: "TBA",
+        mode: "Hybrid",
+        venue: "ECE III floor Networks lab",
         company: "IT EXPERT TRAINING",
     
         link: "https://forms.gle/ocbCaV91wxDqmPad8",
@@ -5916,7 +5914,7 @@ export const EventDetails = [
           date: "26/10/23",
           time: "FN AND AN",
           mode: "Hybrid",
-          venue: "TBA",
+          venue: "ECE III floor Networks lab",
     
           topic: "Creating a Chatbot. Interfacing Chatbot with chatGPT",
           resource: [
@@ -5962,8 +5960,8 @@ export const EventDetails = [
         // logo: "/EventsAssets/ecew3.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
-        mode: "TBA",
-        venue: "TBA",
+        mode: "Hybrid",
+        venue: "ECE III floor Networks lab",
         company: "Cyber Haels Infotech Pvt.Ltd.",
     
         link: "https://forms.gle/NxxK2nYx1heZhCAR6",
@@ -6016,7 +6014,7 @@ export const EventDetails = [
           date: "31/10/23",
           time: "FN & AN",
           mode: "Hybrid",
-          venue: "TBA",
+          venue: "ECE III floor Networks lab",
           list: "true",
           topic:
             "Broken Access Controls. Burp Suite Essentials. Cross Site Request Forgery (CSRF). XML External Entity Injection. OS Command Injections. Server Side Request Forgery (SSRF). Path Traversal Vulnerability. Security Misconfigurations. Certificates in Cybersecurity. Careers in Cybersecurity",
@@ -6064,7 +6062,7 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
         mode: "Offline",
-        venue: "TBA",
+        venue: "ECE 3F Telecommunication lab ",
         company: "Saveetha ECE Department",
     
         link: "https://forms.gle/eJwD3xKuqUE9GSPF8",
@@ -6073,7 +6071,7 @@ export const EventDetails = [
           time: "FN & AN",
           list: "true",
           topic:
-            "Session 1: Overview on PCB Design and Prototyping - Presentation. Session 2: PCB circuit simulation using Orcad ",
+            "Session 1: Overview on PCB Design and Prototyping - Presentation.\n Session 2: PCB circuit simulation using Orcad ",
           resource: [
             {
               name: "Workshop Coordinators ",
@@ -6121,7 +6119,7 @@ export const EventDetails = [
           time: "FN & AN",
           list: "true",
           topic:
-            "Session 3: Manual Prototyping of the PCB Design - Hands-on. Session 4: Soldering and testing the circuit in Lab environment ",
+            "Session 3: Manual Prototyping of the PCB Design - Hands-on.\n Session 4: Soldering and testing the circuit in Lab environment ",
           resource: [
             {
               name: "Workshop Coordinators ",
@@ -6216,7 +6214,7 @@ export const EventDetails = [
         // logo: "/EventsAssets/ecew5.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
-        venue: "TBA",
+        venue: "ECE GF Seminar hall LH2 ",
         company:"Sathyabama university",
     
         link: "https://forms.gle/2EFB6R98ceFGp9fk6",
@@ -6226,7 +6224,7 @@ export const EventDetails = [
           mode: "Offline",
           venue: "TBA",
     
-          topic: "Session 1: Fundamentals of Non stationary signals and Non stationary signal processing techniques. Session  2: Generation and processing of signals using Matlab ",
+          topic: "Session 1: Fundamentals of Non stationary signals and Non stationary signal processing techniques.\n Session  2: Generation and processing of signals using Matlab ",
           resource: [
             {
               name: "Dr.P.Chitra ",
@@ -6273,7 +6271,7 @@ export const EventDetails = [
           mode: "Offline",
           venue: "TBA",
     
-          topic: "Session 3: Machine Learning Techniques for EEG signal processing. Session 4: Applications demo (different case studies) ",
+          topic: "Session 3: Machine Learning Techniques for EEG signal processing.\n Session 4: Applications demo (different case studies) ",
           resource: [
             {
               name: "Dr.P.Chitra ",
@@ -6309,7 +6307,7 @@ export const EventDetails = [
             {
               name: "Dhanu Dharvin",
               year: "II",
-              phone:  9952816664,
+              phone: 9952816664,
               email: "dhanubalagesan@gmail.com ",
             },
           ],
@@ -6322,7 +6320,7 @@ export const EventDetails = [
         // logo: "/EventsAssets/ecew6.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
-        venue: "TBA",
+        venue: "ECE GF Seminar hall LHI ",
         company:"Saveetha ECE Deaprtment",
     
         link: "https://forms.gle/9XERHJCQf7dmQcs5A",
@@ -6330,9 +6328,9 @@ export const EventDetails = [
           date: "30/10/23",
           time: "FN AND AN",
           mode: "Offline",
-          venue: "TBA",
+          venue: "ECE GF Seminar hall LHI ",
     
-          topic: "session 1 : AI in Research & Manuscript. Understanding and Formulating research Hypothesis. AI Tools and Software Requirements. Session 2 :  Data ethics and Visualization, Structuring Paper, Scholarly publishing & Citation Management.Peer Review and futuristic scope in AI ",
+          topic: "session 1 : AI in Research & Manuscript. Understanding and Formulating research Hypothesis. AI Tools and Software Requirements. \nSession 2 :  Data ethics and Visualization, Structuring Paper, Scholarly publishing & Citation Management.Peer Review and futuristic scope in AI ",
           resource: [
             {
               name: "Dr P Baraneedharan ",
@@ -6374,9 +6372,9 @@ export const EventDetails = [
           date: "31/10/23",
           time: "FN AND AN",
           mode: "Offline",
-          venue: "TBA",
+          venue: "ECE GF Seminar hall LHI ",
     
-          topic: "Session 3 : Types, Benefits of Networking, Strategies for Effective Connections, Leveraging Social Media and Online Platforms. Session 4 : Understanding the Purpose, Preparation, formatting and structure, Emphasizing Skills, Profile Optimization ",
+          topic: "Session 3 : Types, Benefits of Networking, Strategies for Effective Connections, Leveraging Social Media and Online Platforms.\n Session 4 : Understanding the Purpose, Preparation, formatting and structure, Emphasizing Skills, Profile Optimization ",
           resource: [
             {
               name: "Dr P Baraneedharan ",
@@ -6421,8 +6419,7 @@ export const EventDetails = [
         // logo: "/EventsAssets/ecew7.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
-        mode: "TBA",
-        venue: "TBA",
+        venue: "ECE I Floor OW LH1",
         company: "Zoho",
     
         link: "https://forms.gle/4zAANomeJEGBdGbH6",
@@ -6430,9 +6427,9 @@ export const EventDetails = [
           date: "30/10/23",
           time: "FN AND AN",
           mode: "Offline",
-          venue: "TBA",
+          venue: "ECE I Floor OW LH1",
     
-          topic: "Session 1: Introduction. Session 2: Design thinking for aspiring creators ",
+          topic: "Session 1: Introduction.\n Session 2: Design thinking for aspiring creators ",
           resource: [
             {
               name: "Mr.Kalyan Narayanan",
@@ -6474,7 +6471,7 @@ export const EventDetails = [
           date: "31/10/23",
           time: "FN AND AN",
           mode: "Offline",
-          venue: "TBA",
+          venue: "ECE I Floor OW LH1",
     
           topic: "Session 3:  Hands-on workshop to inculcate design applications ",
           resource: [
@@ -6521,8 +6518,8 @@ export const EventDetails = [
         // logo: "/EventsAssets/ecew8.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
-        mode: "TBA",
-        venue: "TBA",
+  
+        venue: "ECE II floor  Microprocessor  and DSP  lab  ",
         company: "Applied Material PVT.LTD.",
     
         link: "https://forms.gle/gg4ecaRqfK7fCrwg6",
@@ -6530,10 +6527,10 @@ export const EventDetails = [
           date: "27/10/23",
           time: "FN & AN",
           mode: "Offline",
-          venue: "TBA",
+          venue: "ECE II floor  Microprocessor  and DSP  lab  ",
           list: "true",
           topic:
-            "Session 1: Introduction about semiconductors in industry. Session 2: Case study on realtime examples using matlab ",
+            "Session 1: Introduction about semiconductors in industry.\n Session 2: Case study on realtime examples using matlab ",
           resource: [
             {
               name: "Mr.Arun Kumar  ",
@@ -6579,10 +6576,10 @@ export const EventDetails = [
           date: "28/10/23",
           time: "FN & AN",
           mode: "Offline",
-          venue: "TBA",
+          venue: "ECE II floor  Microprocessor  and DSP  lab  ",
           list: "true",
           topic:
-            "Session 3: Exploring about semiconductors using python coding with hands on. Session 4: Designing semiconductors devices on PCB  ",
+            "Session 3: Exploring about semiconductors using python coding with hands on.\n Session 4: Designing semiconductors devices on PCB  ",
           resource: [
             {
               name: "Mr.Arun Kumar  ",
@@ -6632,7 +6629,7 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
         mode: "Offline",
-        venue: "TBA",
+        venue: "ECE GF Seminar hall LH1 ",
         company: "Econ-System Pvt.Ltd, Chennai",
     
         link: "https://forms.gle/U7W74gNJ6H6zSbgH6",
@@ -6641,7 +6638,7 @@ export const EventDetails = [
           time: "FN & AN",
           list: "true",
           topic:
-            "Session 1: Introduction. Session 2 : Hands on TinkerCAD Tool ",
+            "Session 1: Introduction. \nSession 2 : Hands on TinkerCAD Tool ",
           resource: [
             {
               name: "Ms.Kalaimathi K ",
@@ -6691,8 +6688,8 @@ export const EventDetails = [
           time: "FULL DAY",
           mode: "OFFLINE",
           company:"Saveetha ECE Deaprtment",
-          venue: "TBA ",
-          topic:"Session 1: Introduction (5 minutes).Welcome participants and introduce the workshop topic. Briefly explain the concept of line-following robots and their real-world applications.  Mention the importance of Arduino Nano and IR sensors in this project.Session 2: Materials and Prerequisites (5 minutes) . List of required materials (Arduino Nano, IR sensors, motors, chassis, wheels, battery, etc.).  Mention any prerequisites or prior knowledge (basic Arduino programming, electronics Fundamentals).  Session 3: Understanding Line Following (10 minutes).Explain the basic principle of line following using infrared sensors. Discuss the working principle of IR sensors in detecting lines. Show examples of line-following robots in action",
+          venue: "CSE 4F LH1 ",
+          topic:"Session 1: Introduction (5 minutes).Welcome participants and introduce the workshop topic. Briefly explain the concept of line-following robots and their real-world applications.  Mention the importance of Arduino Nano and IR sensors in this project.\nSession 2: Materials and Prerequisites (5 minutes) . List of required materials (Arduino Nano, IR sensors, motors, chassis, wheels, battery, etc.).  Mention any prerequisites or prior knowledge (basic Arduino programming, electronics Fundamentals).  Session 3: Understanding Line Following (10 minutes).Explain the basic principle of line following using infrared sensors. Discuss the working principle of IR sensors in detecting lines. Show examples of line-following robots in action",
           resource: [
             {
               name: "Logachandru R   ",
@@ -6749,8 +6746,8 @@ export const EventDetails = [
           time: "FULL DAY",
           mode: "OFFLINE",
           company:"Saveetha ECE Deaprtment",
-          venue: "TBA ",
-          topic:"ISession 4: Hardware Setup (15 minutes). Step-by-step guide on assembling the robot chassis, attaching motors and wheels. Wiring instructions for connecting IR sensors and motors to the Arduino Nano. Explain the power supply setup (batteries).Session 5: Arduino Programming (20 minutes).Introduce the Arduino IDE and its setup.Provide the participants with sample Arduino code for the line-following robot. Explain key sections of the code (sensor readings, motor control, decision-making).  Debugging tips and common issues. Session 6: Calibration and Testing (10 minutes). Explain the importance of calibrating the sensors. Demonstrate how to calibrate the sensors for the specific track.  Conduct initial tests and make necessary adjustments.Session 7: Fine-Tuning and Challenges (15 minutes).Discuss ways to fine-tune the robot for optimal performance.Introduce challenges like sharp turns and intersections.Encourage participants to experiment with the code for improvements",
+          venue: "CSE 4F LH1 ",
+          topic:"Session 4: Hardware Setup (15 minutes). Step-by-step guide on assembling the robot chassis, attaching motors and wheels. Wiring instructions for connecting IR sensors and motors to the Arduino Nano. Explain the power supply setup (batteries).\nSession 5: Arduino Programming (20 minutes).Introduce the Arduino IDE and its setup.Provide the participants with sample Arduino code for the line-following robot. Explain key sections of the code (sensor readings, motor control, decision-making).  Debugging tips and common issues. Session 6: Calibration and Testing (10 minutes). Explain the importance of calibrating the sensors. Demonstrate how to calibrate the sensors for the specific track.  Conduct initial tests and make necessary adjustments.Session 7: Fine-Tuning and Challenges (15 minutes).Discuss ways to fine-tune the robot for optimal performance.Introduce challenges like sharp turns and intersections.Encourage participants to experiment with the code for improvements",
           resource: [
             {
               name: "Logachandru R   ",
@@ -6814,8 +6811,8 @@ export const EventDetails = [
           time: "FULL DAY",
           mode: "Hybrid",
           company:"Saveetha ECE Deaprtment",
-          venue: "TBA ",
-          topic:"session 1: All about Chat GPT and AI .session 2: Hands on AI tools. Session 3: Resume building using AI.Session 4: PPT preparation using AI ",
+          venue: "ECE Seminar Hall LH2 ",
+          topic:"session 1: All about Chat GPT and AI .\nsession 2: Hands on AI tools. \nSession 3: Resume building using AI.\nSession 4: PPT preparation using AI ",
           resource: [
             {
               name: "Dr.Raji Pandurangan ",
@@ -6859,7 +6856,7 @@ export const EventDetails = [
           time: "FULL DAY",
           mode: "Hubrid",
           company:"Saveetha ECE Deaprtment",
-          venue: "TBA ",
+          venue: "ECE Seminar Hall LH2 ",
           // topic:"session 1: All about Chat GPT and AI .session 2: Hands on AI tools. Session 3: Resume building using AI.Session 4: PPT preparation using AI ",
           resource: [
             {
@@ -6912,7 +6909,7 @@ export const EventDetails = [
           time: "FULL DAY",
           mode: "HYBRID",
           company:"Towards technology",
-          venue: "TBA ",
+          venue: "ECE GF Seminar hall LH1 ",
           topic:"Introduction to Full stack web development .Fundamentals of flask framework.Api development - request and response .Building UI - html/css ",
           resource: [
             {
@@ -6969,7 +6966,7 @@ export const EventDetails = [
           time: "FULL DAY",
           mode: "HYBRID",
           company:"Towards technology",
-          venue: "TBA ",
+          venue: "ECE GF Seminar hall LH1 ",
           topic:"Python requests .Get wheather public api. Create whether display in html.Wheather live Visualization ",
           resource: [
             {
