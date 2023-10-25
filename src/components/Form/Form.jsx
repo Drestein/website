@@ -558,10 +558,9 @@ const Form = () => {
                   alignItems: "center",
                 }}
               >
-                Registeration closed! Thank you for participating.
               </div>
             ) : null}
-            {0 ? (
+            {1 ? (
               <form
                 onSubmit={handlesubmit}
                 style={{ marginInline: "auto" }}
