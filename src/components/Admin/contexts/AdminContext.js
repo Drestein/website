@@ -63,7 +63,7 @@ const [change,setchange] = useState(false)
       if(data){
         setRegUsers(data)
         setDataLoad(false);
-          // console.log(data)
+          console.log(data)
   
       }
 

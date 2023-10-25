@@ -227,7 +227,7 @@ const Form = () => {
                     SecureToken: process.env.REACT_APP_EMAILCODE_ID,
                     To: formdata.email,
 
-                    From: "dresteinsaveetha2022@gmail.com",
+                    From: "drestein2023@gmail.com",
 
                     Subject:
                       "Congrats! Your registration for Drestein is complete 🎉",
@@ -533,7 +533,7 @@ const Form = () => {
                 check back later!
               </div>
             ) : null}
-            {1 ? (
+            {0 ? (
               <form
                 onSubmit={handlesubmit}
                 style={{ marginInline: "auto" }}
