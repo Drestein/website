@@ -90,139 +90,77 @@ export default function UpdateForm({
   }, [cashPaidForPaper, cashPaidForProject, cashPaid]);
   const test = [
     {
+      name: "CSE",
+      events: ["The Lost Code", "UI Design", "Blind Coding", "Ideathon"],
+    },
+    {
+      name: "IT",
+      events: ["Switcheroo", "Game of Codes", "Cipher Hunt", "Codeverse"],
+    },
+    {
+      name: "ECE",
+      events: ["eceevent1", "eceevent2"],
+    },
+    {
+      name: "EEE",
+      events: ["EEEevent1", "EEEevent2"],
+    },
+    {
+      name: "EIE",
+      events: ["Fire Tech", "Tech puzzle", "Debugging theorem", "Instantrix"],
+    },
+    {
       name: "AGRI",
       events: [
-        "BLOODY SWEET",
-        "ARE YOU A BRAINE",
-        "NEUTRAL NEXUS",
-      ],
-    },
-   
-    {
-      name: "AIDS",
-      events: [
-        "PICK YOUR FILTER",
-        "DESIGN BATTLE",
-        "PROMPT YOUR WAY THRU",
-        "MIND SWAP",
-        "MARVEL QUEST",
+        "SHERLOCK HOLMES",
+        "DEVILS ADVOCATE",
+        "TREASURE HUNT",
+        "NEURO COMBAT",
       ],
     },
     {
-      name: "AIML",
+      name: "AI",
       events: [
-        "SHARK TANK",
-        "ESCAPE ROOM",
-        "UNSPLASH",
-        "CODE FUSION",
+        "Code and Debug",
+        "Shark Tank",
+        "Memesrus",
+        "WEB CON",
+        "Data Hunt",
       ],
     },
     {
       name: "BME",
       events: [
-        "TECHGPRES",
-        "THE CASE",
-        "DE-DEMOLISH",
+        "Med factory",
+        "Mind Flayers",
+        "Kampf geist",
         "Neurotic Expelliarmus",
       ],
     },
     {
-      name: "CHEM",
-      events: [
-        "MAVERICK",
-         "HUSTLE HOUR",
-          "CLASH OF CHEMLAND", 
-          "VENZER O RATSEL",
-        ],
-    },
-    {
       name: "CIVIL",
-      events: [
-        "INVERTO",
-       "CONSTRUCT WITH CONSTRAINTS",
-        "PAPER SCRAPER",
-         ],
+      events: ["Build-IT", "MAP THE GAP", "CADD Modeling", "Code cracking"],
     },
     {
-      name: "CSE",
-      events: [
-        "EXPECTO PATRONUM",
-        "BINARY ILLUSIONS",
-        "GAMBOL CIPHERING",
-        "CRYPTO HUNT",
-      ],
+      name: "CHEM",
+      events: ["PROCESS SNIPPET", "CHEM FLUIDS", "CLASH XCAPE", "CHEM BRIDGE"],
     },
-    {
-      name: "CS&IOT",
-      events: [
-        "KICKSTART WITH IOT",
-        "OSINT PLAYGROUND",
-        "LIFE ENCODERS",
-        "IOT ENTREPRENEURSHIP CHALLENGE",
-      ],
-    },
-    {
-      name: "ECE",
-      events: ["CIRCUIT CRUISER",
-       "FUNTRONICS",
-        "ROVER RALLY",
-         "MEGAHERTZ",
-         "SILICON SMACKDOWN",
-        ],
-    },
-    {
-      name: "EEE",
-      events: ["ROBO SOCCER",
-       "LINE FOLLOWER",
-      ],
-    },
-    {
-      name: "EIE",
-      events: [
-        "TECHNAROK",
-       "TECH EMERGE", 
-       "ELECTRO BUZZ", 
-       "TECHNOLADS",
-      ],
-    },
-    {
-      name: "IT",
-      events: [
-        "PROMPT CRAFT",
-         "RIDDLESQL",
-          "DRONE THE DRACARYS",
-           "EMBRACE THE UNKNOWN",
-          ],
-    },
-    {
-      name: "MED",
-      events: [
-        "CONNECTIONS",
-       "READ THE MANUAL",
-         "BLIND TEASER",
-         "ANATOMIA",
-        ],
-    },
-  
     {
       name: "MECH",
       events: [
-        "MR.LATHE",
-        "FUSION ARTIST",
-        "PNEULINK",
+        "Dezania",
+        "Mr. Machinist",
+        "Water Rocketry",
+        "Cad Modelling And Stimulation",
       ],
     },
     {
       name: "MBA",
-      events: [
-        "Adzap",
-        "Best manager",
-        "BEST SELLING PITCH",
-        "BUSINESS QUIZ",
-        "CASE STUDY",
-        "IPL Auction",
-        "JUST A MINUTE{JAM}",
-      ],
+      events: ["Test", "Test2"],
+    },
+    {
+      name: "MED",
+      events: ["Test", "Test2"],
     },
   ];
 
@@ -253,11 +191,11 @@ export default function UpdateForm({
     }
     if (DepPaid && Event) {
       console.log("event running");
-      Amountpaid += 200;
+      Amountpaid += 150;
     }
     //check for total amount
     if (Event) {
-      totalAmount += 200;
+      totalAmount += 150;
     }
     if (Project) {
       totalAmount += 250;
@@ -344,14 +282,14 @@ toast.success('profile updated')
                 defaultChecked={DepartEvent}
                 onChange={(e) => {
                   if (Event === true) {
-                    setPay(Pay - 200);
+                    setPay(Pay - 150);
                     if (DepPaid) {
                       // console.log("Event Amount ", Amountpaid);
                       setDepPaid(false);
                     }
                     setEventName(EventsRegistered);
                   } else {
-                    setPay(Pay + 200);
+                    setPay(Pay + 150);
                   }
                   setEvent(e.target.checked);
                 }}

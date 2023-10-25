@@ -47,6 +47,7 @@ import {
   uploadBytesResumable,
   getDownloadURL,
 } from "firebase/storage";
+
 const muiTheme = extendMuiTheme({
   cssVarPrefix: "joy",
   colorSchemes: {
@@ -127,6 +128,8 @@ const Form = () => {
   const [qr, setqr] = useState("");
   const [load, setload] = useState(false);
   const [confirmMsg, setconfirmMsg] = useState(false);
+  const [Project, setProject] = React.useState(false);
+  const [Paper, setPaper] = React.useState(false);
   const [Event, setEvent] = useState(false);
   const [Pay, setPay] = useState(0);
   const [img, setImg] = useState(null);
@@ -147,8 +150,8 @@ const Form = () => {
     CHEM: [],
     AGRI: [],
     AIDS: [],
-    AIML: [],
-    CSIOT: [],
+    AIML:[],
+    CSIOT:[],
     MBA: [],
     BME: [],
   });
@@ -169,131 +172,140 @@ const Form = () => {
 
   //   );
   // };
-  const uploadProfileImg = async (id) => {
-    return new Promise((resolve, reject) => {
-      const storage = getStorage();
-      // const fileName = `${id}-${img.name}-${uuidv4()}`;
-      const storageRef = ref(storage, "images/" + id);
+  const sendMail =  async (userRef) => {
 
-      const uploadTask = uploadBytesResumable(storageRef, img);
-      uploadTask.on(
-        "state_changed",
-        (snapshot) => {
-          // Observe state change events such as progress, pause, and resume
-          // Get task progress, including the number of bytes uploaded and the total number of bytes to be uploaded
-          const progress =
-            (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
-          console.log("Upload is " + progress + "% done");
-          //  setProgress(progress)
-          switch (snapshot.state) {
-            case "paused":
-              console.log("Upload is paused");
-              break;
-            case "running":
-              console.log("Upload is running");
+    const sendqr = await fetch(
+      `https://chart.googleapis.com/chart?chs=200x200&cht=qr&chl=https://drestein.in/user/${userRef}&choe=UTF-8`
+    );
+    const QrUrl = sendqr.url;
 
-              break;
-          }
-        },
-        (error) => {
-          reject(error);
-          setload(false);
-          toast.error("resize your image");
-        },
-        () => {
-          // Handle successful uploads on complete
-          // For instance, get the download URL: https://firebasestorage.googleapis.com/...
-          getDownloadURL(uploadTask.snapshot.ref).then(async(downloadURL) => {
-            resolve(downloadURL);
-            formdata.IdCard = downloadURL;
+    // console.log(QrUrl);
+    if (window.Email) {
 
-            const cityRef = doc(db, "RegisteredPeople", `${formdata.id}`);
+      console.log(window.Email)
+      const style = {
+        border: "1px sold black",
+      };
+      await window.Email.send({
+        SecureToken: process.env.REACT_APP_EMAILCODE_ID,
+        To: formdata.email,
 
-           await setDoc(cityRef, formdata)
-              .then(async () => {
+        From: "dresteinsaveetha2022@gmail.com",
 
-                const sendqr = await fetch(
-                  `https://chart.googleapis.com/chart?chs=200x200&cht=qr&chl=https://drestein.in/user/${cityRef.id}&choe=UTF-8`
-                );
-                const QrUrl = sendqr.url;
-                // console.log(QrUrl);
-                if (window.Email) {
+        Subject:
+          "Congrats! Your registration for Drestein is complete 🎉",
 
-                  console.log(window.Email)
-                  const style = {
-                    border: "1px sold black",
-                  };
-                  await window.Email.send({
-                    SecureToken: process.env.REACT_APP_EMAILCODE_ID,
-                    To: formdata.email,
+        Body: `
+           <h2>Congrats ${formdata.fname},</h2>
+        <p>
+            Thank you for registering. You have applied for <b>${
+              formdata.DepartEvent ? `Events(₹200)` : ""
+            }
+        ${
+          formdata.PaperPresentation
+            ? `, Paper Presentation(₹200)`
+            : ""
+        }${
+          formdata.ProjectPresentation
+            ? `, Project Presentation(₹250)`
+            : ""
+        }.
+        </b> Don't worry if you missed an event; you can register for other events offline after coming to Saveetha Engineering College. The registration fee has to be paid at the registration counter on the day of the event by scanning your QR code sent in this email. We expect your presence on this auspicious day.
+        </p>  
+       
+          Total amount to be paid: <b>₹${
+            formdata.CashToBePaid
+          } (Cash only)</b>
+        </p>
 
-                    From: "dresteinsaveetha2022@gmail.com",
-
-                    Subject:
-                      "Congrats! Your registration for Drestein is complete 🎉",
-
-                    Body: `
-                       <h2>Congrats ${formdata.fname},</h2>
-                    <p>
-                        Thank you for registering. You have applied for <b>${
-                          formdata.DepartEvent ? `Events(₹200)` : ""
-                        }.
-                    </b> Don't worry if you missed an event; you can register for other events offline after coming to Saveetha Engineering College. The registration fee has to be paid at the registration counter on the day of the event by scanning your QR code sent in this email. We expect your presence on this auspicious day.
-                    </p>  
-                   
-                      Total amount to be paid: <b>₹${
-                        formdata.CashToBePaid
-                      } (Cash only)</b>
-                    </p>
-
-              
-                    <h3>Best Wishes, Drestein team</h3>
-                    <img src="${QrUrl}" alt='${formdata.id}'>
-                    `,
-                  }).then(() => {
-                    setload(false);
-                    setconfirmMsg(true);
-                  });
-                }
-              })
-              .catch((e) => {
-                toast.error(e);
-              });
-          });
-        }
-      );
-    });
-  };
-  function isuserAlreadyExist(email) {
-    return new Promise((resolve, reject) => {
-      const colref = collection(db, "RegisteredPeople");
-      const q = query(colref, where("email", "==", email));
-
-      getDocs(q)
-      .then((snapshot) => {
-        let books = [];
-
-        snapshot.docs.forEach((doc) => {
-          books.push({ ...doc.data(), id: doc.id });
-        });
-
-
-        setUserExist(books);
-        resolve(books);
-
-      });
-    });
+  
+        <h3>Best Wishes, Drestein team</h3>
+        <img src="${QrUrl}" alt='${formdata.id}'>
+        `,
+      }).then(() => {
+        setload(false);
+        toast.success('successfully registered 🎉')
+        setconfirmMsg(true);
+      })
+    }
   }
+  const uploadProfileImg = async (id) => {
+
+
+           const {data,error} = await supabase
+           .from('RegisteredPeople')
+           .insert([formdata])
+       
+            
+
+          
+           if(error){
+            if(error.code==="23505"){
+              setload(false)
+              toast.error('user Already exist')
+              setUserExistError(true)
+              
+            }
+            //  toast.error("something went wrong")
+             console.log(error)
+             return false
+             
+            }
+            if(data){
+              
+            }
+            sendMail(formdata.userRef)
+
+  };
+
+  // function isuserAlreadyExist(email) {
+  //   return new Promise(async(resolve, reject) => {
+
+
+
+  //     // getDocs(q)
+  //     // .then((snapshot) => {
+  //     //   let books = [];
+
+  //     //   snapshot.docs.forEach((doc) => {
+  //     //     books.push({ ...doc.data(), id: doc.id });
+  //     //   });
+
+
+  //     //   setUserExist(books);
+  //     //   resolve(books);
+
+  //     // });
+  //      const {data,error} = await  supabase
+  //     .from('RegisteredPeople')
+  //     .select()
+  //     .eq('email',email)
+  //     .single()
+  //     .then(res=>console.log(res))
+  //     if(error){
+  //       toast.error(error)
+  //       console.log(error)
+  //       reject("some error in check user exist")
+
+
+
+  //     }
+  //     if(data){
+  //       console.log('this is data',data)
+  //       setUserExist(data);
+  //       resolve(data)
+
+
+
+
+  //     }
+  //   });
+  // }
+
   const handlesubmit = async (e) => {
     e.preventDefault();
-    if (img === null) {
-      toast.error("Upload you colllege Id Card photo", {
-        theme: "dark",
-        position: "bottom-left",
-      });
-      return false;
-    }
-    if ( Event === false) {
+   setload(true)
+    if (Project === false && Paper === false && Event === false) {
       toast.info("Select At least one event", {
         theme: "dark",
         position: "bottom-left",
@@ -301,48 +313,65 @@ const Form = () => {
       setload(false);
       return false;
     }
-    setload(true);
-    const response = await isuserAlreadyExist(formdata.email);
+    // setload(true);
+    // const response = await isuserAlreadyExist(formdata.email);
 
     // console.log("this is ths i",userExist)
-    console.log(response)
+    // console.log(response)
 
-    formdata.id = uuidv4();
+    formdata.userRef = uuidv4();
+
+
 
     formdata.cashPaid = false;
 
+    formdata.cashPaidForPaper = false;
+
+    formdata.cashPaidForProject = false;
 
     formdata.CashToBePaid = 0;
 
     formdata.EventsRegistered = eventName;
 
-    formdata.AmountPaid = 0;
+    formdata.PaperPresentation = Paper;
 
+    formdata.ProjectPresentation = Project;
+
+    formdata.AmountPaid = 0;
+ 
+    formdata.IdCard = "-"
     // for (const key in eventName) {
     //   console.log("thisd:", eventName[key]);
     //   if (!isEmpty(eventName[key])) {
-    //     formdata.CashToBePaid += 200;
+    //     formdata.CashToBePaid += 150;
     //     formdata.DEvent = true;
     //   }
     // }
     formdata.DepartEvent = Event;
-    formdata.timestamp = serverTimestamp();
+    // formdata.timestamp = serverTimestamp();
 
     if (Event === true) {
       formdata.CashToBePaid += 200;
     }
+    // if (Paper === true) {
+    //   formdata.CashToBePaid += 200;
+    // }
+    // if (Project === true) {
+    //   formdata.CashToBePaid += 250;
+    // }
+    
     console.log(formdata);
-    if (response[0] === undefined) {
-      console.log(formdata.id);
-
-      uploadProfileImg(formdata.id);
-    } else {
-      setload(false);
-      setUserExistError(true);
-      toast.error("user Already exist", {
-        position: "bottom-left",
-      });
-    }
+    uploadProfileImg(formdata.userRef);
+//     if (response[0] === undefined) {
+//       console.log(formdata);
+//  setload(false)
+//     } else {
+//       setload(false);
+//       setUserExistError(true);
+//       toast.error("user Already exist", {
+//         position: "bottom-left",
+//       });
+//     }
   };
 
   const handleChangeForSelect = (e) => {
@@ -518,7 +547,7 @@ const Form = () => {
           }}
         >
           <CssVarsProvider theme={theme} className="formsheet">
-            {0 ? (
+            {1 ? (
               <div
                 style={{
                   fontSize: "2vw",
@@ -529,11 +558,10 @@ const Form = () => {
                   alignItems: "center",
                 }}
               >
-                Registeration disabled due to technical difficulties, kindly
-                check back later!
+                Registeration closed! Thank you for participating.
               </div>
             ) : null}
-            {1 ? (
+            {0 ? (
               <form
                 onSubmit={handlesubmit}
                 style={{ marginInline: "auto" }}
@@ -736,9 +764,10 @@ const Form = () => {
                             MED: [],
                             CHEM: [],
                             AGRI: [],
+                            AIML:[],
+                            AIML:[],
+                            CSIOT:[],
                             AIDS: [],
-                            AIML: [],
-                            CSIOT: [],
                             MBA: [],
                             BME: [],
                           });
@@ -749,6 +778,34 @@ const Form = () => {
                       }}
                     />
 
+                    {/* <Checkbox
+                      className="check"
+                      color="primary"
+                      size="lg"
+                      label="Paper Presentation"
+                      onChange={(e) => {
+                        if (Paper === true) {
+                          setPay(Pay - 200);
+                        } else {
+                          setPay(Pay + 200);
+                        }
+                        setPaper(e.target.checked);
+                      }}
+                    /> */}
+                    {/* <Checkbox
+                      className="check"
+                      color="primary"
+                      size="lg"
+                      label="Project Display"
+                      onChange={(e) => {
+                        if (Project === true) {
+                          setPay(Pay - 250);
+                        } else {
+                          setPay(Pay + 250);
+                        }
+                        setProject(e.target.checked);
+                      }}
+                    /> */}
                   </Box>
                   {Event === true ? (
                     <div>

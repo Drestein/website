@@ -110,15 +110,9 @@ export default function ConditionalValidationGrid() {
       MECH: isEmpty(data.EventsRegistered.MECH)
         ? ""
         : data.EventsRegistered.MECH.join(","),
-      AIDS: isEmpty(data.EventsRegistered.AIDS)
+      AI: isEmpty(data.EventsRegistered.AI)
         ? ""
-        : data.EventsRegistered.AIDS.join(","),
-      AIML: isEmpty(data.EventsRegistered.AIML)
-        ? ""
-        : data.EventsRegistered.AIML.join(","),
-      CSIOT: isEmpty(data.EventsRegistered.CSIOT)
-        ? ""
-        : data.EventsRegistered.CSIOT.join(","), 
+        : data.EventsRegistered.AI.join(","),
       CHEM: isEmpty(data.EventsRegistered.CHEM)
         ? ""
         : data.EventsRegistered.CHEM.join(","),
@@ -183,55 +177,55 @@ export default function ConditionalValidationGrid() {
 
     { editable: false, field: "gender", headerName: "gender", width: 100 },
 
-    {
-      field: "ProjectPresentation",
-      headerName: "Project presentation",
-      width: 150,
-      editable: false,
-    },
+    // {
+    //   field: "ProjectPresentation",
+    //   headerName: "Project presentation",
+    //   width: 150,
+    //   editable: false,
+    // },
 
-    {
-      field: "isProjectPresentationPaid",
-      headerName: "Project Paid ?",
-      width: 150,
-      editable: false,
-      type: "boolean",
-      cellClassName: (params) => {
-        if (params.value == null) {
-          return "";
-        }
+    // {
+    //   field: "isProjectPresentationPaid",
+    //   headerName: "Project Paid ?",
+    //   width: 150,
+    //   editable: false,
+    //   type: "boolean",
+    //   cellClassName: (params) => {
+    //     if (params.value == null) {
+    //       return "";
+    //     }
 
-        return clsx("super-app", {
-          paid: params.value === true,
-          notpaid: params.value === false,
-        });
-      },
-    },
+    //     return clsx("super-app", {
+    //       paid: params.value === true,
+    //       notpaid: params.value === false,
+    //     });
+    //   },
+    // },
 
-    {
-      field: "PaperPresentation",
-      headerName: "Paper presentation",
-      width: 150,
-      editable: false,
-    },
+    // {
+    //   field: "PaperPresentation",
+    //   headerName: "Paper presentation",
+    //   width: 150,
+    //   editable: false,
+    // },
 
-    {
-      field: "isPaperPresentationPaid",
-      headerName: "Paper Paid ?",
-      width: 150,
-      type: "boolean",
-      editable: false,
-      cellClassName: (params) => {
-        if (params.value == null) {
-          return "";
-        }
+    // {
+    //   field: "isPaperPresentationPaid",
+    //   headerName: "Paper Paid ?",
+    //   width: 150,
+    //   type: "boolean",
+    //   editable: false,
+    //   cellClassName: (params) => {
+    //     if (params.value == null) {
+    //       return "";
+    //     }
 
-        return clsx("super-app", {
-          paid: params.value === true,
-          notpaid: params.value === false,
-        });
-      },
-    },
+    //     return clsx("super-app", {
+    //       paid: params.value === true,
+    //       notpaid: params.value === false,
+    //     });
+    //   },
+    // },
     {
       field: "DepartEvent",
       headerName: "DepartEvent",
@@ -279,9 +273,7 @@ export default function ConditionalValidationGrid() {
     { field: "EEE", headerName: "EEE", minWidth: "150", editable: false },
     { field: "EIE", headerName: "EIE", minWidth: "150", editable: false },
     { field: "MECH", headerName: "MECH", minWidth: "150", editable: false },
-    { field: "AIDS", headerName: "AIDS", minWidth: "150", editable: false },
-    { field: "AIML", headerName: "AIML", minWidth: "150", editable: false },
-    { field: "CSIOT", headerName: "CSIOT", minWidth: "150", editable: false },
+    { field: "AI", headerName: "AI", minWidth: "150", editable: false },
     { field: "CHEM", headerName: "CHEM", minWidth: "150", editable: false },
     { field: "MBA", headerName: "MBA", minWidth: "150", editable: false },
     { field: "MED", headerName: "MED", minWidth: "150", editable: false },
