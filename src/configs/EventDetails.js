@@ -7127,10 +7127,10 @@ export const EventDetails = [
         // rules: "",
         round1:
           "1)The participant should bring their own robots. 2)They can participate solo or only two members are allowed in a team. 3)The robot should complete two laps . 4)The robot which goes off the track will be disqualified. 5)The robot which completes going on the track twice by going in the proper lane which reaches first will be given the first place. 6)Prizes will be given time based ",
-        round2:
-          "1)The participant should bring their own robots. 2)They can participate solo or only two members are allowed in a team. 3)The robot should complete two laps . 4)The robot which goes off the track will be disqualified. 5)The robot which completes going on the track twice by going in the proper lane which reaches first will be given the first place. 6)Prizes will be given time based ",
-        round3:
-          "1)The participant should bring their own robots. 2)They can participate solo or only two members are allowed in a team. 3)The robot should complete two laps . 4)The robot which goes off the track will be disqualified. 5)The robot which completes going on the track twice by going in the proper lane which reaches first will be given the first place. 6)Prizes will be given time based ",  
+        // round2:
+        //   "1)The participant should bring their own robots. 2)They can participate solo or only two members are allowed in a team. 3)The robot should complete two laps . 4)The robot which goes off the track will be disqualified. 5)The robot which completes going on the track twice by going in the proper lane which reaches first will be given the first place. 6)Prizes will be given time based ",
+        // round3:
+        //   "1)The participant should bring their own robots. 2)They can participate solo or only two members are allowed in a team. 3)The robot should complete two laps . 4)The robot which goes off the track will be disqualified. 5)The robot which completes going on the track twice by going in the proper lane which reaches first will be given the first place. 6)Prizes will be given time based ",  
         tag: "EVENT",
         color: "0, 1, 38",
         logo: "/EventsAssets/eee2.webp",
