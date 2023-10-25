@@ -533,7 +533,7 @@ const Form = () => {
                 check back later!
               </div>
             ) : null}
-            {0 ? (
+            {1 ? (
               <form
                 onSubmit={handlesubmit}
                 style={{ marginInline: "auto" }}
