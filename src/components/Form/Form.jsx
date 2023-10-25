@@ -41,7 +41,6 @@ import { getDocs } from "firebase/firestore";
 import { collection, where, onSnapshot, query } from "firebase/firestore";
 import { serverTimestamp } from "firebase/firestore";
 import supabase from "../../client";
-
 import {
   getStorage,
   ref,
@@ -171,128 +170,100 @@ const Form = () => {
   //   );
   // };
   const uploadProfileImg = async (id) => {
+    return new Promise((resolve, reject) => {
+      const storage = getStorage();
+      // const fileName = `${id}-${img.name}-${uuidv4()}`;
+      const storageRef = ref(storage, "images/" + id);
 
+      const uploadTask = uploadBytesResumable(storageRef, img);
+      uploadTask.on(
+        "state_changed",
+        (snapshot) => {
+          // Observe state change events such as progress, pause, and resume
+          // Get task progress, including the number of bytes uploaded and the total number of bytes to be uploaded
+          const progress =
+            (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
+          console.log("Upload is " + progress + "% done");
+          //  setProgress(progress)
+          switch (snapshot.state) {
+            case "paused":
+              console.log("Upload is paused");
+              break;
+            case "running":
+              console.log("Upload is running");
 
-    const {data,error} = await supabase
-    .from('RegisteredPeople')
-    .insert([formdata])
+              break;
+          }
+        },
+        (error) => {
+          reject(error);
+          setload(false);
+          toast.error("resize your image");
+        },
+        () => {
+          // Handle successful uploads on complete
+          // For instance, get the download URL: https://firebasestorage.googleapis.com/...
+          getDownloadURL(uploadTask.snapshot.ref).then(async(downloadURL) => {
+            resolve(downloadURL);
+            formdata.IdCard = downloadURL;
 
-     
+            const cityRef = doc(db, "RegisteredPeople", `${formdata.id}`);
 
-   
-    if(error){
-     if(error.code==="23505"){
-       setload(false)
-       toast.error('user Already exist')
-       setUserExistError(true)
-       
-     }
-     //  toast.error("something went wrong")
-      console.log(error)
-      return false
-      
-     }
-     if(data){
-       
-     }
-    //  sendMail(formdata.userRef)
+           await setDoc(cityRef, formdata)
+              .then(async () => {
 
-};
-  // const uploadProfileImg = async (id) => {
-  //   return new Promise((resolve, reject) => {
-  //     const storage = getStorage();
-  //     // const fileName = `${id}-${img.name}-${uuidv4()}`;
-  //     const storageRef = ref(storage, "images/" + id);
+                const sendqr = await fetch(
+                  `https://chart.googleapis.com/chart?chs=200x200&cht=qr&chl=https://drestein.in/user/${cityRef.id}&choe=UTF-8`
+                );
+                const QrUrl = sendqr.url;
+                // console.log(QrUrl);
+                if (window.Email) {
 
-  //     const uploadTask = uploadBytesResumable(storageRef, img);
-  //     uploadTask.on(
-  //       "state_changed",
-  //       (snapshot) => {
-  //         // Observe state change events such as progress, pause, and resume
-  //         // Get task progress, including the number of bytes uploaded and the total number of bytes to be uploaded
-  //         const progress =
-  //           (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
-  //         console.log("Upload is " + progress + "% done");
-  //         //  setProgress(progress)
-  //         switch (snapshot.state) {
-  //           case "paused":
-  //             console.log("Upload is paused");
-  //             break;
-  //           case "running":
-  //             console.log("Upload is running");
+                  console.log(window.Email)
+                  const style = {
+                    border: "1px sold black",
+                  };
+                  await window.Email.send({
+                    SecureToken: process.env.REACT_APP_EMAILCODE_ID,
+                    To: formdata.email,
 
-  //             break;
-  //         }
-  //       },
-  //       (error) => {
-  //         reject(error);
-  //         setload(false);
-  //         toast.error("resize your image");
-  //       },
-  //       () => {
-  //         // Handle successful uploads on complete
-  //         // For instance, get the download URL: https://firebasestorage.googleapis.com/...
-  //         getDownloadURL(uploadTask.snapshot.ref).then(async(downloadURL) => {
-  //           resolve(downloadURL);
-  //           formdata.IdCard = downloadURL;
+                    From: "dresteinsaveetha2022@gmail.com",
 
-  //           const cityRef = doc(db, "RegisteredPeople", `${formdata.id}`);
+                    Subject:
+                      "Congrats! Your registration for Drestein is complete 🎉",
 
-  //          await setDoc(cityRef, formdata)
-  //             .then(async () => {
-
-  //               const sendqr = await fetch(
-  //                 `https://chart.googleapis.com/chart?chs=200x200&cht=qr&chl=https://drestein.in/user/${cityRef.id}&choe=UTF-8`
-  //               );
-  //               const QrUrl = sendqr.url;
-  //               // console.log(QrUrl);
-  //               if (window.Email) {
-
-  //                 console.log(window.Email)
-  //                 const style = {
-  //                   border: "1px sold black",
-  //                 };
-  //                 await window.Email.send({
-  //                   SecureToken: process.env.REACT_APP_EMAILCODE_ID,
-  //                   To: formdata.email,
-
-  //                   From: "drestein2023@gmail.com",
-
-  //                   Subject:
-  //                     "Congrats! Your registration for Drestein is complete 🎉",
-
-  //                   Body: `
-  //                      <h2>Congrats ${formdata.fname},</h2>
-  //                   <p>
-  //                       Thank you for registering. You have applied for <b>${
-  //                         formdata.DepartEvent ? `Events(₹200)` : ""
-  //                       }.
-  //                   </b> Don't worry if you missed an event; you can register for other events offline after coming to Saveetha Engineering College. The registration fee has to be paid at the registration counter on the day of the event by scanning your QR code sent in this email. We expect your presence on this auspicious day.
-  //                   </p>  
+                    Body: `
+                       <h2>Congrats ${formdata.fname},</h2>
+                    <p>
+                        Thank you for registering. You have applied for <b>${
+                          formdata.DepartEvent ? `Events(₹200)` : ""
+                        }.
+                    </b> Don't worry if you missed an event; you can register for other events offline after coming to Saveetha Engineering College. The registration fee has to be paid at the registration counter on the day of the event by scanning your QR code sent in this email. We expect your presence on this auspicious day.
+                    </p>  
                    
-  //                     Total amount to be paid: <b>₹${
-  //                       formdata.CashToBePaid
-  //                     } (Cash only)</b>
-  //                   </p>
+                      Total amount to be paid: <b>₹${
+                        formdata.CashToBePaid
+                      } (Cash only)</b>
+                    </p>
 
               
-  //                   <h3>Best Wishes, Drestein team</h3>
-  //                   <img src="${QrUrl}" alt='${formdata.id}'>
-  //                   `,
-  //                 }).then(() => {
-  //                   setload(false);
-  //                   setconfirmMsg(true);
-  //                 });
-  //               }
-  //             })
-  //             .catch((e) => {
-  //               toast.error(e);
-  //             });
-  //         });
-  //       }
-  //     );
-  //   });
-  // };
+                    <h3>Best Wishes, Drestein team</h3>
+                    <img src="${QrUrl}" alt='${formdata.id}'>
+                    `,
+                  }).then(() => {
+                    setload(false);
+                    setconfirmMsg(true);
+                  });
+                }
+              })
+              .catch((e) => {
+                toast.error(e);
+              });
+          });
+        }
+      );
+    });
+  };
   function isuserAlreadyExist(email) {
     return new Promise((resolve, reject) => {
       const colref = collection(db, "RegisteredPeople");
@@ -562,7 +533,7 @@ const Form = () => {
                 check back later!
               </div>
             ) : null}
-            {0? (
+            {1 ? (
               <form
                 onSubmit={handlesubmit}
                 style={{ marginInline: "auto" }}
