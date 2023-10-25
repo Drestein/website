@@ -115,11 +115,11 @@ export const EventDetails = [
         type: "Team",
         venue: "Outdoor ",
         time: "Forenoon",
-        members: "1-3",
+        members: "2",
         tag: "EVENT",
         color: "0, 1, 38",
         logo: "/EventsAssets/it3.webp",
-        rules: "Participants should bring their own drones. Participants can compete either as solo or as a team of 3",
+        rules: "Participants should bring their own drones and own laptops. Participants can compete in teams of 2",
         round1title:"Wild Wings",
         round1:" Participants will be provided with the loads to lift.  Small, Medium and Large accordingly.  Participants have to lift weights using their drone. Based on the amount of weights they lift points will be provided. Total Points - 10 ",
         round2title:"Demotiff",
@@ -288,7 +288,7 @@ export const EventDetails = [
           mode: "OFFLINE",
           venue: "TBA",
           list: true,
-        topic: "History of blockchain.Why Blockchain ? .Consensus Mechanism.Role of Cryptography in blockchain wallets.Use cases.DeFi and Dao.Solidity 101.Remix and Hardhat.Creating your own Dogecoin!.What next",
+        topic: "History of blockchain.Why Blockchain ? .\nConsensus Mechanism.\nRole of Cryptography in blockchain wallets.\nUse cases.DeFi and Dao.\nSolidity 101.\nRemix and Hardhat.\nCreating your own Dogecoin!.\nWhat next?",
           resource: [
             {
               name: "Sanjay Kumar M",
@@ -333,12 +333,12 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
         company: "Cognizant, Chennai",
-        link: "block chain lab ",
+        link: " https://docs.google.com/forms/d/e/1FAIpQLScR_XN_y2J_Ked7GkRwYGaxMmdWwpQVcHS3AulGMo8K5JezGA/viewform",
         day1: {
           date: "27.10.2023",
           time: "9:00 -3.00pm",
           mode: "OFFLINE",
-          venue: "",
+          venue: "block chain lab",
           list: true,
           topic:"Introduction to CRM.Introduction to Salesforce.What is trialhead?.Types of clouds in Salesforce.Admin Concepts with example.Dev Concepts with example.Hands-on.Smart Share.Wrap-up",
           resource: [
@@ -463,8 +463,8 @@ export const EventDetails = [
           mode: "OFFLINE",
           venue: "CSE GF LH 02 ",
           list: true,
-          note:
-            " Fundamentals of Software Development. Knowledge of IT Operations.Security Awareness.Container and Kubernetes",
+          topic:
+            " Fundamentals of Software Development.\n Knowledge of IT Operations.\nSecurity Awareness.\nContainer and Kubernetes",
           resource: [
             {
               name: "Mr. Praveen Kumar V",
@@ -573,7 +573,7 @@ export const EventDetails = [
           venue: "blockchain",
           list: true,
           topic:
-            "Forenoon session: AI’s Role in Disease Diagonisation – Introduction.Convolutional Neural Networks (CNN) for medical image analysis- Hands on.Recurrent Neural Networks (RNN) for time series data-Hands on.Text classification and sentiment analysis.- Hands-on.Named Entity Recognition (NER) for clinical text – Hands –on.11 Critical Diseases Detection AI Strategies – Hands on. Afternoon Session: Overview of Best Medical AI Softwares Regulatory considerations and compliance (HIPAA, GDPR, etc).Case Study: Generative AI in healthcare – Hands on",
+            "Forenoon session: AI’s Role in Disease Diagonisation – Introduction.\nConvolutional Neural Networks (CNN) for medical image analysis- Hands on.\nRecurrent Neural Networks (RNN) for time series data-Hands on.\nText classification and sentiment analysis.- Hands-on.\nNamed Entity Recognition (NER) for clinical text – Hands –on.\n11 Critical Diseases Detection AI Strategies – Hands on. \nAfternoon Session: Overview of Best Medical AI Softwares Regulatory considerations and compliance (HIPAA, GDPR, etc).\nCase Study: Generative AI in healthcare – Hands on",
           resource: [
             {
               name: "Dr.M.Prakash",
