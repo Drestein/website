@@ -235,7 +235,7 @@ export const EventDetails = [
           mode: "OFFLINE",
           venue: "CSE 5F kalam hall",
           list: true,
-          topic: "Overview of DevSecOps. Dev - Building reliable products (Hands on Workshop). SecOps - Enabling for Secure Product operations",
+          topic: "Overview of DevSecOps. Dev - Building reliable products (Hands on Workshop).\n SecOps - Enabling for Secure Product operations",
           resource: [
             {
               name: "Somasundaram Subbu",
@@ -340,7 +340,7 @@ export const EventDetails = [
           mode: "OFFLINE",
           venue: "block chain lab",
           list: true,
-          topic:"Introduction to CRM.Introduction to Salesforce.What is trialhead?.Types of clouds in Salesforce.Admin Concepts with example.Dev Concepts with example.Hands-on.Smart Share.Wrap-up",
+          topic:"Introduction to CRM.\nIntroduction to Salesforce.\nWhat is trialhead?.\nTypes of clouds in Salesforce.Admin Concepts with example.\nDev Concepts with example.Hands-on.\nSmart Share.\nWrap-up",
           resource: [
             {
               name: "Kayalvizhi S ",
