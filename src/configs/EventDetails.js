@@ -5817,7 +5817,7 @@ export const EventDetails = [
           date: "25/10/23",
           time: "FULL DAY",
           mode: "Hybrid",
-          venue: "TBA",
+          venue: "ECE III Floor Microprocessor lab",
     
           topic: "Python basics. Pygame basics ",
           resource: [
@@ -5916,7 +5916,7 @@ export const EventDetails = [
           date: "25/10/23",
           time: "FULL DAY",
           mode: "Hybrid",
-          venue: "TBA",
+          venue: "ECE III floor Networks lab",
     
           topic: "Python core concepts. ChatGPT API usage ",
           resource: [
@@ -6015,7 +6015,7 @@ export const EventDetails = [
           date: "30/10/23",
           time: "FULL DAY",
           mode: "Hybrid",
-          venue: "TBA",
+          venue: "ECE III floor Networks lab",
           list: "true",
           topic:
             "Introduction to Web Hacking Workshop. What is Web Application Security? Why is it Important?. Web Application Architecture & it's working principle. Web Application Enumeration Techniques. Cross Site Scripting Attacks (XSS). SQL Injection Attacks. Authentication Bypass Attacks ",
@@ -6108,7 +6108,7 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
         mode: "Offline",
-        venue: "ECE 3F Telecommunication lab ",
+       
         company: "Saveetha ECE Department",
     
         link: "https://forms.gle/eJwD3xKuqUE9GSPF8",
@@ -6116,6 +6116,7 @@ export const EventDetails = [
           date: "30/10/23",
           time: "FULL DAY",
           list: "true",
+          venue: "ECE 3F Telecommunication lab ",
           topic:
             "Session 1: Overview on PCB Design and Prototyping - Presentation.\n Session 2: PCB circuit simulation using Orcad ",
           resource: [
@@ -6164,6 +6165,7 @@ export const EventDetails = [
           date: "31/10/23",
           time: "FULL DAY",
           list: "true",
+          venue: "ECE 3F Telecommunication lab ",
           topic:
             "Session 3: Manual Prototyping of the PCB Design - Hands-on.\n Session 4: Soldering and testing the circuit in Lab environment ",
           resource: [
@@ -6212,6 +6214,7 @@ export const EventDetails = [
           date: "31/10/23",
           time: "FULL DAY",
           list: "true",
+          venue: "ECE 3F Telecommunication lab ",
           resource: [
             {
               name: "Workshop Coordinators ",
@@ -6260,7 +6263,7 @@ export const EventDetails = [
         // logo: "/EventsAssets/ecew5.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
-        venue: "ECE GF Seminar hall LH2 ",
+        
         company:"Sathyabama university",
     
         link: "https://forms.gle/2EFB6R98ceFGp9fk6",
@@ -6268,7 +6271,7 @@ export const EventDetails = [
           date: "30/10/23",
           time: "FULL DAY",
           mode: "Offline",
-          venue: "TBA",
+          venue: "ECE GF Seminar hall LH2 ",
     
           topic: "Session 1: Fundamentals of Non stationary signals and Non stationary signal processing techniques.\n Session  2: Generation and processing of signals using Matlab ",
           resource: [
@@ -6315,7 +6318,7 @@ export const EventDetails = [
           date: "31/10/23",
           time: "FULL DAY",
           mode: "Offline",
-          venue: "TBA",
+          venue: "ECE GF Seminar hall LH2 ",
     
           topic: "Session 3: Machine Learning Techniques for EEG signal processing.\n Session 4: Applications demo (different case studies) ",
           resource: [
@@ -6366,7 +6369,7 @@ export const EventDetails = [
         // logo: "/EventsAssets/ecew6.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
-        venue: "ECE GF Seminar hall LHI ",
+        
         company:"Saveetha ECE Deaprtment",
     
         link: "https://forms.gle/9XERHJCQf7dmQcs5A",
@@ -6465,7 +6468,7 @@ export const EventDetails = [
         // logo: "/EventsAssets/ecew7.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
-        venue: "ECE I Floor OW LH1",
+        
         company: "Zoho",
     
         link: "https://forms.gle/4zAANomeJEGBdGbH6",
@@ -6565,7 +6568,7 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
   
-        venue: "ECE II floor  Microprocessor  and DSP  lab  ",
+        
         company: "Applied Material PVT.LTD.",
     
         link: "https://forms.gle/gg4ecaRqfK7fCrwg6",
@@ -6675,7 +6678,6 @@ export const EventDetails = [
         tag: "WORKSHOP",
         color: "0, 70, 90",
         mode: "Offline",
-        venue: "ECE GF Seminar hall LH1 ",
         company: "Econ-System Pvt.Ltd, Chennai",
     
         link: "https://forms.gle/U7W74gNJ6H6zSbgH6",
@@ -6683,6 +6685,8 @@ export const EventDetails = [
           date: "28/10/23",
           time: "FULL DAY",
           list: "true",
+          
+        venue: "ECE GF Seminar hall LH1 ",
           topic:
             "Session 1: Introduction. \nSession 2 : Hands on TinkerCAD Tool ",
           resource: [
