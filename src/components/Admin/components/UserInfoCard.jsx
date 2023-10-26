@@ -111,9 +111,9 @@ function UserInfoCard({ user, setRegistredPeople,RegistredPeople }) {
     console.log(e.target.checked);
     let amount = 0;
     if (e.target.checked) {
-      amount = AmountPaid + 150;
+      amount = AmountPaid + 200;
     } else {
-      amount = AmountPaid - 150;
+      amount = AmountPaid - 200;
     }
     const {data,error}  = await supabase
     .from('RegisteredPeople')

@@ -131,6 +131,15 @@ export default function ConditionalValidationGrid() {
       BME: isEmpty(data.EventsRegistered.BME)
         ? ""
         : data.EventsRegistered.BME.join(","),
+      AIDS: isEmpty(data.EventsRegistered.AIDS)
+        ? ""
+        : data.EventsRegistered.AIDS.join(","),
+      AIML: isEmpty(data.EventsRegistered.AIML)
+        ? ""
+        : data.EventsRegistered.AIML.join(","),
+      CSIOT: isEmpty(data.EventsRegistered.CSIOT)
+        ? ""
+        : data.EventsRegistered.CSIOT.join(","),
       cashtobePaid: data.CashToBePaid,
     };
   });
@@ -266,20 +275,23 @@ export default function ConditionalValidationGrid() {
       headerName: "Total amount",
       width: 100,
     },
-
+    
     { field: "IT", headerName: "IT", width: "150", editable: false },
     { field: "CSE", headerName: "CSE", width: "150", editable: false },
     { field: "ECE", headerName: "ECE", Width: "150", editable: false },
     { field: "EEE", headerName: "EEE", minWidth: "150", editable: false },
     { field: "EIE", headerName: "EIE", minWidth: "150", editable: false },
     { field: "MECH", headerName: "MECH", minWidth: "150", editable: false },
-    { field: "AI", headerName: "AI", minWidth: "150", editable: false },
     { field: "CHEM", headerName: "CHEM", minWidth: "150", editable: false },
     { field: "MBA", headerName: "MBA", minWidth: "150", editable: false },
     { field: "MED", headerName: "MED", minWidth: "150", editable: false },
     { field: "AGRI", headerName: "AGRI", minWidth: "150", editable: false },
     { field: "CIVIL", headerName: "CIVIL", minWidth: "150", editable: false },
     { field: "BME", headerName: "BME", minWidth: "150", editable: false },
+    { field: "CSIOT", headerName: "CSIOT", width: "150", editable: false },
+    { field: "AIDS", headerName: "AIDS", width: "150", editable: false },
+    { field: "AIML", headerName: "AIML", width: "150", editable: false },
+   
   ];
   const [filterModel, setFilterModel] = React.useState({
     items: [

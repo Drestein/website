@@ -751,7 +751,7 @@ const Form = () => {
                       className="check"
                       color="primary"
                       size="lg"
-                      label="Events"
+                      label="Department Events"
                       onChange={(e) => {
                         if (Event === true) {
                           setPay(Pay - 200);
@@ -780,11 +780,11 @@ const Form = () => {
                       }}
                     />
 
-                    {/* <Checkbox
+                    <Checkbox
                       className="check"
                       color="primary"
                       size="lg"
-                      label="Paper Presentation"
+                      label="Special events"
                       onChange={(e) => {
                         if (Paper === true) {
                           setPay(Pay - 200);
@@ -793,7 +793,7 @@ const Form = () => {
                         }
                         setPaper(e.target.checked);
                       }}
-                    /> */}
+                    />
                     {/* <Checkbox
                       className="check"
                       color="primary"
