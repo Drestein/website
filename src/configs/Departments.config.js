@@ -141,7 +141,7 @@ export const comobj = [
     title: "Paper Presentation",
     img: "/DepartmentAssets/paper.webp",
     des: "test",
-    color: "#37c0ff",
+    color: "#ff0000",
     bgtext: "Paper",
   },
 
@@ -150,7 +150,7 @@ export const comobj = [
     title: "Project Display",
     img: "/DepartmentAssets/proj.webp",
     des: "test",
-    color: "#ff3b41",
+    color: "#4da6ff",
     bgtext: "Proj",
   },
   {
@@ -160,5 +160,49 @@ export const comobj = [
     des: "test",
     color: "#ff58c2",
     bgtext: "Pros",
+  },
+  {
+    id: "#invation",
+    title: "invation From waste",
+    img: "/DepartmentAssets/proj.webp",
+    des: "test",
+    color: "#ffff00",
+    bgtext: "Pros",
+  },
+];
+
+export const splevnt= [
+  {
+    id: "#ipl",
+    title: "IPL AUCTION",
+    img: "/DepartmentAssets/paper.webp",
+    des: "test",
+    color: "#ffff00",
+    bgtext: "IPL",
+  },
+
+  {
+    id: "#WIT DRAW",
+    title: "WIT DRAW",
+    img: "/DepartmentAssets/proj.webp",
+    des: "test",
+    color: "#ac00e6",
+    bgtext: "WIT",
+  },
+  {
+    id: "#DUBSTAR",
+    title: "DUBSTAR",
+    img: "/DepartmentAssets/proj.webp",
+    des: "test",
+    color: "#00ff00",
+    bgtext: "DUBS",
+  },
+  {
+    id: "#TENTKOTTA",
+    title: "TENTKOTTA",
+    img: "/DepartmentAssets/proj.webp",
+    des: "test",
+    color: "#0080ff",
+    bgtext: "TENT",
   },
 ];

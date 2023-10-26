@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import DepartMentCard from "./DepartMentCard";
-import { departobj, comobj } from "../../configs/Departments.config";
+import { departobj, comobj ,splevnt} from "../../configs/Departments.config";
 import { motion } from "framer-motion";
 import SpacialEventsCard from "./SpecialEventsCard";
 import Box from '@mui/material/Box';
@@ -90,7 +90,66 @@ function Departments() {
           <SpacialEventsCard {...data} />
         </a>
       );
+    } else if (data.title === "Invation from waste") {
+      // If the title is "Paper Presentation," render a link to the Paper Presentation PDF.
+      return (
+        <a href="PaperPresentation.pdf" key={i} target="_blank">
+          <SpacialEventsCard {...data} />
+        </a>
+      );
     } else {
+      // For other titles, render the SpacialEventsCard component.
+      return (
+        <div key={i} onClick={handleOpen}>
+          <SpacialEventsCard {...data} />
+        </div>
+      );
+    }
+  })}
+</DepartmentContainer>
+<motion.h1
+        initial={{ y: 100, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ duration: 1 }}
+        viewport={{ once: true, amount: 1 }}
+        className="DeptHead"
+      >
+        <div className="GalleryHeadTxt" id="SpecialEvents">
+          Spical Events 
+        </div>
+      </motion.h1>
+      <DepartmentContainer>
+  {splevnt.map((data, i) => {
+    if (data.title === "IPL AUCTION") {
+      // If the title is "Project Display," render a link to the Project Display PDF.
+      return (
+        <a href="Ipl.pdf" key={i} target="_blank">
+          <SpacialEventsCard {...data} />
+        </a>
+      );
+    } else if (data.title === "WIT DRAW") {
+      // If the title is "Poster Presentation," render a link to the Poster Presentation PDF.
+      return (
+        <a href="PosterPresentation.pdf" key={i} target="_blank">
+          <SpacialEventsCard {...data} />
+        </a>
+      );
+    } else if (data.title === "DUBSTAR") {
+      // If the title is "Paper Presentation," render a link to the Paper Presentation PDF.
+      return (
+        <a href="PaperPresentation.pdf" key={i} target="_blank">
+          <SpacialEventsCard {...data} />
+        </a>
+      );
+    } else if (data.title === "TENTKOTTA") {
+      // If the title is "Paper Presentation," render a link to the Paper Presentation PDF.
+      return (
+        <a href="PaperPresentation.pdf" key={i} target="_blank">
+          <SpacialEventsCard {...data} />
+        </a>
+      );
+    } 
+    else {
       // For other titles, render the SpacialEventsCard component.
       return (
         <div key={i} onClick={handleOpen}>
