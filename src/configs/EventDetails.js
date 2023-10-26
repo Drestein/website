@@ -7078,6 +7078,49 @@ export const EventDetails = [
     title: "Electrical and Electronics Engineering",
     eventslist: [
       {
+        name: "Level Up",
+        date: "02 Nov 2023(FN)",
+        type: "Team",
+        venue: "TBA",
+        time: "8am-12pm",
+        members: "2-3",
+        rules: "Open to all students interested in testing their intellect and technical skills.Participants can compete individually or in teams. Maintain sportsmanship and fair play; no cheating or unethical behavior",
+        round1title:"Quiz Competition",
+        round1:
+          "Quiz includes multiple-choice, short answer, and problem-solving questions. Earn points for correct answers with potential negative marking.Highest scorer progresses to the next level ",
+        round2title:" Treasure Hunt",
+          round2:
+          "Teams solve clues and puzzles to find hidden treasures. Emphasizes teamwork and collaboration. Adhere to a time limit for completion",
+        round3title:"Electro Connection",
+          round3:
+          " Design functional electronic circuits based on a problem statement. Use provided components, tools, and simulation software. Evaluation by judges based on functionality, efficiency, innovation, and documentation",
+        tag: "EVENT",
+        color: "0, 1, 38",
+        logo: "/EventsAssets/eee0.webp",
+        staff: [
+          {
+            name: "T.D.Suresh",
+            desig: "Assistant proffesor",
+            phone: 9941721288,
+            email: "sureshd@saveetha.ac.in",
+          },
+        ],
+        student: [
+          {
+            name: "Vishnu Prasad.N",
+            year: "IV",
+            phone: 6369299454,
+            email: "vishnuprasad30102002@gmail.com",
+          },
+          {
+            name: "Rishi.M",
+            year: "IV",
+            phone: 6385298615,
+            email: "rishimrl16@gmail.vcom",
+          },
+        ],
+      },
+      {
         name: "Robo Soccer",
         date: "02 Nov 2023(AN)",
         type: "Team",
@@ -7262,12 +7305,13 @@ export const EventDetails = [
         logo: "/EventsAssets/eeew2.webp",
         tag: "WORKSHOP",
         color: "0, 70, 90",
-
+       
         link: " https://forms.gle/CuFB5KcJCDeQabMY9 ",
         day1: {
           date: "26/10/2023",
-          time: "TBA",
+          time: "FULL DAY",
           company: "Arjun Vision Tech Solutions",
+          venue:"EEE 1F EMBEDDED LAB",
           topic:
             "FN- Android. AN- Hands on Android ",
           resource: [
@@ -7309,8 +7353,9 @@ export const EventDetails = [
         },
         day2: {
           date: "27/10/2023",
-          time: "TBA",
+          time: "FULL DAY",
           company: "Arjun Vision Tech Solutions",
+          venue:"EEE 1F EMBEDDED LAB",
           topic:
             "FN-Raspberry Pi. AN- Hands on Raspberry Pi ",
           resource: [

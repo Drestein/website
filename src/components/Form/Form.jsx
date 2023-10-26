@@ -478,7 +478,9 @@ const Form = () => {
     },
     {
       name: "EEE",
-      events: ["ROBO SOCCER",
+      events: [
+        "LEVEL UP",
+        "ROBO SOCCER",
        "LINE FOLLOWER",
       ],
     },
