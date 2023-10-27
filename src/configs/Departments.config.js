@@ -148,7 +148,7 @@ export const comobj = [
   {
     id: "#project",
     title: "Project Display",
-    img: "/DepartmentAssets/proj.webp",
+    img: "/DepartmentAssets/PD.webp",
     des: "test",
     color: "#4da6ff",
     bgtext: "Proj",
@@ -164,7 +164,7 @@ export const comobj = [
   {
     id: "#invation",
     title: "E-WASTE ARTIFACTS",
-    img: "/DepartmentAssets/proj.webp",
+    img: "/DepartmentAssets/ew.webp",
     des: "test",
     color: "#ffff00",
     bgtext: "Pros",
@@ -184,7 +184,7 @@ export const splevnt= [
   {
     id: "#WIT DRAW",
     title: "WIT DRAW",
-    img: "/DepartmentAssets/proj.webp",
+    img: "/DepartmentAssets/WD.webp",
     des: "test",
     color: "#ac00e6",
     bgtext: "WIT",
@@ -192,7 +192,7 @@ export const splevnt= [
   {
     id: "#DUBSTAR",
     title: "DUBSTAR",
-    img: "/DepartmentAssets/proj.webp",
+    img: "/DepartmentAssets/D.webp",
     des: "test",
     color: "#00ff00",
     bgtext: "DUBS",
