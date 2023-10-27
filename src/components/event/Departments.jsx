@@ -115,7 +115,7 @@ function Departments() {
         className="DeptHead"
       >
         <div className="GalleryHeadTxt" id="SpecialEvents">
-          Spical Events 
+          Special Events 
         </div>
       </motion.h1>
       <DepartmentContainer>
@@ -130,14 +130,14 @@ function Departments() {
     } else if (data.title === "WIT DRAW") {
       // If the title is "Poster Presentation," render a link to the Poster Presentation PDF.
       return (
-        <a href="PosterPresentation.pdf" key={i} target="_blank">
+        <a href="WITDRAW.pdf" key={i} target="_blank">
           <SpacialEventsCard {...data} />
         </a>
       );
     } else if (data.title === "DUBSTAR") {
       // If the title is "Paper Presentation," render a link to the Paper Presentation PDF.
       return (
-        <a href="PaperPresentation.pdf" key={i} target="_blank">
+        <a href="DP.pdf" key={i} target="_blank">
           <SpacialEventsCard {...data} />
         </a>
       );
