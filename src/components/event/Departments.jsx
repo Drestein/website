@@ -79,21 +79,21 @@ function Departments() {
     } else if (data.title === "Poster Presentation") {
       // If the title is "Poster Presentation," render a link to the Poster Presentation PDF.
       return (
-        <a href="PosterPresentation.pdf" key={i} target="_blank">
+        <a href="pop.webp" key={i} target="_blank">
           <SpacialEventsCard {...data} />
         </a>
       );
     } else if (data.title === "Paper Presentation") {
       // If the title is "Paper Presentation," render a link to the Paper Presentation PDF.
       return (
-        <a href="PaperPresentation.pdf" key={i} target="_blank">
+        <a href="pap.webp" key={i} target="_blank">
           <SpacialEventsCard {...data} />
         </a>
       );
-    } else if (data.title === "Invation from waste") {
+    } else if (data.title === "E-WASTE ARTIFACTS") {
       // If the title is "Paper Presentation," render a link to the Paper Presentation PDF.
       return (
-        <a href="PaperPresentation.pdf" key={i} target="_blank">
+        <a href="E-WASTE ARTIFACTS.webp" key={i} target="_blank">
           <SpacialEventsCard {...data} />
         </a>
       );
@@ -123,21 +123,21 @@ function Departments() {
     if (data.title === "IPL AUCTION") {
       // If the title is "Project Display," render a link to the Project Display PDF.
       return (
-        <a href="Ipl.pdf" key={i} target="_blank">
+        <a href="IpL.webp" key={i} target="_blank">
           <SpacialEventsCard {...data} />
         </a>
       );
     } else if (data.title === "WIT DRAW") {
       // If the title is "Poster Presentation," render a link to the Poster Presentation PDF.
       return (
-        <a href="WITDRAW.pdf" key={i} target="_blank">
+        <a href="WITDRAW.webp" key={i} target="_blank">
           <SpacialEventsCard {...data} />
         </a>
       );
     } else if (data.title === "DUBSTAR") {
       // If the title is "Paper Presentation," render a link to the Paper Presentation PDF.
       return (
-        <a href="DP.pdf" key={i} target="_blank">
+        <a href="DU.webp" key={i} target="_blank">
           <SpacialEventsCard {...data} />
         </a>
       );

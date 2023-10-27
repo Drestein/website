@@ -89,12 +89,7 @@ export const EventDetails = [
             phone: 8838324873,
             email: "prathikshavijay08@gmail.com",
           },
-          {
-            name: "Kishore N",
-            year: "IV",
-            phone: 6380247898,
-            email: "kishor.a1411@gmail.com",
-          },
+        
           {
             name: "Vasanthan S R",
             year: "III",
@@ -106,6 +101,12 @@ export const EventDetails = [
             year: "III",
             phone: 9176780818,
             email: "harinig025@gmail.com",
+          },
+          {
+            name: "Dharani ",
+            year: "II",
+            phone: 9176780818,
+            
           },
         ],
       },
