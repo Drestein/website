@@ -7220,7 +7220,7 @@ export const EventDetails = [
         venue: "TBA",
         time: "TBA",
         members: "1 or 2",
-        // rules: "",
+        rules: "The robot must be autonomous/automatic.[No. Of team member allowed -2]. In competition the ready-made robots are not allowed, the teams can not participate if they use any ready- made robots, for example - Lego kits.Power supply must be on board.The robot must be in the given dimensions Examples dimensions of line follower robot 25cm- 25cm-25cm (Length *width *Hight). Electrical voltage of the robot should not excite 12 Volt (DC) at any time during competition.Track width=2 cms. The bot which completes the track at the fastest time will be announced as the winner.prizes will be time based.contact the coordinators for more details",
         round1:
           "1)The participant should bring their own robots. 2)They can participate solo or only two members are allowed in a team. 3)The robot should complete two laps . 4)The robot which goes off the track will be disqualified. 5)The robot which completes going on the track twice by going in the proper lane which reaches first will be given the first place. 6)Prizes will be given time based ",
         // round2:

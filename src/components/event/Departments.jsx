@@ -72,7 +72,7 @@ function Departments() {
     if (data.title === "Project Display") {
       // If the title is "Project Display," render a link to the Project Display PDF.
       return (
-        <a href="ProjectDisplay.pdf" key={i} target="_blank">
+        <a href="pad.webp" key={i} target="_blank">
           <SpacialEventsCard {...data} />
         </a>
       );
