@@ -5209,7 +5209,7 @@ export const EventDetails = [
           date: "27/11/2023 ",
           time: "Fullday",
           mode: "OFFLINE",
-          venue: "Admin 3F OW LH 5",
+          venue: "Admin 3F OW LH 01",
           staff: [
             {
               name: "Dr.Ramasundaram",
@@ -5264,10 +5264,62 @@ export const EventDetails = [
           ],
         },
         day2: {
-          date: "28/11/2023",
+          date: "28/11/2023 ",
           time: "Fullday",
           mode: "OFFLINE",
-          venue: "Admin 3F OW LH 5",
+          venue: "Admin 3F OW LH 01",
+          staff: [
+            {
+              name: "Dr.Ramasundaram",
+              desig: "Associate Professor",
+              phone: 9884725694,
+              email: "ramasundaram@saveetha.ac.in",
+            },
+            {
+              name: "Dr. Vanitha",
+              desig: "Associate Professor",
+              phone: 8220781719,
+              email: "vanithaa@saveetha.ac.in",
+            },
+          ],
+          student: [
+            {
+              name: "Mehanaz.M",
+              year: "II",
+              phone: 7538830168,
+              email: "mehanasali2001@gmail.com",
+            },
+            {
+              name: "Vishali.D",
+              year: "II",
+              phone: 6374344432,
+              email: "vishalideva17@gmail.com",
+            },
+            {
+              name: "SamImmanvel. S",
+              year: "I",
+              phone: 9361490931,
+              email: "samimmanuel005@gmail.com",
+            },
+            {
+              name: "Sandhiya. M",
+              year: "I",
+              phone: 9094377366,
+              email: "sanrenukavi2002@gmail.com",
+            },
+            {
+              name: "Sandhiya. R.U ",
+              year: "I",
+              phone: 9840021831,
+              email: "dhikchi1212@gmail.com",
+            },
+            {
+              name: "Jayasudha. S",
+              year: "I",
+              phone: 9962841726,
+              email: "Jayasudha795@gamil.com",
+            },
+          ],
         },
       },
     ],
