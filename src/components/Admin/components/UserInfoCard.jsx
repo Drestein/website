@@ -253,7 +253,9 @@ function UserInfoCard({ user, setRegistredPeople,RegistredPeople }) {
     "EEE",
     "EIE",
     "MECH",
-    "AI",
+    "AIDS",
+    "AIML",
+    "CSIOT",
     "CHEM",
     "MBA",
     "MED",
@@ -419,7 +421,7 @@ function UserInfoCard({ user, setRegistredPeople,RegistredPeople }) {
           }}
         >
           <h3>
-            <strong>DEPARTMENTS EVENTS : 150 ₹</strong>
+            <strong>DEPARTMENTS EVENTS : 200 ₹</strong>
           </h3>
 
           <div>
@@ -451,7 +453,7 @@ function UserInfoCard({ user, setRegistredPeople,RegistredPeople }) {
               alignItems: "center",
             }}
           >
-            <h3>PAPER PRESENTATION : 200 ₹</h3>
+            <h3>Special Events : 200 ₹</h3>
             <div>
               <Switch
                 checked={cashPaidForPaper}
@@ -469,7 +471,7 @@ function UserInfoCard({ user, setRegistredPeople,RegistredPeople }) {
             />
           </div>
         )}
-        {ProjectPresentation && (
+        {/* {ProjectPresentation && (
           <div
             style={{
               display: "flex",
@@ -494,7 +496,7 @@ function UserInfoCard({ user, setRegistredPeople,RegistredPeople }) {
               label={cashPaidForProject ? "paid" : "unpaid"}
             />
           </div>
-        )}
+        )} */}
       </div>
 
       <div

@@ -163,7 +163,7 @@ export const comobj = [
   },
   {
     id: "#invation",
-    title: "E-WASTE ARTIFACTS",
+    title: "E-Waste Artifacts",
     img: "/DepartmentAssets/ew.webp",
     des: "test",
     color: "#ffff00",
@@ -205,4 +205,12 @@ export const splevnt= [
     color: "#0080ff",
     bgtext: "TENT",
   },
+  // {
+  //   id: "#Carsho",
+  //   title: "TENTKOTTA",
+  //   img: "/DepartmentAssets/tent.webp",
+  //   des: "test",
+  //   color: "#0080ff",
+  //   bgtext: "TENT",
+  // },
 ];

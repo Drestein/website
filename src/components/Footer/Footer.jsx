@@ -147,7 +147,7 @@ const Footer = () => {
               />
             }
           >
-            Dr. N. Raja Rajeshwari
+            Dr. N. Raja Rajeswari
           </Chip>
           </a>
           <h4

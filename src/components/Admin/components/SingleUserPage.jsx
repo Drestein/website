@@ -151,7 +151,7 @@ if(RegUsers.length>0){
                       alignItems="center"
                       spacing={2}
                     >
-                      <p>Department Event :</p>
+                      <p>Department :</p>
                       <Chip
                         sx={{
                           color: cashPaid ? "black" : "white",

@@ -64,7 +64,7 @@ function Departments() {
         className="DeptHead"
       >
         <div className="GalleryHeadTxt" id="SpecialEvents">
-          common Events 
+          Common Events 
         </div>
       </motion.h1>
       <DepartmentContainer>
@@ -72,7 +72,7 @@ function Departments() {
     if (data.title === "Project Display") {
       // If the title is "Project Display," render a link to the Project Display PDF.
       return (
-        <a href="pad.webp" key={i} target="_blank">
+        <a href="prpd.webp" key={i} target="_blank">
           <SpacialEventsCard {...data} />
         </a>
       );
@@ -90,10 +90,10 @@ function Departments() {
           <SpacialEventsCard {...data} />
         </a>
       );
-    } else if (data.title === "E-WASTE ARTIFACTS") {
+    } else if (data.title === "E-Waste Artifacts") {
       // If the title is "Paper Presentation," render a link to the Paper Presentation PDF.
       return (
-        <a href="E-WASTE ARTIFACTS.webp" key={i} target="_blank">
+        <a href="pro.webp" key={i} target="_blank">
           <SpacialEventsCard {...data} />
         </a>
       );

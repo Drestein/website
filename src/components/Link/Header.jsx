@@ -226,7 +226,7 @@ function Main() {
       </HeaderBg>
       <Link to="/events">
         <RegisterNow className="button">
-          <HoverSpan className="span_btn">Visit EVENTS!!</HoverSpan>
+          <HoverSpan className="span_btn">Visit Department Events!!</HoverSpan>
         </RegisterNow>
       </Link>
       {/* <Link to="/events">

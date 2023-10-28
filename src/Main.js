@@ -95,12 +95,12 @@ const Main = () => {
           alt="banner"
         />
       </div>
-
+      <Link />
       <DepartmentDiv id="event">
         <Departments />
       </DepartmentDiv>
   
-      <Link />
+      
       <div id="Gallery2022">
         <Gallery2022 />
       </div>

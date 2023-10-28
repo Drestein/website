@@ -732,8 +732,9 @@ export const EventDetails = [
         tagline: "",
         date: "02 Nov 2023(FN)",
         type: "3-4",
-        venue: "",
+        venue: "ECE 3F LH 02",
         time: "FORENOON",
+        note:"Laptop is mandatory",
         round1title: "",
         round1: "Select a chit to take the project that you are going to build. Decide the components that is required for the project. If they failed to get the required components hints will be given by performing some simple task",
         round2title: "",
@@ -789,7 +790,7 @@ export const EventDetails = [
         name: "OSINT Playground",
         date: "02 Nov 2022(FN)",
         type: "Team",
-        venue: "ECE 3F LH02",
+        venue: "AR VR LAB",
         time: "Forenoon",
         members: "1-2",
         rules: "Students can use any open source (OSINT) tool to find the answer.Team size must be 1-2.Sharing answers with other participants is prohibited.Participants who finishes the first round and answers all questions correctly within the given time will be selected the second round.If not, as time for first round ends, Participants who answered maximum questions will be selected for the next round",
@@ -847,7 +848,7 @@ export const EventDetails = [
         name: "Life Encoders",
         date: "02 Nov 2022(AN)",
         type: "Team",
-        venue: "",
+        venue: "Blockchain Lab",
         time: "Afternoon",
         members: "1-3",
         round1:
@@ -908,6 +909,7 @@ export const EventDetails = [
         venue: "ECE 3F LH02",
         time: "Afternoon",
         // members: "1-3",
+        note:"latop is Mandatory",
         note: "List of Domains: IoT Healthcare Solutions.Smart Home and IoT.IoT in Agriculture.Industrial IoT (IIoT).IoT for Sustainability.IoT and Accessibility.Smart Cities.IoT and Education.",
         round1:
           "The IoT Entrepreneurship Challenge is a dedicated platform aimed at fostering the entrepreneurial spirit and refining the business acumen of student participants. This competitive event extends an invitation to both individuals and teams to present inventive IoT startup concepts within specified domains.",
@@ -935,7 +937,7 @@ export const EventDetails = [
           {
             name: "Amrutha Rajsheker",
             year: "II",
-            phone: 8610360873,
+            phone: 8681085550,
             email: "amrutharajsheker@gmail.com",
           },
           {
