@@ -195,14 +195,14 @@ export default function UpdateForm({
     }
     //check for total amount
     if (Event) {
-      totalAmount += 150;
+      totalAmount += 200;
     }
     if (Project) {
       totalAmount += 250;
     }
-    if (Paper) {
-      totalAmount += 200;
-    }
+    // if (Paper) {
+    //   totalAmount += 200;
+    // }
 
     console.log(Amountpaid);
     const {data,error}  = await supabase

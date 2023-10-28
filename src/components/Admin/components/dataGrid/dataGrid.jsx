@@ -186,30 +186,30 @@ export default function ConditionalValidationGrid() {
 
     { editable: false, field: "gender", headerName: "gender", width: 100 },
 
-    // {
-    //   field: "ProjectPresentation",
-    //   headerName: "Project presentation",
-    //   width: 150,
-    //   editable: false,
-    // },
+    {
+      field: "ProjectPresentation",
+      headerName: "special events",
+      width: 150,
+      editable: false,
+    },
 
-    // {
-    //   field: "isProjectPresentationPaid",
-    //   headerName: "Project Paid ?",
-    //   width: 150,
-    //   editable: false,
-    //   type: "boolean",
-    //   cellClassName: (params) => {
-    //     if (params.value == null) {
-    //       return "";
-    //     }
+    {
+      field: "isProjectPresentationPaid",
+      headerName: "special events?",
+      width: 150,
+      editable: false,
+      type: "boolean",
+      cellClassName: (params) => {
+        if (params.value == null) {
+          return "";
+        }
 
-    //     return clsx("super-app", {
-    //       paid: params.value === true,
-    //       notpaid: params.value === false,
-    //     });
-    //   },
-    // },
+        return clsx("super-app", {
+          paid: params.value === true,
+          notpaid: params.value === false,
+        });
+      },
+    },
 
     // {
     //   field: "PaperPresentation",
