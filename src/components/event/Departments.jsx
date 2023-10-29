@@ -144,7 +144,7 @@ function Departments() {
     } else if (data.title === "TENTKOTTA") {
       // If the title is "Paper Presentation," render a link to the Paper Presentation PDF.
       return (
-        <a href="PaperPresentation.pdf" key={i} target="_blank">
+        <a href="ten.webp" key={i} target="_blank">
           <SpacialEventsCard {...data} />
         </a>
       );
