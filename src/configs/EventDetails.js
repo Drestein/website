@@ -741,7 +741,7 @@ export const EventDetails = [
         round2: "To get the connections, the circuit connections will be given in the form of a puzzle. They have to complete the puzzle to get the connections. (The puzzle will be the pictorial representation of the circuit connections)",
         round3title: "",
         round3: "Once the connections are given in the tinkercad (a website to give the connections to all the components and execute the project) code will be provided after completing the basic level IoT related quiz.Already executed programs should not be shown",
-        note: "Other browsers should not be used.Laptop is mandatory.latop is Mandatory",
+        note: "Other browsers should not be used.Laptop is mandatory.",
         tag: "EVENT",
         color: "0, 1, 38",
         logo: "/EventsAssets/cyb1.webp",
@@ -910,7 +910,7 @@ export const EventDetails = [
         time: "Afternoon",
         // members: "1-3",
       
-        note: "List of Domains: IoT Healthcare Solutions.Smart Home and IoT.IoT in Agriculture.Industrial IoT (IIoT).IoT for Sustainability.IoT and Accessibility.Smart Cities.IoT and Education.latop is Mandatory",
+        note: "List of Domains: IoT Healthcare Solutions.Smart Home and IoT.IoT in Agriculture.Industrial IoT (IIoT).IoT for Sustainability.IoT and Accessibility.Smart Cities.IoT and Education.laptop is Mandatory",
         round1:
           "The IoT Entrepreneurship Challenge is a dedicated platform aimed at fostering the entrepreneurial spirit and refining the business acumen of student participants. This competitive event extends an invitation to both individuals and teams to present inventive IoT startup concepts within specified domains",
         round2title:"Power Pitch",
