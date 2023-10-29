@@ -421,7 +421,7 @@ function UserInfoCard({ user, setRegistredPeople,RegistredPeople }) {
           }}
         >
           <h3>
-            <strong>DEPARTMENTS EVENTS : 200 ₹</strong>
+            <strong>DEPARTMENTS EVENTS : 200₹</strong>
           </h3>
 
           <div>
