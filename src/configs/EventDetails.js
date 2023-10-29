@@ -912,10 +912,10 @@ export const EventDetails = [
       
         note: "List of Domains: IoT Healthcare Solutions.Smart Home and IoT.IoT in Agriculture.Industrial IoT (IIoT).IoT for Sustainability.IoT and Accessibility.Smart Cities.IoT and Education.latop is Mandatory",
         round1:
-          "The IoT Entrepreneurship Challenge is a dedicated platform aimed at fostering the entrepreneurial spirit and refining the business acumen of student participants. This competitive event extends an invitation to both individuals and teams to present inventive IoT startup concepts within specified domains.",
+          "The IoT Entrepreneurship Challenge is a dedicated platform aimed at fostering the entrepreneurial spirit and refining the business acumen of student participants. This competitive event extends an invitation to both individuals and teams to present inventive IoT startup concepts within specified domains",
         round2title:"Power Pitch",
         round2:
-          "During the presentations, participants will accentuate the seamless fusion of technical innovation with practical business viability within their IoT solutions. Significantly, this challenge offers invaluable networking prospects and opportunities for recognition, effectively motivating and supporting budding entrepreneurs in realizing their IoT visions as sustainable and lucrative ventures within the designated domains. Winners will be meticulously selected, with emphasis placed on innovation, market potential, business model viability, presentation aptitude, and scalability. This dynamic platform serves as an empowering launchpad for students as they venture into the realm of IoT entrepreneurship.",
+          "During the presentations, participants will accentuate the seamless fusion of technical innovation with practical business viability within their IoT solutions. Significantly, this challenge offers invaluable networking prospects and opportunities for recognition, effectively motivating and supporting budding entrepreneurs in realizing their IoT visions as sustainable and lucrative ventures within the designated domains. Winners will be meticulously selected, with emphasis placed on innovation, market potential, business model viability, presentation aptitude, and scalability. This dynamic platform serves as an empowering launchpad for students as they venture into the realm of IoT entrepreneurship",
         tag: "EVENT",
         color: "0, 1, 38",
         logo: "/EventsAssets/cyb4.webp",
