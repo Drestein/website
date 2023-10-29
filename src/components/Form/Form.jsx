@@ -353,9 +353,9 @@ const Form = () => {
     if (Event === true) {
       formdata.CashToBePaid += 200;
     }
-    // if (Paper === true) {
-    //   formdata.CashToBePaid += 200;
-    // }
+    if (Paper === true) {
+      formdata.CashToBePaid += 200;
+    }
     // if (Project === true) {
     //   formdata.CashToBePaid += 250;
     // }

@@ -159,9 +159,9 @@ function UserInfoCard({ user, setRegistredPeople,RegistredPeople }) {
     console.log(e.target.checked);
     let amount = 0;
     if (e.target.checked) {
-      amount = AmountPaid + 250;
+      amount = AmountPaid + 200;
     } else {
-      amount = AmountPaid - 250;
+      amount = AmountPaid - 200;
     }
  
     const {data,error}  = await supabase
@@ -253,9 +253,7 @@ function UserInfoCard({ user, setRegistredPeople,RegistredPeople }) {
     "EEE",
     "EIE",
     "MECH",
-    "AIDS",
-    "AIML",
-    "CSIOT",
+    "AI",
     "CHEM",
     "MBA",
     "MED",
@@ -421,7 +419,7 @@ function UserInfoCard({ user, setRegistredPeople,RegistredPeople }) {
           }}
         >
           <h3>
-            <strong>DEPARTMENTS EVENTS : 200₹</strong>
+            <strong>DEPARTMENTS EVENTS : 200 ₹</strong>
           </h3>
 
           <div>
@@ -453,7 +451,7 @@ function UserInfoCard({ user, setRegistredPeople,RegistredPeople }) {
               alignItems: "center",
             }}
           >
-            <h3>Special Events : 200 ₹</h3>
+            <h3>special events: 200 ₹</h3>
             <div>
               <Switch
                 checked={cashPaidForPaper}
@@ -471,7 +469,7 @@ function UserInfoCard({ user, setRegistredPeople,RegistredPeople }) {
             />
           </div>
         )}
-        {/* {ProjectPresentation && (
+        {ProjectPresentation && (
           <div
             style={{
               display: "flex",
@@ -479,7 +477,7 @@ function UserInfoCard({ user, setRegistredPeople,RegistredPeople }) {
               alignItems: "center",
             }}
           >
-            <h3>PROJECT PRESENTATION : 250 ₹</h3>
+            <h3>PROJECT PRESENTATION : 200 ₹</h3>
             <div>
               <Switch
                 checked={cashPaidForProject}
@@ -496,7 +494,7 @@ function UserInfoCard({ user, setRegistredPeople,RegistredPeople }) {
               label={cashPaidForProject ? "paid" : "unpaid"}
             />
           </div>
-        )} */}
+        )}
       </div>
 
       <div

@@ -200,17 +200,17 @@ export const splevnt= [
   {
     id: "#TENTKOTTA",
     title: "TENTKOTTA",
-    img: "/DepartmentAssets/tent.webp",
+    img: "/DepartmentAssets/tentco.webp",
     des: "test",
     color: "#0080ff",
     bgtext: "TENT",
   },
-  // {
-  //   id: "#Carsho",
-  //   title: "TENTKOTTA",
-  //   img: "/DepartmentAssets/tent.webp",
-  //   des: "test",
-  //   color: "#0080ff",
-  //   bgtext: "TENT",
-  // },
+  {
+    id: "#AUTO EXPO",
+    title: "AUTO EXPO",
+    img: "/DepartmentAssets/auto01.webp",
+    des: "test",
+    color: "#FF0000",
+    bgtext: "TENT",
+  },
 ];

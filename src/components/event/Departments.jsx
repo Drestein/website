@@ -148,6 +148,13 @@ function Departments() {
           <SpacialEventsCard {...data} />
         </a>
       );
+    } else if (data.title === "AUTO EXPO") {
+      // If the title is "Paper Presentation," render a link to the Paper Presentation PDF.
+      return (
+        <a href="au.webp" key={i} target="_blank">
+          <SpacialEventsCard {...data} />
+        </a>
+      );
     } 
     else {
       // For other titles, render the SpacialEventsCard component.

@@ -110,9 +110,15 @@ export default function ConditionalValidationGrid() {
       MECH: isEmpty(data.EventsRegistered.MECH)
         ? ""
         : data.EventsRegistered.MECH.join(","),
-      AI: isEmpty(data.EventsRegistered.AI)
+      AIML: isEmpty(data.EventsRegistered.AIML)
         ? ""
-        : data.EventsRegistered.AI.join(","),
+        : data.EventsRegistered.AIML.join(","),
+        AIDS: isEmpty(data.EventsRegistered.AIDS)
+        ? ""
+        : data.EventsRegistered.AIDS.join(","),
+      CSIOT: isEmpty(data.EventsRegistered.CSIOT)
+        ? ""
+        : data.EventsRegistered.CSIOT.join(","),
       CHEM: isEmpty(data.EventsRegistered.CHEM)
         ? ""
         : data.EventsRegistered.CHEM.join(","),
@@ -131,21 +137,12 @@ export default function ConditionalValidationGrid() {
       BME: isEmpty(data.EventsRegistered.BME)
         ? ""
         : data.EventsRegistered.BME.join(","),
-      AIDS: isEmpty(data.EventsRegistered.AIDS)
-        ? ""
-        : data.EventsRegistered.AIDS.join(","),
-      AIML: isEmpty(data.EventsRegistered.AIML)
-        ? ""
-        : data.EventsRegistered.AIML.join(","),
-      CSIOT: isEmpty(data.EventsRegistered.CSIOT)
-        ? ""
-        : data.EventsRegistered.CSIOT.join(","),
       cashtobePaid: data.CashToBePaid,
     };
   });
   //total =====
   let totalA = 0;
-  let collectedcash = 0;
+  let collectedcash = 1;
   const totalAmount = paidUsers.map((data) => {
     totalA += data.CashToBePaid;
 
@@ -155,9 +152,9 @@ export default function ConditionalValidationGrid() {
 
     collectedcash += data.AmountPaid;
 
-    // if(data.cashPaidForPaper){
-    //   collectedcash +=data.AmountPaid;
-    // }
+    if(data.cashPaidForPaper){
+      collectedcash +=data.AmountPaid;
+    }
   });
   // console.log(users)
   const rows = [...users];
@@ -188,14 +185,14 @@ export default function ConditionalValidationGrid() {
 
     {
       field: "ProjectPresentation",
-      headerName: "special events",
+      headerName: "Project presentation",
       width: 150,
       editable: false,
     },
 
     {
       field: "isProjectPresentationPaid",
-      headerName: "special events?",
+      headerName: "Project Paid ?",
       width: 150,
       editable: false,
       type: "boolean",
@@ -275,23 +272,22 @@ export default function ConditionalValidationGrid() {
       headerName: "Total amount",
       width: 100,
     },
-    
+
     { field: "IT", headerName: "IT", width: "150", editable: false },
     { field: "CSE", headerName: "CSE", width: "150", editable: false },
     { field: "ECE", headerName: "ECE", Width: "150", editable: false },
     { field: "EEE", headerName: "EEE", minWidth: "150", editable: false },
     { field: "EIE", headerName: "EIE", minWidth: "150", editable: false },
     { field: "MECH", headerName: "MECH", minWidth: "150", editable: false },
+    { field: "AIDS", headerName: "AIDS", minWidth: "150", editable: false },
+    { field: "AIML", headerName: "AIML", minWidth: "150", editable: false },
+    { field: "CSIOT", headerName: "CSIOT", minWidth: "150", editable: false },
     { field: "CHEM", headerName: "CHEM", minWidth: "150", editable: false },
     { field: "MBA", headerName: "MBA", minWidth: "150", editable: false },
     { field: "MED", headerName: "MED", minWidth: "150", editable: false },
     { field: "AGRI", headerName: "AGRI", minWidth: "150", editable: false },
     { field: "CIVIL", headerName: "CIVIL", minWidth: "150", editable: false },
     { field: "BME", headerName: "BME", minWidth: "150", editable: false },
-    { field: "CSIOT", headerName: "CSIOT", width: "150", editable: false },
-    { field: "AIDS", headerName: "AIDS", width: "150", editable: false },
-    { field: "AIML", headerName: "AIML", width: "150", editable: false },
-   
   ];
   const [filterModel, setFilterModel] = React.useState({
     items: [

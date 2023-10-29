@@ -90,78 +90,143 @@ export default function UpdateForm({
   }, [cashPaidForPaper, cashPaidForProject, cashPaid]);
   const test = [
     {
-      name: "CSE",
-      events: ["The Lost Code", "UI Design", "Blind Coding", "Ideathon"],
-    },
-    {
-      name: "IT",
-      events: ["Switcheroo", "Game of Codes", "Cipher Hunt", "Codeverse"],
-    },
-    {
-      name: "ECE",
-      events: ["eceevent1", "eceevent2"],
-    },
-    {
-      name: "EEE",
-      events: ["EEEevent1", "EEEevent2"],
-    },
-    {
-      name: "EIE",
-      events: ["Fire Tech", "Tech puzzle", "Debugging theorem", "Instantrix"],
-    },
-    {
       name: "AGRI",
       events: [
-        "SHERLOCK HOLMES",
-        "DEVILS ADVOCATE",
-        "TREASURE HUNT",
-        "NEURO COMBAT",
+        "BLOODY SWEET",
+        "ARE YOU A BRAINE",
+        "NEUTRAL NEXUS",
+      ],
+    },
+   
+    {
+      name: "AIDS",
+      events: [
+        "PICK YOUR FILTER",
+        "DESIGN BATTLE",
+        "PROMPT YOUR WAY THRU",
+        "MIND SWAP",
+        "MARVEL QUEST",
       ],
     },
     {
-      name: "AI",
+      name: "AIML",
       events: [
-        "Code and Debug",
-        "Shark Tank",
-        "Memesrus",
-        "WEB CON",
-        "Data Hunt",
+        "SHARK TANK",
+        "ESCAPE ROOM",
+        "UNSPLASH",
+        "CODE FUSION",
+        "MEMES MANIA",
       ],
     },
     {
       name: "BME",
       events: [
-        "Med factory",
-        "Mind Flayers",
-        "Kampf geist",
+        "TECHGPRES",
+        "THE CASE",
+        "DE-DEMOLISH",
         "Neurotic Expelliarmus",
       ],
     },
     {
-      name: "CIVIL",
-      events: ["Build-IT", "MAP THE GAP", "CADD Modeling", "Code cracking"],
+      name: "CHEM",
+      events: [
+        "MAVERICK",
+         "HUSTLE HOUR",
+          "CLASH OF CHEMLAND", 
+          "VENZER O RATSEL",
+        ],
     },
     {
-      name: "CHEM",
-      events: ["PROCESS SNIPPET", "CHEM FLUIDS", "CLASH XCAPE", "CHEM BRIDGE"],
+      name: "CIVIL",
+      events: [
+        "INVERTO",
+       "CONSTRUCT WITH CONSTRAINTS",
+        "PAPER SCRAPER",
+         ],
     },
+    {
+      name: "CSE",
+      events: [
+        "EXPECTO PATRONUM",
+        "BINARY ILLUSIONS",
+        "GAMBOL CIPHERING",
+        "CRYPTO HUNT",
+      ],
+    },
+    {
+      name: "CSIOT",
+      events: [
+        "KICKSTART WITH IOT",
+        "OSINT PLAYGROUND",
+        "LIFE ENCODERS",
+        "IOT ENTREPRENEURSHIP CHALLENGE",
+      ],
+    },
+    {
+      name: "ECE",
+      events: ["CIRCUIT CRUISER",
+       "FUNTRONICS",
+        "ROVER RALLY",
+         "MEGAHERTZ",
+         "SILICON SMACKDOWN",
+        ],
+    },
+    {
+      name: "EEE",
+      events: [
+        "LEVEL UP",
+        "ROBO SOCCER",
+       "LINE FOLLOWER",
+      ],
+    },
+    {
+      name: "EIE",
+      events: [
+        "TECHNAROK",
+       "TECH EMERGE", 
+       "ELECTRO BUZZ", 
+       "TECHNOLADS",
+      ],
+    },
+    {
+      name: "IT",
+      events: [
+        "PROMPT CRAFT",
+         "RIDDLESQL",
+          "DRONE THE DRACARYS",
+           "EMBRACE THE UNKNOWN",
+          ],
+    },
+    {
+      name: "MED",
+      events: [
+        "CONNECTIONS",
+       "READ THE MANUAL",
+         "BLIND TEASER",
+         "ANATOMIA",
+        ],
+    },
+  
     {
       name: "MECH",
       events: [
-        "Dezania",
-        "Mr. Machinist",
-        "Water Rocketry",
-        "Cad Modelling And Stimulation",
+        "MR.LATHE",
+        "FUSION ARTIST",
+        "PNEULINK",
       ],
     },
     {
       name: "MBA",
-      events: ["Test", "Test2"],
+      events: [
+        "Adzap",
+        "Best Manager",
+        "Best Selling Pitch",
+        "Business Quiz",
+        "Case Study",
+        "Just a Minute(JAM)",
+      ],
     },
-    {
-      name: "MED",
-      events: ["Test", "Test2"],
-    },
+   
   ];
 
   const handleUpdateForm = async () => {
@@ -191,18 +256,18 @@ export default function UpdateForm({
     }
     if (DepPaid && Event) {
       console.log("event running");
-      Amountpaid += 150;
+      Amountpaid += 200;
     }
     //check for total amount
     if (Event) {
       totalAmount += 200;
     }
     if (Project) {
-      totalAmount += 250;
+      totalAmount += 20;
     }
-    // if (Paper) {
-    //   totalAmount += 200;
-    // }
+    if (Paper) {
+      totalAmount += 200;
+    }
 
     console.log(Amountpaid);
     const {data,error}  = await supabase
@@ -282,14 +347,14 @@ toast.success('profile updated')
                 defaultChecked={DepartEvent}
                 onChange={(e) => {
                   if (Event === true) {
-                    setPay(Pay - 150);
+                    setPay(Pay - 200);
                     if (DepPaid) {
                       // console.log("Event Amount ", Amountpaid);
                       setDepPaid(false);
                     }
                     setEventName(EventsRegistered);
                   } else {
-                    setPay(Pay + 150);
+                    setPay(Pay + 200);
                   }
                   setEvent(e.target.checked);
                 }}
@@ -298,7 +363,7 @@ toast.success('profile updated')
               <Checkbox
                 color="primary"
                 size="lg"
-                label="Paper Presentation"
+                label="Special events"
                 defaultChecked={Paper}
                 onChange={(e) => {
                   if (Paper === true) {
@@ -313,7 +378,7 @@ toast.success('profile updated')
                   setPaper(e.target.checked);
                 }}
               />
-              <Checkbox
+              {/* <Checkbox
                 color="primary"
                 size="lg"
                 label="Project Display"
@@ -330,7 +395,7 @@ toast.success('profile updated')
                   }
                   setProject(e.target.checked);
                 }}
-              />
+              /> */}
             </div>
             {Event === true ? (
               <div
