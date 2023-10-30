@@ -99,7 +99,10 @@ const Main = () => {
       <DepartmentDiv id="event">
         <Departments />
       </DepartmentDiv>
-  
+      
+      <div id="Guest">
+        <Guest />
+      </div>
       
       <div id="Gallery2022">
         <Gallery2022 />
@@ -109,9 +112,7 @@ const Main = () => {
       {/* <div id="SECLife">
         <About />
       </div> */}
-      {/* <div id="Guest">
-        <Guest />
-      </div> */}
+     
 
       <div id="About">
         <Footer />

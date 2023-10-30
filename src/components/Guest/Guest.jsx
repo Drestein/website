@@ -107,11 +107,21 @@ const Test = styled.div`
 function Guest() {
   const Guests = [
     {
-      name: "Ganesh Thirunavukkarasu M ",
-      desc: "",
+      name: "Mr.Vijay Venkatesh",
+      // desc: "Associate Vice President ",
       src: "PeopleAssets/guest.webp",
     },
+   
   ];
+  const Guests1 = [
+    {
+      name: "Mr.Vimal Rajendhiran",
+      // desc: "HR - Manager - Talent Acquisition ",
+      src: "PeopleAssets/guest1.webp",
+    },
+   
+  ];
+   
 
   const text = {
     offscreen: { y: 100, opacity: 0 },
@@ -138,9 +148,7 @@ function Guest() {
   };
   return (
     <GuestHead>
-      <Test style={{ display: "flex", flexDirection: "row" }}>
-        <div>Prizes worth upto 5+ Lakhs</div>
-      </Test>
+     
       <GuestTitle
         as={motion.div}
         initial="offscreen"
@@ -150,6 +158,66 @@ function Guest() {
         <div className="GalleryHeadTxt">Chief Guest</div>
       </GuestTitle>
 
+      <GuestContainer>
+        {Guests1.map((data) => {
+          return (
+            <GuestImageDiv
+              as={motion.div}
+              initial="offscreen"
+              whileInView="onscreen"
+              viewport={{ once: false, amount: 0.5 }}
+              transition={{
+                staggerChildren: 0.5,
+              }}
+              key={data.name}
+            >
+              <GuestImg as={motion.img} variants={text} src={data.src} />
+              <GuestName
+                as={motion.h1}
+                initial="offscreen"
+                whileInView="onscreen"
+                varients={text}
+                style={{
+                  padding: "5px",
+                }}
+              >
+                {data.name}
+              </GuestName>
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "row",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  gap: "1rem",
+                  margin: "1rem",
+                }}
+              >
+                {/* <img
+                  src="OtherAssets/tcs.webp"
+                  style={{ borderRadius: "1rem" }}
+                  alt="tcs_logo"
+                /> */}
+
+                <div style={{ textAlign: "left", maxWidth: "450px" }}>
+                HR - Manager - Talent Acquisition 
+               
+                  <br />
+                  Tata Consultancy Services 
+                </div>
+              </div>
+              <GuestDesp
+                as={motion.p}
+                initial="offscreen"
+                whileInView="onscreen"
+                varients={text}
+              >
+                {data.desc}
+              </GuestDesp>
+            </GuestImageDiv>
+          );
+        })}
+      </GuestContainer>
       <GuestContainer>
         {Guests.map((data) => {
           return (
@@ -185,17 +253,16 @@ function Guest() {
                   margin: "1rem",
                 }}
               >
-                <img
+                {/* <img
                   src="OtherAssets/tcs.webp"
                   style={{ borderRadius: "1rem" }}
                   alt="tcs_logo"
-                />
+                /> */}
 
                 <div style={{ textAlign: "left", maxWidth: "450px" }}>
-                  Regional Head - Academic Interface Programme at Tata
-                  Consultancy Services | Career Coach
+                Associate Vice President 
                   <br />
-                  Chennai, Tamil Nadu, India
+                  Banking and Financial Services Cognizant 
                 </div>
               </div>
               <GuestDesp

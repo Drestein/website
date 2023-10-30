@@ -142,7 +142,7 @@ export default function ConditionalValidationGrid() {
   });
   //total =====
   let totalA = 0;
-  let collectedcash = 1;
+  let collectedcash = 0;
   const totalAmount = paidUsers.map((data) => {
     totalA += data.CashToBePaid;
 

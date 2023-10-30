@@ -741,7 +741,7 @@ export const EventDetails = [
         round2: "To get the connections, the circuit connections will be given in the form of a puzzle. They have to complete the puzzle to get the connections. (The puzzle will be the pictorial representation of the circuit connections)",
         round3title: "",
         round3: "Once the connections are given in the tinkercad (a website to give the connections to all the components and execute the project) code will be provided after completing the basic level IoT related quiz.Already executed programs should not be shown",
-        note: "Other browsers should not be used.Laptop is mandatory.",
+        note: "Other browsers should not be used.Laptop is mandatory",
         tag: "EVENT",
         color: "0, 1, 38",
         logo: "/EventsAssets/cyb1.webp",

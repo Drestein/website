@@ -123,14 +123,14 @@ function Departments() {
     if (data.title === "IPL AUCTION") {
       // If the title is "Project Display," render a link to the Project Display PDF.
       return (
-        <a href="IpL.webp" key={i} target="_blank">
+        <a href="ipl2023.webp" key={i} target="_blank">
           <SpacialEventsCard {...data} />
         </a>
       );
     } else if (data.title === "WIT DRAW") {
       // If the title is "Poster Presentation," render a link to the Poster Presentation PDF.
       return (
-        <a href="WITDRAW.webp" key={i} target="_blank">
+        <a href="eventfly.webp" key={i} target="_blank">
           <SpacialEventsCard {...data} />
         </a>
       );
@@ -144,7 +144,7 @@ function Departments() {
     } else if (data.title === "TENTKOTTA") {
       // If the title is "Paper Presentation," render a link to the Paper Presentation PDF.
       return (
-        <a href="ten.webp" key={i} target="_blank">
+        <a href="tenco.webp" key={i} target="_blank">
           <SpacialEventsCard {...data} />
         </a>
       );
@@ -159,6 +159,13 @@ function Departments() {
       // If the title is "Paper Presentation," render a link to the Paper Presentation PDF.
       return (
         <a href="canva.webp" key={i} target="_blank">
+          <SpacialEventsCard {...data} />
+        </a>
+      );
+    } else if (data.title === "STUMP SAGA") {
+      // If the title is "Paper Presentation," render a link to the Paper Presentation PDF.
+      return (
+        <a href="Box-Cricket.webp" key={i} target="_blank">
           <SpacialEventsCard {...data} />
         </a>
       );

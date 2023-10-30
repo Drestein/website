@@ -221,4 +221,12 @@ export const splevnt= [
     color: "#FFCCE6",
     bgtext: "canva",
   },
+  {
+    id: "#STUMP SAGA",
+    title: "STUMP SAGA",
+    img: "/DepartmentAssets/PD.webp",
+    des: "test",
+    color: "#4da6ff",
+    bgtext: "Proj",
+  },
 ];

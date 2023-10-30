@@ -79,7 +79,7 @@ export default function UpdateForm({
       target: { value, name },
     } = event;
 
-    // setEventName(typeof value === "string" ? value.split(",") : value);
+    setEventName(typeof value === "string" ? value.split(",") : value);
 
     setEventName((pre) => ({ ...pre, [name]: [...value] }));
   };
@@ -296,32 +296,32 @@ export default function UpdateForm({
       console.log(data)
       setRegUsers(data)
       setchange(pre=>!pre)
-      // setload(false)
+      setload(false)
     }
 
 toast.success('profile updated')
-    // await updateDoc(docRef, {
-    //   CashToBePaid: totalAmount,
-    //   DepartEvent: Event,
-    //   ProjectPresentation: Project,
-    //   PaperPresentation: Paper,
-    //   EventsRegistered: eventName,
-    //   AmountPaid: Amountpaid,
-    //   cashPaid: DepPaid,
-    //   cashPaidForPaper: paperPaid,
-    //   cashPaidForProject: ProjectPaid,
-    // }).then(() => {
-    //   setload(false);
-    //   toast.success("profile updated");
+    await updateDoc(docRef, {
+      CashToBePaid: totalAmount,
+      DepartEvent: Event,
+      ProjectPresentation: Project,
+      PaperPresentation: Paper,
+      EventsRegistered: eventName,
+      AmountPaid: Amountpaid,
+      cashPaid: DepPaid,
+      cashPaidForPaper: paperPaid,
+      cashPaidForProject: ProjectPaid,
+    }).then(() => {
+      setload(false);
+      toast.success("profile updated");
 
-    //   // console.log("this is loaf",load.current)
-    // });
+      console.log("this is loaf",load.current)
+    });
     fetchUsers()
     setload(false)
   };
   return (
     <div>
-      {load && <Loading />}
+      {/* {load && <Loading />} */}
       <Button onClick={handleOpen} variant="contained">
         Update
       </Button>
