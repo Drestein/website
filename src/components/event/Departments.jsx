@@ -155,6 +155,13 @@ function Departments() {
           <SpacialEventsCard {...data} />
         </a>
       );
+    }  else if (data.title === "STYLE\tWITH CANVA") {
+      // If the title is "Paper Presentation," render a link to the Paper Presentation PDF.
+      return (
+        <a href="canva.webp" key={i} target="_blank">
+          <SpacialEventsCard {...data} />
+        </a>
+      );
     } 
     else {
       // For other titles, render the SpacialEventsCard component.

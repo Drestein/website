@@ -211,6 +211,14 @@ export const splevnt= [
     img: "/DepartmentAssets/auto01.webp",
     des: "test",
     color: "#FF0000",
-    bgtext: "TENT",
+    bgtext: "expo",
+  },
+  {
+    id: "#STYLE WITH CANVA",
+    title: "STYLE\tWITH CANVA",
+    img: "/DepartmentAssets/cvn.webp",
+    des: "test",
+    color: "#FFCCE6",
+    bgtext: "canva",
   },
 ];
