@@ -224,7 +224,7 @@ export const splevnt= [
   {
     id: "#STUMP SAGA",
     title: "STUMP SAGA",
-    img: "/DepartmentAssets/PD.webp",
+    img: "/DepartmentAssets/c.webp",
     des: "test",
     color: "#4da6ff",
     bgtext: "Proj",
