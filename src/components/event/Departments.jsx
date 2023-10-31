@@ -173,7 +173,7 @@ function Departments() {
     else if (data.title === "ADAPTUNE") {
       // If the title is "Paper Presentation," render a link to the Paper Presentation PDF.
       return (
-        <a href="Box.webp" key={i} target="_blank">
+        <a href="Adaptune.webp" key={i} target="_blank">
           <SpacialEventsCard {...data} />
         </a>
       );
