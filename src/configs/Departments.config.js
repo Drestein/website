@@ -208,7 +208,7 @@ export const splevnt= [
   {
     id: "#AUTO EXPO",
     title: "AUTO EXPO",
-    img: "/DepartmentAssets/auto01.webp",
+    img: "/DepartmentAssets/autoco.webp",
     des: "test",
     color: "#FF0000",
     bgtext: "expo",
@@ -225,6 +225,14 @@ export const splevnt= [
     id: "#STUMP SAGA",
     title: "STUMP SAGA",
     img: "/DepartmentAssets/c.webp",
+    des: "test",
+    color: "#4da6ff",
+    bgtext: "Proj",
+  },
+  {
+    id: "#ADAPTUNE",
+    title: "ADAPTUNE",
+    img: "/DepartmentAssets/dance.webp",
     des: "test",
     color: "#4da6ff",
     bgtext: "Proj",

@@ -170,6 +170,14 @@ function Departments() {
         </a>
       );
     } 
+    else if (data.title === "ADAPTUNE") {
+      // If the title is "Paper Presentation," render a link to the Paper Presentation PDF.
+      return (
+        <a href="Box.webp" key={i} target="_blank">
+          <SpacialEventsCard {...data} />
+        </a>
+      );
+    } 
     else {
       // For other titles, render the SpacialEventsCard component.
       return (
