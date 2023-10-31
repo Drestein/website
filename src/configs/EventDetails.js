@@ -5215,7 +5215,7 @@ export const EventDetails = [
         link: "https://forms.gle/Xm9RLQiZZ1Z41Jn6A",
         note:"Certificate will be provided Only if you attend for two days. I'd card must. Participants must register in advance to attend the workshop. All participants are expected to arrive on time for each session.Actively engage in discussions and activities during the workshop. Treat fellow participants and the workshop facilitators with respect and courtesy. Do not share sensitive information about fellow participants or the workshop content outside the workshop. Turn off or silence mobile phones and other electronic devices during the sessions to minimize disruptions. Participants should bring any required materials or tools specified by the workshop organizers. Follow all instructions provided by the workshop facilitators. Feel free to ask questions and seek clarification when needed.Dress appropriately for the workshop; casual or business casual attire is usually suitable. Adhere to a professional and ethical code of conduct during the workshop.Do not record or broadcast the workshop sessions without permission.Complete any evaluation forms or surveys to provide feedback about the workshop",
         day1: {
-          date: "27/11/2023 ",
+          date: "27/10/2023 ",
           time: "Fullday",
           mode: "OFFLINE",
           venue: "Admin 3F OW LH 01",
@@ -5273,7 +5273,7 @@ export const EventDetails = [
           ],
         },
         day2: {
-          date: "28/11/2023 ",
+          date: "28/10/2023 ",
           time: "Fullday",
           mode: "OFFLINE",
           venue: "Admin 3F OW LH 01",
