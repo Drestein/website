@@ -198,8 +198,8 @@ export const splevnt= [
     bgtext: "DUBS",
   },
   {
-    id: "#TENTKOTTA",
-    title: "TENTKOTTA",
+    id: "#TENTUKOTTA",
+    title: "TENTUKOTTA",
     img: "/DepartmentAssets/tentco.webp",
     des: "test",
     color: "#0080ff",

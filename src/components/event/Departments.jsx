@@ -141,7 +141,7 @@ function Departments() {
           <SpacialEventsCard {...data} />
         </a>
       );
-    } else if (data.title === "TENTKOTTA") {
+    } else if (data.title === "TENTUKOTTA") {
       // If the title is "Paper Presentation," render a link to the Paper Presentation PDF.
       return (
         <a href="tenco.webp" key={i} target="_blank">
@@ -151,7 +151,7 @@ function Departments() {
     } else if (data.title === "AUTO EXPO") {
       // If the title is "Paper Presentation," render a link to the Paper Presentation PDF.
       return (
-        <a href="au.webp" key={i} target="_blank">
+        <a href="/DepartmentAssets/autoco.webp" key={i} target="_blank">
           <SpacialEventsCard {...data} />
         </a>
       );
