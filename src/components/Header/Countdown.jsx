@@ -3,7 +3,7 @@ import "./styles/countdown.scss";
 
 const CountDown = () => {
   // Set the end date
-  const end = new Date(2023, 10, 3, 2, 0);
+  const end = new Date(2023, 10, 2, 2, 0);
 
   const [timeDiff, setTimeDiff] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
 
